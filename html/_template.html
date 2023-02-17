@@ -142,10 +142,6 @@
                             </div>
                             <div class="form-floating mb-2">
                                 <select class="form-select" id="race-select" aria-label="Race">
-                                    <option selected>Solarian</option>
-                                    <option value="1">One</option>
-                                    <option value="2">Two</option>
-                                    <option value="3">Three</option>
                                 </select>
                                 <label for="floatingSelect">Race</label>
                             </div>
@@ -256,14 +252,34 @@
         });
 
         function getDeityList() {
-            $.getJSON("", function(key,value) {
-            });
+            $.getJSON("https://raw.githubusercontent.com/Kolomane/sf-builder/main/json/deities.json")
+                .done(function (data) {
+                    $.each(data.Deity, function (count, item) {
+                        $('#deity-select').append($('<option>', {
+                            value: item,
+                            text: item
+                        }));
+                    });
+                });
         };
 
+        function getRacesList() {
+            $.getJSON("https://raw.githubusercontent.com/Kolomane/sf-builder/main/json/races.json")
+                .done(function (data) {
+                    $.each(data.Race, function (count, item) {
+                        $('#race-select').append($('<option>', {
+                            value: item,
+                            text: item
+                        }));
+                    });
+                });
+        }
+
         // Populate Deity List
-        $(document).ready(function() {
+        $(document).ready(function () {
             console.log(`document.ready`)
             getDeityList();
+            getRacesList();
             console.log(`after getDeityList`)
         });
     </script>
