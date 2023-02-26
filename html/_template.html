@@ -151,12 +151,15 @@
                                                         id="current-status">Observed</code></h6>
                                                 <button type="button" class="btn btn-sm btn-secondary"><i
                                                         class="bi bi-shield-exclamation"></i> Raise Shield</button>
-                                                        <button type="button" class="btn btn-sm btn-outline-secondary"><i class="bi bi-collection"></i> Conditions</button>
+                                                <button type="button" class="btn btn-sm btn-outline-secondary"
+                                                    data-bs-toggle="modal" data-bs-target="#conditionsModal"><i
+                                                        class="bi bi-collection"></i> Conditions</button>
                                             </li>
                                             <li id="conditions" class="list-group-item">
                                                 <div class="alert alert-danger alert-dismissible fade show py-1 mb-1"
                                                     role="alert">
-                                                    <strong>Bleeding</strong> You are bleeding at <b><code>1d4</code></b>
+                                                    <strong>Bleeding</strong> You are bleeding at
+                                                    <b><code>1d4</code></b>
                                                     per
                                                     turn.
                                                     <button type="button" class="btn-close py-2" data-bs-dismiss="alert"
@@ -164,7 +167,8 @@
                                                 </div>
                                                 <div class="alert alert-warning alert-dismissible fade show py-1 mb-1"
                                                     role="alert">
-                                                    <strong>Frightened</strong> You are frightened for <b><code>3</code></b> rounds.
+                                                    <strong>Frightened</strong> You are frightened for
+                                                    <b><code>3</code></b> rounds.
                                                     <button type="button" class="btn-close py-2" data-bs-dismiss="alert"
                                                         aria-label="Close"></button>
                                                 </div>
@@ -181,7 +185,7 @@
                                         </ul>
                                         <hr />
                                     </div>
-                                    
+
                                     <!-- COLUMN FOR SAVES -->
                                     <div class="col-md">
                                         <h5 class="card-title">Saving Throws</h5>
@@ -399,11 +403,11 @@
                                         </li>
                                         <li><a class="dropdown-item text-info" href="#"><i class="bi bi-bandaid"></i>
                                                 Temp HP</a></li>
-                                                <li>
-                                                    <hr class="dropdown-divider">
-                                                </li>
-                                                <li><a class="dropdown-item text-warning" href="#"><i class="bi bi-sunrise"></i>
-                                                        Full Rest</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item text-warning" href="#"><i class="bi bi-sunrise"></i>
+                                                Full Rest</a></li>
 
                                     </ul>
                                     <input type="text" class="form-control"
@@ -427,7 +431,8 @@
                         <div class="card-header">
                             <div class="hstack">
                                 Character Information
-                                <button type="button" class="btn btn-sm btn-outline-secondary ms-auto"><i class="bi bi-three-dots"></i></button>
+                                <button type="button" class="btn btn-sm btn-outline-secondary ms-auto"><i
+                                        class="bi bi-three-dots"></i></button>
                             </div>
                         </div>
                         <div id="CharacterImage">
@@ -538,6 +543,45 @@
     </div>
 
 
+    <!-- CONDITIONS MODAL -->
+    <div class="modal fade" id="conditionsModal" tabindex="-1" aria-labelledby="conditionsModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="conditionsModalLabel">Conditions</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <ul class="nav nav-tabs nav-fill" id="conditionsTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="conditions-standard-tab" data-bs-toggle="tab"
+                                data-bs-target="#conditions-standard-tab-pane" type="button" role="tab"
+                                aria-controls="conditions-standard-tab-pane" aria-selected="true">Standard</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="conditions-custom-tab" data-bs-toggle="tab"
+                                data-bs-target="#conditions-custom-pane" type="button" role="tab"
+                                aria-controls="conditions-custom-pane" aria-selected="false">Custom</button>
+                        </li>
+                    </ul>
+
+                    <div class="tab-content" id="conditionsTabContent">
+                        <div class="tab-pane fade show active" id="conditions-standard-pane" role="tabpanel"
+                            aria-labelledby="conditions-standard-tab" tabindex="0">STAN</div>
+                        <div class="tab-pane fade" id="conditions-custom-pane" role="tabpanel"
+                            aria-labelledby="conditions-custom-tab" tabindex="0">CUST</div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 
 
     <!-- END BODY CONTENT -->
@@ -547,12 +591,6 @@
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
-        integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
-        crossorigin="anonymous"></script> -->
     <script>
         const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
         const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
@@ -596,49 +634,31 @@
             }
         });
 
-        function getDeityList() {
-            $.getJSON("https://raw.githubusercontent.com/Kolomane/sf-builder/main/json/deities.json")
+        function updateDrowndown(jsonFileName, topLevel, dropdownSelect) {
+            $.getJSON(`https://raw.githubusercontent.com/Kolomane/sf-builder/main/json/${jsonFileName}.json`)
                 .done(function (data) {
-                    $.each(data.Deity, function (count, item) {
-                        $('#deity-select').append($('<option>', {
-                            value: item,
-                            text: item
+                    $.each(data[`${topLevel}`], function (name, item) {
+                        let thing = "";
+                        if ((typeof item) == "string") {
+                            thing = item;
+                        } else {
+                            thing = name;
+                        }
+                        $(`#${dropdownSelect}`).append($('<option>', {
+                            value: thing,
+                            text: thing
                         }));
                     });
                 });
         };
 
-        function getRacesList() {
-            $.getJSON("https://raw.githubusercontent.com/Kolomane/sf-builder/main/json/races.json")
-                .done(function (data) {
-                    $.each(data.Race, function (count, item) {
-                        $('#race-select').append($('<option>', {
-                            value: item,
-                            text: item
-                        }));
-                    });
-                });
-        }
-
-        function getAlignmentList() {
-            $.getJSON("https://raw.githubusercontent.com/Kolomane/sf-builder/main/json/alignment.json")
-                .done(function (data) {
-                    $.each(data.Alignment, function (count, item) {
-                        $('#alignment-select').append($('<option>', {
-                            value: item,
-                            text: item
-                        }));
-                    });
-                });
-        }
-
-        // Populate Deity List
+        // Populate Dropdowns
         $(document).ready(function () {
             console.log(`document.ready`)
-            getDeityList();
-            getRacesList();
-            getAlignmentList();
-            console.log(`after getDeityList`)
+            updateDrowndown("deities", "Deity", "deity-select");
+            updateDrowndown("races", "Race", "race-select");
+            updateDrowndown("alignment", "Alignment", "alignment-select");
+            console.log(`after document.ready`)
         });
     </script>
 </body>
