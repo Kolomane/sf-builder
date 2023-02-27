@@ -111,36 +111,36 @@ cls
 #########################################
 # THEMES SCRAPER
 # https://aonsrd.com/Themes.aspx?ItemName=All
-$themes = (Invoke-WebRequest -Method Get -Uri "https://aonsrd.com/Themes.aspx?ItemName=All").content
-$themesList = ($themes | Select-String '<span.*?> (?<themeName>.*?)<\/a> \(\+(?<themeModNumber>\d) (?<themeMod>.*?)\)<\/b>: (?<shortDescription>.*?)<\/span>' -AllMatches).Matches.Groups
-$themesListJSON = @"
-{
-    "Deities": {}
-}
-"@ | ConvertFrom-Json
-$themesList | Where-Object {($_.Name -eq "themeName") -or ($_.Name -eq "themeModNUmber") -or ($_.Name -eq "themeMod") -or ($_.Name -eq "shortDescription")} | ForEach-Object {
-    if ($_.Name -eq "themeName") {
-        $tempThemeName = "$($_.Value)"
-        Write-Output "Working on $tempThemeName"
-        $getTheme = (Invoke-WebRequest -Method Get -Uri "https://aonsrd.com/Themes.aspx?ItemName=$tempName").content
-        $themeInfo = ($getTheme | Select-String '' -AllMatches).Matches
-    }
-    elseif ($_.Name -eq "themeModNumber") {
-        $tempThemeModNumber = "$($_.Value)"
-    }
-    elseif ($_.Name -eq "themeMod") {
-        $tempThemeMod = "$(($_.Value).replace(', or',',').replace(' or',',').replace(' ','').replace('+1',''))"
-        if ($tempThemeMod -match '.*?,.*?') {
-            $tempThemeMod = $tempThemeMod.split(',')
-        }
-    }
-    else {
-        $tempJSON = @"
-{
-    "ModifierNumber":"$tempThemeModNumber",
-    "Modifier":"$tempThemeMod",
-    
-}
-"@
-    }
-}
+# $themes = (Invoke-WebRequest -Method Get -Uri "https://aonsrd.com/Themes.aspx?ItemName=All").content
+# $themesList = ($themes | Select-String '<span.*?> (?<themeName>.*?)<\/a> \(\+(?<themeModNumber>\d) (?<themeMod>.*?)\)<\/b>: (?<shortDescription>.*?)<\/span>' -AllMatches).Matches.Groups
+# $themesListJSON = @"
+# {
+#     "Deities": {}
+# }
+# "@ | ConvertFrom-Json
+# $themesList | Where-Object {($_.Name -eq "themeName") -or ($_.Name -eq "themeModNUmber") -or ($_.Name -eq "themeMod") -or ($_.Name -eq "shortDescription")} | ForEach-Object {
+#     if ($_.Name -eq "themeName") {
+#         $tempThemeName = "$($_.Value)"
+#         Write-Output "Working on $tempThemeName"
+#         $getTheme = (Invoke-WebRequest -Method Get -Uri "https://aonsrd.com/Themes.aspx?ItemName=$tempName").content
+#         $themeInfo = ($getTheme | Select-String '' -AllMatches).Matches
+#     }
+#     elseif ($_.Name -eq "themeModNumber") {
+#         $tempThemeModNumber = "$($_.Value)"
+#     }
+#     elseif ($_.Name -eq "themeMod") {
+#         $tempThemeMod = "$(($_.Value).replace(', or',',').replace(' or',',').replace(' ','').replace('+1',''))"
+#         # if ($tempThemeMod -match '.*?,.*?') {
+#         #     $tempThemeMod = $tempThemeMod.split(',')
+#         # }
+#     }
+#     else {
+#         $tempJSON = @"
+# {
+#     "ModifierNumber":"$tempThemeModNumber",
+#     "Modifier":[$tempThemeMod],
+#     "ShortDescription":"$($_.Value)"
+# }
+# "@
+#     }
+# }
