@@ -546,13 +546,14 @@
     <!-- CONDITIONS MODAL -->
     <div class="modal fade" id="conditionsModal" tabindex="-1" aria-labelledby="conditionsModalLabel"
         aria-hidden="true">
-        <div class="modal-dialog">
+        <div class="modal-dialog modal-lg">
             <div class="modal-content">
                 <div class="modal-header">
                     <h1 class="modal-title fs-5" id="conditionsModalLabel">Conditions</h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
+                    <!-- Nav Tabs -->
                     <ul class="nav nav-tabs nav-fill" id="conditionsTab" role="tablist">
                         <li class="nav-item" role="presentation">
                             <button class="nav-link active" id="conditions-standard-tab" data-bs-toggle="tab"
@@ -560,18 +561,44 @@
                                 aria-controls="conditions-standard-tab-pane" aria-selected="true">Standard</button>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="conditions-custom-tab" data-bs-toggle="tab"
-                                data-bs-target="#conditions-custom-pane" type="button" role="tab"
-                                aria-controls="conditions-custom-pane" aria-selected="false">Custom</button>
+                            <button class="nav-link" id="conditions-curses-tab" data-bs-toggle="tab"
+                                data-bs-target="#conditions-curses-tab-pane" type="button" role="tab"
+                                aria-controls="conditions-curses-tab-pane" aria-selected="false">Curses</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="contact-tab" data-bs-toggle="tab"
+                                data-bs-target="#conditions-blessings-tab-pane" type="button" role="tab"
+                                aria-controls="conditions-blessings-tab-pane" aria-selected="false">Blessings</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="disabled-tab" data-bs-toggle="tab"
+                                data-bs-target="#conditions-custom-tab-pane" type="button" role="tab"
+                                aria-controls="conditions-custom-tab-pane" aria-selected="false"
+                                disabled>Custom</button>
                         </li>
                     </ul>
-
+                    <!-- Tab Content -->
                     <div class="tab-content" id="conditionsTabContent">
-                        <div class="tab-pane fade show active" id="conditions-standard-pane" role="tabpanel"
-                            aria-labelledby="conditions-standard-tab" tabindex="0">STAN</div>
-                        <div class="tab-pane fade" id="conditions-custom-pane" role="tabpanel"
-                            aria-labelledby="conditions-custom-tab" tabindex="0">CUST</div>
+                        <div class="tab-pane fade show active" id="conditions-standard-tab-pane" role="tabpanel"
+                            aria-labelledby="conditions-standard-tab" tabindex="0">
+                            <ul id="conditions-standard-list" class="list-group list-group-flush">
+                            </ul>
+                        </div>
+                        <div class="tab-pane fade" id="conditions-curses-tab-pane" role="tabpanel"
+                            aria-labelledby="profile-tab" tabindex="0">
+                            <ul id="conditions-curses-list" class="list-group list-group-flush">
+                            </ul>
+                        </div>
+                        <div class="tab-pane fade" id="conditions-blessings-tab-pane" role="tabpanel"
+                            aria-labelledby="contact-tab" tabindex="0">
+                            <ul id="conditions-blessings-list" class="list-group list-group-flush">
+                            </ul>
+                        </div>
+                        <div class="tab-pane fade" id="conditions-custom-tab-pane" role="tabpanel"
+                            aria-labelledby="disabled-tab" tabindex="0">Custom</div>
                     </div>
+
+
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -652,14 +679,85 @@
                 });
         };
 
+        function updateConditionsList() {
+            $.getJSON(`https://raw.githubusercontent.com/Kolomane/sf-builder/main/json/conditions.json`)
+                .done(function (data) {
+                    $.each(data.Conditions, function (name, item) {
+                        $(`#conditions-standard-list`).append(`
+<li class="list-group-item">
+    <div class="hstack">
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="conditions-${name}-checkbox">
+            <label class="form-check-label" for="conditions-${name}-checkbox">
+                <b>${name}</b>
+            </label>
+            </div>
+            <button id="conditions-${name}-expand" onclick="flipIcon('${name}')" type="button" class="btn btn-sm btn-outline-secondary ms-auto" data-bs-toggle="collapse" data-bs-target="#conditions-${name}" aria-expanded="false" aria-controls="conditions-${name}"><i class="bi bi-arrow-bar-down"></i></button>
+    </div>                                  
+    <div class="collapse" id="conditions-${name}">
+        ${data['Conditions'][name]['Description']}
+    </div>
+</li>`);
+                    });
+                });
+            $.getJSON(`https://raw.githubusercontent.com/Kolomane/sf-builder/main/json/deities.json`)
+                .done(function (data) {
+                    $.each(data.Deities, function (name, item) {
+                        if (data['Deities'][name]['Curses']) {
+                            $(`#conditions-curses-list`).append(`
+<li class="list-group-item">
+    <div class="hstack">
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="conditions-${name}-curse-checkbox">
+            <label class="form-check-label" for="conditions-${name}-curse-checkbox">
+                <b>${name}'s Curse</b>
+            </label>
+            </div>
+            <button id="conditions-${name}-curse-expand" onclick="flipIcon('${name}-curse')" type="button" class="btn btn-sm btn-outline-secondary ms-auto" data-bs-toggle="collapse" data-bs-target="#conditions-${name}-curse" aria-expanded="false" aria-controls="conditions-${name}-curse"><i class="bi bi-arrow-bar-down"></i></button>
+    </div>                                  
+    <div class="collapse" id="conditions-${name}-curse">
+        ${data['Deities'][name]['Curses']}
+    </div>
+</li>`);
+                            $(`#conditions-blessings-list`).append(`
+<li class="list-group-item">
+    <div class="hstack">
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="conditions-${name}-blessing-checkbox">
+            <label class="form-check-label" for="conditions-${name}-blessing-checkbox">
+                <b>${name}'s Blessing</b>
+            </label>
+            </div>
+            <button id="conditions-${name}-blessing-expand" onclick="flipIcon('${name}-blessing')" type="button" class="btn btn-sm btn-outline-secondary ms-auto" data-bs-toggle="collapse" data-bs-target="#conditions-${name}-blessing" aria-expanded="false" aria-controls="conditions-${name}-blessing"><i class="bi bi-arrow-bar-down"></i></button>
+    </div>                                  
+    <div class="collapse" id="conditions-${name}-blessing">
+        ${data['Deities'][name]['Blessings']}
+    </div>
+</li>`);
+                        }
+                    });
+                });
+        }
+
         // Populate Dropdowns
         $(document).ready(function () {
             console.log(`document.ready`)
             updateDrowndown("deities", "Deity", "deity-select");
             updateDrowndown("races", "Race", "race-select");
             updateDrowndown("alignment", "Alignment", "alignment-select");
+            updateConditionsList();
             console.log(`after document.ready`)
         });
+
+        // Flip Icon - Import a jQuery event Listener AFTER loading Conditions
+        function flipIcon(name) {
+            let theButton = $(`#conditions-${name}-expand`);
+            if (theButton.html() == '<i class="bi bi-arrow-bar-up"></i>') {
+                theButton.html('<i class="bi bi-arrow-bar-down"></i>')
+            } else {
+                theButton.html('<i class="bi bi-arrow-bar-up"></i>')
+            }
+        }
     </script>
 </body>
 
