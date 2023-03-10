@@ -149,11 +149,17 @@
                                                         id="current-status">Bleeding</code>, <code
                                                         id="current-status">Frightened</code>, <code
                                                         id="current-status">Observed</code></h6>
-                                                <button type="button" class="btn btn-sm btn-secondary"><i
-                                                        class="bi bi-shield-exclamation"></i> Raise Shield</button>
-                                                <button type="button" class="btn btn-sm btn-outline-secondary"
-                                                    data-bs-toggle="modal" data-bs-target="#conditionsModal"><i
-                                                        class="bi bi-collection"></i> Conditions</button>
+                                                <button type="button" class="btn btn-sm btn-outline-primary"
+                                                    data-bs-toggle="button"><i class="bi bi-shield-exclamation"></i>
+                                                    Raise Shield</button>
+                                                <div class="btn-group" role="group">
+                                                    <button type="button" class="btn btn-sm btn-outline-secondary"
+                                                        data-bs-toggle="modal" data-bs-target="#afflictionsModal"><i
+                                                            class="bi bi-collection"></i> Conditions</button>
+                                                    <button type="button" class="btn btn-sm btn-outline-secondary"
+                                                        data-bs-toggle="modal" data-bs-target="#afflictionsModal"><i
+                                                            class="bi bi-clipboard2-pulse"></i> Afflictions</button>
+                                                </div>
                                             </li>
                                             <li id="conditions" class="list-group-item">
                                                 <div class="alert alert-danger alert-dismissible fade show py-1 mb-1"
@@ -364,7 +370,7 @@
                                 </div>
                             </li>
                             <li class="list-group-item">
-                                <div class="row mb-2">
+                                <div class="row mb-2 gap-0">
                                     <div class="col">
                                         <h6 class="text-center text-muted mb-0">Hit Points</h6>
                                         <div id="ArmorClass" class="progress mt-0" role="progressbar"
@@ -449,10 +455,14 @@
                                 </div>
 
                                 <!-- CHARACTER RACE -->
-                                <div class="form-floating mb-2">
-                                    <select class="form-select" id="race-select" aria-label="race-select">
-                                    </select>
-                                    <label for="floatingSelect">Race</label>
+                                <div class="input-group mb-2">
+                                    <div class="form-floating">
+                                        <select class="form-select" id="race-select" aria-label="race-select">
+                                        </select>
+                                        <label for="floatingSelect">Race</label>
+                                    </div>
+                                    <button class="btn btn-outline-secondary" type="button"><i
+                                            class="bi bi-book"></i></button>
                                 </div>
 
                                 <div class="row">
@@ -482,10 +492,14 @@
 
                             <li class="list-group-item">
                                 <!-- CHARACTER DEITY -->
-                                <div class="form-floating mb-2">
-                                    <select class="form-select" id="deity-select" aria-label="deity-select">
-                                    </select>
-                                    <label for="floatingSelect">Deity</label>
+                                <div class="input-group mb-2">
+                                    <div class="form-floating">
+                                        <select class="form-select" id="deity-select" aria-label="deity-select">
+                                        </select>
+                                        <label for="floatingSelect">Deity</label>
+                                    </div>
+                                    <button class="btn btn-outline-secondary" type="button"><i
+                                            class="bi bi-book"></i></button>
                                 </div>
 
                                 <!-- CHARACTER BACKSTORY -->
@@ -566,12 +580,12 @@
                                 aria-controls="conditions-curses-tab-pane" aria-selected="false">Curses</button>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="contact-tab" data-bs-toggle="tab"
+                            <button class="nav-link" id="conditions-blessings-tab" data-bs-toggle="tab"
                                 data-bs-target="#conditions-blessings-tab-pane" type="button" role="tab"
                                 aria-controls="conditions-blessings-tab-pane" aria-selected="false">Blessings</button>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="disabled-tab" data-bs-toggle="tab"
+                            <button class="nav-link" id="conditions-custom-tab" data-bs-toggle="tab"
                                 data-bs-target="#conditions-custom-tab-pane" type="button" role="tab"
                                 aria-controls="conditions-custom-tab-pane" aria-selected="false"
                                 disabled>Custom</button>
@@ -601,14 +615,99 @@
 
                 </div>
                 <div class="modal-footer">
+                    <button type="button" class="btn btn-success" data-bs-dismiss="modal">Clear All</button>
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Save changes</button>
                 </div>
             </div>
         </div>
     </div>
 
+    <!-- AFFLICTIONS MODAL -->
+    <div class="modal fade" id="afflictionsModal" tabindex="-1" aria-labelledby="afflictionsModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="afflictionsModalLabel">Afflictions</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- Nav Tabs -->
+                    <ul class="nav nav-tabs nav-fill" id="afflictionsTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="afflictions-corruptions-tab" data-bs-toggle="tab"
+                                data-bs-target="#afflictions-corruptions-tab-pane" type="button" role="tab"
+                                aria-controls="afflictions-corruptions-tab-pane" aria-selected="true">Corruptions</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="afflictions-curses-tab" data-bs-toggle="tab"
+                                data-bs-target="#afflictions-curses-tab-pane" type="button" role="tab"
+                                aria-controls="afflictions-curses-tab-pane" aria-selected="false">Curses</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="afflictions-diseases-tab" data-bs-toggle="tab"
+                                data-bs-target="#afflictions-diseases-tab-pane" type="button" role="tab"
+                                aria-controls="afflictions-diseases-tab-pane" aria-selected="false">Diseases</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="afflictions-drugs-tab" data-bs-toggle="tab"
+                                data-bs-target="#afflictions-drugs-tab-pane" type="button" role="tab"
+                                aria-controls="afflictions-drugs-tab-pane" aria-selected="false">Drugs</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="afflictions-poison-tab" data-bs-toggle="tab"
+                                data-bs-target="#afflictions-poison-tab-pane" type="button" role="tab"
+                                aria-controls="afflictions-poison-tab-pane" aria-selected="false">Poison</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="afflictions-custom-tab" data-bs-toggle="tab"
+                                data-bs-target="#afflictions-custom-tab-pane" type="button" role="tab"
+                                aria-controls="afflictions-custom-tab-pane" aria-selected="false"
+                                disabled>Custom</button>
+                        </li>
+                    </ul>
+                    <!-- Tab Content -->
+                    <div class="tab-content" id="afflictionsTabContent">
+                        <div class="tab-pane fade show active" id="afflictions-corruptions-tab-pane" role="tabpanel"
+                            aria-labelledby="afflictions-corruptions-tab" tabindex="0">
+                            <ul id="afflictions-corruptions-list" class="list-group list-group-flush">
+                            </ul>
+                        </div>
+                        <div class="tab-pane fade" id="afflictions-curses-tab-pane" role="tabpanel"
+                            aria-labelledby="profile-tab" tabindex="0">
+                            <ul id="afflictions-curses-list" class="list-group list-group-flush">
+                            </ul>
+                        </div>
+                        <div class="tab-pane fade" id="afflictions-diseases-tab-pane" role="tabpanel"
+                            aria-labelledby="contact-tab" tabindex="0">
+                            <ul id="afflictions-diseases-list" class="list-group list-group-flush">
+                            </ul>
+                        </div>
+                        <div class="tab-pane fade" id="afflictions-drugs-tab-pane" role="tabpanel"
+                            aria-labelledby="contact-tab" tabindex="0">
+                            <ul id="afflictions-drugs-list" class="list-group list-group-flush">
+                            </ul>
+                        </div>
+                        <div class="tab-pane fade" id="afflictions-poison-tab-pane" role="tabpanel"
+                            aria-labelledby="contact-tab" tabindex="0">
+                            <ul id="afflictions-poison-list" class="list-group list-group-flush">
+                            </ul>
+                        </div>
+                        <div class="tab-pane fade" id="afflictions-custom-tab-pane" role="tabpanel"
+                            aria-labelledby="disabled-tab" tabindex="0">Custom</div>
+                    </div>
 
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success" data-bs-dismiss="modal">Clear All</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <!-- END BODY CONTENT -->
@@ -622,10 +721,15 @@
         const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
         const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
     </script>
-    <script>
+    <script type="module">
+        ///////////////////////////////
+        // SETTINGS PAGE //////////////
+        ///////////////////////////////
+
         // Settings -> Toggle View Mode
         $('#view-mode-toggle').on("click", function () {
             let viewMode = "dark"
+            let oppositeViewMode = "light"
             let currentView = $('#view-mode-toggle').text();
             if (currentView == "dark Mode Toggle") {
                 viewMode = "dark";
@@ -638,6 +742,10 @@
             $('#view-mode-toggle').text(`${oppositeViewMode} Mode Toggle`)
             $('#html-tag').attr('data-bs-theme', `${viewMode}`);
         });
+
+        ///////////////////////////////
+        // ACTIONS ////////////////////
+        ///////////////////////////////
 
         // Action Toggles
         $('button[id^="action-"]').on("click", function (event) {
@@ -661,6 +769,11 @@
             }
         });
 
+        ///////////////////////////////
+        // POPULATE HTML //////////////
+        ///////////////////////////////
+
+        // Update Dropdown Function, to be re-used throughout
         function updateDrowndown(jsonFileName, topLevel, dropdownSelect) {
             $.getJSON(`https://raw.githubusercontent.com/Kolomane/sf-builder/main/json/${jsonFileName}.json`)
                 .done(function (data) {
@@ -679,7 +792,11 @@
                 });
         };
 
+        // Update Conditions List
         function updateConditionsList() {
+            // Not reusing the previously made function for JSON...
+            // Doing custom work with the HTML
+            // Starting with Conditions.json
             $.getJSON(`https://raw.githubusercontent.com/Kolomane/sf-builder/main/json/conditions.json`)
                 .done(function (data) {
                     $.each(data.Conditions, function (name, item) {
@@ -692,7 +809,7 @@
                 <b>${name}</b>
             </label>
             </div>
-            <button id="conditions-${name}-expand" onclick="flipIcon('${name}')" type="button" class="btn btn-sm btn-outline-secondary ms-auto" data-bs-toggle="collapse" data-bs-target="#conditions-${name}" aria-expanded="false" aria-controls="conditions-${name}"><i class="bi bi-arrow-bar-down"></i></button>
+            <button id="conditions-${name}-expand" type="button" class="btn btn-sm btn-outline-secondary ms-auto" data-bs-toggle="collapse" data-bs-target="#conditions-${name}" aria-expanded="false" aria-controls="conditions-${name}"><i class="bi bi-arrow-bar-down"></i></button>
     </div>                                  
     <div class="collapse" id="conditions-${name}">
         ${data['Conditions'][name]['Description']}
@@ -700,6 +817,7 @@
 </li>`);
                     });
                 });
+            // Getting Deities list and their Curses 
             $.getJSON(`https://raw.githubusercontent.com/Kolomane/sf-builder/main/json/deities.json`)
                 .done(function (data) {
                     $.each(data.Deities, function (name, item) {
@@ -713,12 +831,13 @@
                 <b>${name}'s Curse</b>
             </label>
             </div>
-            <button id="conditions-${name}-curse-expand" onclick="flipIcon('${name}-curse')" type="button" class="btn btn-sm btn-outline-secondary ms-auto" data-bs-toggle="collapse" data-bs-target="#conditions-${name}-curse" aria-expanded="false" aria-controls="conditions-${name}-curse"><i class="bi bi-arrow-bar-down"></i></button>
+            <button id="conditions-${name}-curse-expand" type="button" class="btn btn-sm btn-outline-secondary ms-auto" data-bs-toggle="collapse" data-bs-target="#conditions-${name}-curse" aria-expanded="false" aria-controls="conditions-${name}-curse"><i class="bi bi-arrow-bar-down"></i></button>
     </div>                                  
     <div class="collapse" id="conditions-${name}-curse">
         ${data['Deities'][name]['Curses']}
     </div>
 </li>`);
+                            // Getting deity Blessings
                             $(`#conditions-blessings-list`).append(`
 <li class="list-group-item">
     <div class="hstack">
@@ -728,7 +847,7 @@
                 <b>${name}'s Blessing</b>
             </label>
             </div>
-            <button id="conditions-${name}-blessing-expand" onclick="flipIcon('${name}-blessing')" type="button" class="btn btn-sm btn-outline-secondary ms-auto" data-bs-toggle="collapse" data-bs-target="#conditions-${name}-blessing" aria-expanded="false" aria-controls="conditions-${name}-blessing"><i class="bi bi-arrow-bar-down"></i></button>
+            <button id="conditions-${name}-blessing-expand" type="button" class="btn btn-sm btn-outline-secondary ms-auto" data-bs-toggle="collapse" data-bs-target="#conditions-${name}-blessing" aria-expanded="false" aria-controls="conditions-${name}-blessing"><i class="bi bi-arrow-bar-down"></i></button>
     </div>                                  
     <div class="collapse" id="conditions-${name}-blessing">
         ${data['Deities'][name]['Blessings']}
@@ -739,7 +858,10 @@
                 });
         }
 
-        // Populate Dropdowns
+        ///////////////////////////////
+        // DOCUMENT READY /////////////
+        ///////////////////////////////
+
         $(document).ready(function () {
             console.log(`document.ready`)
             updateDrowndown("deities", "Deity", "deity-select");
@@ -749,9 +871,19 @@
             console.log(`after document.ready`)
         });
 
+        ///////////////////////////////
+        // LISTENERS //////////////////
+        ///////////////////////////////
+
         // Flip Icon - Import a jQuery event Listener AFTER loading Conditions
+        $('[id*="conditions-.*?-expand"]').on('click', function (event) {
+            console.log(`clicked the thing | name = ${event.target.parentElement.id}`)
+            flipIcon(`${event.target.id}`)
+        })
+
         function flipIcon(name) {
-            let theButton = $(`#conditions-${name}-expand`);
+            console.log(`flipicon | name = ${name}`)
+            let theButton = $(`${name}`);
             if (theButton.html() == '<i class="bi bi-arrow-bar-up"></i>') {
                 theButton.html('<i class="bi bi-arrow-bar-down"></i>')
             } else {

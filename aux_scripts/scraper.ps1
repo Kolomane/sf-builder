@@ -144,3 +144,40 @@ cls
 # "@
 #     }
 # }
+
+#########################################
+# CORRUPTIONS SCRAPER
+# https://aonsrd.com/Corruptions.aspx?ItemName=All
+$corruptions = (Invoke-WebRequest -Method Get -Uri "https://aonsrd.com/Corruptions.aspx?ItemName=All").content
+$corruptionsList = ($corruptions | Select-String '<span.*?> (?<Name>.*?)<\/a> \(\+(?<themeModNumber>\d) (?<themeMod>.*?)\)<\/b>: (?<shortDescription>.*?)<\/span>' -AllMatches).Matches.Groups
+$corruptionsListJSON = @"
+{
+    "Deities": {}
+}
+"@ | ConvertFrom-Json
+$corruptionsList | Where-Object {($_.Name -eq "Name") -or ($_.Name -eq "themeModNUmber") -or ($_.Name -eq "themeMod") -or ($_.Name -eq "shortDescription")} | ForEach-Object {
+    if ($_.Name -eq "Name") {
+        $tempName = "$($_.Value)"
+        Write-Output "Working on $tempName"
+        # $getTheme = (Invoke-WebRequest -Method Get -Uri "https://aonsrd.com/corruptions.aspx?ItemName=$tempName").content
+        # $themeInfo = ($getTheme | Select-String '' -AllMatches).Matches
+    }
+    elseif ($_.Name -eq "themeModNumber") {
+        $tempThemeModNumber = "$($_.Value)"
+    }
+    elseif ($_.Name -eq "themeMod") {
+        $tempThemeMod = "$(($_.Value).replace(', or',',').replace(' or',',').replace(' ','').replace('+1',''))"
+        # if ($tempThemeMod -match '.*?,.*?') {
+        #     $tempThemeMod = $tempThemeMod.split(',')
+        # }
+    }
+    else {
+        $tempJSON = @"
+{
+    "ModifierNumber":"$tempThemeModNumber",
+    "Modifier":[$tempThemeMod],
+    "ShortDescription":"$($_.Value)"
+}
+"@
+    }
+}
