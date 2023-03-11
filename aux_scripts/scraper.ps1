@@ -111,56 +111,19 @@ cls
 #########################################
 # THEMES SCRAPER
 # https://aonsrd.com/Themes.aspx?ItemName=All
-# $themes = (Invoke-WebRequest -Method Get -Uri "https://aonsrd.com/Themes.aspx?ItemName=All").content
-# $themesList = ($themes | Select-String '<span.*?> (?<themeName>.*?)<\/a> \(\+(?<themeModNumber>\d) (?<themeMod>.*?)\)<\/b>: (?<shortDescription>.*?)<\/span>' -AllMatches).Matches.Groups
-# $themesListJSON = @"
-# {
-#     "Deities": {}
-# }
-# "@ | ConvertFrom-Json
-# $themesList | Where-Object {($_.Name -eq "themeName") -or ($_.Name -eq "themeModNUmber") -or ($_.Name -eq "themeMod") -or ($_.Name -eq "shortDescription")} | ForEach-Object {
-#     if ($_.Name -eq "themeName") {
-#         $tempThemeName = "$($_.Value)"
-#         Write-Output "Working on $tempThemeName"
-#         $getTheme = (Invoke-WebRequest -Method Get -Uri "https://aonsrd.com/Themes.aspx?ItemName=$tempName").content
-#         $themeInfo = ($getTheme | Select-String '' -AllMatches).Matches
-#     }
-#     elseif ($_.Name -eq "themeModNumber") {
-#         $tempThemeModNumber = "$($_.Value)"
-#     }
-#     elseif ($_.Name -eq "themeMod") {
-#         $tempThemeMod = "$(($_.Value).replace(', or',',').replace(' or',',').replace(' ','').replace('+1',''))"
-#         # if ($tempThemeMod -match '.*?,.*?') {
-#         #     $tempThemeMod = $tempThemeMod.split(',')
-#         # }
-#     }
-#     else {
-#         $tempJSON = @"
-# {
-#     "ModifierNumber":"$tempThemeModNumber",
-#     "Modifier":[$tempThemeMod],
-#     "ShortDescription":"$($_.Value)"
-# }
-# "@
-#     }
-# }
-
-#########################################
-# CORRUPTIONS SCRAPER
-# https://aonsrd.com/Corruptions.aspx?ItemName=All
-$corruptions = (Invoke-WebRequest -Method Get -Uri "https://aonsrd.com/Corruptions.aspx?ItemName=All").content
-$corruptionsList = ($corruptions | Select-String '<span.*?> (?<Name>.*?)<\/a> \(\+(?<themeModNumber>\d) (?<themeMod>.*?)\)<\/b>: (?<shortDescription>.*?)<\/span>' -AllMatches).Matches.Groups
-$corruptionsListJSON = @"
+$themes = (Invoke-WebRequest -Method Get -Uri "https://aonsrd.com/Themes.aspx?ItemName=All").content
+$themesList = ($themes | Select-String '<span.*?> (?<themeName>.*?)<\/a> \(\+(?<themeModNumber>\d) (?<themeMod>.*?)\)<\/b>: (?<shortDescription>.*?)<\/span>' -AllMatches).Matches.Groups
+$themesListJSON = @"
 {
-    "Deities": {}
+    "Themes": {}
 }
 "@ | ConvertFrom-Json
-$corruptionsList | Where-Object {($_.Name -eq "Name") -or ($_.Name -eq "themeModNUmber") -or ($_.Name -eq "themeMod") -or ($_.Name -eq "shortDescription")} | ForEach-Object {
-    if ($_.Name -eq "Name") {
-        $tempName = "$($_.Value)"
-        Write-Output "Working on $tempName"
-        # $getTheme = (Invoke-WebRequest -Method Get -Uri "https://aonsrd.com/corruptions.aspx?ItemName=$tempName").content
-        # $themeInfo = ($getTheme | Select-String '' -AllMatches).Matches
+$themesList | Where-Object {($_.Name -eq "themeName") -or ($_.Name -eq "themeModNUmber") -or ($_.Name -eq "themeMod") -or ($_.Name -eq "shortDescription")} | ForEach-Object {
+    if ($_.Name -eq "themeName") {
+        $tempThemeName = "$($_.Value)"
+        Write-Output "Working on $tempThemeName"
+        $getTheme = (Invoke-WebRequest -Method Get -Uri "https://aonsrd.com/Themes.aspx?ItemName=$tempName").content
+        $themeInfo = ($getTheme | Select-String '' -AllMatches).Matches
     }
     elseif ($_.Name -eq "themeModNumber") {
         $tempThemeModNumber = "$($_.Value)"
@@ -181,3 +144,96 @@ $corruptionsList | Where-Object {($_.Name -eq "Name") -or ($_.Name -eq "themeMod
 "@
     }
 }
+$themesListJSON | ConvertTo-Json | Out-File "./json/themes.json"
+
+#########################################
+# CORRUPTIONS SCRAPER
+# https://aonsrd.com/Corruptions.aspx?ItemName=All
+# $corruptions = (Invoke-WebRequest -Method Get -Uri "https://aonsrd.com/Corruptions.aspx?ItemName=All").content
+# $corruptionsList = ($corruptions | Select-String '.*<a href="(?<URL>\S+)">(?<Name>.*?)<\/a><\/h2>.*?<a href="(?<SourceURL>\S+)".*?<i>(?<Source>.*?)<\/i><\/a><br \/>(?<About>.*?)<h3.*?Type<\/b> (?<Type>.*?)<b>Save<\/b> (?<Save>.*?)<br \/><b>Frequency<\/b> (?<Frequency>.*?)<br \/><b>Cure<\/b> (?<Cure>.*?)<br \/>' -AllMatches).Matches.Groups
+# $corruptionsListJSON = @"
+# {
+#     "Corruptions": {}
+# }
+# "@ | ConvertFrom-Json
+# $corruptionsList | Where-Object { ($_.Name -eq "URL") -or ($_.Name -eq "Source") -or ($_.Name -eq "SourceURL") -or ($_.Name -eq "Name") -or ($_.Name -eq "About") -or ($_.Name -eq "Type") -or ($_.Name -eq "Save") -or ($_.Name -eq "Frequency") -or ($_.Name -eq "Cure") } | ForEach-Object {
+#     if ($_.Name -eq "URL") {
+#         $tempURL = "$($_.Value)"
+#         Write-Output "Working on $tempURL"
+#         $getCorruption = (Invoke-WebRequest -Method Get -Uri "https://aonsrd.com/$tempURL").content
+#         $corruptionInfo = ($getCorruption | Select-String '(.*?Progression<\/h2>(?<Progression>.*?)<h2 class="title">.*?Manifes.ations<\/h2>)?(?<Manifestations><h3 class="framing">(?<Name>.*?)<\/h3><b>Source<\/b> <a href="(?<SourceURL>\S+?)".*?><i>(?<Source>.*?)<\/i><\/a><br \/>(?<Description>.*?)<br \/>(<b>Prerequisites:<\/b> (?<PreReq>.*?)<br \/>)?<b>Gift:<\/b> (?<Gift>.*?)<br \/><b>Stain:<\/b> (?<Stain>.*?)<br \/>)' -AllMatches).Matches
+#     }
+#     elseif ($_.Name -eq "Source") {
+#         $tempSource = "$($_.Value)"
+#     }
+#     elseif ($_.Name -eq "SourceURL") {
+#         $tempSourceURL = "$($_.Value)"
+#     }
+#     elseif ($_.Name -eq "Name") {
+#         $tempName = "$($_.Value)"
+#     }
+#     elseif ($_.Name -eq "About") {
+#         $tempAbout = "$($_.Value)"
+#     }
+#     elseif ($_.Name -eq "Type") {
+#         $tempType = "$($_.Value)"
+#     }
+#     elseif ($_.Name -eq "Save") {
+#         $tempSave = "$($_.Value)"
+#     }
+#     elseif ($_.Name -eq "Frequency") {
+#         $tempFrequency = "$($_.Value)"
+#     }
+#     else {
+#         $tempCure = $_.Value -replace '<.*?>', ''
+#         $tempJSON = @"
+# {
+#     "Source":"$tempSource",
+#     "SourceURL":"$tempSourceURL",
+#     "About":"$tempAbout",
+#     "Type":"$tempType",
+#     "Save":"$tempSave",
+#     "Frequency":"$tempFrequency",
+#     "Cure":"$tempCure",
+#     "Progression":"$(($corruptionInfo.Groups | Where-object {$_.Name -eq "Progression"} | Select-Object -First 1 Value).Value -replace '<.*?>', '')",
+#     "Manifestations": {}
+# }
+# "@
+#         # Write-Output "tempName = $tempName | tempJSON = $tempJSON"
+#         $corruptionsListJSON.Corruptions | add-member -Name "$tempName" -value (Convertfrom-Json $tempJSON) -MemberType NoteProperty
+
+#         $corruptionInfo.Groups | Where-object { ($_.Name -eq "Name") -or ($_.Name -eq "SourceURL") -or ($_.Name -eq "Source") -or ($_.Name -eq "Description") -or ($_.Name -eq "PreReq") -or ($_.Name -eq "Gift") -or ($_.Name -eq "Stain") } | ForEach-Object {
+#             if ($_.Name -eq "Name") {
+#                 $tempManiName = "$($_.Value)"
+#             }
+#             elseif ($_.Name -eq "SourceURL") {
+#                 $tempManiSourceURL = "$($_.Value)"
+#             }
+#             elseif ($_.Name -eq "Source") {
+#                 $tempManiSource = "$($_.Value)"
+#             }
+#             elseif ($_.Name -eq "Description") {
+#                 $tempManiDescription = "$($_.Value)"
+#             }
+#             elseif ($_.Name -eq "PreReq") {
+#                 $tempManiPreReq = "$($_.Value)"
+#             }
+#             elseif ($_.Name -eq "Gift") {
+#                 $tempManiGift = "$($_.Value -replace '<.*?>', '')"
+#             }
+#             else {
+#                 [String]$tempManiJSON = "
+# {
+#     `"Source`":`"$tempManiSource`",
+#     `"SourceURL`":`"$tempManiSourceURL`",
+#     `"Description`":`"$tempManiDescription`",
+#     `"Prerequisites`":`"$tempManiPreReq`",
+#     `"Gift`":`"$tempManiGift`",
+#     `"Stain`":`"$($_.Value -replace '<.*?>', '')`"
+# }"
+#                 $corruptionsListJSON.Corruptions.$tempName.Manifestations | add-member -Name "$tempManiName" -value ($tempManiJSON) -MemberType NoteProperty
+#             }
+#         }
+#     }
+# }
+# $corruptionsListJSON | ConvertTo-Json | Out-File "./json/corruptions.json"
