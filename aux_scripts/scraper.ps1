@@ -129,7 +129,7 @@ $themesList | Where-Object {($_.Name -eq "themeName") -or ($_.Name -eq "themeMod
         $tempThemeModNumber = "$($_.Value)"
     }
     elseif ($_.Name -eq "themeMod") {
-        $tempThemeMod = "$(($_.Value).replace(', or',',').replace(' or',',').replace(' ','').replace('+1',''))"
+        $tempThemeMod = "$(($_.Value).replace(', or',',').replace(' or',',').replace(' ',',').replace('+1','').replace(',,',','))"
         # if ($tempThemeMod -match '.*?,.*?') {
         #     $tempThemeMod = $tempThemeMod.split(',')
         # }
@@ -137,9 +137,28 @@ $themesList | Where-Object {($_.Name -eq "themeName") -or ($_.Name -eq "themeMod
     else {
         $tempJSON = @"
 {
-    "ModifierNumber":"$tempThemeModNumber",
-    "Modifier":[$tempThemeMod],
-    "ShortDescription":"$($_.Value)"
+    "ModifierNumber": "$tempThemeModNumber",
+    "Modifier": [$tempThemeMod],
+    "ShortDescription": "$($_.Value)"
+    "LongDescription": "",
+    "Levels": {
+        "1": {
+            "Name": "",
+            "Description": ""
+        },
+        "6": {
+            "Name": "",
+            "Description": ""
+        },
+        "12": {
+            "Name": "",
+            "Description": ""
+        },
+        "18": {
+            "Name": "",
+            "Description": ""
+        }
+    }
 }
 "@
     }
