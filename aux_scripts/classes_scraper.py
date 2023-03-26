@@ -1,9 +1,9 @@
 # Name: classes_scraper.py
-# Purpose: Basic function to webscrape
+# Purpose: Basic function to webscrape Classes
 # Version & Notes: Found at bottom of document
 ############################################################
 
-import json, re, os
+import json, re
 import py_scraper
 
 def main():
@@ -45,6 +45,9 @@ main()
 ############################################################
 # Version & Notes ##########################################
 ############################################################
+# Notes
+# # RegEx 101: https://regex101.com/
+
 # Version 0.01
 # # Date: 03/26/2023
 # # Notes: Initial Upload
