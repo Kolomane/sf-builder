@@ -1,0 +1,756 @@
+{
+    "Systems_Settlements": {
+        "Aballon": {
+            "SourceURL": "Systems.aspx?ItemName=Aballon",
+            "Location": "Pact Worlds",
+            "Settlement1URL": "Settlements.aspx?ItemName=01",
+            "Settlement1": "01",
+            "Settlement2URL": "Settlements.aspx?ItemName=Striving",
+            "Settlement2": "Striving"
+        },
+        "Absalom Station": {
+            "SourceURL": "Systems.aspx?ItemName=Absalom Station",
+            "Location": "Pact Worlds",
+            "Settlement1URL": "Settlements.aspx?ItemName=Absalom Station",
+            "Settlement1": "Absalom Station",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        },
+        "Akiton": {
+            "SourceURL": "Systems.aspx?ItemName=Akiton",
+            "Location": "Pact Worlds",
+            "Settlement1URL": "Settlements.aspx?ItemName=Arl",
+            "Settlement1": "Arl",
+            "Settlement2URL": "Settlements.aspx?ItemName=Estuar",
+            "Settlement2": "Estuar"
+        },
+        "Apostae": {
+            "SourceURL": "Systems.aspx?ItemName=Apostae",
+            "Location": "Pact Worlds",
+            "Settlement1URL": "Settlements.aspx?ItemName=Nightarch",
+            "Settlement1": "Nightarch",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        },
+        "Aucturn": {
+            "SourceURL": "Systems.aspx?ItemName=Aucturn",
+            "Location": "Pact Worlds",
+            "Settlement1URL": "Settlements.aspx?ItemName=Citadel of the Black",
+            "Settlement1": "Citadel of the Black",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        },
+        "Bretheda": {
+            "SourceURL": "Systems.aspx?ItemName=Bretheda",
+            "Location": "Pact Worlds",
+            "Settlement1URL": "Settlements.aspx?ItemName=Trillidiem",
+            "Settlement1": "Trillidiem",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        },
+        "Castrovel": {
+            "SourceURL": "Systems.aspx?ItemName=Castrovel",
+            "Location": "Pact Worlds",
+            "Settlement1URL": "Settlements.aspx?ItemName=Qabarat",
+            "Settlement1": "Qabarat",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        },
+        "Eox": {
+            "SourceURL": "Systems.aspx?ItemName=Eox",
+            "Location": "Pact Worlds",
+            "Settlement1URL": "Settlements.aspx?ItemName=Orphys",
+            "Settlement1": "Orphys",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        },
+        "Idari": {
+            "SourceURL": "Systems.aspx?ItemName=Idari",
+            "Location": "Pact Worlds",
+            "Settlement1URL": "Settlements.aspx?ItemName=Idari",
+            "Settlement1": "Idari",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        },
+        "Liavara": {
+            "SourceURL": "Systems.aspx?ItemName=Liavara",
+            "Location": "Pact Worlds",
+            "Settlement1URL": "Settlements.aspx?ItemName=Roselight",
+            "Settlement1": "Roselight",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        },
+        "The Diaspora": {
+            "SourceURL": "Systems.aspx?ItemName=The Diaspora",
+            "Location": "Pact Worlds",
+            "Settlement1URL": "Settlements.aspx?ItemName=Broken Rock",
+            "Settlement1": "Broken Rock",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        },
+        "The Sun": {
+            "SourceURL": "Systems.aspx?ItemName=The Sun",
+            "Location": "Pact Worlds",
+            "Settlement1URL": "Settlements.aspx?ItemName=Burning Archipelago",
+            "Settlement1": "Burning Archipelago",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        },
+        "Triaxus": {
+            "SourceURL": "Systems.aspx?ItemName=Triaxus",
+            "Location": "Pact Worlds",
+            "Settlement1URL": "Settlements.aspx?ItemName=Zo",
+            "Settlement1": "Zo",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        },
+        "Verces": {
+            "SourceURL": "Systems.aspx?ItemName=Verces",
+            "Location": "Pact Worlds",
+            "Settlement1URL": "Settlements.aspx?ItemName=Skydock",
+            "Settlement1": "Skydock",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        },
+        "Eight Courts": {
+            "SourceURL": "Systems.aspx?ItemName=Eight Courts",
+            "Location": "",
+            "Settlement1URL": "",
+            "Settlement1": "",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        },
+        "The Drift": {
+            "SourceURL": "Systems.aspx?ItemName=The Drift",
+            "Location": "Everywhere",
+            "Settlement1URL": "Settlements.aspx?ItemName=Alluvion",
+            "Settlement1": "Alluvion",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        },
+        "Nerralen": {
+            "SourceURL": "Systems.aspx?ItemName=Nerralen",
+            "Location": "Mobile",
+            "Settlement1URL": "",
+            "Settlement1": "",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        },
+        "Amran": {
+            "SourceURL": "Systems.aspx?ItemName=Amran",
+            "Location": "Near Space",
+            "Settlement1URL": "",
+            "Settlement1": "",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        },
+        "Centus II": {
+            "SourceURL": "Systems.aspx?ItemName=Centus II",
+            "Location": "Near Space",
+            "Settlement1URL": "",
+            "Settlement1": "",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        },
+        "Cordrazar IV": {
+            "SourceURL": "Systems.aspx?ItemName=Cordrazar IV",
+            "Location": "Near Space",
+            "Settlement1URL": "",
+            "Settlement1": "",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        },
+        "Daegox 4": {
+            "SourceURL": "Systems.aspx?ItemName=Daegox 4",
+            "Location": "Near Space",
+            "Settlement1URL": "",
+            "Settlement1": "",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        },
+        "Daimalko": {
+            "SourceURL": "Systems.aspx?ItemName=Daimalko",
+            "Location": "Near Space",
+            "Settlement1URL": "",
+            "Settlement1": "",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        },
+        "Dina III": {
+            "SourceURL": "Systems.aspx?ItemName=Dina III",
+            "Location": "Near Space",
+            "Settlement1URL": "",
+            "Settlement1": "",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        },
+        "Elpherys": {
+            "SourceURL": "Systems.aspx?ItemName=Elpherys",
+            "Location": "Near Space",
+            "Settlement1URL": "",
+            "Settlement1": "",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        },
+        "Embroi": {
+            "SourceURL": "Systems.aspx?ItemName=Embroi",
+            "Location": "Near Space",
+            "Settlement1URL": "",
+            "Settlement1": "",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        },
+        "Ergodia": {
+            "SourceURL": "Systems.aspx?ItemName=Ergodia",
+            "Location": "Near Space",
+            "Settlement1URL": "",
+            "Settlement1": "",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        },
+        "Gadravel": {
+            "SourceURL": "Systems.aspx?ItemName=Gadravel",
+            "Location": "Near Space",
+            "Settlement1URL": "",
+            "Settlement1": "",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        },
+        "Grascha": {
+            "SourceURL": "Systems.aspx?ItemName=Grascha",
+            "Location": "Near Space",
+            "Settlement1URL": "",
+            "Settlement1": "",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        },
+        "Heicoron IV": {
+            "SourceURL": "Systems.aspx?ItemName=Heicoron IV",
+            "Location": "Near Space",
+            "Settlement1URL": "",
+            "Settlement1": "",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        },
+        "Orry": {
+            "SourceURL": "Systems.aspx?ItemName=Orry",
+            "Location": "Near Space",
+            "Settlement1URL": "",
+            "Settlement1": "",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        },
+        "Preluria": {
+            "SourceURL": "Systems.aspx?ItemName=Preluria",
+            "Location": "Near Space",
+            "Settlement1URL": "",
+            "Settlement1": "",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        },
+        "Riven Shroud": {
+            "SourceURL": "Systems.aspx?ItemName=Riven Shroud",
+            "Location": "Near Space",
+            "Settlement1URL": "",
+            "Settlement1": "",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        },
+        "Silselrik": {
+            "SourceURL": "Systems.aspx?ItemName=Silselrik",
+            "Location": "Near Space",
+            "Settlement1URL": "Settlements.aspx?ItemName=Midios",
+            "Settlement1": "Midios",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        },
+        "Stopgap": {
+            "SourceURL": "Systems.aspx?ItemName=Stopgap",
+            "Location": "Near Space",
+            "Settlement1URL": "",
+            "Settlement1": "",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        },
+        "The Veskarium": {
+            "SourceURL": "Systems.aspx?ItemName=The Veskarium",
+            "Location": "Near Space",
+            "Settlement1URL": "",
+            "Settlement1": "",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        },
+        "Vohxa": {
+            "SourceURL": "Systems.aspx?ItemName=Vohxa",
+            "Location": "Near Space",
+            "Settlement1URL": "",
+            "Settlement1": "",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        },
+        "Zeres": {
+            "SourceURL": "Systems.aspx?ItemName=Zeres",
+            "Location": "Near Space",
+            "Settlement1URL": "",
+            "Settlement1": "",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        },
+        "Fortune’s Heart": {
+            "SourceURL": "Systems.aspx?ItemName=Fortune’s Heart",
+            "Location": "The Drift",
+            "Settlement1URL": "",
+            "Settlement1": "",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        },
+        "Agesh": {
+            "SourceURL": "Systems.aspx?ItemName=Agesh",
+            "Location": "The Vast",
+            "Settlement1URL": "",
+            "Settlement1": "",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        },
+        "Arquand": {
+            "SourceURL": "Systems.aspx?ItemName=Arquand",
+            "Location": "The Vast",
+            "Settlement1URL": "",
+            "Settlement1": "",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        },
+        "Arshalin": {
+            "SourceURL": "Systems.aspx?ItemName=Arshalin",
+            "Location": "The Vast",
+            "Settlement1URL": "Settlements.aspx?ItemName=Kalsarsa",
+            "Settlement1": "Kalsarsa",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        },
+        "Astevint": {
+            "SourceURL": "Systems.aspx?ItemName=Astevint",
+            "Location": "The Vast",
+            "Settlement1URL": "",
+            "Settlement1": "",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        },
+        "Azlanti Star Empire": {
+            "SourceURL": "Systems.aspx?ItemName=Azlanti Star Empire",
+            "Location": "The Vast",
+            "Settlement1URL": "",
+            "Settlement1": "",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        },
+        "Barrow": {
+            "SourceURL": "Systems.aspx?ItemName=Barrow",
+            "Location": "The Vast",
+            "Settlement1URL": "",
+            "Settlement1": "",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        },
+        "Birnam’s Bubble": {
+            "SourceURL": "Systems.aspx?ItemName=Birnam’s Bubble",
+            "Location": "The Vast",
+            "Settlement1URL": "",
+            "Settlement1": "",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        },
+        "Depot 583-B": {
+            "SourceURL": "Systems.aspx?ItemName=Depot 583-B",
+            "Location": "The Vast",
+            "Settlement1URL": "",
+            "Settlement1": "",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        },
+        "Elao": {
+            "SourceURL": "Systems.aspx?ItemName=Elao",
+            "Location": "The Vast",
+            "Settlement1URL": "",
+            "Settlement1": "",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        },
+        "Elytrio": {
+            "SourceURL": "Systems.aspx?ItemName=Elytrio",
+            "Location": "The Vast",
+            "Settlement1URL": "Settlements.aspx?ItemName=Arkeost",
+            "Settlement1": "Arkeost",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        },
+        "Emperor’s Graveyard": {
+            "SourceURL": "Systems.aspx?ItemName=Emperor’s Graveyard",
+            "Location": "The Vast",
+            "Settlement1URL": "",
+            "Settlement1": "",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        },
+        "Entha": {
+            "SourceURL": "Systems.aspx?ItemName=Entha",
+            "Location": "The Vast",
+            "Settlement1URL": "",
+            "Settlement1": "",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        },
+        "Falliban’s Dream": {
+            "SourceURL": "Systems.aspx?ItemName=Falliban’s Dream",
+            "Location": "The Vast",
+            "Settlement1URL": "",
+            "Settlement1": "",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        },
+        "Hawanna": {
+            "SourceURL": "Systems.aspx?ItemName=Hawanna",
+            "Location": "The Vast",
+            "Settlement1URL": "",
+            "Settlement1": "",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        },
+        "Jedarat": {
+            "SourceURL": "Systems.aspx?ItemName=Jedarat",
+            "Location": "The Vast",
+            "Settlement1URL": "",
+            "Settlement1": "",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        },
+        "Joyview-5": {
+            "SourceURL": "Systems.aspx?ItemName=Joyview-5",
+            "Location": "The Vast",
+            "Settlement1URL": "",
+            "Settlement1": "",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        },
+        "Kax": {
+            "SourceURL": "Systems.aspx?ItemName=Kax",
+            "Location": "The Vast",
+            "Settlement1URL": "",
+            "Settlement1": "",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        },
+        "Lothun": {
+            "SourceURL": "Systems.aspx?ItemName=Lothun",
+            "Location": "The Vast",
+            "Settlement1URL": "",
+            "Settlement1": "",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        },
+        "Malfane": {
+            "SourceURL": "Systems.aspx?ItemName=Malfane",
+            "Location": "The Vast",
+            "Settlement1URL": "",
+            "Settlement1": "",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        },
+        "Maurnak": {
+            "SourceURL": "Systems.aspx?ItemName=Maurnak",
+            "Location": "The Vast",
+            "Settlement1URL": "",
+            "Settlement1": "",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        },
+        "Nakondis": {
+            "SourceURL": "Systems.aspx?ItemName=Nakondis",
+            "Location": "The Vast",
+            "Settlement1URL": "Settlements.aspx?ItemName=Madelon's Landing",
+            "Settlement1": "Madelon's Landing",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        },
+        "Nejeor VI": {
+            "SourceURL": "Systems.aspx?ItemName=Nejeor VI",
+            "Location": "The Vast",
+            "Settlement1URL": "Settlements.aspx?ItemName=Istamak",
+            "Settlement1": "Istamak",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        },
+        "New Thespera": {
+            "SourceURL": "Systems.aspx?ItemName=New Thespera",
+            "Location": "The Vast",
+            "Settlement1URL": "",
+            "Settlement1": "",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        },
+        "Nodethe": {
+            "SourceURL": "Systems.aspx?ItemName=Nodethe",
+            "Location": "The Vast",
+            "Settlement1URL": "",
+            "Settlement1": "",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        },
+        "Orikolai": {
+            "SourceURL": "Systems.aspx?ItemName=Orikolai",
+            "Location": "The Vast",
+            "Settlement1URL": "",
+            "Settlement1": "",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        },
+        "Outpost Zed": {
+            "SourceURL": "Systems.aspx?ItemName=Outpost Zed",
+            "Location": "The Vast",
+            "Settlement1URL": "",
+            "Settlement1": "",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        },
+        "Primoria": {
+            "SourceURL": "Systems.aspx?ItemName=Primoria",
+            "Location": "The Vast",
+            "Settlement1URL": "Settlements.aspx?ItemName=Tarinth",
+            "Settlement1": "Tarinth",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        },
+        "Ramiya": {
+            "SourceURL": "Systems.aspx?ItemName=Ramiya",
+            "Location": "The Vast",
+            "Settlement1URL": "",
+            "Settlement1": "",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        },
+        "Ratheren": {
+            "SourceURL": "Systems.aspx?ItemName=Ratheren",
+            "Location": "The Vast",
+            "Settlement1URL": "",
+            "Settlement1": "",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        },
+        "Riyethira": {
+            "SourceURL": "Systems.aspx?ItemName=Riyethira",
+            "Location": "The Vast",
+            "Settlement1URL": "",
+            "Settlement1": "",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        },
+        "Sepres VI": {
+            "SourceURL": "Systems.aspx?ItemName=Sepres VI",
+            "Location": "The Vast",
+            "Settlement1URL": "Settlements.aspx?ItemName=Sepres Prime",
+            "Settlement1": "Sepres Prime",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        },
+        "Shadari": {
+            "SourceURL": "Systems.aspx?ItemName=Shadari",
+            "Location": "The Vast",
+            "Settlement1URL": "",
+            "Settlement1": "",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        },
+        "Shimrinsara": {
+            "SourceURL": "Systems.aspx?ItemName=Shimrinsara",
+            "Location": "The Vast",
+            "Settlement1URL": "",
+            "Settlement1": "",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        },
+        "Tabori Cluster": {
+            "SourceURL": "Systems.aspx?ItemName=Tabori Cluster",
+            "Location": "The Vast",
+            "Settlement1URL": "",
+            "Settlement1": "",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        },
+        "Topheki B": {
+            "SourceURL": "Systems.aspx?ItemName=Topheki B",
+            "Location": "The Vast",
+            "Settlement1URL": "",
+            "Settlement1": "",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        },
+        "Tudine": {
+            "SourceURL": "Systems.aspx?ItemName=Tudine",
+            "Location": "The Vast",
+            "Settlement1URL": "",
+            "Settlement1": "",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        },
+        "Urrakar": {
+            "SourceURL": "Systems.aspx?ItemName=Urrakar",
+            "Location": "The Vast",
+            "Settlement1URL": "",
+            "Settlement1": "",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        },
+        "Vathori": {
+            "SourceURL": "Systems.aspx?ItemName=Vathori",
+            "Location": "The Vast",
+            "Settlement1URL": "Settlements.aspx?ItemName=Thirokhia",
+            "Settlement1": "Thirokhia",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        },
+        "Weydana-1": {
+            "SourceURL": "Systems.aspx?ItemName=Weydana-1",
+            "Location": "The Vast",
+            "Settlement1URL": "",
+            "Settlement1": "",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        },
+        "Weydana-2": {
+            "SourceURL": "Systems.aspx?ItemName=Weydana-2",
+            "Location": "The Vast",
+            "Settlement1URL": "",
+            "Settlement1": "",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        },
+        "Weydana-3": {
+            "SourceURL": "Systems.aspx?ItemName=Weydana-3",
+            "Location": "The Vast",
+            "Settlement1URL": "",
+            "Settlement1": "",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        },
+        "Weydana-5": {
+            "SourceURL": "Systems.aspx?ItemName=Weydana-5",
+            "Location": "The Vast",
+            "Settlement1URL": "",
+            "Settlement1": "",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        },
+        "Weydana-6": {
+            "SourceURL": "Systems.aspx?ItemName=Weydana-6",
+            "Location": "The Vast",
+            "Settlement1URL": "",
+            "Settlement1": "",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        },
+        "Weydana-7": {
+            "SourceURL": "Systems.aspx?ItemName=Weydana-7",
+            "Location": "The Vast",
+            "Settlement1URL": "",
+            "Settlement1": "",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        },
+        "Yrgytch": {
+            "SourceURL": "Systems.aspx?ItemName=Yrgytch",
+            "Location": "The Vast",
+            "Settlement1URL": "",
+            "Settlement1": "",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        },
+        "Gluun and Rakmos": {
+            "SourceURL": "Systems.aspx?ItemName=Gluun and Rakmos",
+            "Location": "The Vast (Chuuva)",
+            "Settlement1URL": "",
+            "Settlement1": "",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        },
+        "Ilemchuuva": {
+            "SourceURL": "Systems.aspx?ItemName=Ilemchuuva",
+            "Location": "The Vast (Chuuva)",
+            "Settlement1URL": "",
+            "Settlement1": "",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        },
+        "Quandali": {
+            "SourceURL": "Systems.aspx?ItemName=Quandali",
+            "Location": "The Vast (Chuuva)",
+            "Settlement1URL": "",
+            "Settlement1": "",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        },
+        "Rtachuuva": {
+            "SourceURL": "Systems.aspx?ItemName=Rtachuuva",
+            "Location": "The Vast (Chuuva)",
+            "Settlement1URL": "",
+            "Settlement1": "",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        },
+        "Tarchuuva": {
+            "SourceURL": "Systems.aspx?ItemName=Tarchuuva",
+            "Location": "The Vast (Chuuva)",
+            "Settlement1URL": "",
+            "Settlement1": "",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        },
+        "Ashypso": {
+            "SourceURL": "Systems.aspx?ItemName=Ashypso",
+            "Location": "The Vast (Suskillon)",
+            "Settlement1URL": "",
+            "Settlement1": "",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        },
+        "Chonax": {
+            "SourceURL": "Systems.aspx?ItemName=Chonax",
+            "Location": "The Vast (Suskillon)",
+            "Settlement1URL": "",
+            "Settlement1": "",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        },
+        "Echidea": {
+            "SourceURL": "Systems.aspx?ItemName=Echidea",
+            "Location": "The Vast (Suskillon)",
+            "Settlement1URL": "",
+            "Settlement1": "",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        },
+        "Suskillon": {
+            "SourceURL": "Systems.aspx?ItemName=Suskillon",
+            "Location": "The Vast (Suskillon)",
+            "Settlement1URL": "",
+            "Settlement1": "",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        },
+        "Utraneus": {
+            "SourceURL": "Systems.aspx?ItemName=Utraneus",
+            "Location": "The Vast (Suskillon)",
+            "Settlement1URL": "",
+            "Settlement1": "",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        },
+        "Vharrine": {
+            "SourceURL": "Systems.aspx?ItemName=Vharrine",
+            "Location": "The Vast (Suskillon)",
+            "Settlement1URL": "",
+            "Settlement1": "",
+            "Settlement2URL": "",
+            "Settlement2": ""
+        }
+    }
+}
