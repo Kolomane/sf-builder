@@ -1,0 +1,40 @@
+{
+    "Skill_Feats": {
+        "Bolstering Bravado": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Bolstering Bravado (Intimidate Focus)",
+            "Focus": "Intimidate",
+            "Prerequisites": "—",
+            "Description": "You project unflappable confidence and know just how to motivate people."
+        },
+        "Media Mogul": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Media Mogul (Profession Focus)",
+            "Focus": "Profession",
+            "Prerequisites": "Member of a charter that has completed the broadcast studio project",
+            "Description": "You know how to make the airwaves—such as they are in space—work for you."
+        },
+        "More Than Flesh": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=More Than Flesh (Life Science Focus)",
+            "Focus": "Life Science",
+            "Prerequisites": "Member of a charter that has completed the augmentation clinic project",
+            "Description": "You believe your body is a temple, albeit one that undergoes frequent renovation."
+        },
+        "Registered Dietitian": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Registered Dietitian (Medicine Focus)",
+            "Focus": "Medicine",
+            "Prerequisites": "Member of a charter that has completed the hospital project",
+            "Description": "You understand how to best feed your people with the resources at hand."
+        },
+        "Soothing Orator": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Soothing Orator (Diplomacy Focus)",
+            "Focus": "Diplomacy",
+            "Prerequisites": "—",
+            "Description": "You are highly adept at calming unrest via public speaking, meeting with constituents, and other such activities."
+        },
+        "Warpweaver": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Warpweaver (Perception Focus)",
+            "Focus": "Perception",
+            "Prerequisites": "Major Stage Magic or ability to cast 3rd-level witchwarper spells; member of a charter that has completed the oracle project",
+            "Description": "Why stop at divining the future when you can define it?"
+        }
+    }
+}

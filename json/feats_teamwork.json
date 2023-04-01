@@ -1,0 +1,49 @@
+{
+    "Teamwork_Feats": {
+        "Above and Below": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Above and Below",
+            "Prerequisites": "Base attack bonus +6",
+            "Description": "When you pair up with a differently sized ally, your foes have little chance to dodge your attacks."
+        },
+        "Back to Back": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Back to Back",
+            "Prerequisites": "Perception 3 ranks",
+            "Description": "You aren’t as easy to hit when surrounded."
+        },
+        "Last-chance Grab": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Last-chance Grab",
+            "Prerequisites": "Athletics 3 ranks",
+            "Description": "You can arrest your fall when climbing."
+        },
+        "Stand Strong": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Stand Strong",
+            "Prerequisites": "Stand Still",
+            "Description": "When you plant yourself in place, you’re difficult to move past."
+        },
+        "Tandem Feint": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Tandem Feint",
+            "Prerequisites": "Base attack bonus +6, Improved Feint",
+            "Description": "You can work with an ally to place your foes off-balance."
+        },
+        "Tandem Maneuver": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Tandem Maneuver",
+            "Prerequisites": "Base attack bonus +6, Improved Combat Maneuver (any)",
+            "Description": "You can work in concert with an ally to perform maneuvers in combat."
+        },
+        "Target of Opportunity": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Target of Opportunity",
+            "Prerequisites": "Base attack bonus +6",
+            "Description": "You take advantage of a foe’s slipup."
+        },
+        "Timely Coordination": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Timely Coordination",
+            "Prerequisites": "—",
+            "Description": "You can time your teamwork precisely."
+        },
+        "Unbreakable Will": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Unbreakable Will",
+            "Prerequisites": "Telepathy or limited telepathy racial trait",
+            "Description": "Your telepathy grants you an unparalleled strength of mind."
+        }
+    }
+}

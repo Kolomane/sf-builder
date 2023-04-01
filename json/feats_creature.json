@@ -1,0 +1,34 @@
+{
+    "Creature_Feats": {
+        "Combat-Trained Mount": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Combat-Trained Mount",
+            "Prerequisites": "Survival 1 rank",
+            "Description": "Your creature companion becomes combat-trained"
+        },
+        "Creature Companion Adept": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Creature Companion Adept",
+            "Prerequisites": "Survival 1 rank",
+            "Description": "You can spend your own actions to give them to your creature companion"
+        },
+        "Creature Companion Expert": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Creature Companion Expert",
+            "Prerequisites": "Creature Companion Adept, Survival 4 ranks",
+            "Description": "You are more efficient at ordering your creature companion"
+        },
+        "Creature Companion Master": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Creature Companion Master",
+            "Prerequisites": "Creature Companion Expert, Survival 10 ranks",
+            "Description": "Your creature companion can take actions without needing to be ordered"
+        },
+        "Creature Companion Virtuoso": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Creature Companion Virtuoso",
+            "Prerequisites": "Creature Companion Master, Survival 13 ranks",
+            "Description": "Your creature companion can take full attacks without needing to be ordered"
+        },
+        "Mounted Expert": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Mounted Expert",
+            "Prerequisites": "Combat-Trained Mount, Survival 5 ranks",
+            "Description": "You can stay mounted when knocked prone"
+        }
+    }
+}

@@ -1,0 +1,1574 @@
+{
+    "General_Feats": {
+        "Above and Below": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Above and Below",
+            "Prerequisites": "Base attack bonus +6",
+            "Description": "When you pair up with a differently sized ally, your foes have little chance to dodge your attacks."
+        },
+        "Accelerated Recovery": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Accelerated Recovery",
+            "Prerequisites": "Con 13",
+            "Description": "Recover more quickly during an 8-hour rest"
+        },
+        "Adaptive Casting": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Adaptive Casting",
+            "Prerequisites": "Key ability score 19, caster level 7",
+            "Description": "Select three additional spells known; cast one of them once a day"
+        },
+        "Adaptive Fighting": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Adaptive Fighting",
+            "Prerequisites": "Three or more combat feats",
+            "Description": "Once per day as a move action, gain the benefit of a combat feat you don’t have"
+        },
+        "Adaptive Resistance": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Adaptive Resistance",
+            "Prerequisites": "Enhanced Resistance, base attack bonus +4, early stage adaptation racial trait",
+            "Description": "Your training enables you to adapt and evolve formidable temporary defenses."
+        },
+        "Adaptive Upgrade": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Adaptive Upgrade",
+            "Prerequisites": "Int 19, Engineering 10 ranks",
+            "Description": "Temporarily create low-level armor upgrades"
+        },
+        "Add Leverage": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Add Leverage",
+            "Prerequisites": "Str 15",
+            "Description": "Grip your weapon with more hands to move foes farther with combat maneuvers"
+        },
+        "Advance Warning": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Advance Warning",
+            "Prerequisites": "Cha 15",
+            "Description": "Shout a warning to your allies, causing them to stop being flat-footed"
+        },
+        "Advanced Melee Weapon Proficiency": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Advanced Melee Weapon Proficiency",
+            "Prerequisites": "Proficiency in basic melee weapons",
+            "Description": "No penalty to attacks with advanced melee weapons"
+        },
+        "Agile Casting": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Agile Casting",
+            "Prerequisites": "Key ability score 15, Dex 15, Mobility, caster level 4th",
+            "Description": "Cast a spell at any point during movement"
+        },
+        "Alien Herbalism": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Alien Herbalism",
+            "Prerequisites": "Life Science 5 ranks, Survival 5 ranks",
+            "Description": "By gathering natural ingredients, you can create life-saving medicines"
+        },
+        "All Hands on Deck": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=All Hands on Deck",
+            "Prerequisites": "Four or more arms",
+            "Description": "Many hands make light work"
+        },
+        "Ambuscade": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Ambuscade",
+            "Prerequisites": "—",
+            "Description": "When you make an attack in the surprise round against a target that has not yet acted, gain a bonus to attacks and damage"
+        },
+        "Ambush Awareness": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Ambush Awareness",
+            "Prerequisites": "—",
+            "Description": "If you fail the Perception check to act in the surprise round, you can still take a full defense action"
+        },
+        "Amplified Glitch": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Amplified Glitch",
+            "Prerequisites": "Computers 3 ranks, Intimidate 3 ranks",
+            "Description": "Disrupt devices, causing targets to become shaken for 1 round or more"
+        },
+        "Amplified Outgoing Signals": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Amplified Outgoing Signals",
+            "Prerequisites": "Psychic reverb species trait, character level 5th.",
+            "Description": "Through profound pain and headaches connected to psychic contact has come wisdom. You have studied your own psychic reverb and can impose the effect on opponents."
+        },
+        "Antagonize": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Antagonize",
+            "Prerequisites": "Diplomacy 5 ranks, Intimidate 5 ranks",
+            "Description": "Anger a foe, causing it to become off-target and take a -2 penalty to skill checks for 1 round or more"
+        },
+        "Apt Mentor": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Apt Mentor",
+            "Prerequisites": "Life Science or Physical Science 5 ranks",
+            "Description": "Headteachers are prestigious scholars who have become revered experts in their fields after decades of dedication."
+        },
+        "Arm Extensions": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Arm Extensions",
+            "Prerequisites": "Constructed racial trait or construct type",
+            "Description": "You have special devices installed into your arms that allow you to extend them great distances"
+        },
+        "Back to Back": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Back to Back",
+            "Prerequisites": "Perception 3 ranks",
+            "Description": "You aren’t as easy to hit when surrounded."
+        },
+        "Barricade": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Barricade",
+            "Prerequisites": "Engineering 1 rank",
+            "Description": "Create your own fragile cover"
+        },
+        "Basic Melee Weapon Proficiency": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Basic Melee Weapon Proficiency",
+            "Prerequisites": "—",
+            "Description": "Gain proficiency with basic melee weapons"
+        },
+        "Bear Hug": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Bear Hug",
+            "Prerequisites": "Improved Combat Maneuver (grapple)",
+            "Description": "You can crush grappled opponents in your arms or other limbs, squeezing them hard enough to cause injury."
+        },
+        "Bird’s Eye View": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Bird’s Eye View",
+            "Prerequisites": "Base attack bonus +8",
+            "Description": "While you’re in the air, you use your advantageous altitude to your favor"
+        },
+        "Blind-Fight": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Blind-Fight",
+            "Prerequisites": "—",
+            "Description": "Reroll miss chances from concealment"
+        },
+        "Blood in Their Eyes": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Blood in Their Eyes",
+            "Prerequisites": "—",
+            "Description": "Your critical hits with slashing attacks make foes dazzled"
+        },
+        "Blood of the Spider": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Blood of the Spider",
+            "Prerequisites": "Racial trait that grants a spell-like ability",
+            "Description": "Something in your ancestry has strengthened your innate magic and given it an arachnid twist."
+        },
+        "Bodyguard": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Bodyguard",
+            "Prerequisites": "—",
+            "Description": "Add a +2 bonus to an adjacent ally’s AC as a reaction"
+        },
+        "Borrowed Vitality": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Borrowed Vitality",
+            "Prerequisites": "Mysticism 5 ranks",
+            "Description": "By sapping nearby flora, you can protect your own lifeforce"
+        },
+        "Brutal Slash": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Brutal Slash",
+            "Prerequisites": "Str 17, Dex 13, base attack bonus +6, Rending Slash",
+            "Description": "You use your finely honed natural attacks to rend an enemy to pieces."
+        },
+        "Bud Drone": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Bud Drone",
+            "Prerequisites": "Drone class feature, adaptation or early stage adaptation racial trait",
+            "Description": "You have used your unique biology to bud off a biological drone you can more easily integrate with."
+        },
+        "Chemical Trail": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Chemical Trail",
+            "Prerequisites": "Blindsense (scent), blindsight (scent), or Survival 5 ranks",
+            "Description": "You can imprint and interpret scent-related messages."
+        },
+        "Chitinous Wall": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Chitinous Wall",
+            "Prerequisites": "Bulwark species trait",
+            "Description": "Your protective plates can better shield nearby allies."
+        },
+        "Cleave": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Cleave",
+            "Prerequisites": "Str 13, base attack bonus +1",
+            "Description": "Make an additional melee attack if the first one hits"
+        },
+        "Clever Retort": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Clever Retort",
+            "Prerequisites": "Int 13, Quick Quip, Diplomacy 5 ranks",
+            "Description": "You always have a witty remark or comeback ready at your adversaries’ expense."
+        },
+        "Climbing Master": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Climbing Master",
+            "Prerequisites": "Athletics 5 ranks",
+            "Description": "Gain a climb speed equal to your land speed"
+        },
+        "Close Combat": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Close Combat",
+            "Prerequisites": "Base attack bonus +1",
+            "Description": "Gain a +2 bonus to AC against ranged attacks when are in melee combat"
+        },
+        "Combat Casting": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Combat Casting",
+            "Prerequisites": "Ability to cast 2nd-level spells",
+            "Description": "+2 bonus to AC and saves against attacks of opportunity when casting spells"
+        },
+        "Combat-Trained Mount": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Combat-Trained Mount",
+            "Prerequisites": "Survival 1 rank",
+            "Description": "Your creature companion becomes combat-trained"
+        },
+        "Complex Adaptation": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Complex Adaptation",
+            "Prerequisites": "Life Science 5 ranks, early stage adaptation racial trait",
+            "Description": "With understanding and experience, you can manipulate your genetics to gain unexpected secondary effects."
+        },
+        "Connection Inkling": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Connection Inkling",
+            "Prerequisites": "Wis 15, character level 5th, no levels in mystic",
+            "Description": "Gain the ability to cast minor mystic spells"
+        },
+        "Conspiratorial Ally": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Conspiratorial Ally",
+            "Prerequisites": "—",
+            "Description": "You’ve learned how to make friends by telling people what they want to hear."
+        },
+        "Constant Alert": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Constant Alert",
+            "Prerequisites": "Wis 11, character level 5th",
+            "Description": "Reroll your initiative check and automatically win ties"
+        },
+        "Contrive": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Contrive",
+            "Prerequisites": "Diversion.",
+            "Description": "You distract a target, allowing an ally to slip their hand into the mark’s pocket."
+        },
+        "Cook Grenade": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Cook Grenade",
+            "Prerequisites": "Dex 11, proficiency with grenades",
+            "Description": "Time your release of a grenade to increase its effectiveness"
+        },
+        "Coordinated Shot": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Coordinated Shot",
+            "Prerequisites": "Base attack bonus +1",
+            "Description": "Allies gain a +1 bonus to ranged attacks against foes you threaten"
+        },
+        "Cosmic Truth": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Cosmic Truth",
+            "Prerequisites": "Wis 15, Bluff 5 ranks, Mysticism 5 ranks",
+            "Description": "Reveal a cosmic truth that makes one target who fails a Will save confused for 1d4 rounds"
+        },
+        "Creature Companion Adept": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Creature Companion Adept",
+            "Prerequisites": "Survival 1 rank",
+            "Description": "You can spend your own actions to give them to your creature companion"
+        },
+        "Creature Companion Expert": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Creature Companion Expert",
+            "Prerequisites": "Creature Companion Adept, Survival 4 ranks",
+            "Description": "You are more efficient at ordering your creature companion"
+        },
+        "Creature Companion Master": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Creature Companion Master",
+            "Prerequisites": "Creature Companion Expert, Survival 10 ranks",
+            "Description": "Your creature companion can take actions without needing to be ordered"
+        },
+        "Creature Companion Virtuoso": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Creature Companion Virtuoso",
+            "Prerequisites": "Creature Companion Master, Survival 13 ranks",
+            "Description": "Your creature companion can take full attacks without needing to be ordered"
+        },
+        "Crescendo of Victory": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Crescendo of Victory",
+            "Prerequisites": "Crescendo of Violence",
+            "Description": "Your perfect musical cues can accentuate a moment of triumph and send a surge of adrenaline through an ally."
+        },
+        "Crescendo of Violence": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Crescendo of Violence",
+            "Prerequisites": "Charisma 15 or Profession (musician) 5 ranks",
+            "Description": "Your skill with modulating the sounds of your sonic weapons into musical patterns borders on showboating but also inspires your allies."
+        },
+        "Cultural Chameleon": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Cultural Chameleon",
+            "Prerequisites": "—",
+            "Description": "You can tap into the local zeitgeist to win friends and influence people"
+        },
+        "Deadly Aim": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Deadly Aim",
+            "Prerequisites": "Base attack bonus +1",
+            "Description": "Take a −2 penalty to weapon attacks to deal extra damage"
+        },
+        "Deadly Boast": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Deadly Boast",
+            "Prerequisites": "Cha 19, Bluff 10 ranks",
+            "Description": "Make an attack or effect sound so impressive that foes have a harder time defending against it"
+        },
+        "Defensive Striker": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Defensive Striker",
+            "Prerequisites": "Dex 13, base attack bonus +1, armor training trait",
+            "Description": "You were born to fight your enemies, and nobody does it better."
+        },
+        "Deflect Projectiles": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Deflect Projectiles",
+            "Prerequisites": "Base attack bonus +8",
+            "Description": "Spend 1 Resolve Point to attempt to avoid a ranged attack"
+        },
+        "Diehard": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Diehard",
+            "Prerequisites": "—",
+            "Description": "You can spend Resolve Points to stabilize and to stay in the fight in the same round"
+        },
+        "Diligent Searcher": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Diligent Searcher",
+            "Prerequisites": "Perception 1 rank",
+            "Description": "Your ordered mind allows you to thoroughly search an area in less time."
+        },
+        "Diplomatic Insight": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Diplomatic Insight",
+            "Prerequisites": "Diplomacy 1 rank",
+            "Description": "You quickly understand individuals whom you engage in conversation, and you can encourage rumor and gossip."
+        },
+        "Dire Straits": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Dire Straits",
+            "Prerequisites": "Con 15",
+            "Description": "Stabilize when you have no Hit Points or Resolve Points left"
+        },
+        "Discordant Din": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Discordant Din",
+            "Prerequisites": "—",
+            "Description": "By aiming carefully, you can cause your sonic weapons to emit a terrible noise on impact, aggravating the senses of creatures that rely heavily on hearing."
+        },
+        "Disease Adaptation": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Disease Adaptation",
+            "Prerequisites": "Con 11",
+            "Description": "+2 enhancement bonus to saves against disease"
+        },
+        "Disease Rejection": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Disease Rejection",
+            "Prerequisites": "Con 17, Disease Adaptation",
+            "Description": "Recover from diseases much more swiftly"
+        },
+        "Dispelling Strike": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Dispelling Strike",
+            "Prerequisites": "Base attack bonus +10, Mysticism 10 ranks",
+            "Description": "Spend 1 Resolve Point to make a melee attack act as <i>dispel magic</i>"
+        },
+        "Dive Bomb": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Dive Bomb",
+            "Prerequisites": "Dex 14, base attack bonus +1",
+            "Description": "You’re adept at swooping down on a foe"
+        },
+        "Dive for Cover": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Dive for Cover",
+            "Prerequisites": "Base Reflex save bonus +2",
+            "Description": "Fall prone in an adjacent square to roll a Reflex save twice"
+        },
+        "Diversion": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Diversion",
+            "Prerequisites": "—",
+            "Description": "Use Bluff to create a distraction so that your allies can hide"
+        },
+        "Divine Blessing": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Divine Blessing",
+            "Prerequisites": "Worship a deity of an alignment within one step of your own alignment",
+            "Description": "Gain a boon from your patron deity"
+        },
+        "Divine Weapon": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Divine Weapon",
+            "Prerequisites": "Worship a deity of an alignment within one step of your own alignment",
+            "Description": "You gain bonuses to your deity's favorite weapon."
+        },
+        "Double Draw": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Double Draw",
+            "Prerequisites": "Four or more arms",
+            "Description": "Your limbs allow you to manipulate multiple weapons"
+        },
+        "Double Tap": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Double Tap",
+            "Prerequisites": "Weapon Focus (small arms), proficiency with small arms",
+            "Description": "Expend double the normal ammunition to gain bonuses to attack and damage with a small arm"
+        },
+        "Double Trouble": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Double Trouble",
+            "Prerequisites": "—",
+            "Description": "You and an ally become a double threat."
+        },
+        "Draconic Senses": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Draconic Senses",
+            "Prerequisites": "darkvision and low-light vision",
+            "Description": "You can detect even very slight movements nearby."
+        },
+        "Draconic Shot": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Draconic Shot",
+            "Prerequisites": "breath weapon species trait",
+            "Description": "You channel your breath weapon into a ranged attack."
+        },
+        "Drag Down": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Drag Down",
+            "Prerequisites": "—",
+            "Description": "When you are tripped, you can attempt to trip an adjacent foe"
+        },
+        "Echolocation Attack": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Echolocation Attack",
+            "Prerequisites": "Perception as a class skill",
+            "Description": "Use the echo of sonic attacks to better sense your surroundings"
+        },
+        "Efficient Engineering": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Efficient Engineering",
+            "Prerequisites": "Int 15, Engineering 5 ranks",
+            "Description": "Your experience and industriousness enable you to dramatically streamline your crafting projects."
+        },
+        "Effortless Aerobatics": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Effortless Aerobatics",
+            "Prerequisites": "—",
+            "Description": "You’re particularly graceful while airborne"
+        },
+        "Eldritch Lore": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Eldritch Lore",
+            "Prerequisites": "Key ability score 19, Lesser Eldritch Lore, Minor Eldritch Lore, caster level 10th, 10 levels in a class with a class spell list",
+            "Description": "Gain an additional 2nd-level spell known"
+        },
+        "Enclose Serums": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Enclose Serums",
+            "Prerequisites": "Adaptation or early stage adaptation racial trait, or ooze type",
+            "Description": "Due to your unique physiology, you can safely store important medicines inside yourself until you require them for use in an emergency."
+        },
+        "Enhanced Resistance": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Enhanced Resistance",
+            "Prerequisites": "Base attack bonus +4",
+            "Description": "Gain damage reduction or energy resistance"
+        },
+        "Entropic Sight": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Entropic Sight",
+            "Prerequisites": "Third Eye",
+            "Description": "Your Eye of Entropy perceives unseen opponents."
+        },
+        "Entropic Truth": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Entropic Truth",
+            "Prerequisites": "Third Eye",
+            "Description": "You’ve seen the ultimate end of the cosmos through your third eye, and when you reveal these secrets to others, the results are unpredictable."
+        },
+        "Environmental Adaptation": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Environmental Adaptation",
+            "Prerequisites": "Con 13",
+            "Description": "Gain immunity to a number of environmental and weather effects"
+        },
+        "Escaped Experimental Subject": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Escaped Experimental Subject",
+            "Prerequisites": "—",
+            "Description": "Like the Vorlath mercenaries, you escaped from a laboratory. While there, you were exposed to a wide variety of procedures and your body learned to fight off an array of harmful substances."
+        },
+        "Ethereal Weapon": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Ethereal Weapon",
+            "Prerequisites": "Third Eye",
+            "Description": "You can wield your third eye against spiritual foes."
+        },
+        "Expansive Breath": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Expansive Breath",
+            "Prerequisites": "Con 11",
+            "Description": "You’re much more adept at holding your breath than others of your species."
+        },
+        "Extended Telepathy": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Extended Telepathy",
+            "Prerequisites": "Limited telepathy racial trait",
+            "Description": "Increase the range of your telepathy"
+        },
+        "Extra Resolve": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Extra Resolve",
+            "Prerequisites": "Character level 5th",
+            "Description": "Gain 2 additional Resolve Points"
+        },
+        "Far Shot": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Far Shot",
+            "Prerequisites": "Base attack bonus +1",
+            "Description": "Reduce penalty due to range increments"
+        },
+        "Fast Talk": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Fast Talk",
+            "Prerequisites": "Bluff 5 ranks",
+            "Description": "Baffle a potential foe, causing it to be surprised when combat begins"
+        },
+        "Fighting Balance": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Fighting Balance",
+            "Prerequisites": "—",
+            "Description": "You know how to fight while off-balance or prone."
+        },
+        "Flashmorph": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Flashmorph",
+            "Prerequisites": "Change form species trait, change shape universal monster rule, quick disguise operative exploit, or similar ability at the GM’s discretion",
+            "Description": "You can change your appearance in an instant even while moving."
+        },
+        "Fleet": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Fleet",
+            "Prerequisites": "—",
+            "Description": "Increase your land speed"
+        },
+        "Focused Sense": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Focused Sense",
+            "Prerequisites": "Blindsense",
+            "Description": "Temporarily gain blindsight with a limited range"
+        },
+        "Focused Spellcaster": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Focused Spellcaster",
+            "Prerequisites": "Combat Casting, ability to cast 4th-level spells",
+            "Description": "Spend a resolve point to successfully cast a spell after you take damage during the casting"
+        },
+        "Fouling Reposition": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Fouling Reposition",
+            "Prerequisites": "Improved Combat Maneuver (reposition)",
+            "Description": "Reposition a foe to throw it and another creature off balance"
+        },
+        "Four-Handed Hacker": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Four-Handed Hacker",
+            "Prerequisites": "Computers 1 rank, four or more hands",
+            "Description": "When you hack a computer, it’s a two-front war"
+        },
+        "Free Runner": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Free Runner",
+            "Prerequisites": "Acrobatics 3 ranks",
+            "Description": "You’re used to nimbly navigating constructed environments"
+        },
+        "Frightening Injection": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Frightening Injection",
+            "Prerequisites": "Intimidate 3 ranks",
+            "Description": "Intimidate your foes when you inject them"
+        },
+        "Frightful Display": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Frightful Display",
+            "Prerequisites": "Cha 15, Intimidate 5 ranks, ability to cast spells",
+            "Description": "Intimidate a foe as a reaction after they fail a save against your spell"
+        },
+        "Fusillade": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Fusillade",
+            "Prerequisites": "Base attack bonus +1, four or more arms",
+            "Description": "Make an automatic-mode attack with multiple small arms"
+        },
+        "Goad": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Goad",
+            "Prerequisites": "Antagonize or Quick Quip, Diplomacy 5 ranks",
+            "Description": "You know how to keep your foes flustered and infuriated."
+        },
+        "Grab and Go": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Grab and Go",
+            "Prerequisites": "—",
+            "Description": "You’re an expert at picking a pocket and running."
+        },
+        "Grab Attention": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Grab Attention",
+            "Prerequisites": "Intimidate 5 ranks",
+            "Description": "Make a foe you hit in melee off-target when attacking anyone other than you"
+        },
+        "Grappler Pull": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Grappler Pull",
+            "Prerequisites": "Str 11",
+            "Description": "Use a grappler to draw your foes closer to you"
+        },
+        "Grasping LFAN": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Grasping LFAN",
+            "Prerequisites": "Pincered LFAN",
+            "Description": "You’ve modified the ends of your LFAN to tighten their grip."
+        },
+        "Great Cleave": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Great Cleave",
+            "Prerequisites": "Str 13, Cleave, base attack bonus +4",
+            "Description": "Make an additional melee attack after each melee attack that hits"
+        },
+        "Great Fortitude": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Great Fortitude",
+            "Prerequisites": "—",
+            "Description": "+2 bonus to Fortitude saves"
+        },
+        "Greater Eldritch Lore": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Greater Eldritch Lore",
+            "Prerequisites": "Key ability score 21, Eldritch Lore, Lesser Eldritch Lore, Minor Eldritch Lore, caster level 13th, 13 levels in a class with a class spell list",
+            "Description": "Gain an additional 3rd-level spell known"
+        },
+        "Greater Feint": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Greater Feint",
+            "Prerequisites": "Improved Feint, base attack bonus +6",
+            "Description": "Foes you feint against are flat-footed for 1 round"
+        },
+        "Greater Spell Penetration": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Greater Spell Penetration",
+            "Prerequisites": "Spell Penetration",
+            "Description": "Additional +2 bonus to caster level checks to overcome SR"
+        },
+        "Grenade Mastery": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Grenade Mastery",
+            "Prerequisites": "Proficiency with grenades",
+            "Description": "Increase the saving throw DCs of grenades you use"
+        },
+        "Grenade Proficiency": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Grenade Proficiency",
+            "Prerequisites": "—",
+            "Description": "Gain proficiency with grenades"
+        },
+        "Ground Fighting": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Ground Fighting",
+            "Prerequisites": "Str 11",
+            "Description": "Ignore penalties to unarmed attacks when grappled, pinned, or prone"
+        },
+        "Group Negotiations": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Group Negotiations",
+            "Prerequisites": "Diplomacy or Intimidate 5 ranks",
+            "Description": "You’re able to bargain with large groups."
+        },
+        "Harm Undead": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Harm Undead",
+            "Prerequisites": "Healing channel connection power, mystic level 1st",
+            "Description": "Expend a spell slot for healing channel to also damage undead"
+        },
+        "Harmony of Bullets": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Harmony of Bullets",
+            "Prerequisites": "Multi-Weapon Fighting",
+            "Description": "When wielding multiple sonic weapons, you can modulate their frequencies to allow them to musically amplify each other when operated together."
+        },
+        "Hauler": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Hauler",
+            "Prerequisites": "Str 13",
+            "Description": "You can carry much more than usual"
+        },
+        "Heavy Armor Proficiency": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Heavy Armor Proficiency",
+            "Prerequisites": "Str 13, proficiency with light armor",
+            "Description": "Gain proficiency with heavy armor"
+        },
+        "Heavy Weapon Proficiency": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Heavy Weapon Proficiency",
+            "Prerequisites": "Str 13, proficiency with longarms and small arms",
+            "Description": "Gain proficiency with heavy weapons"
+        },
+        "Helpful Telepath": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Helpful Telepath",
+            "Prerequisites": "Communalism or hive defense racial trait, limited telepathy or telepathy racial trait",
+            "Description": "You’re able to provide uncanny support to your allies"
+        },
+        "Hibernate": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Hibernate",
+            "Prerequisites": "Con 13, any species that grants at least 6 Hit Points at 1st level",
+            "Description": "You can enter a deep, meditative state to heal yourself of wounds and infirmities."
+        },
+        "Hide Sabotage": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Hide Sabotage",
+            "Prerequisites": "Engineering 3 ranks.",
+            "Description": "You’re able to hide the evidence of your sabotage with ease."
+        },
+        "Hurl Ally": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Hurl Ally",
+            "Prerequisites": "size Large, Strength 17",
+            "Description": "You use your innate strength to launch a smaller ally into the thick of battle."
+        },
+        "Hyper Speed": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Hyper Speed",
+            "Prerequisites": "Hyper racial ability",
+            "Description": "You can’t hold still, making you difficult to hit."
+        },
+        "Improved Combat Maneuver": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Improved Combat Maneuver",
+            "Prerequisites": "Base attack bonus +1",
+            "Description": "+4 bonus to perform one combat maneuver"
+        },
+        "Improved Critical": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Improved Critical",
+            "Prerequisites": "Base attack bonus +8",
+            "Description": "The DC to resist the critical effects of your critical hits increases by 2"
+        },
+        "Improved Dive Bomb": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Improved Dive Bomb",
+            "Prerequisites": "Dex 14, Str 14, Dive Bomb, base attack bonus +7",
+            "Description": "Your attacks from above are powerful enough to drive your foes into the ground"
+        },
+        "Improved Energy Resistance": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Improved Energy Resistance",
+            "Prerequisites": "Con 13, character level 10th, energy resistance from a racial trait",
+            "Description": "Your natural energy resistance is more pronounced"
+        },
+        "Improved Feint": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Improved Feint",
+            "Prerequisites": "—",
+            "Description": "Use Bluff to feint as a move action"
+        },
+        "Improved Great Fortitude": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Improved Great Fortitude",
+            "Prerequisites": "Great Fortitude, character level 5th",
+            "Description": "Spend 1 Resolve Point to reroll a Fortitude save"
+        },
+        "Improved Initiative": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Improved Initiative",
+            "Prerequisites": "—",
+            "Description": "+4 bonus to initiative checks"
+        },
+        "Improved Iron Will": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Improved Iron Will",
+            "Prerequisites": "Iron Will, character level 5th",
+            "Description": "Spend 1 Resolve Point to reroll a Will save"
+        },
+        "Improved Kip-Up": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Improved Kip-Up",
+            "Prerequisites": "Acrobatics 1 rank, Kip-Up feat or moxie racial trait",
+            "Description": "You can stand from prone in a blink of an eye"
+        },
+        "Improved Lightning Reflexes": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Improved Lightning Reflexes",
+            "Prerequisites": "Lightning Reflexes, character level 5th",
+            "Description": "Spend 1 Resolve Point to reroll a Reflex save"
+        },
+        "Improved Sidestep": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Improved Sidestep",
+            "Prerequisites": "Dex 17, Mobility or trick attack class feature, Sidestep",
+            "Description": "Reduce penalties from Sidestep"
+        },
+        "Improved Spell-Like Ability": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Improved Spell-Like Ability",
+            "Prerequisites": "At least one spell-like ability that is a level-0 or 1st-level spell, character level 4th",
+            "Description": "You have focused on honing your innate magical talents."
+        },
+        "Improved Stand Still": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Improved Stand Still",
+            "Prerequisites": "Stand Still",
+            "Description": "+4 bonus to melee attacks with Stand Still"
+        },
+        "Improved Supporting Fire": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Improved Supporting Fire",
+            "Prerequisites": "Base attack bonus +6.",
+            "Description": "Your ranged attacks provide better support for your allies."
+        },
+        "Improved Unarmed Strike": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Improved Unarmed Strike",
+            "Prerequisites": "—",
+            "Description": "Deal more damage and threaten squares with unarmed strikes"
+        },
+        "In Harm’s Way": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=In Harm’s Way",
+            "Prerequisites": "Bodyguard",
+            "Description": "Take the damage of a successful attack against an adjacent ally"
+        },
+        "Instant Crater": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Instant Crater",
+            "Prerequisites": "Base attack bonus +5",
+            "Description": "Weapons with the explode special property create difficult terrain"
+        },
+        "Intuit Relationships": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Intuit Relationships",
+            "Prerequisites": "Perception 1 rank, Sense Motive 1 rank",
+            "Description": "You can quickly sense relationships between others and use that knowledge to manipulate them."
+        },
+        "Iron Will": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Iron Will",
+            "Prerequisites": "—",
+            "Description": "+2 bonus to Will saves"
+        },
+        "Jet Charge": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Jet Charge",
+            "Prerequisites": "Piloting 3 ranks",
+            "Description": "Boost your charge attacks with jets to move farther"
+        },
+        "Jet Dash": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Jet Dash",
+            "Prerequisites": "—",
+            "Description": "Move faster when running, double height and distance when jumping"
+        },
+        "Jinx": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Jinx",
+            "Prerequisites": "Character level 9th.",
+            "Description": "You have learned to tweak the luck of not just your allies, but your enemies as well. By changing an enemy’s fate at a critical moment, you can deny them a moment of victory."
+        },
+        "Kasathan Battle Dance": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Kasathan Battle Dance",
+            "Prerequisites": "Prerequisites: Dex 13, Mobility or trick attack",
+            "Description": "Avoid all attacks of opportunity when you withdraw"
+        },
+        "Kip Up": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Kip Up",
+            "Prerequisites": "Acrobatics 1 rank",
+            "Description": "Stand from prone as a swift action"
+        },
+        "Last-chance Grab": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Last-chance Grab",
+            "Prerequisites": "Athletics 3 ranks",
+            "Description": "You can arrest your fall when climbing."
+        },
+        "Laugh at Danger": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Laugh at Danger",
+            "Prerequisites": "Con 13",
+            "Description": "Grant an ally a +2 morale bonus to AC as a reaction when you take Hit Point damage"
+        },
+        "Lesser Eldritch Lore": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Lesser Eldritch Lore",
+            "Prerequisites": "Key ability score 17, Minor Eldritch Lore, caster level 7th, 7 levels in a class with a class spell list",
+            "Description": "Gain an additional 1st-level spell known"
+        },
+        "Light Armor Proficiency": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Light Armor Proficiency",
+            "Prerequisites": "—",
+            "Description": "Gain proficiency with light armo"
+        },
+        "Lightning Reflexes": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Lightning Reflexes",
+            "Prerequisites": "—",
+            "Description": "+2 bonus to Reflex saves"
+        },
+        "Living Ladder": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Living Ladder",
+            "Prerequisites": "Str 17",
+            "Description": "Hit an adjacent foe with an unarmed attack to stand and possibly knock them prone"
+        },
+        "Longarm Proficiency": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Longarm Proficiency",
+            "Prerequisites": "Proficiency with small arms",
+            "Description": "Gain proficiency with longarms"
+        },
+        "Lucky Guess": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Lucky Guess",
+            "Prerequisites": "Any species trait or feat that allows you to reroll a d20.",
+            "Description": "Even if you don’t know an answer, sometimes you arrive at the solution anyway with a lucky guess. "
+        },
+        "Lung Puncture": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Lung Puncture",
+            "Prerequisites": "—",
+            "Description": "Your critical hits with piercing weapons cause foes to be fatigued"
+        },
+        "Lunge": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Lunge",
+            "Prerequisites": "Base attack bonus +6",
+            "Description": "Increase reach of melee attacks by 5 feet until the end of your turn"
+        },
+        "Major Draconic Form": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Major Draconic Form",
+            "Prerequisites": "7th level, Cha 15, Minor Draconic Form",
+            "Description": "Your inner shapeshifting potential allows you to attain increasingly powerful draconic forms."
+        },
+        "Major Eldritch Lore": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Major Eldritch Lore",
+            "Prerequisites": "Key ability score 23, Eldritch Lore, Greater Eldritch Lore, Lesser Eldritch Lore, Minor Eldritch Lore, caster level 16th, 16 levels in a class with a class spell list",
+            "Description": "Gain an additional 4th-level spell known"
+        },
+        "Major Naturalism": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Major Naturalism",
+            "Prerequisites": "Wis 15, Minor Naturalism, Naturalism, character level 7th",
+            "Description": "Nature’s power flows through you, allowing you to warp your enemies or shroud you from harm."
+        },
+        "Major Psychic Power": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Major Psychic Power",
+            "Prerequisites": "Cha 15, Minor Psychic Power, Psychic Power, character level 7th",
+            "Description": "Cast a 2nd-level spell as a spell-like ability 1/day"
+        },
+        "Major Stage Magic": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Major Stage Magic",
+            "Prerequisites": "Cha 15, Minor Stage Magic, Stage Magic, character level 7th",
+            "Description": "Gain a 2nd-level spell-like ability"
+        },
+        "Many-Handed Master": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Many-Handed Master",
+            "Prerequisites": "Four or more arms",
+            "Description": "You use your many limbs to counter combat maneuvers"
+        },
+        "Masked Visage": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Masked Visage",
+            "Prerequisites": "—",
+            "Description": "With your face concealed, you can be inscrutable"
+        },
+        "Massive Splash": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Massive Splash",
+            "Prerequisites": "Str 11, base attack bonus +1",
+            "Description": "You can batter the water’s surface to create a huge sheet of water that temporarily conceals you from your foes."
+        },
+        "Master Crafter": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Master Crafter",
+            "Prerequisites": "Computers, Engineering, Life Science, Mysticism, Physical Science, or appropriate Profession 5 ranks",
+            "Description": "Craft items in half the normal time"
+        },
+        "Masterful Imitation": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Masterful Imitation",
+            "Prerequisites": "Change form species trait or Disguise 7 ranks",
+            "Description": "Your mastery of disguises allows you to pass for creatures wildly different from your own species."
+        },
+        "Medical Expert": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Medical Expert",
+            "Prerequisites": "Life Science 1 rank, Medicine 1 rank, Physical Science 1 rank",
+            "Description": "Treat deadly wounds more quickly, and provide long-term care without a medical lab"
+        },
+        "Melt Defenses": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Melt Defenses",
+            "Prerequisites": "Base attack bonus +11",
+            "Description": "On a critical hit, cause further attacks against a foe to target EAC"
+        },
+        "Memorable Coercer": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Memorable Coercer",
+            "Prerequisites": "Intimidate 1 rank",
+            "Description": "You know how to use coercion to change people’s minds without suffering the consequences."
+        },
+        "Memory Access": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Memory Access",
+            "Prerequisites": "Construct type, constructed racial trait, exocortex, or head slot augmentation",
+            "Description": "+2 insight bonus to skill checks to identify creatures and recall knowledge"
+        },
+        "Minor Draconic Form": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Minor Draconic Form",
+            "Prerequisites": "Cha 13; dragon type, dragon-scaled species ability, or dragonblood theme",
+            "Description": "You have a natural talent for assuming draconic form."
+        },
+        "Minor Eldritch Lore": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Minor Eldritch Lore",
+            "Prerequisites": "Key ability score 15, caster level 4th, 4 levels in a class with a class spell list",
+            "Description": "Gain an additional 0-level spell known"
+        },
+        "Minor Naturalism": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Minor Naturalism",
+            "Prerequisites": "Wis 11",
+            "Description": "You’re so close to nature that you can summon fragments of natural magic to aid you."
+        },
+        "Minor Psychic Power": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Minor Psychic Power",
+            "Prerequisites": "Cha 11",
+            "Description": "Cast a 0-level spell as a spell-like ability 3/day"
+        },
+        "Minor Stage Magic": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Minor Stage Magic",
+            "Prerequisites": "Cha 11",
+            "Description": "Gain a 0-level spell-like ability"
+        },
+        "Mobility": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Mobility",
+            "Prerequisites": "Dex 13",
+            "Description": "+4 bonus to AC against attacks of opportunity from movement"
+        },
+        "Momentous Attack": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Momentous Attack",
+            "Prerequisites": "Str 11, Athletics 5 ranks",
+            "Description": "On a melee critical hit, move 5 feet"
+        },
+        "Morphing Feint": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Morphing Feint",
+            "Prerequisites": "Bluff 1 rank, Disguise 1 rank",
+            "Description": "Your sudden change of appearance creates an opening for an attack"
+        },
+        "Mounted Expert": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Mounted Expert",
+            "Prerequisites": "Combat-Trained Mount, Survival 5 ranks",
+            "Description": "You can stay mounted when knocked prone"
+        },
+        "Multitudinous LFAN": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Multitudinous LFAN",
+            "Prerequisites": "Strength 13, LFAN species trait",
+            "Description": "Your LFAN’s tendrils can lift heavy loads that unbalance you."
+        },
+        "Multi-Weapon Fighting": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Multi-Weapon Fighting",
+            "Prerequisites": "—",
+            "Description": "Reduce the penalty for full attacks when using multiple small arms or operative melee weapons"
+        },
+        "Mystic Strike": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Mystic Strike",
+            "Prerequisites": "Ability to cast spells",
+            "Description": "Melee and ranged attacks count as magic"
+        },
+        "Nanite Integration": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Nanite Integration",
+            "Prerequisites": "Character level 3rd, constructed racial trait or construct type",
+            "Description": "Nanites responsible for maintaining your constructed body have been upgraded, and a subset of them has been reprogrammed to perform incredible feats"
+        },
+        "Naturalism": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Naturalism",
+            "Prerequisites": "Wis 13, Minor Naturalism, character level 4th",
+            "Description": "Your bond to nature strengthens, bringing with it new magical talents."
+        },
+        "Nimble Moves": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Nimble Moves",
+            "Prerequisites": "Dex 15",
+            "Description": "Ignore 20 feet of difficult terrain when you move"
+        },
+        "Obnoxious Trickster": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Obnoxious Trickster",
+            "Prerequisites": "Improved Combat Maneuver (dirty trick)",
+            "Description": "You slip in dirty tricks at every opportunity and impose tenacious conditions."
+        },
+        "Opening Volley": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Opening Volley",
+            "Prerequisites": "—",
+            "Description": "+2 bonus to a melee attack against a target you damaged with a ranged attack"
+        },
+        "Operatic Shatter": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Operatic Shatter",
+            "Prerequisites": "Perception 6 ranks",
+            "Description": "Through observation and experimentation, you can determine the exact pitch to shatter glass with your voice—and sturdier objects with your spells and weapons."
+        },
+        "Oracular Gift": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Oracular Gift",
+            "Prerequisites": "Ability to cast <i>augury</i>",
+            "Description": "Gain +1 to initiative checks, and you can cast an enhanced augury once per day without spending RP"
+        },
+        "Parting Shot": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Parting Shot",
+            "Prerequisites": "Dex 15, Mobility, Shot on the Run, base attack bonus +6",
+            "Description": "Make a single ranged attack when withdrawing"
+        },
+        "Penetrating Attack": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Penetrating Attack",
+            "Prerequisites": "Base attack bonus +12",
+            "Description": "Reduce enemy's DR and energy resistance against your weapons by 5"
+        },
+        "Penetrating Spell": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Penetrating Spell",
+            "Prerequisites": "Ability to cast 4th-level spells",
+            "Description": "Reduce enemy's DR and energy resistance against your spells by 5"
+        },
+        "Percussive Maintenance": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Percussive Maintenance",
+            "Prerequisites": "Str 11",
+            "Description": "Reroll checks for engineer crew actions in starship combat and engineering checks to repair items"
+        },
+        "Pincered LFAN": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Pincered LFAN",
+            "Prerequisites": "LFAN species trait",
+            "Description": "You’ve developed sharpened, retractable pincers at the ends of your LFAN tendrils, turning them into lethal weapons."
+        },
+        "Pinpoint Hearing": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Pinpoint Hearing",
+            "Prerequisites": "Echolocation Attack, Perception 9 ranks",
+            "Description": "You hear echoes so clearly that even the reflected sound of your footsteps or the hum of a starship’s engine can disclose hidden secrets."
+        },
+        "Pinpoint Hurler": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Pinpoint Hurler",
+            "Prerequisites": "Str 15",
+            "Description": "Reduce the distance your thrown weapons travel when they miss"
+        },
+        "Poison Adaptation": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Poison Adaptation",
+            "Prerequisites": "Con 11",
+            "Description": "Gain a +2 enhancement bonus to saves against poison and take half damage from initial exposure"
+        },
+        "Poison Rejection (COM)": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Poison Rejection (COM)",
+            "Prerequisites": "Con 17, Poison Adaptation",
+            "Description": "Recover from poisons more swiftly"
+        },
+        "Poison Rejection (NS)": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Poison Rejection (NS)",
+            "Prerequisites": "Racial trait with “poison” or “slime” in the name",
+            "Description": "You’ve mastered a method of using your bodily fluids to negate poison and venom."
+        },
+        "Polymorph Adept": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Polymorph Adept",
+            "Prerequisites": "You know the <a href=\"SpellDisplay.aspx?ItemName=polymorph\" style=\"text-decoration:underline\"><i>polymorph</i></a> spell as a 3rd-level spell or higher",
+            "Description": "Change the form of your polymorph spell"
+        },
+        "Polymorphic Titan": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Polymorphic Titan",
+            "Prerequisites": "17th level, you know the polymorph spell as a 6th-level spell, and you have at least one Huge predetermined polymorph form.",
+            "Description": "You can transform into utterly enormous creatures."
+        },
+        "Positive Conduit": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Positive Conduit",
+            "Prerequisites": "Con 13",
+            "Description": "Gain extra Hit Points from magical healing"
+        },
+        "Powered Armored Proficiency": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Powered Armored Proficiency",
+            "Prerequisites": "Str 13, proficiency with light armor and heavy armor, base attack bonus +5",
+            "Description": "Gain proficiency with powered armor"
+        },
+        "Protective Fur": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Protective Fur",
+            "Prerequisites": "Skittermander or ysoki",
+            "Description": "Gain +2 circumstance bonus to saves against heat and cold dangers and +4 circumstance bonus to avoid contracting contact afflictions"
+        },
+        "Protector of Kahlannal": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Protector of Kahlannal",
+            "Prerequisites": "Anassanoi, any non-chaotic and non-evil alignment",
+            "Description": "You have a unique psychic bond with your own Protector chariot."
+        },
+        "Psychic Power": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Psychic Power",
+            "Prerequisites": "Cha 13, Minor Psychic Power, character level 4th",
+            "Description": "Cast a 1st-level spell as a spell-like ability 1/day"
+        },
+        "Psychic Stalking": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Psychic Stalking",
+            "Prerequisites": "Telepathy or limited telepathy species trait.",
+            "Description": "With extensive training, you have begun to sense the faint psychic trails left behind by intelligent and psychic creatures. You can use this newfound sensitivity to track prey with your psychic powers."
+        },
+        "Pull the Pin": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Pull the Pin",
+            "Prerequisites": "Improved Combat Maneuver (disarm)",
+            "Description": "Perform a disarm to activate a foe’s grenade"
+        },
+        "Quick Draw": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Quick Draw",
+            "Prerequisites": "Base attack bonus +1",
+            "Description": "Draw a weapon as a swift action"
+        },
+        "Quick Quip": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Quick Quip",
+            "Prerequisites": "Int 11, Diplomacy 1 rank",
+            "Description": "You infuriate foes with a witty remark or retort."
+        },
+        "Quicker Trickler": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Quicker Trickler",
+            "Prerequisites": "Medicine 3 ranks",
+            "Description": "Administer serums as a standard action instead of a full action"
+        },
+        "Rallying Roar": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Rallying Roar",
+            "Prerequisites": "Cha 13, Intimidate 1 rank",
+            "Description": "You’ve honed your voice to echo over the battlefield."
+        },
+        "Reality Glimmer": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Reality Glimmer",
+            "Prerequisites": "Cha 15, character level 5th, no levels in witchwarper",
+            "Description": "Gain the ability to cast minor witchwarper spells"
+        },
+        "Recall Spirit": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Recall Spirit",
+            "Prerequisites": "Third Eye, Mysticism 7 ranks",
+            "Description": "Your third eye allows you to communicate with the dead."
+        },
+        "Reflect Projectiles": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Reflect Projectiles",
+            "Prerequisites": "Deflect Projectiles, base attack bonus +16",
+            "Description": "Spend 1 Resolve Point to attempt to redirect a ranged attack"
+        },
+        "Reject Chains": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Reject Chains",
+            "Prerequisites": "Shirren",
+            "Description": "+2 insight bonus to saves against charm and compulsion effects, and you can reroll saves against such effects"
+        },
+        "Reliable Connections": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Reliable Connections",
+            "Prerequisites": "Character level 5th.",
+            "Description": "You can call in favors owed by various connections to get you the equipment you need in a pinch."
+        },
+        "Rending Slash": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Rending Slash",
+            "Prerequisites": "Str 13, Dex 13, natural weapons (s) species trait",
+            "Description": "You viciously tear into an opponent’s flesh, leaving behind deep, jagged wounds."
+        },
+        "Retrotech": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Retrotech",
+            "Prerequisites": "—",
+            "Description": "You have a talent for dealing with ancient technology."
+        },
+        "Ricochet Grenade": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Ricochet Grenade",
+            "Prerequisites": "Proficiency with grenades, base attack bonus +7",
+            "Description": "Bounce a grenade off a wall to reach difficult spo"
+        },
+        "Righteous Frenzy": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Righteous Frenzy",
+            "Prerequisites": "Frenzy species trait",
+            "Description": "Your furious defense of injured friends transforms you into a conduit for divine power, likely Hylax’s, but perhaps that of some other patron."
+        },
+        "Sacred Strike": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Sacred Strike",
+            "Prerequisites": "Worship a deity of an alignment within one step of your own",
+            "Description": "Treat your attacks as having your deity’s alignment"
+        },
+        "Scurry": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Scurry",
+            "Prerequisites": "Racial bonus to Dexterity, size Small",
+            "Description": "Your small size affords you superior tactical positioning"
+        },
+        "Sense Assumptions": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Sense Assumptions",
+            "Prerequisites": "Sense Motive 1 rank",
+            "Description": "You can easily intuit a person’s preconceptions."
+        },
+        "Shelter Ally": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Shelter Ally",
+            "Prerequisites": "Bodyguard, natural reach of 10 feet or more",
+            "Description": "Use Bodyguard to protect allies within reach and increase the bonus and penalty by 1 when protecting a smaller creature"
+        },
+        "Shield Block": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Shield Block",
+            "Prerequisites": "Proficiency with shields",
+            "Description": "Spent 1 Resolve Point as a reaction to reduce damage from area effects"
+        },
+        "Shield Proficiency": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Shield Proficiency",
+            "Prerequisites": "—",
+            "Description": "Gain proficiency with shields"
+        },
+        "Shifter’s Eye": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Shifter’s Eye",
+            "Prerequisites": "Change form species trait or Disguise 5 ranks",
+            "Description": "Your mastery of disguises has made you adept at spotting impostors."
+        },
+        "Shot on the Run": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Shot on the Run",
+            "Prerequisites": "Dex 15, Mobility, base attack bonus +4",
+            "Description": "Make a ranged attack at any point during movement"
+        },
+        "Sidestep": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Sidestep",
+            "Prerequisites": "Dex 15, Mobility or trick attack class feature",
+            "Description": "Take guarded step as a reaction when a foe misses you with melee attack"
+        },
+        "Silt Shield": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Silt Shield",
+            "Prerequisites": "Stealth 1 rank, Survival 1 rank",
+            "Description": "You’re an expert at adopting emergency camouflage"
+        },
+        "Skill Focus": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Skill Focus",
+            "Prerequisites": "—",
+            "Description": "+3 insight bonus to one skill"
+        },
+        "Skill Synergy": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Skill Synergy",
+            "Prerequisites": "—",
+            "Description": "Gain two new class skills or a +2 insight bonus to those skills"
+        },
+        "Sky Jockey": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Sky Jockey",
+            "Prerequisites": "Piloting 5 ranks",
+            "Description": "Make jetpacks, vehicles, and starships go faster"
+        },
+        "Slam Down": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Slam Down",
+            "Prerequisites": "—",
+            "Description": "Your critical hits with bludgeoning weapons knock down your foes"
+        },
+        "Slippery Shooter": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Slippery Shooter",
+            "Prerequisites": "Dex 15, base attack bonus +6",
+            "Description": "+3 bonus to AC against attacks of opportunity when making ranged attacks"
+        },
+        "Small Arm Proficiency": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Small Arm Proficiency",
+            "Prerequisites": "—",
+            "Description": "Gain proficiency with small arms"
+        },
+        "Sniper Weapon Proficiency": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Sniper Weapon Proficiency",
+            "Prerequisites": "—",
+            "Description": "Gain proficiency with sniper weapons"
+        },
+        "Solid Stance": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Solid Stance",
+            "Prerequisites": "Con 15",
+            "Description": "Become harder to move, and use a reaction to avoid being knocked prone"
+        },
+        "Soothing Focus": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Soothing Focus",
+            "Prerequisites": "Psychic reverb species trait, character level 7th.",
+            "Description": "Through meditation and continual psychic training, you have learned to tune out the worst of the psychic echoes that rattle you."
+        },
+        "Soothing Telepathy": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Soothing Telepathy",
+            "Prerequisites": "Limited telepathy or telepathy",
+            "Description": "+2 insight bonus to saves against mind-affecting effects that you can extend to nearby allies"
+        },
+        "Special Weapon Proficiency": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Special Weapon Proficiency",
+            "Prerequisites": "Proficiency with basic melee weapons or small arms",
+            "Description": "Gain proficiency with one special weapon"
+        },
+        "Spell Feint": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Spell Feint",
+            "Prerequisites": "—",
+            "Description": "When you successfully feint, your foe takes a –1 penalty to saves against your next spell"
+        },
+        "Spell Focus": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Spell Focus",
+            "Prerequisites": "Ability to cast spells, character level 3rd",
+            "Description": "DCs of spells you cast increase"
+        },
+        "Spell Penetration": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Spell Penetration",
+            "Prerequisites": "—",
+            "Description": "+2 bonus to caster level checks to overcome SR"
+        },
+        "Spellbane": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Spellbane",
+            "Prerequisites": "Unable to cast spells or use spell-like abilities",
+            "Description": "+2 insight bonus to saving throws against spells and spell-like abilities"
+        },
+        "Spellguard": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Spellguard",
+            "Prerequisites": "Mysticism 3 ranks",
+            "Description": "Grant an ally a +2 insight bonus against a spell as a reaction"
+        },
+        "Spirit Shield": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Spirit Shield",
+            "Prerequisites": "Third Eye",
+            "Description": "Your third eye deflects some force effects."
+        },
+        "Spot of Luck": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Spot of Luck",
+            "Prerequisites": "Any racial trait or feat that grants a d20 reroll, character level 5th",
+            "Description": "When escaping tight spots, you defy the odds"
+        },
+        "Spot Structural Vulnerability": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Spot Structural Vulnerability",
+            "Prerequisites": "Engineering 5 ranks, Perception 5 ranks",
+            "Description": "You have an eye for structural flaws and poor artisanship."
+        },
+        "Spring Attack": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Spring Attack",
+            "Prerequisites": "Dex 15, Mobility, base attack bonus +4",
+            "Description": "Move before and after a melee attack"
+        },
+        "Spry Cover": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Spry Cover",
+            "Prerequisites": "Base attack bonus +1",
+            "Description": "Covering fire grants a +4 bonus to an ally’s Acrobatics check to tumble"
+        },
+        "Stage Magic": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Stage Magic",
+            "Prerequisites": "Cha 13, Minor Stage Magic, character level 4th",
+            "Description": "Gain a 1st-level spell-like ability"
+        },
+        "Stand Still": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Stand Still",
+            "Prerequisites": "—",
+            "Description": "Make an attack of opportunity to stop a foe’s movement"
+        },
+        "Stand Strong": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Stand Strong",
+            "Prerequisites": "Stand Still",
+            "Description": "When you plant yourself in place, you’re difficult to move past."
+        },
+        "Startling Charge": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Startling Charge",
+            "Prerequisites": "Str 13, Intimidate 1 rank, ferocious charge universal creature rule",
+            "Description": "You use your charge mainly to frighten your enemies rather than to attack them directly."
+        },
+        "Steady Flier": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Steady Flier",
+            "Prerequisites": "Acrobatics 5 ranks",
+            "Description": "Through focused training, you can fly through inclement conditions with ease"
+        },
+        "Steady Footing": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Steady Footing",
+            "Prerequisites": "More than two legs or similar limbs",
+            "Description": "You use your multiple legs to your advantage."
+        },
+        "Step Up": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Step Up",
+            "Prerequisites": "Base attack bonus +1",
+            "Description": "Take a guarded step as a reaction to an adjacent foe moving"
+        },
+        "Step Up and Strike": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Step Up and Strike",
+            "Prerequisites": "Dex 13, Step Up, base attack bonus +6",
+            "Description": "Make an attack of opportunity as part of Step Up"
+        },
+        "Strafe": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Strafe",
+            "Prerequisites": "Dex 17, Mobility, Shot on the Run, base attack bonus +12",
+            "Description": "Your quick reflexes allow you to shoot rapidly from the air"
+        },
+        "Street Racer": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Street Racer",
+            "Prerequisites": "Piloting 2 ranks",
+            "Description": "You’ve picked up the talent of drifting around tight city curves and can perform this maneuver whenever you pilot a vehicle"
+        },
+        "Street Smarts": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Street Smarts",
+            "Prerequisites": "Sense Motive 5 ranks",
+            "Description": "You’ve developed your judgment through broad experiences and have learned to gather information at a glance"
+        },
+        "Strike Back": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Strike Back",
+            "Prerequisites": "Base attack bonus +1",
+            "Description": "Ready an action to make a melee attack against a foe with reach"
+        },
+        "Superheated Spells": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Superheated Spells",
+            "Prerequisites": "Ability to cast spells, Mysticism 5 ranks",
+            "Description": "Your particular brand of fire magic can superheat air or water instead of producing fire, allowing your spells to remain effective underwater."
+        },
+        "Suppressive Fire": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Suppressive Fire",
+            "Prerequisites": "Base attack bonus +1, proficiency with heavy weapons",
+            "Description": "Provide covering fire or harrying fire in an area"
+        },
+        "Survivalist": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Survivalist",
+            "Prerequisites": "Self-sufficient racial trait",
+            "Description": "You know how to live off the land"
+        },
+        "Swimming Master": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Swimming Master",
+            "Prerequisites": "Athletics 5 ranks",
+            "Description": "Gain a swim speed equal to your land speed"
+        },
+        "Tactful Advisor": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Tactful Advisor",
+            "Prerequisites": "Cha 11",
+            "Description": "Provide an additional +1 enhancement bonus when your aid another check result is 20 or higher"
+        },
+        "Tailored Serum": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Tailored Serum",
+            "Prerequisites": "Life Science 5 ranks",
+            "Description": "Grant additional Hit Points to a particular creature with a customized <i>serum of healing</i>"
+        },
+        "Take This": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Take This",
+            "Prerequisites": "—",
+            "Description": "You can retrieve items quickly from the body of a companion who’s unable to act."
+        },
+        "Tandem Feint": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Tandem Feint",
+            "Prerequisites": "Base attack bonus +6, Improved Feint",
+            "Description": "You can work with an ally to place your foes off-balance."
+        },
+        "Tandem Maneuver": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Tandem Maneuver",
+            "Prerequisites": "Base attack bonus +6, Improved Combat Maneuver (any)",
+            "Description": "You can work in concert with an ally to perform maneuvers in combat."
+        },
+        "Target of Opportunity": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Target of Opportunity",
+            "Prerequisites": "Base attack bonus +6",
+            "Description": "You take advantage of a foe’s slipup."
+        },
+        "Technomantic Dabbler": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Technomantic Dabbler",
+            "Prerequisites": "Intelligence 15, character level 5th, no levels in technomancer",
+            "Description": "Gain the ability to cast minor technomancer spells"
+        },
+        "Telepathic Scream": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Telepathic Scream",
+            "Prerequisites": "Intimidate 3 ranks; limited telepathy or telepathy",
+            "Description": "Create a distressing telepathic scream that causes foes to become shaken"
+        },
+        "Terrifying Presence": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Terrifying Presence",
+            "Prerequisites": "Intimidating racial trait",
+            "Description": "Your fearsome displays instill fear longer"
+        },
+        "Terrifying Presence (IS)": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Terrifying Presence (IS)",
+            "Prerequisites": "breath weapon species trait",
+            "Description": "Your use of your breath weapon strikes fear into the hearts of your enemies."
+        },
+        "Third Eye": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Third Eye",
+            "Prerequisites": "Wisdom 15, Mysticism 5 ranks",
+            "Description": "You’ve expanded your mind beyond the limits of the material world."
+        },
+        "Three-Point Stance": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Three-Point Stance",
+            "Prerequisites": "—",
+            "Description": "If you have a free hand, you take 1d6 less damage from falling, don’t fall prone from falling, and gain benefits in zero-g maneuvering"
+        },
+        "Through the Lines": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Through the Lines",
+            "Prerequisites": "Dex 13",
+            "Description": "You can charge through one ally’s space"
+        },
+        "Tight Fit": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Tight Fit",
+            "Prerequisites": "Large size or larger",
+            "Description": "You are not entangled when squeezing"
+        },
+        "Timely Coordination": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Timely Coordination",
+            "Prerequisites": "—",
+            "Description": "You can time your teamwork precisely."
+        },
+        "Toughness": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Toughness",
+            "Prerequisites": "—",
+            "Description": "+1 Stamina Point per character level and other bonuses"
+        },
+        "Toxic Strike": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Toxic Strike",
+            "Prerequisites": "Con 13, natural weapons species trait",
+            "Description": "Your body naturally generates venom that you can deliver with your natural armaments."
+        },
+        "Trading Places": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Trading Places",
+            "Prerequisites": "Character level 7th",
+            "Description": "You have trained with the Vault of Vorlath or another tight-knit mercenary group and have learned their advanced positioning and teamwork skills. The Vorlath mercenaries are known for their ability to weave in and out of combat, tossing allies and clients to safety"
+        },
+        "Tripping Rush": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Tripping Rush",
+            "Prerequisites": "Improved Combat Maneuver (trip), base attack bonus +5",
+            "Description": "Knock a target prone when you bull rush them into an obstacle"
+        },
+        "True Dragon Form": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=True Dragon Form",
+            "Prerequisites": "15th level, Cha 17, Major Draconic Form",
+            "Description": "You can transform into a truly awe-inspiring dragon."
+        },
+        "Tunneling Vanguard": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Tunneling Vanguard",
+            "Prerequisites": "Burrow speed",
+            "Description": "By taking your time, you can clear a way through soil for your companions, not just for yourself."
+        },
+        "Unbreakable Will": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Unbreakable Will",
+            "Prerequisites": "Telepathy or limited telepathy racial trait",
+            "Description": "Your telepathy grants you an unparalleled strength of mind."
+        },
+        "Underfoot": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Underfoot",
+            "Prerequisites": "Scurry, Acrobatics 10 ranks, racial bonus to Dexterity, size Small",
+            "Description": "You use your small size against larger foes"
+        },
+        "Underhanded Snare": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Underhanded Snare",
+            "Prerequisites": "Improved Combat Maneuver (dirty trick); constrictor’s grasp, enveloping grip, grappler, or snag racial trait",
+            "Description": "You’re a storm of grasping limbs or winding coils, ensnaring foes in underhanded ways."
+        },
+        "Underwater Brawler": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Underwater Brawler",
+            "Prerequisites": "Str 15, base attack bonus +5",
+            "Description": "Even underwater, you can leverage your strength to devastating effect."
+        },
+        "Unfriendly Fire": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Unfriendly Fire",
+            "Prerequisites": "Bluff 5 ranks",
+            "Description": "Trick an attacker into shooting at another enemy adjacent to you"
+        },
+        "Unionist": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Unionist",
+            "Prerequisites": "Base attack bonus +1",
+            "Description": "You have survived terrible ordeals and exploitation, and you now naturally come together to help protect others against more powerful opponents."
+        },
+        "Unsinkable Caster": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Unsinkable Caster",
+            "Prerequisites": "Ability to cast spells, character level 3rd",
+            "Description": "You tap into your inner focus, allowing you to cast spells even in dire situations."
+        },
+        "Urbanist": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Urbanist",
+            "Prerequisites": "Sense Motive 5 ranks",
+            "Description": "You have an intuitive understanding of built environments and how people move through them"
+        },
+        "Veiled Threat": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Veiled Threat",
+            "Prerequisites": "Cha 15, Intimidate 1 rank",
+            "Description": "Intimidated foe doesn’t become hostile"
+        },
+        "Versatile Fighting": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Versatile Fighting",
+            "Prerequisites": "Adaptive Fighting, character level 5",
+            "Description": "Spend RP to use Adaptive Fighting more often in a day"
+        },
+        "Versatile Focus": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Versatile Focus",
+            "Prerequisites": "Weapon Focus (any)",
+            "Description": "+1 bonus to attack rolls with all weapon types you are proficient with"
+        },
+        "Versatile Specialization": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Versatile Specialization",
+            "Prerequisites": "Weapon Specialization, character level 3rd",
+            "Description": "Deal extra damage with all weapon types you are proficient with"
+        },
+        "Vestigial Vigor": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Vestigial Vigor",
+            "Prerequisites": "Vestigial arms species trait",
+            "Description": "Whether due to genetics or carefully targeted exercises, your vestigial arms are especially strong."
+        },
+        "Vidgame Aficionado": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Vidgame Aficionado",
+            "Prerequisites": "Profession (vidgamer) 7 ranks",
+            "Description": "Through dedication, you’ve honed your skill at games and employed them in your daily life"
+        },
+        "Vision of Entropy": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Vision of Entropy",
+            "Prerequisites": "Third Eye",
+            "Description": "Your studies of the third eye permit you to see the inevitable end to which all choices lead."
+        },
+        "Water Magic": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Water Magic",
+            "Prerequisites": "Ability to cast spells",
+            "Description": "You have a magical affinity for spells that manipulate water"
+        },
+        "Weapon Focus": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Weapon Focus",
+            "Prerequisites": "Proficiency with selected weapon type",
+            "Description": "+1 bonus to attack rolls with selected weapon type"
+        },
+        "Weapon Specialization": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Weapon Specialization",
+            "Prerequisites": "Character level 3rd, proficiency with selected weapon type",
+            "Description": "Deal extra damage with selected weapon type"
+        },
+        "Wind Shield": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Wind Shield",
+            "Prerequisites": "Str 11, base attack bonus +5",
+            "Description": "You can manipulate the air currents surrounding you to defend against attacks"
+        }
+    }
+}

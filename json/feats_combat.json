@@ -1,0 +1,609 @@
+{
+    "Combat_Feats": {
+        "Above and Below": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Above and Below",
+            "Prerequisites": "Base attack bonus +6",
+            "Description": "When you pair up with a differently sized ally, your foes have little chance to dodge your attacks."
+        },
+        "Adaptive Fighting": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Adaptive Fighting",
+            "Prerequisites": "Three or more combat feats",
+            "Description": "Once per day as a move action, gain the benefit of a combat feat you don’t have"
+        },
+        "Add Leverage": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Add Leverage",
+            "Prerequisites": "Str 15",
+            "Description": "Grip your weapon with more hands to move foes farther with combat maneuvers"
+        },
+        "Advance Warning": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Advance Warning",
+            "Prerequisites": "Cha 15",
+            "Description": "Shout a warning to your allies, causing them to stop being flat-footed"
+        },
+        "Advanced Melee Weapon Proficiency": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Advanced Melee Weapon Proficiency",
+            "Prerequisites": "Proficiency in basic melee weapons",
+            "Description": "No penalty to attacks with advanced melee weapons"
+        },
+        "Ambuscade": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Ambuscade",
+            "Prerequisites": "—",
+            "Description": "When you make an attack in the surprise round against a target that has not yet acted, gain a bonus to attacks and damage"
+        },
+        "Ambush Awareness": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Ambush Awareness",
+            "Prerequisites": "—",
+            "Description": "If you fail the Perception check to act in the surprise round, you can still take a full defense action"
+        },
+        "Amplified Glitch": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Amplified Glitch",
+            "Prerequisites": "Computers 3 ranks, Intimidate 3 ranks",
+            "Description": "Disrupt devices, causing targets to become shaken for 1 round or more"
+        },
+        "Back to Back": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Back to Back",
+            "Prerequisites": "Perception 3 ranks",
+            "Description": "You aren’t as easy to hit when surrounded."
+        },
+        "Barricade": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Barricade",
+            "Prerequisites": "Engineering 1 rank",
+            "Description": "Create your own fragile cover"
+        },
+        "Basic Melee Weapon Proficiency": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Basic Melee Weapon Proficiency",
+            "Prerequisites": "—",
+            "Description": "Gain proficiency with basic melee weapons"
+        },
+        "Blind-Fight": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Blind-Fight",
+            "Prerequisites": "—",
+            "Description": "Reroll miss chances from concealment"
+        },
+        "Blood in Their Eyes": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Blood in Their Eyes",
+            "Prerequisites": "—",
+            "Description": "Your critical hits with slashing attacks make foes dazzled"
+        },
+        "Bodyguard": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Bodyguard",
+            "Prerequisites": "—",
+            "Description": "Add a +2 bonus to an adjacent ally’s AC as a reaction"
+        },
+        "Cleave": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Cleave",
+            "Prerequisites": "Str 13, base attack bonus +1",
+            "Description": "Make an additional melee attack if the first one hits"
+        },
+        "Clever Retort": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Clever Retort",
+            "Prerequisites": "Int 13, Quick Quip, Diplomacy 5 ranks",
+            "Description": "You always have a witty remark or comeback ready at your adversaries’ expense."
+        },
+        "Close Combat": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Close Combat",
+            "Prerequisites": "Base attack bonus +1",
+            "Description": "Gain a +2 bonus to AC against ranged attacks when are in melee combat"
+        },
+        "Combat Casting": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Combat Casting",
+            "Prerequisites": "Ability to cast 2nd-level spells",
+            "Description": "+2 bonus to AC and saves against attacks of opportunity when casting spells"
+        },
+        "Constant Alert": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Constant Alert",
+            "Prerequisites": "Wis 11, character level 5th",
+            "Description": "Reroll your initiative check and automatically win ties"
+        },
+        "Cook Grenade": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Cook Grenade",
+            "Prerequisites": "Dex 11, proficiency with grenades",
+            "Description": "Time your release of a grenade to increase its effectiveness"
+        },
+        "Coordinated Shot": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Coordinated Shot",
+            "Prerequisites": "Base attack bonus +1",
+            "Description": "Allies gain a +1 bonus to ranged attacks against foes you threaten"
+        },
+        "Crescendo of Victory": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Crescendo of Victory",
+            "Prerequisites": "Crescendo of Violence",
+            "Description": "Your perfect musical cues can accentuate a moment of triumph and send a surge of adrenaline through an ally."
+        },
+        "Crescendo of Violence": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Crescendo of Violence",
+            "Prerequisites": "Charisma 15 or Profession (musician) 5 ranks",
+            "Description": "Your skill with modulating the sounds of your sonic weapons into musical patterns borders on showboating but also inspires your allies."
+        },
+        "Deadly Aim": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Deadly Aim",
+            "Prerequisites": "Base attack bonus +1",
+            "Description": "Take a −2 penalty to weapon attacks to deal extra damage"
+        },
+        "Defensive Striker": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Defensive Striker",
+            "Prerequisites": "Dex 13, base attack bonus +1, armor training trait",
+            "Description": "You were born to fight your enemies, and nobody does it better."
+        },
+        "Deflect Projectiles": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Deflect Projectiles",
+            "Prerequisites": "Base attack bonus +8",
+            "Description": "Spend 1 Resolve Point to attempt to avoid a ranged attack"
+        },
+        "Dire Straits": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Dire Straits",
+            "Prerequisites": "Con 15",
+            "Description": "Stabilize when you have no Hit Points or Resolve Points left"
+        },
+        "Discordant Din": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Discordant Din",
+            "Prerequisites": "—",
+            "Description": "By aiming carefully, you can cause your sonic weapons to emit a terrible noise on impact, aggravating the senses of creatures that rely heavily on hearing."
+        },
+        "Dive for Cover": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Dive for Cover",
+            "Prerequisites": "Base Reflex save bonus +2",
+            "Description": "Fall prone in an adjacent square to roll a Reflex save twice"
+        },
+        "Double Draw": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Double Draw",
+            "Prerequisites": "Four or more arms",
+            "Description": "Your limbs allow you to manipulate multiple weapons"
+        },
+        "Double Tap": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Double Tap",
+            "Prerequisites": "Weapon Focus (small arms), proficiency with small arms",
+            "Description": "Expend double the normal ammunition to gain bonuses to attack and damage with a small arm"
+        },
+        "Drag Down": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Drag Down",
+            "Prerequisites": "—",
+            "Description": "When you are tripped, you can attempt to trip an adjacent foe"
+        },
+        "Far Shot": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Far Shot",
+            "Prerequisites": "Base attack bonus +1",
+            "Description": "Reduce penalty due to range increments"
+        },
+        "Fleet": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Fleet",
+            "Prerequisites": "—",
+            "Description": "Increase your land speed"
+        },
+        "Focused Spellcaster": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Focused Spellcaster",
+            "Prerequisites": "Combat Casting, ability to cast 4th-level spells",
+            "Description": "Spend a resolve point to successfully cast a spell after you take damage during the casting"
+        },
+        "Fouling Reposition": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Fouling Reposition",
+            "Prerequisites": "Improved Combat Maneuver (reposition)",
+            "Description": "Reposition a foe to throw it and another creature off balance"
+        },
+        "Fusillade": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Fusillade",
+            "Prerequisites": "Base attack bonus +1, four or more arms",
+            "Description": "Make an automatic-mode attack with multiple small arms"
+        },
+        "Goad": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Goad",
+            "Prerequisites": "Antagonize or Quick Quip, Diplomacy 5 ranks",
+            "Description": "You know how to keep your foes flustered and infuriated."
+        },
+        "Grab Attention": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Grab Attention",
+            "Prerequisites": "Intimidate 5 ranks",
+            "Description": "Make a foe you hit in melee off-target when attacking anyone other than you"
+        },
+        "Grappler Pull": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Grappler Pull",
+            "Prerequisites": "Str 11",
+            "Description": "Use a grappler to draw your foes closer to you"
+        },
+        "Great Cleave": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Great Cleave",
+            "Prerequisites": "Str 13, Cleave, base attack bonus +4",
+            "Description": "Make an additional melee attack after each melee attack that hits"
+        },
+        "Greater Feint": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Greater Feint",
+            "Prerequisites": "Improved Feint, base attack bonus +6",
+            "Description": "Foes you feint against are flat-footed for 1 round"
+        },
+        "Grenade Mastery": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Grenade Mastery",
+            "Prerequisites": "Proficiency with grenades",
+            "Description": "Increase the saving throw DCs of grenades you use"
+        },
+        "Grenade Proficiency": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Grenade Proficiency",
+            "Prerequisites": "—",
+            "Description": "Gain proficiency with grenades"
+        },
+        "Ground Fighting": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Ground Fighting",
+            "Prerequisites": "Str 11",
+            "Description": "Ignore penalties to unarmed attacks when grappled, pinned, or prone"
+        },
+        "Harmony of Bullets": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Harmony of Bullets",
+            "Prerequisites": "Multi-Weapon Fighting",
+            "Description": "When wielding multiple sonic weapons, you can modulate their frequencies to allow them to musically amplify each other when operated together."
+        },
+        "Heavy Armor Proficiency": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Heavy Armor Proficiency",
+            "Prerequisites": "Str 13, proficiency with light armor",
+            "Description": "Gain proficiency with heavy armor"
+        },
+        "Heavy Weapon Proficiency": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Heavy Weapon Proficiency",
+            "Prerequisites": "Str 13, proficiency with longarms and small arms",
+            "Description": "Gain proficiency with heavy weapons"
+        },
+        "Improved Combat Maneuver": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Improved Combat Maneuver",
+            "Prerequisites": "Base attack bonus +1",
+            "Description": "+4 bonus to perform one combat maneuver"
+        },
+        "Improved Critical": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Improved Critical",
+            "Prerequisites": "Base attack bonus +8",
+            "Description": "The DC to resist the critical effects of your critical hits increases by 2"
+        },
+        "Improved Feint": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Improved Feint",
+            "Prerequisites": "—",
+            "Description": "Use Bluff to feint as a move action"
+        },
+        "Improved Initiative": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Improved Initiative",
+            "Prerequisites": "—",
+            "Description": "+4 bonus to initiative checks"
+        },
+        "Improved Sidestep": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Improved Sidestep",
+            "Prerequisites": "Dex 17, Mobility or trick attack class feature, Sidestep",
+            "Description": "Reduce penalties from Sidestep"
+        },
+        "Improved Stand Still": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Improved Stand Still",
+            "Prerequisites": "Stand Still",
+            "Description": "+4 bonus to melee attacks with Stand Still"
+        },
+        "Improved Supporting Fire": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Improved Supporting Fire",
+            "Prerequisites": "Base attack bonus +6.",
+            "Description": "Your ranged attacks provide better support for your allies."
+        },
+        "Improved Unarmed Strike": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Improved Unarmed Strike",
+            "Prerequisites": "—",
+            "Description": "Deal more damage and threaten squares with unarmed strikes"
+        },
+        "In Harm’s Way": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=In Harm’s Way",
+            "Prerequisites": "Bodyguard",
+            "Description": "Take the damage of a successful attack against an adjacent ally"
+        },
+        "Instant Crater": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Instant Crater",
+            "Prerequisites": "Base attack bonus +5",
+            "Description": "Weapons with the explode special property create difficult terrain"
+        },
+        "Jet Charge": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Jet Charge",
+            "Prerequisites": "Piloting 3 ranks",
+            "Description": "Boost your charge attacks with jets to move farther"
+        },
+        "Kasathan Battle Dance": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Kasathan Battle Dance",
+            "Prerequisites": "Prerequisites: Dex 13, Mobility or trick attack",
+            "Description": "Avoid all attacks of opportunity when you withdraw"
+        },
+        "Kip Up": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Kip Up",
+            "Prerequisites": "Acrobatics 1 rank",
+            "Description": "Stand from prone as a swift action"
+        },
+        "Laugh at Danger": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Laugh at Danger",
+            "Prerequisites": "Con 13",
+            "Description": "Grant an ally a +2 morale bonus to AC as a reaction when you take Hit Point damage"
+        },
+        "Light Armor Proficiency": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Light Armor Proficiency",
+            "Prerequisites": "—",
+            "Description": "Gain proficiency with light armo"
+        },
+        "Living Ladder": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Living Ladder",
+            "Prerequisites": "Str 17",
+            "Description": "Hit an adjacent foe with an unarmed attack to stand and possibly knock them prone"
+        },
+        "Longarm Proficiency": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Longarm Proficiency",
+            "Prerequisites": "Proficiency with small arms",
+            "Description": "Gain proficiency with longarms"
+        },
+        "Lung Puncture": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Lung Puncture",
+            "Prerequisites": "—",
+            "Description": "Your critical hits with piercing weapons cause foes to be fatigued"
+        },
+        "Lunge": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Lunge",
+            "Prerequisites": "Base attack bonus +6",
+            "Description": "Increase reach of melee attacks by 5 feet until the end of your turn"
+        },
+        "Many-Handed Master": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Many-Handed Master",
+            "Prerequisites": "Four or more arms",
+            "Description": "You use your many limbs to counter combat maneuvers"
+        },
+        "Massive Splash": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Massive Splash",
+            "Prerequisites": "Str 11, base attack bonus +1",
+            "Description": "You can batter the water’s surface to create a huge sheet of water that temporarily conceals you from your foes."
+        },
+        "Melt Defenses": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Melt Defenses",
+            "Prerequisites": "Base attack bonus +11",
+            "Description": "On a critical hit, cause further attacks against a foe to target EAC"
+        },
+        "Mobility": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Mobility",
+            "Prerequisites": "Dex 13",
+            "Description": "+4 bonus to AC against attacks of opportunity from movement"
+        },
+        "Momentous Attack": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Momentous Attack",
+            "Prerequisites": "Str 11, Athletics 5 ranks",
+            "Description": "On a melee critical hit, move 5 feet"
+        },
+        "Morphing Feint": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Morphing Feint",
+            "Prerequisites": "Bluff 1 rank, Disguise 1 rank",
+            "Description": "Your sudden change of appearance creates an opening for an attack"
+        },
+        "Multi-Weapon Fighting": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Multi-Weapon Fighting",
+            "Prerequisites": "—",
+            "Description": "Reduce the penalty for full attacks when using multiple small arms or operative melee weapons"
+        },
+        "Mystic Strike": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Mystic Strike",
+            "Prerequisites": "Ability to cast spells",
+            "Description": "Melee and ranged attacks count as magic"
+        },
+        "Nimble Moves": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Nimble Moves",
+            "Prerequisites": "Dex 15",
+            "Description": "Ignore 20 feet of difficult terrain when you move"
+        },
+        "Opening Volley": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Opening Volley",
+            "Prerequisites": "—",
+            "Description": "+2 bonus to a melee attack against a target you damaged with a ranged attack"
+        },
+        "Parting Shot": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Parting Shot",
+            "Prerequisites": "Dex 15, Mobility, Shot on the Run, base attack bonus +6",
+            "Description": "Make a single ranged attack when withdrawing"
+        },
+        "Penetrating Attack": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Penetrating Attack",
+            "Prerequisites": "Base attack bonus +12",
+            "Description": "Reduce enemy's DR and energy resistance against your weapons by 5"
+        },
+        "Pinpoint Hurler": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Pinpoint Hurler",
+            "Prerequisites": "Str 15",
+            "Description": "Reduce the distance your thrown weapons travel when they miss"
+        },
+        "Powered Armored Proficiency": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Powered Armored Proficiency",
+            "Prerequisites": "Str 13, proficiency with light armor and heavy armor, base attack bonus +5",
+            "Description": "Gain proficiency with powered armor"
+        },
+        "Pull the Pin": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Pull the Pin",
+            "Prerequisites": "Improved Combat Maneuver (disarm)",
+            "Description": "Perform a disarm to activate a foe’s grenade"
+        },
+        "Quick Draw": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Quick Draw",
+            "Prerequisites": "Base attack bonus +1",
+            "Description": "Draw a weapon as a swift action"
+        },
+        "Quick Quip": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Quick Quip",
+            "Prerequisites": "Int 11, Diplomacy 1 rank",
+            "Description": "You infuriate foes with a witty remark or retort."
+        },
+        "Reflect Projectiles": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Reflect Projectiles",
+            "Prerequisites": "Deflect Projectiles, base attack bonus +16",
+            "Description": "Spend 1 Resolve Point to attempt to redirect a ranged attack"
+        },
+        "Ricochet Grenade": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Ricochet Grenade",
+            "Prerequisites": "Proficiency with grenades, base attack bonus +7",
+            "Description": "Bounce a grenade off a wall to reach difficult spo"
+        },
+        "Sacred Strike": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Sacred Strike",
+            "Prerequisites": "Worship a deity of an alignment within one step of your own",
+            "Description": "Treat your attacks as having your deity’s alignment"
+        },
+        "Shelter Ally": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Shelter Ally",
+            "Prerequisites": "Bodyguard, natural reach of 10 feet or more",
+            "Description": "Use Bodyguard to protect allies within reach and increase the bonus and penalty by 1 when protecting a smaller creature"
+        },
+        "Shield Block": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Shield Block",
+            "Prerequisites": "Proficiency with shields",
+            "Description": "Spent 1 Resolve Point as a reaction to reduce damage from area effects"
+        },
+        "Shield Proficiency": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Shield Proficiency",
+            "Prerequisites": "—",
+            "Description": "Gain proficiency with shields"
+        },
+        "Shot on the Run": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Shot on the Run",
+            "Prerequisites": "Dex 15, Mobility, base attack bonus +4",
+            "Description": "Make a ranged attack at any point during movement"
+        },
+        "Sidestep": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Sidestep",
+            "Prerequisites": "Dex 15, Mobility or trick attack class feature",
+            "Description": "Take guarded step as a reaction when a foe misses you with melee attack"
+        },
+        "Slam Down": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Slam Down",
+            "Prerequisites": "—",
+            "Description": "Your critical hits with bludgeoning weapons knock down your foes"
+        },
+        "Slippery Shooter": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Slippery Shooter",
+            "Prerequisites": "Dex 15, base attack bonus +6",
+            "Description": "+3 bonus to AC against attacks of opportunity when making ranged attacks"
+        },
+        "Small Arm Proficiency": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Small Arm Proficiency",
+            "Prerequisites": "—",
+            "Description": "Gain proficiency with small arms"
+        },
+        "Sniper Weapon Proficiency": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Sniper Weapon Proficiency",
+            "Prerequisites": "—",
+            "Description": "Gain proficiency with sniper weapons"
+        },
+        "Solid Stance": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Solid Stance",
+            "Prerequisites": "Con 15",
+            "Description": "Become harder to move, and use a reaction to avoid being knocked prone"
+        },
+        "Special Weapon Proficiency": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Special Weapon Proficiency",
+            "Prerequisites": "Proficiency with basic melee weapons or small arms",
+            "Description": "Gain proficiency with one special weapon"
+        },
+        "Spring Attack": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Spring Attack",
+            "Prerequisites": "Dex 15, Mobility, base attack bonus +4",
+            "Description": "Move before and after a melee attack"
+        },
+        "Spry Cover": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Spry Cover",
+            "Prerequisites": "Base attack bonus +1",
+            "Description": "Covering fire grants a +4 bonus to an ally’s Acrobatics check to tumble"
+        },
+        "Stand Still": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Stand Still",
+            "Prerequisites": "—",
+            "Description": "Make an attack of opportunity to stop a foe’s movement"
+        },
+        "Stand Strong": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Stand Strong",
+            "Prerequisites": "Stand Still",
+            "Description": "When you plant yourself in place, you’re difficult to move past."
+        },
+        "Step Up": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Step Up",
+            "Prerequisites": "Base attack bonus +1",
+            "Description": "Take a guarded step as a reaction to an adjacent foe moving"
+        },
+        "Step Up and Strike": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Step Up and Strike",
+            "Prerequisites": "Dex 13, Step Up, base attack bonus +6",
+            "Description": "Make an attack of opportunity as part of Step Up"
+        },
+        "Strike Back": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Strike Back",
+            "Prerequisites": "Base attack bonus +1",
+            "Description": "Ready an action to make a melee attack against a foe with reach"
+        },
+        "Superheated Spells": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Superheated Spells",
+            "Prerequisites": "Ability to cast spells, Mysticism 5 ranks",
+            "Description": "Your particular brand of fire magic can superheat air or water instead of producing fire, allowing your spells to remain effective underwater."
+        },
+        "Suppressive Fire": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Suppressive Fire",
+            "Prerequisites": "Base attack bonus +1, proficiency with heavy weapons",
+            "Description": "Provide covering fire or harrying fire in an area"
+        },
+        "Tandem Feint": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Tandem Feint",
+            "Prerequisites": "Base attack bonus +6, Improved Feint",
+            "Description": "You can work with an ally to place your foes off-balance."
+        },
+        "Tandem Maneuver": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Tandem Maneuver",
+            "Prerequisites": "Base attack bonus +6, Improved Combat Maneuver (any)",
+            "Description": "You can work in concert with an ally to perform maneuvers in combat."
+        },
+        "Target of Opportunity": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Target of Opportunity",
+            "Prerequisites": "Base attack bonus +6",
+            "Description": "You take advantage of a foe’s slipup."
+        },
+        "Terrifying Presence": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Terrifying Presence",
+            "Prerequisites": "Intimidating racial trait",
+            "Description": "Your fearsome displays instill fear longer"
+        },
+        "Tripping Rush": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Tripping Rush",
+            "Prerequisites": "Improved Combat Maneuver (trip), base attack bonus +5",
+            "Description": "Knock a target prone when you bull rush them into an obstacle"
+        },
+        "Unbreakable Will": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Unbreakable Will",
+            "Prerequisites": "Telepathy or limited telepathy racial trait",
+            "Description": "Your telepathy grants you an unparalleled strength of mind."
+        },
+        "Underwater Brawler": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Underwater Brawler",
+            "Prerequisites": "Str 15, base attack bonus +5",
+            "Description": "Even underwater, you can leverage your strength to devastating effect."
+        },
+        "Unfriendly Fire": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Unfriendly Fire",
+            "Prerequisites": "Bluff 5 ranks",
+            "Description": "Trick an attacker into shooting at another enemy adjacent to you"
+        },
+        "Unsinkable Caster": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Unsinkable Caster",
+            "Prerequisites": "Ability to cast spells, character level 3rd",
+            "Description": "You tap into your inner focus, allowing you to cast spells even in dire situations."
+        },
+        "Versatile Fighting": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Versatile Fighting",
+            "Prerequisites": "Adaptive Fighting, character level 5",
+            "Description": "Spend RP to use Adaptive Fighting more often in a day"
+        },
+        "Versatile Focus": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Versatile Focus",
+            "Prerequisites": "Weapon Focus (any)",
+            "Description": "+1 bonus to attack rolls with all weapon types you are proficient with"
+        },
+        "Versatile Specialization": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Versatile Specialization",
+            "Prerequisites": "Weapon Specialization, character level 3rd",
+            "Description": "Deal extra damage with all weapon types you are proficient with"
+        },
+        "Weapon Focus": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Weapon Focus",
+            "Prerequisites": "Proficiency with selected weapon type",
+            "Description": "+1 bonus to attack rolls with selected weapon type"
+        },
+        "Weapon Specialization": {
+            "SourceURL": "FeatDisplay.aspx?ItemName=Weapon Specialization",
+            "Prerequisites": "Character level 3rd, proficiency with selected weapon type",
+            "Description": "Deal extra damage with selected weapon type"
+        }
+    }
+}
