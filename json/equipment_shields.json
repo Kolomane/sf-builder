@@ -1,0 +1,334 @@
+{
+    "Shields": {
+        "Tactical Shield, basic": {
+            "SourceURL": "Shields.aspx?ID=7",
+            "Level": "1",
+            "Price": "250",
+            "ShieldBonus": "+0/+1",
+            "MaxDex": "—",
+            "ArmorCheckPenalty": "—",
+            "Bulk": "1",
+            "Upgrades": "0"
+        },
+        "Riot Shield, basic": {
+            "SourceURL": "Shields.aspx?ID=1",
+            "Level": "1",
+            "Price": "300",
+            "ShieldBonus": "+1/+1",
+            "MaxDex": "+3",
+            "ArmorCheckPenalty": "-2",
+            "Bulk": "2",
+            "Upgrades": "1"
+        },
+        "Irising Shield, basic": {
+            "SourceURL": "Shields.aspx?ID=24",
+            "Level": "2",
+            "Price": "850",
+            "ShieldBonus": "+0/+1",
+            "MaxDex": "—",
+            "ArmorCheckPenalty": "-0",
+            "Bulk": "L (1)",
+            "Upgrades": "0"
+        },
+        "Dousing Shield, basic": {
+            "SourceURL": "Shields.aspx?ID=16",
+            "Level": "2",
+            "Price": "900",
+            "ShieldBonus": "+1/+1",
+            "MaxDex": "+3",
+            "ArmorCheckPenalty": "-2",
+            "Bulk": "2",
+            "Upgrades": "1"
+        },
+        "Knight’s Shield, basic": {
+            "SourceURL": "Shields.aspx?ID=12",
+            "Level": "3",
+            "Price": "1,500",
+            "ShieldBonus": "+0/+2",
+            "MaxDex": "+4",
+            "ArmorCheckPenalty": "-1",
+            "Bulk": "1",
+            "Upgrades": "2"
+        },
+        "Gravity Shield, basic": {
+            "SourceURL": "Shields.aspx?ID=20",
+            "Level": "4",
+            "Price": "2,100",
+            "ShieldBonus": "+0/+2",
+            "MaxDex": "+4",
+            "ArmorCheckPenalty": "-1",
+            "Bulk": "1",
+            "Upgrades": "1"
+        },
+        "Deterrence Scale, electroplax": {
+            "SourceURL": "Shields.aspx?ID=29",
+            "Level": "4",
+            "Price": "2,200",
+            "ShieldBonus": "+0/+1",
+            "MaxDex": "—",
+            "ArmorCheckPenalty": "-0",
+            "Bulk": "1",
+            "Upgrades": "0"
+        },
+        "Tactical Shield, field": {
+            "SourceURL": "Shields.aspx?ID=8",
+            "Level": "5",
+            "Price": "2,500",
+            "ShieldBonus": "+1/+1",
+            "MaxDex": "—",
+            "ArmorCheckPenalty": "—",
+            "Bulk": "1",
+            "Upgrades": "1"
+        },
+        "Riot Shield, field": {
+            "SourceURL": "Shields.aspx?ID=2",
+            "Level": "5",
+            "Price": "3,000",
+            "ShieldBonus": "+1/+2",
+            "MaxDex": "+3",
+            "ArmorCheckPenalty": "-2",
+            "Bulk": "2",
+            "Upgrades": "2"
+        },
+        "Rageshokor Shield, green": {
+            "SourceURL": "Shields.aspx?ID=34",
+            "Level": "6",
+            "Price": "4,250",
+            "ShieldBonus": "+1/+2",
+            "MaxDex": "+3",
+            "ArmorCheckPenalty": "-1",
+            "Bulk": "2",
+            "Upgrades": "1"
+        },
+        "Irising Shield, field": {
+            "SourceURL": "Shields.aspx?ID=25",
+            "Level": "6",
+            "Price": "4,350",
+            "ShieldBonus": "+1/+1",
+            "MaxDex": "—",
+            "ArmorCheckPenalty": "-0",
+            "Bulk": "L (1)",
+            "Upgrades": "0"
+        },
+        "Dousing Shield, field": {
+            "SourceURL": "Shields.aspx?ID=17",
+            "Level": "7",
+            "Price": "6,800",
+            "ShieldBonus": "+1/+2",
+            "MaxDex": "+4",
+            "ArmorCheckPenalty": "-2",
+            "Bulk": "2",
+            "Upgrades": "2"
+        },
+        "Deterrence Scale, amperometric": {
+            "SourceURL": "Shields.aspx?ID=30",
+            "Level": "8",
+            "Price": "9,400",
+            "ShieldBonus": "+1/+1",
+            "MaxDex": "—",
+            "ArmorCheckPenalty": "-0",
+            "Bulk": "1",
+            "Upgrades": "0"
+        },
+        "Knight’s Shield, field": {
+            "SourceURL": "Shields.aspx?ID=13",
+            "Level": "8",
+            "Price": "9,500",
+            "ShieldBonus": "+1/+2",
+            "MaxDex": "+5",
+            "ArmorCheckPenalty": "-1",
+            "Bulk": "1",
+            "Upgrades": "2"
+        },
+        "Gravity Shield, field": {
+            "SourceURL": "Shields.aspx?ID=21",
+            "Level": "9",
+            "Price": "13,500",
+            "ShieldBonus": "+1/+1",
+            "MaxDex": "+4",
+            "ArmorCheckPenalty": "-1",
+            "Bulk": "1",
+            "Upgrades": "1"
+        },
+        "Tactical Shield, advanced": {
+            "SourceURL": "Shields.aspx?ID=9",
+            "Level": "10",
+            "Price": "17,250",
+            "ShieldBonus": "+1/+2",
+            "MaxDex": "—",
+            "ArmorCheckPenalty": "—",
+            "Bulk": "1",
+            "Upgrades": "1"
+        },
+        "Riot Shield, advanced": {
+            "SourceURL": "Shields.aspx?ID=4",
+            "Level": "10",
+            "Price": "18,000",
+            "ShieldBonus": "+1/+2",
+            "MaxDex": "+4",
+            "ArmorCheckPenalty": "-2",
+            "Bulk": "2",
+            "Upgrades": "2"
+        },
+        "Irising Shield, advanced": {
+            "SourceURL": "Shields.aspx?ID=26",
+            "Level": "11",
+            "Price": "25,000",
+            "ShieldBonus": "+1/+1",
+            "MaxDex": "—",
+            "ArmorCheckPenalty": "-0",
+            "Bulk": "L (1)",
+            "Upgrades": "1"
+        },
+        "Deterrence Scale, galvanic": {
+            "SourceURL": "Shields.aspx?ID=31",
+            "Level": "12",
+            "Price": "34,600",
+            "ShieldBonus": "+1/+1",
+            "MaxDex": "—",
+            "ArmorCheckPenalty": "-0",
+            "Bulk": "1",
+            "Upgrades": "0"
+        },
+        "Dousing Shield, advanced": {
+            "SourceURL": "Shields.aspx?ID=18",
+            "Level": "12",
+            "Price": "36,800",
+            "ShieldBonus": "+1/+2",
+            "MaxDex": "+4",
+            "ArmorCheckPenalty": "-1",
+            "Bulk": "2",
+            "Upgrades": "2"
+        },
+        "Rageshokor Shield, rock": {
+            "SourceURL": "Shields.aspx?ID=35",
+            "Level": "12",
+            "Price": "37,500",
+            "ShieldBonus": "+1/+2",
+            "MaxDex": "+4",
+            "ArmorCheckPenalty": "-1",
+            "Bulk": "2",
+            "Upgrades": "1"
+        },
+        "Knight’s Shield, advanced": {
+            "SourceURL": "Shields.aspx?ID=14",
+            "Level": "13",
+            "Price": "50,000",
+            "ShieldBonus": "+1/+3",
+            "MaxDex": "+6",
+            "ArmorCheckPenalty": "-1",
+            "Bulk": "1",
+            "Upgrades": "2"
+        },
+        "Gravity Shield, advanced": {
+            "SourceURL": "Shields.aspx?ID=22",
+            "Level": "14",
+            "Price": "73,000",
+            "ShieldBonus": "+1/+2",
+            "MaxDex": "+5",
+            "ArmorCheckPenalty": "-1",
+            "Bulk": "1",
+            "Upgrades": "2"
+        },
+        "Tactical Shield, elite": {
+            "SourceURL": "Shields.aspx?ID=10",
+            "Level": "15",
+            "Price": "100,000",
+            "ShieldBonus": "+1/+2",
+            "MaxDex": "—",
+            "ArmorCheckPenalty": "—",
+            "Bulk": "1",
+            "Upgrades": "1"
+        },
+        "Riot Shield, elite": {
+            "SourceURL": "Shields.aspx?ID=5",
+            "Level": "15",
+            "Price": "125,000",
+            "ShieldBonus": "+1/+3",
+            "MaxDex": "+5",
+            "ArmorCheckPenalty": "-2",
+            "Bulk": "2",
+            "Upgrades": "2"
+        },
+        "Deterrence Scale, voltaic": {
+            "SourceURL": "Shields.aspx?ID=32",
+            "Level": "16",
+            "Price": "178,800",
+            "ShieldBonus": "+1/+2",
+            "MaxDex": "—",
+            "ArmorCheckPenalty": "-0",
+            "Bulk": "1",
+            "Upgrades": "0"
+        },
+        "Irising Shield, elite": {
+            "SourceURL": "Shields.aspx?ID=27",
+            "Level": "16",
+            "Price": "256,000",
+            "ShieldBonus": "+1/+3",
+            "MaxDex": "—",
+            "ArmorCheckPenalty": "-0",
+            "Bulk": "L (1)",
+            "Upgrades": "2"
+        },
+        "Dousing Shield, elite": {
+            "SourceURL": "Shields.aspx?ID=19",
+            "Level": "17",
+            "Price": "256,000",
+            "ShieldBonus": "+1/+3",
+            "MaxDex": "+5",
+            "ArmorCheckPenalty": "-1",
+            "Bulk": "2",
+            "Upgrades": "2"
+        },
+        "Knight’s Shield, elite": {
+            "SourceURL": "Shields.aspx?ID=15",
+            "Level": "18",
+            "Price": "400,000",
+            "ShieldBonus": "+1/+3",
+            "MaxDex": "+7",
+            "ArmorCheckPenalty": "-1",
+            "Bulk": "1",
+            "Upgrades": "2"
+        },
+        "Many-mien Shield": {
+            "SourceURL": "Shields.aspx?ID=33",
+            "Level": "19",
+            "Price": "555,000",
+            "ShieldBonus": "+1/+3",
+            "MaxDex": "+6",
+            "ArmorCheckPenalty": "-1",
+            "Bulk": "1",
+            "Upgrades": "2"
+        },
+        "Gravity Shield, elite": {
+            "SourceURL": "Shields.aspx?ID=23",
+            "Level": "19",
+            "Price": "570,000",
+            "ShieldBonus": "+1/+3",
+            "MaxDex": "+5",
+            "ArmorCheckPenalty": "-1",
+            "Bulk": "1",
+            "Upgrades": "2"
+        },
+        "Tactical Shield, paragon": {
+            "SourceURL": "Shields.aspx?ID=11",
+            "Level": "20",
+            "Price": "800,000",
+            "ShieldBonus": "+1/+3",
+            "MaxDex": "—",
+            "ArmorCheckPenalty": "—",
+            "Bulk": "1",
+            "Upgrades": "1"
+        },
+        "Riot Shield, paragon": {
+            "SourceURL": "Shields.aspx?ID=6",
+            "Level": "20",
+            "Price": "900,000",
+            "ShieldBonus": "+1/+4",
+            "MaxDex": "+6",
+            "ArmorCheckPenalty": "-2",
+            "Bulk": "2",
+            "Upgrades": "2"
+        }
+    }
+}
