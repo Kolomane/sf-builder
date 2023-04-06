@@ -1,5 +1,5 @@
-# Name: themes_scraper.py
-# Purpose: Basic function to webscrape Themes
+# Name: races_themes_scraper.py
+# Purpose: Basic function to webscrape Races and Species
 # Version & Notes: Found at bottom of document
 ############################################################
 
@@ -76,5 +76,5 @@ main()
 # # RegEx 101: https://regex101.com/
 
 # Version 0.01
-# # Date: 03/26/2023
+# # Date: 04/06/2023
 # # Notes: Initial Upload
