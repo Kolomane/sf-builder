@@ -1,0 +1,1532 @@
+{
+    "Races": {
+        "Core": {
+            "Android": {
+                "SourceURL": "Races.aspx?ItemName=Android",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Dex": "+2",
+                        "Int": "+2",
+                        "Cha": "-2"
+                    }
+                },
+                "HitPoints": "4",
+                "ShortDescription": "Androids are Medium humanoids with the android subtype."
+            },
+            "Human": {
+                "SourceURL": "Races.aspx?ItemName=Human",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Any": "+2"
+                    }
+                },
+                "HitPoints": "4",
+                "ShortDescription": "Humans are Medium humanoids and have the human subtype."
+            },
+            "Kasatha": {
+                "SourceURL": "Races.aspx?ItemName=Kasatha",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Str": "+2",
+                        "Wis": "+2",
+                        "Int": "-2"
+                    }
+                },
+                "HitPoints": "4",
+                "ShortDescription": "Kasathas are Medium humanoids with the kasatha subtype."
+            },
+            "Lashunta": {
+                "SourceURL": "Races.aspx?ItemName=Lashunta",
+                "AbilityModifiers": {
+                    "Korasha": {
+                        "Cha": "+2",
+                        "Str": "+2",
+                        "Wis": "-2"
+                    },
+                    "Damaya": {
+                        "Cha": "+2",
+                        "Int": "+2",
+                        "Con": "-2"
+                    }
+                },
+                "HitPoints": "4",
+                "ShortDescription": "Lashuntas are Medium humanoids with the lashunta subtype."
+            },
+            "Shirren": {
+                "SourceURL": "Races.aspx?ItemName=Shirren",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Con": "+2",
+                        "Wis": "+2",
+                        "Cha": "-2"
+                    }
+                },
+                "HitPoints": "6",
+                "ShortDescription": "Shirrens are Medium humanoids with the shirren subtype."
+            },
+            "Vesk": {
+                "SourceURL": "Races.aspx?ItemName=Vesk",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Str": "+2",
+                        "Con": "+2",
+                        "Int": "-2"
+                    }
+                },
+                "HitPoints": "6",
+                "ShortDescription": "Vesk are Medium humanoids with the vesk subtype."
+            },
+            "Ysoki": {
+                "SourceURL": "Races.aspx?ItemName=Ysoki",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Dex": "+2",
+                        "Int": "+2",
+                        "Str": "-2"
+                    }
+                },
+                "HitPoints": "2",
+                "ShortDescription": "Ysoki are Small humanoids with the ysoki subtype."
+            }
+        },
+        "Legacy": {
+            "Dwarf": {
+                "SourceURL": "Races.aspx?ItemName=Dwarf",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Con": "+2",
+                        "Wis": "+2",
+                        "Cha": "-2"
+                    }
+                },
+                "HitPoints": "6",
+                "ShortDescription": "Dwarves are Medium humanoids with the dwarf subtype."
+            },
+            "Elf": {
+                "SourceURL": "Races.aspx?ItemName=Elf",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Dex": "+2",
+                        "Int": "+2",
+                        "Con": "-2"
+                    }
+                },
+                "HitPoints": "4",
+                "ShortDescription": "Elves are Medium humanoids with the elf subtype."
+            },
+            "Gnome": {
+                "SourceURL": "Races.aspx?ItemName=Gnome",
+                "AbilityModifiers": {
+                    "Feychild": {
+                        "Con": "+2",
+                        "Cha": "+2",
+                        "Str": "-2"
+                    },
+                    "Bleachling": {
+                        "Con": "+2",
+                        "Int": "+2",
+                        "Str": "-2"
+                    }
+                },
+                "HitPoints": "4",
+                "ShortDescription": "Gnomes are Small humanoids with the gnome subtype."
+            },
+            "Half-Elf": {
+                "SourceURL": "Races.aspx?ItemName=Half-Elf",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Any": "+2"
+                    }
+                },
+                "HitPoints": "4",
+                "ShortDescription": "Half-elves are Medium humanoids with both the elf and human subtypes."
+            },
+            "Halfling": {
+                "SourceURL": "Races.aspx?ItemName=Halfling",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Dex": "+2",
+                        "Cha": "+2",
+                        "Str": "-2"
+                    }
+                },
+                "HitPoints": "2",
+                "ShortDescription": "Halflings are Small humanoids with the halfling subtype."
+            },
+            "Half-Orc": {
+                "SourceURL": "Races.aspx?ItemName=Half-Orc",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Any": "+2"
+                    }
+                },
+                "HitPoints": "6",
+                "ShortDescription": "Half-orcs are Medium humanoids with both the human and orc subtypes."
+            }
+        },
+        "Other": {
+            "Aasimar*": {
+                "SourceURL": "Races.aspx?ItemName=Aasimar",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Cha": "+2"
+                    }
+                },
+                "HitPoints": "4",
+                "ShortDescription": "Planar scions are often Medium, and all are outsiders with the native subtype."
+            },
+            "Alkainan": {
+                "SourceURL": "Races.aspx?ItemName=Alkainan",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Str": "+2",
+                        "Con": "+2",
+                        "Wis": "–2"
+                    }
+                },
+                "HitPoints": "4",
+                "ShortDescription": "Alkainans are Medium humanoids with the alkainan subtype."
+            },
+            "Amrantah": {
+                "SourceURL": "Races.aspx?ItemName=Amrantah",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Con": "+2",
+                        "Cha": "+2",
+                        "Wis": "–2"
+                    }
+                },
+                "HitPoints": "6",
+                "ShortDescription": "Amrantahs are Medium constructs with the magical and technological subtypes."
+            },
+            "Anassanoi": {
+                "SourceURL": "Races.aspx?ItemName=Anassanoi",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Wis": "+2",
+                        "Cha": "+2",
+                        "Con": "–2"
+                    }
+                },
+                "HitPoints": "4",
+                "ShortDescription": "Anassanois are Medium humanoids with the anassanoi subtype."
+            },
+            "Astrazoan": {
+                "SourceURL": "Races.aspx?ItemName=Astrazoan",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Dex": "+2",
+                        "Cha": "+2",
+                        "Con": "–2"
+                    }
+                },
+                "HitPoints": "4",
+                "ShortDescription": "Astrazoans are Medium aberrations with the shapechanger subtype."
+            },
+            "Astriapi*": {
+                "SourceURL": "Races.aspx?ItemName=Astriapi",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Dex": "+2",
+                        "Wis": "+2",
+                        "Str": "–2"
+                    }
+                },
+                "HitPoints": "4",
+                "ShortDescription": "Astriapis are Medium monstrous humanoids. "
+            },
+            "Bantrid*": {
+                "SourceURL": "Races.aspx?ItemName=Bantrid",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Dex": "+2",
+                        "Con": "+2",
+                        "Int": "-2"
+                    }
+                },
+                "HitPoints": "4",
+                "ShortDescription": "Bantrids are Small aberrations."
+            },
+            "Barathu (Early Stage)*": {
+                "SourceURL": "Races.aspx?ItemName=Barathu (Early Stage)",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Con": "+2",
+                        "Wis": "+2",
+                        "Dex": "-2"
+                    }
+                },
+                "HitPoints": "6",
+                "ShortDescription": "Early stage barathus are Medium aberrations."
+            },
+            "Bear (Uplifted)*": {
+                "SourceURL": "Races.aspx?ItemName=Bear (Uplifted)",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Str": "+2",
+                        "Int": "+2",
+                        "Wis": "-2"
+                    }
+                },
+                "HitPoints": "6",
+                "ShortDescription": "Uplifted bears are Large magical beasts with a space of 10 feet and a reach of 5 feet."
+            },
+            "Bolida*": {
+                "SourceURL": "Races.aspx?ItemName=Bolida",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Str": "+2",
+                        "Con": "+2",
+                        "Dex": "-2"
+                    }
+                },
+                "HitPoints": "6",
+                "ShortDescription": "Bolidas are Medium vermin."
+            },
+            "Borai*": {
+                "SourceURL": "Races.aspx?ItemName=Borai",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Con": "+2",
+                        "Cha": "+2",
+                        "Wis": "-2"
+                    }
+                },
+                "HitPoints": "6",
+                "ShortDescription": "Borais are Medium undead, but they do not gain normal undead immunities."
+            },
+            "Brakim*": {
+                "SourceURL": "Races.aspx?ItemName=Brakim",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Dex": "+2",
+                        "Con": "+2",
+                        "Cha": "-2"
+                    }
+                },
+                "HitPoints": "6",
+                "ShortDescription": "Brakims are Medium humanoids with the brakim subtype."
+            },
+            "Brenneri*": {
+                "SourceURL": "Races.aspx?ItemName=Brenneri",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Con": "+2",
+                        "Cha": "+2",
+                        "Int": "-2"
+                    }
+                },
+                "HitPoints": "4",
+                "ShortDescription": "Brenneris are Medium humanoids with the brenneri subtype."
+            },
+            "Cephalume*": {
+                "SourceURL": "Races.aspx?ItemName=Cephalume",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Str": "+2",
+                        "Wis": "+2",
+                        "Con": "-2"
+                    }
+                },
+                "HitPoints": "4",
+                "ShortDescription": "Cephalumes are Medium aberrations with the plantlike subtype."
+            },
+            "Contemplative*": {
+                "SourceURL": "Races.aspx?ItemName=Contemplative",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Int": "+4",
+                        "Cha": "+2",
+                        "Str": "-2",
+                        "Con": "-2"
+                    }
+                },
+                "HitPoints": "2",
+                "ShortDescription": "Contemplatives are Medium monstrous humanoids."
+            },
+            "Copaxi": {
+                "SourceURL": "Races.aspx?ItemName=Copaxi",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Con": "+2",
+                        "Cha": "+2",
+                        "Wis": "-2"
+                    }
+                },
+                "HitPoints": "4",
+                "ShortDescription": "Copaxis are Medium humanoids with the copaxi subtype. "
+            },
+            "Damai*": {
+                "SourceURL": "Races.aspx?ItemName=Damai",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Cha": "+2",
+                        "Dex": "+2",
+                        "Wis": "-2"
+                    }
+                },
+                "HitPoints": "2",
+                "ShortDescription": "Damais are Medium humanoids with the damai subtype."
+            },
+            "Dessamar imago*": {
+                "SourceURL": "Races.aspx?ItemName=Dessamar imago",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Wis": "+2",
+                        "Cha": "+2",
+                        "Str": "-2"
+                    }
+                },
+                "HitPoints": "3",
+                "ShortDescription": "Imagos are Medium humanoids with the dessamar subtype."
+            },
+            "Dessamar instar*": {
+                "SourceURL": "Races.aspx?ItemName=Dessamar instar",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Con": "+2",
+                        "Wis": "+2",
+                        "Dex": "-2"
+                    }
+                },
+                "HitPoints": "3",
+                "ShortDescription": "Instars are Small humanoids with the dessamar subtype."
+            },
+            "Dirindi*": {
+                "SourceURL": "Races.aspx?ItemName=Dirindi",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Dex": "+2",
+                        "Cha-2": "+2"
+                    }
+                },
+                "HitPoints": "4",
+                "ShortDescription": "Dirindi are Medium humanoids with the dirindi subtype."
+            },
+            "Draelik": {
+                "SourceURL": "Races.aspx?ItemName=Draelik",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Con": "+2",
+                        "Wis": "+2",
+                        "Cha": "-2"
+                    }
+                },
+                "HitPoints": "4",
+                "ShortDescription": "Draeliks are Medium humanoids with the draelik subtype."
+            },
+            "Dragonkin": {
+                "SourceURL": "Races.aspx?ItemName=Dragonkin",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Str": "+4",
+                        "Dex": "-2"
+                    }
+                },
+                "HitPoints": "6",
+                "ShortDescription": "Dragonkin are Large dragons with a space and reach of 10 feet."
+            },
+            "Dromada*": {
+                "SourceURL": "Races.aspx?ItemName=Dromada",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Dex": "+2",
+                        "Wis": "+2",
+                        "Cha": "-2"
+                    }
+                },
+                "HitPoints": "2",
+                "ShortDescription": "Dromadas are Medium magical beasts."
+            },
+            "Drow*": {
+                "SourceURL": "Races.aspx?ItemName=Drow",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Dex": "+2",
+                        "Cha": "+2",
+                        "Con": "-2"
+                    }
+                },
+                "HitPoints": "4",
+                "ShortDescription": "Drow are Medium humanoids with the elf subtype."
+            },
+            "Elebrian": {
+                "SourceURL": "Races.aspx?ItemName=Elebrian",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Con": "+2",
+                        "Int": "+2",
+                        "Wis": "–2"
+                    }
+                },
+                "HitPoints": "2",
+                "ShortDescription": "Elebrians are Medium humanoids with the elebrian subtype."
+            },
+            "Embri": {
+                "SourceURL": "Races.aspx?ItemName=Embri",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Con": "+2",
+                        "Int": "+2",
+                        "Cha": "-2"
+                    }
+                },
+                "HitPoints": "6",
+                "ShortDescription": "Embri are Medium aberrations."
+            },
+            "Endiffian": {
+                "SourceURL": "Races.aspx?ItemName=Endiffian",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Int": "+2",
+                        "Cha": "+2",
+                        "Dex": "-2"
+                    }
+                },
+                "HitPoints": "4",
+                "ShortDescription": "Endiffians are Medium humanoids with the endiffian and shapechanger subtypes."
+            },
+            "Entu Colony": {
+                "SourceURL": "Races.aspx?ItemName=Entu Colony",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Int": "+2",
+                        "Cha": "+2",
+                        "Str": "-2"
+                    }
+                },
+                "HitPoints": "2",
+                "ShortDescription": "Entu colonies are Small oozes. "
+            },
+            "Entu Symbiote": {
+                "SourceURL": "Races.aspx?ItemName=Entu Symbiote",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Int": "+2"
+                    }
+                },
+                "HitPoints": "4",
+                "ShortDescription": "Entu symbiotes are Small, Medium, or Large animals with the entu symbiote subtype. "
+            },
+            "Espraksa*": {
+                "SourceURL": "Races.aspx?ItemName=Espraksa",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Wis": "+2",
+                        "Cha": "+2",
+                        "Con": "-2"
+                    }
+                },
+                "HitPoints": "4",
+                "ShortDescription": "Espraksas are Medium humanoids with the espraksa subtype."
+            },
+            "Ferran": {
+                "SourceURL": "Races.aspx?ItemName=Ferran",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Con": "+2",
+                        "Int": "+2",
+                        "Dex": "-2"
+                    }
+                },
+                "HitPoints": "4",
+                "ShortDescription": "Ferrans are Small humanoids with the ferran subtype."
+            },
+            "Formian": {
+                "SourceURL": "Races.aspx?ItemName=Formian",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Str": "+2",
+                        "Con": "+2",
+                        "Wis": "-2"
+                    }
+                },
+                "HitPoints": "4",
+                "ShortDescription": "Formians are Medium monstrous humanoids."
+            },
+            "Ganzi": {
+                "SourceURL": "Races.aspx?ItemName=Ganzi",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Con": "+2",
+                        "Cha": "+2",
+                        "Int": "–2"
+                    }
+                },
+                "HitPoints": "4",
+                "ShortDescription": "Ganzis are Medium outsiders with the native subtype."
+            },
+            "Gathol": {
+                "SourceURL": "Races.aspx?ItemName=Gathol",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Str": "+2",
+                        "Con": "+2",
+                        "Dex": "–2"
+                    }
+                },
+                "HitPoints": "6",
+                "ShortDescription": "Gathols are Medium humanoids with the gathol subtype."
+            },
+            "Ghibrani": {
+                "SourceURL": "Races.aspx?ItemName=Ghibrani",
+                "AbilityModifiers": {
+                    "Husk": {
+                        "Con": "+2",
+                        "Wis": "+2",
+                        "Int": "-2"
+                    },
+                    "Membrane": {
+                        "Dex": "+2",
+                        "Wis": "+2",
+                        "Str": "-2"
+                    }
+                },
+                "HitPoints": "4",
+                "ShortDescription": "Ghibranis are Medium humanoids with the ghibrani subtype."
+            },
+            "Ghoran*": {
+                "SourceURL": "Races.aspx?ItemName=Ghoran",
+                "AbilityModifiers": {
+                    "Sapling": {
+                        "Int": "–2",
+                        "Cha": "+2",
+                        "Dex": "+2"
+                    },
+                    "Oakling": {
+                        "Int": "–2",
+                        "Cha": "+2",
+                        "Con": "+2"
+                    }
+                },
+                "HitPoints": "6",
+                "ShortDescription": "Ghorans are plants. Sapling ghorans are Small plants, while oakling ghorans are Medium plants."
+            },
+            "Gnoll*": {
+                "SourceURL": "Races.aspx?ItemName=Gnoll",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Str": "+2",
+                        "Con": "+2",
+                        "Int": "–2"
+                    }
+                },
+                "HitPoints": "6",
+                "ShortDescription": "Gnolls are Humanoids with the gnoll subtype."
+            },
+            "Goblin (Space)": {
+                "SourceURL": "Races.aspx?ItemName=Goblin (Space)",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Dex": "+4",
+                        "Cha": "-2"
+                    }
+                },
+                "HitPoints": "2",
+                "ShortDescription": "Space goblins are Small humanoids with the goblinoid subtype."
+            },
+            "Gosclaw": {
+                "SourceURL": "Races.aspx?ItemName=Gosclaw",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Dex": "+2",
+                        "Int": "+2",
+                        "Wis": "-2"
+                    }
+                },
+                "HitPoints": "4",
+                "ShortDescription": "Gosclaws are Medium humanoids with the gosclaw subtype."
+            },
+            "Gray": {
+                "SourceURL": "Races.aspx?ItemName=Gray",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Int": "+4",
+                        "Str": "-2"
+                    }
+                },
+                "HitPoints": "2",
+                "ShortDescription": "Grays are Small humanoids with the gray subtype."
+            },
+            "Grippli*": {
+                "SourceURL": "Races.aspx?ItemName=Grippli",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Dex": "+2",
+                        "Wis": "+2",
+                        "Str": "–2"
+                    }
+                },
+                "HitPoints": "2",
+                "ShortDescription": "Gripplis are Small Humanoids with the grippli subtype"
+            },
+            "Haan": {
+                "SourceURL": "Races.aspx?ItemName=Haan",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Str": "+2",
+                        "Dex": "+2",
+                        "Int": "-2"
+                    }
+                },
+                "HitPoints": "4",
+                "ShortDescription": "Haans are Large monstrous humanoids with a space and reach of 10 feet."
+            },
+            "Hadrogaan*": {
+                "SourceURL": "Races.aspx?ItemName=Hadrogaan",
+                "AbilityModifiers": {
+                    "Luma": {
+                        "Int": "+2",
+                        "Wis": "+2",
+                        "Con": "-2"
+                    },
+                    "Doluma": {
+                        "Str": "+2",
+                        "Wis": "+2",
+                        "Int": "-2"
+                    }
+                },
+                "HitPoints": "4",
+                "ShortDescription": "Hadrogaans are Medium humanoids with the hadrogaan subtype. "
+            },
+            "Hanakan*": {
+                "SourceURL": "Races.aspx?ItemName=Hanakan",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Con": "+2",
+                        "Cha": "+2",
+                        "Int": "-2"
+                    }
+                },
+                "HitPoints": "2",
+                "ShortDescription": "Hanakans are Small magical beasts."
+            },
+            "Hobgoblin*": {
+                "SourceURL": "Races.aspx?ItemName=Hobgoblin",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Dex": "+2"
+                    }
+                },
+                "HitPoints": "6",
+                "ShortDescription": "Hobgoblins are Medium humanoids with the goblinoid subtype."
+            },
+            "Hortus*": {
+                "SourceURL": "Races.aspx?ItemName=Hortus",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Str": "+2",
+                        "Con": "+2",
+                        "Cha": "-2"
+                    }
+                },
+                "HitPoints": "6",
+                "ShortDescription": "Hortuses are Medium plants."
+            },
+            "Huitz’plina": {
+                "SourceURL": "Races.aspx?ItemName=Huitz’plina",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Dex": "+2",
+                        "Wis": "+2",
+                        "Int": "-2"
+                    }
+                },
+                "HitPoints": "4",
+                "ShortDescription": "Huitz’plinas are Medium magical beasts. "
+            },
+            "Ijtikri*": {
+                "SourceURL": "Races.aspx?ItemName=Ijtikri",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Con": "+2",
+                        "Wis": "+2",
+                        "Int": "-2"
+                    }
+                },
+                "HitPoints": "6",
+                "ShortDescription": "Ijtikris are Medium aberrations."
+            },
+            "Ikeshti": {
+                "SourceURL": "Races.aspx?ItemName=Ikeshti",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Dex": "+2",
+                        "Int": "+2",
+                        "Wis": "-2"
+                    }
+                },
+                "HitPoints": "4",
+                "ShortDescription": "Ikeshtis are Small humanoids with the ikeshti subtype."
+            },
+            "Ilthisarian": {
+                "SourceURL": "Races.aspx?ItemName=Ilthisarian",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Str": "+2",
+                        "Int": "+2",
+                        "Cha": "-2"
+                    }
+                },
+                "HitPoints": "6",
+                "ShortDescription": "Ilthisarians are Large monstrous humanoids with the ilthisarian subtype and space and reach of 10 feet."
+            },
+            "Ixtangi*": {
+                "SourceURL": "Races.aspx?ItemName=Ixtangi",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Con": "+2",
+                        "Cha": "+2",
+                        "Wis": "-2"
+                    }
+                },
+                "HitPoints": "4",
+                "ShortDescription": "Ixtangis are Medium monstrous humanoids. "
+            },
+            "Izalguun": {
+                "SourceURL": "Races.aspx?ItemName=Izalguun",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Str": "+2",
+                        "Int": "+2",
+                        "Dex": "-2"
+                    }
+                },
+                "HitPoints": "6",
+                "ShortDescription": "Izalguuns are Large monstrous humanoids with a space of 10 feet. Their reach depends on their posture (see below)."
+            },
+            "Jububnan*": {
+                "SourceURL": "Races.aspx?ItemName=Jububnan",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Dex": "+2",
+                        "Con": "+2",
+                        "Str": "-2"
+                    }
+                },
+                "HitPoints": "6",
+                "ShortDescription": "Jububnans are Medium monstrous humanoids. "
+            },
+            "Kaa-leki": {
+                "SourceURL": "Races.aspx?ItemName=Kaa-leki",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Wis": "+2"
+                    }
+                },
+                "HitPoints": "4",
+                "ShortDescription": "Kaa-lekis are Medium humanoids with the kaa-leki and plantlike subtypes."
+            },
+            "Kalo": {
+                "SourceURL": "Races.aspx?ItemName=Kalo",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Dex": "+2",
+                        "Wis": "+2",
+                        "Con": "-2"
+                    }
+                },
+                "HitPoints": "2",
+                "ShortDescription": "Kalos are Medium monstrous humanoids with the aquatic subtype, meaning they require water to breathe."
+            },
+            "Kanabo": {
+                "SourceURL": "Races.aspx?ItemName=Kanabo",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Con": "+2",
+                        "Int": "-2"
+                    }
+                },
+                "HitPoints": "6",
+                "ShortDescription": "Kanabo are Medium outsiders with the goblinoid and native subtypes."
+            },
+            "Khizar*": {
+                "SourceURL": "Races.aspx?ItemName=Khizar",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Con": "+2",
+                        "Wis": "+2",
+                        "Dex": "-2"
+                    }
+                },
+                "HitPoints": "6",
+                "ShortDescription": "Khizars are Medium humanoids with the khizar and plantlike subtypes."
+            },
+            "Kiirinta*": {
+                "SourceURL": "Races.aspx?ItemName=Kiirinta",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Dex": "+2",
+                        "Int": "+2",
+                        "Wis": "-2"
+                    }
+                },
+                "HitPoints": "4",
+                "ShortDescription": "Kiirintas are Small fey. "
+            },
+            "Kish": {
+                "SourceURL": "Races.aspx?ItemName=Kish",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Str": "+2",
+                        "Wis": "+2",
+                        "Int": "–2"
+                    }
+                },
+                "HitPoints": "5",
+                "ShortDescription": "Kish are Medium humanoids with the kish subtype."
+            },
+            "Kitsune*": {
+                "SourceURL": "Races.aspx?ItemName=Kitsune",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Dex": "+2",
+                        "Cha": "+2",
+                        "Str": "–2"
+                    }
+                },
+                "HitPoints": "4",
+                "ShortDescription": "Kitsune are Humanoids with the kitsune and shapechanger subtype."
+            },
+            "Kobold*": {
+                "SourceURL": "Races.aspx?ItemName=Kobold",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Dex": "+2",
+                        "Cha": "+2",
+                        "Con": "–2"
+                    }
+                },
+                "HitPoints": "2",
+                "ShortDescription": "Kobolds are Small Humanoids with the Kobold subtype"
+            },
+            "Maraquoi": {
+                "SourceURL": "Races.aspx?ItemName=Maraquoi",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Con": "+2",
+                        "Wis": "+2",
+                        "Dex": "-2"
+                    }
+                },
+                "HitPoints": "5",
+                "ShortDescription": "Maraquoi are Medium humanoids with the maraquoi subtype."
+            },
+            "Megalonyxa": {
+                "SourceURL": "Races.aspx?ItemName=Megalonyxa",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Str": "+2",
+                        "Int": "+2",
+                        "Dex": "–2"
+                    }
+                },
+                "HitPoints": "6",
+                "ShortDescription": "Megalonyxas are Large monstrous humanoids with a space and reach of 10 feet."
+            },
+            "Morlamaw*": {
+                "SourceURL": "Races.aspx?ItemName=Morlamaw",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Con": "+2",
+                        "Cha": "+2",
+                        "Wis": "-2"
+                    }
+                },
+                "HitPoints": "4",
+                "ShortDescription": "Morlamaws are Large monstrous humanoids with the aquatic subtype. They have a space and reach of 10 feet."
+            },
+            "Moyishuu*": {
+                "SourceURL": "Races.aspx?ItemName=Moyishuu",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Cha": "+2"
+                    }
+                },
+                "HitPoints": "4",
+                "ShortDescription": "Moyishuus are Medium fey."
+            },
+            "Neskinti": {
+                "SourceURL": "Races.aspx?ItemName=Neskinti",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Dex": "+2",
+                        "Wis": "+2",
+                        "Str": "-2"
+                    }
+                },
+                "HitPoints": "4",
+                "ShortDescription": "Neskintis are Medium humanoids with the neskinti subtype."
+            },
+            "Nuar": {
+                "SourceURL": "Races.aspx?ItemName=Nuar",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Str": "+2",
+                        "Int": "+2",
+                        "Dex": "-2"
+                    }
+                },
+                "HitPoints": "6",
+                "ShortDescription": "Nuars are Medium monstrous humanoids."
+            },
+            "Orc*": {
+                "SourceURL": "Races.aspx?ItemName=Orc",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Str": "+4",
+                        "Cha": "–2"
+                    }
+                },
+                "HitPoints": "6",
+                "ShortDescription": "Orcs are Medium humanoids with the orc subtype."
+            },
+            "Oread*": {
+                "SourceURL": "Races.aspx?ItemName=Oread",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Str": "+2",
+                        "Wis": "+2",
+                        "Cha": "–2"
+                    }
+                },
+                "HitPoints": "6",
+                "ShortDescription": "Oreads are Medium outsiders with the native subtype."
+            },
+            "Osharu*": {
+                "SourceURL": "Races.aspx?ItemName=Osharu",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Int": "+2",
+                        "Wis": "+2",
+                        "Con": "-2"
+                    }
+                },
+                "HitPoints": "2",
+                "ShortDescription": "Osharus are Medium monstrous humanoids."
+            },
+            "Pahtra": {
+                "SourceURL": "Races.aspx?ItemName=Pahtra",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Dex": "+2",
+                        "Cha": "+2",
+                        "Str": "-2"
+                    }
+                },
+                "HitPoints": "4",
+                "ShortDescription": "Pahtras are Medium humanoids with the pahtra subtype."
+            },
+            "Phentomite*": {
+                "SourceURL": "Races.aspx?ItemName=Phentomite",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Dex": "+2",
+                        "Wis": "+2",
+                        "Con": "–2"
+                    }
+                },
+                "HitPoints": "4",
+                "ShortDescription": "Phentomites are Medium humanoids with the phentomite subtype."
+            },
+            "Prismeni": {
+                "SourceURL": "Races.aspx?ItemName=Prismeni",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Int": "+2"
+                    }
+                },
+                "HitPoints": "4",
+                "ShortDescription": "Prismenis are Medium outsiders with the native subtype."
+            },
+            "Psacynoid": {
+                "SourceURL": "Races.aspx?ItemName=Psacynoid",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Dex": "+2",
+                        "Wis": "+2",
+                        "Str": "-2"
+                    }
+                },
+                "HitPoints": "4",
+                "ShortDescription": "Psacynoids are Medium monstrous humanoids. "
+            },
+            "Quorlu*": {
+                "SourceURL": "Races.aspx?ItemName=Quorlu",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Con": "+2",
+                        "Cha": "+2",
+                        "Dex": "–2"
+                    }
+                },
+                "HitPoints": "6",
+                "ShortDescription": "Quorlus are Medium monstrous humanoids."
+            },
+            "Ramiyel": {
+                "SourceURL": "Races.aspx?ItemName=Ramiyel",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Wis": "+2"
+                    }
+                },
+                "HitPoints": "5",
+                "ShortDescription": "Ramiyels are Medium monstrous humanoids."
+            },
+            "Raxilite*": {
+                "SourceURL": "Races.aspx?ItemName=Raxilite",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Dex": "+2",
+                        "Int": "+2",
+                        "Cha": "+2",
+                        "Str": "-4"
+                    }
+                },
+                "HitPoints": "2",
+                "ShortDescription": "Raxilites are Tiny plants."
+            },
+            "Reptoid": {
+                "SourceURL": "Races.aspx?ItemName=Reptoid",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Str": "+2",
+                        "Cha": "+2",
+                        "Dex": "-2"
+                    }
+                },
+                "HitPoints": "5",
+                "ShortDescription": "Reptoids are Medium humanoids with the reptoid and shapechanger subtypes."
+            },
+            "Ryphorian": {
+                "SourceURL": "Races.aspx?ItemName=Ryphorian",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Con": "+2",
+                        "Wis": "+2",
+                        "Str": "-2"
+                    }
+                },
+                "HitPoints": "4",
+                "ShortDescription": "Ryphorians are Medium humanoids with the ryphorian subtype."
+            },
+            "Samsaran": {
+                "SourceURL": "Races.aspx?ItemName=Samsaran",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Int": "+2",
+                        "Wis": "+2",
+                        "Con": "–2"
+                    }
+                },
+                "HitPoints": "4",
+                "ShortDescription": "Samsarans are Humanoids with the samsaran subtype."
+            },
+            "Sarcesian": {
+                "SourceURL": "Races.aspx?ItemName=Sarcesian",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Dex": "+2",
+                        "Cha": "+2",
+                        "Str": "-2"
+                    }
+                },
+                "HitPoints": "4",
+                "ShortDescription": "Sarcesians are Large humanoids with the sarcesian subtype and a space and reach of 10 feet."
+            },
+            "Sazaron*": {
+                "SourceURL": "Races.aspx?ItemName=Sazaron",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Int": "+2",
+                        "Wis": "+2",
+                        "Dex": "-2"
+                    }
+                },
+                "HitPoints": "6",
+                "ShortDescription": "Sazarons are Large monstrous humanoids."
+            },
+            "Screedreep*": {
+                "SourceURL": "Races.aspx?ItemName=Screedreep",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Wis": "+2",
+                        "Cha": "+2",
+                        "Str": "-2"
+                    }
+                },
+                "HitPoints": "4",
+                "ShortDescription": "Screedreeps are Small humanoids with the screedreep subtype."
+            },
+            "Scyphozoan": {
+                "SourceURL": "Races.aspx?ItemName=Scyphozoan",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Con": "+2",
+                        "Int": "+2",
+                        "Cha": "-2"
+                    }
+                },
+                "HitPoints": "4",
+                "ShortDescription": "Scyphozoans are Medium aberrations."
+            },
+            "Selamid": {
+                "SourceURL": "Races.aspx?ItemName=Selamid",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Dex": "+2",
+                        "Con": "+2",
+                        "Cha": "-2"
+                    }
+                },
+                "HitPoints": "6",
+                "ShortDescription": "Selamids are Medium oozes with the selamid subtype, but they do not gain the normal ooze immunities."
+            },
+            "Seprevoi": {
+                "SourceURL": "Races.aspx?ItemName=Seprevoi",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Dex": "+2",
+                        "Cha": "+2",
+                        "Int": "-2"
+                    }
+                },
+                "HitPoints": "6",
+                "ShortDescription": "Seprevois are Medium monstrous humanoids with the seprevoi subtype."
+            },
+            "Shakalta": {
+                "SourceURL": "Races.aspx?ItemName=Shakalta",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Wis": "+2",
+                        "Cha": "+2",
+                        "Int": "-2"
+                    }
+                },
+                "HitPoints": "6",
+                "ShortDescription": "Shakaltas are Medium humanoids with the shakalta subtype."
+            },
+            "Shatori*": {
+                "SourceURL": "Races.aspx?ItemName=Shatori",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Int": "+2",
+                        "Wis": "+2",
+                        "Con": "-2"
+                    }
+                },
+                "HitPoints": "4",
+                "ShortDescription": "Shatoris are Medium humanoids with the shatori subtype."
+            },
+            "Shimreen*": {
+                "SourceURL": "Races.aspx?ItemName=Shimreen",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Dex": "+2",
+                        "Int": "+2",
+                        "Wis": "-2"
+                    }
+                },
+                "HitPoints": "4",
+                "ShortDescription": "Shimreens are Medium humanoids with the shimreen subtype."
+            },
+            "Shobhad": {
+                "SourceURL": "Races.aspx?ItemName=Shobhad",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Str": "+4",
+                        "Int": "-2"
+                    }
+                },
+                "HitPoints": "6",
+                "ShortDescription": "Shobhads are Large monstrous humanoids with space and reach of 10 feet."
+            },
+            "Skittermander": {
+                "SourceURL": "Races.aspx?ItemName=Skittermander",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Dex": "+2",
+                        "Cha": "+2",
+                        "Int": "-2"
+                    }
+                },
+                "HitPoints": "2",
+                "ShortDescription": "Skittermanders are Small humanoids with the skittermander subtype."
+            },
+            "Spathinae*": {
+                "SourceURL": "Races.aspx?ItemName=Spathinae",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Dex": "+2",
+                        "Wis": "+2",
+                        "Con": "-2"
+                    }
+                },
+                "HitPoints": "3",
+                "ShortDescription": "Spathinae colonies are Medium monstrous humanoids."
+            },
+            "Stellifera": {
+                "SourceURL": "Races.aspx?ItemName=Stellifera",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Wis": "+2",
+                        "Cha": "+2",
+                        "Con": "-2",
+                        "Str": "-4"
+                    }
+                },
+                "HitPoints": "2",
+                "ShortDescription": "Stelliferas are Diminutive magical beasts with the aquatic subtype. A stellifera can’t breathe air unless he has artificial life support."
+            },
+            "Strix*": {
+                "SourceURL": "Races.aspx?ItemName=Strix",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Dex": "+2",
+                        "Int": "+2",
+                        "Cha": "-2"
+                    }
+                },
+                "HitPoints": "6",
+                "ShortDescription": "Strix are Medium humanoids with the strix subtype."
+            },
+            "Suli*": {
+                "SourceURL": "Races.aspx?ItemName=Suli",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Str": "+2",
+                        "Cha": "+2",
+                        "Int": "–2"
+                    }
+                },
+                "HitPoints": "4",
+                "ShortDescription": "Sulis are Medium outsiders with the native subtype."
+            },
+            "Svartalfar": {
+                "SourceURL": "Races.aspx?ItemName=Svartalfar",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Int": "+2",
+                        "Dex": "+2",
+                        "Str": "–2"
+                    }
+                },
+                "HitPoints": "4",
+                "ShortDescription": "Svartalfars are Medium fey with the extraplanar subtype."
+            },
+            "Sylph*": {
+                "SourceURL": "Races.aspx?ItemName=Sylph",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Dex": "+2",
+                        "Int": "+2",
+                        "Con": "–2"
+                    }
+                },
+                "HitPoints": "2",
+                "ShortDescription": "Sylphs are Medium outsiders with the native subtype."
+            },
+            "Telia*": {
+                "SourceURL": "Races.aspx?ItemName=Telia",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Con": "+2",
+                        "Wis": "+2",
+                        "Dex": "-2"
+                    }
+                },
+                "HitPoints": "6",
+                "ShortDescription": "Telias are Medium monstrous humanoids."
+            },
+            "Trinir": {
+                "SourceURL": "Races.aspx?ItemName=Trinir",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Con": "+2",
+                        "Int": "+2",
+                        "Cha": "–2"
+                    }
+                },
+                "HitPoints": "4",
+                "ShortDescription": "Trinirs are Small humanoids with the trinir subtype."
+            },
+            "Tromlin Bloodseeker": {
+                "SourceURL": "Races.aspx?ItemName=Tromlin Bloodseeker",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Dex": "+2"
+                    }
+                },
+                "HitPoints": "4",
+                "ShortDescription": "Tromlins are Medium humanoids with the tromlin subtype."
+            },
+            "Tromlin Hardshell": {
+                "SourceURL": "Races.aspx?ItemName=Tromlin Hardshell",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Str": "+2"
+                    }
+                },
+                "HitPoints": "6",
+                "ShortDescription": "Tromlins are Medium humanoids with the tromlin subtype."
+            },
+            "Trox*": {
+                "SourceURL": "Races.aspx?ItemName=Trox",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Str": "+2",
+                        "Con": "+2",
+                        "Dex": "–2"
+                    }
+                },
+                "HitPoints": "8",
+                "ShortDescription": "Trox are Large monstrous humanoids with a space and reach of 10 feet."
+            },
+            "Tryziarka": {
+                "SourceURL": "Races.aspx?ItemName=Tryziarka",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Dex": "+2",
+                        "Wis": "+2",
+                        "Int": "-2"
+                    }
+                },
+                "HitPoints": "4",
+                "ShortDescription": "Tryziarkas are medium humanoids with the tryziarka subtype. "
+            },
+            "Undine*": {
+                "SourceURL": "Races.aspx?ItemName=Undine",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Dex": "+2",
+                        "Wis": "+2",
+                        "Str": "–2"
+                    }
+                },
+                "HitPoints": "2",
+                "ShortDescription": "Undines are Medium outsiders with the native subtype."
+            },
+            "Urog*": {
+                "SourceURL": "Races.aspx?ItemName=Urog",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Con": "+2",
+                        "Int": "+2",
+                        "Cha": "-2"
+                    }
+                },
+                "HitPoints": "6",
+                "ShortDescription": "Urogs are Large magical beasts with a space of 10 feet and a reach of 5 feet."
+            },
+            "Varculak": {
+                "SourceURL": "Races.aspx?ItemName=Varculak",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Con": "+2",
+                        "Cha": "+2",
+                        "Wis": "-2"
+                    }
+                },
+                "HitPoints": "3",
+                "ShortDescription": "Varculaks are Small or Medium undead, depending on the species they once belonged to. Varculaks have a Constitution score, lack the unliving trait, and don’t gain undead immunities."
+            },
+            "Varratana*": {
+                "SourceURL": "Races.aspx?ItemName=Varratana",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Dex": "+2"
+                    }
+                },
+                "HitPoints": "4",
+                "ShortDescription": "Varratanas are Medium humanoids with the varratana subtype."
+            },
+            "Verthani": {
+                "SourceURL": "Races.aspx?ItemName=Verthani",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Con": "+2",
+                        "Int": "+2",
+                        "Str": "-2"
+                    }
+                },
+                "HitPoints": "4",
+                "ShortDescription": "Verthani are Medium humanoids with the verthani subtype."
+            },
+            "Vilderaro": {
+                "SourceURL": "Races.aspx?ItemName=Vilderaro",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Int": "+2"
+                    }
+                },
+                "HitPoints": "4",
+                "ShortDescription": "A vilderaro is a Medium monstrous humanoids with the aquatic subtype."
+            },
+            "Vlaka": {
+                "SourceURL": "Races.aspx?ItemName=Vlaka",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Wis": "+2",
+                        "Cha": "+2",
+                        "Int": "–2"
+                    }
+                },
+                "HitPoints": "4",
+                "ShortDescription": "Vlakas are Medium humanoids with the vlaka subtype."
+            },
+            "Witchwyrd": {
+                "SourceURL": "Races.aspx?ItemName=Witchwyrd",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Cha": "+2",
+                        "Int": "+2",
+                        "Con": "-2"
+                    }
+                },
+                "HitPoints": "4",
+                "ShortDescription": "Witchwyrds are Medium monstrous humanoids."
+            },
+            "Woioko": {
+                "SourceURL": "Races.aspx?ItemName=Woioko",
+                "AbilityModifiers": {
+                    "Deepborn": {
+                        "Cha": "+2",
+                        "Str": "+2",
+                        "Con": "-2"
+                    },
+                    "Floatborn": {
+                        "Cha": "+2",
+                        "Dex": "+2",
+                        "Con": "-2"
+                    }
+                },
+                "HitPoints": "4",
+                "ShortDescription": "Woiokos are Medium humanoids with the woioko subtype. Deepborn woiokos also gain the aquatic subtype."
+            },
+            "Worlanisi": {
+                "SourceURL": "Races.aspx?ItemName=Worlanisi",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Str": "+2",
+                        "Cha": "+2",
+                        "Wis": "-2"
+                    }
+                },
+                "HitPoints": "4",
+                "ShortDescription": "Worlanisi are Small humanoids with the worlanisi subtype."
+            },
+            "Wrikreechee*": {
+                "SourceURL": "Races.aspx?ItemName=Wrikreechee",
+                "AbilityModifiers": {
+                    "Default": {
+                        "Con": "+2",
+                        "Int": "+2",
+                        "Dex": "-2"
+                    }
+                },
+                "HitPoints": "4",
+                "ShortDescription": "Wrikreechees are Medium monstrous humanoids with the aquatic subtype."
+            }
+        }
+    }
+}
