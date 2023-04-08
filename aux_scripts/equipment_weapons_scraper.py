@@ -20,10 +20,10 @@ def main():
     solarianID = "ctl00_MainContent_GridViewWeapons1Hand"
     onespecialID = "ctl00_MainContent_GridViewWeapons1Hand"
     twospecialID = "ctl00_MainContent_GridViewWeapons2Hands"
-    criteffectsID = ""
-    specialpropertiesID = ""
-    accessoriesID = ""
-    fusionsID = ""
+    criteffectsID = "ctl00_MainContent_DataListTalentsAll"
+    specialpropertiesID = "ctl00_MainContent_DataListTalentsAll"
+    accessoriesID = "ctl00_MainContent_GridViewWeaponAccessories"
+    fusionsID = "ctl00_MainContent_GridViewWeaponFusions"
 
 
     jsonTemplate = {}
@@ -255,8 +255,52 @@ def main():
             "Bulk" : f"{row[10]}",
             "Special" : f"{row[11]}",
         }
-    output = json.dumps(jsonTemplate)
-    print(output)
+
+    jsonTemplate["Weapons"][f"Critical Hit Effects"] = {}
+
+    criteffectsPrint = py_scraper.scraper(f"https://aonsrd.com/WeaponCriticals.aspx?ItemName=All",criteffectsID)
+    criteffectsDinner = re.findall('<span id=".*?"><h2 class="title"><a href="(?P<SourceURL>.*?)">(?P<Name>.*?)<\/a><\/h2><b>Source<\/b>.*?<i>.*?<\/i><\/a><br\/>(?P<Description>.*?)<br\/>',str(criteffectsPrint))
+    for row in criteffectsDinner:
+        jsonTemplate["Weapons"]["Critical Hit Effects"][f"{row[1]}"] = {
+            "SourceURL" : f"{row[0]}",
+            "Description" : f"{row[2]}",
+        }
+
+    jsonTemplate["Weapons"][f"Special Properties"] = {}
+
+    specialpropertiesPrint = py_scraper.scraper(f"https://aonsrd.com/WeaponProperties.aspx?ItemName=All",specialpropertiesID)
+    specialpropertiesDinner = re.findall('<span id=".*?"><h2 class="title"><a href="(?P<SourceURL>.*?)">(?P<Name>.*?)<\/a><\/h2><b>.*?<\/a><br\/>(?P<Description>.*?)<br\/><br\/><\/span>',str(specialpropertiesPrint))
+    for row in specialpropertiesDinner:
+        jsonTemplate["Weapons"]["Special Properties"][f"{row[1]}"] = {
+            "SourceURL" : f"{row[0]}",
+            "Description" : f"{row[2]}",
+        }
+
+    jsonTemplate["Weapons"][f"Accessories"] = {}
+
+    accessoriesPrint = py_scraper.scraper(f"https://aonsrd.com/WeaponAccessories.aspx?ItemName=All&Family=None",accessoriesID)
+    accessoriesDinner = re.findall('<td>(?:<font color="Black">)?<a href="(?P<SourceURL>.*?)"><img.*?> (?P<Name>.*?)<\/a>(?:<\/font>)?<\/td><td>(?:<font color="Black">)?(?P<Level>.*?)(?:<\/font>)?<\/td><td>(?:<font color="Black">)?(?P<Price>.*?)(?:<\/font>)?<\/td><td>(?:<font color="Black">)?(?P<Bulk>.*?)(?:<\/font>)?<\/td><td>(?:<font color="Black">)?(?P<Capacity>.*?)(?:<\/font>)?<\/td><td>(?:<font color="Black">)?(?P<Usage>.*?)(?:<\/font>)?<\/td><td>(?:<font color="Black">)?(?P<WeaponType>.*?)(?:<\/font>)?<\/td>',str(accessoriesPrint))
+    for row in accessoriesDinner:
+        jsonTemplate["Weapons"]["Accessories"][f"{row[1]}"] = {
+            "SourceURL" : f"{row[0]}",
+            "Level" : f"{row[2]}",
+            "Price" : f"{row[3]}",
+            "Bulk" : f"{row[4]}",
+            "Capacity" : f"{row[5]}",
+            "Usage" : f"{row[6]}",
+            "WeaponType" : f"{row[7]}",
+        }
+
+    jsonTemplate["Weapons"][f"Fusions"] = {}
+
+    fusionsPrint = py_scraper.scraper(f"https://aonsrd.com/WeaponFusions.aspx?ItemName=All",fusionsID)
+    fusionsDinner = re.findall('<td>(?:<font color="Black">)?<a href="(?P<SourceURL>.*?)"><img.*?> (?P<Name>.*?)<\/a>(?:<\/font>)?<\/td><td>(?:<font color="Black">)?(?P<Level>.*?)(?:<\/font>)?<\/td><td>(?:<font color="Black">)?(?P<Description>.*?)(?:<\/font>)?<\/td>',str(fusionsPrint))
+    for row in fusionsDinner:
+        jsonTemplate["Weapons"]["Fusions"][f"{row[1]}"] = {
+            "SourceURL" : f"{row[0]}",
+            "Level" : f"{row[2]}",
+            "Description" : f"{row[3]}",
+        }
     with open('json/equipment_weapons.json', 'w', encoding='utf-8') as f:
         json.dump(jsonTemplate, f, ensure_ascii=False, indent=4)
 main()
@@ -268,6 +312,6 @@ main()
 # Notes
 # # RegEx 101: https://regex101.com/
 
-# Version 0.01
-# # Date: 04/01/2023
-# # Notes: Initial Upload
+# Version 0.02
+# # Date: 04/08/2023
+# # Notes: Completed basic weapons scrape
