@@ -256,22 +256,22 @@ def main():
             "Special" : f"{row[11]}",
         }
 
-    jsonTemplate["Weapons"][f"Critical Hit Effects"] = {}
+    jsonTemplate["Weapons"][f"Critical_Hit_Effects"] = {}
 
     criteffectsPrint = py_scraper.scraper(f"https://aonsrd.com/WeaponCriticals.aspx?ItemName=All",criteffectsID)
     criteffectsDinner = re.findall('<span id=".*?"><h2 class="title"><a href="(?P<SourceURL>.*?)">(?P<Name>.*?)<\/a><\/h2><b>Source<\/b>.*?<i>.*?<\/i><\/a><br\/>(?P<Description>.*?)<br\/>',str(criteffectsPrint))
     for row in criteffectsDinner:
-        jsonTemplate["Weapons"]["Critical Hit Effects"][f"{row[1]}"] = {
+        jsonTemplate["Weapons"]["Critical_Hit_Effects"][f"{row[1]}"] = {
             "SourceURL" : f"{row[0]}",
             "Description" : f"{row[2]}",
         }
 
-    jsonTemplate["Weapons"][f"Special Properties"] = {}
+    jsonTemplate["Weapons"][f"Special_Properties"] = {}
 
     specialpropertiesPrint = py_scraper.scraper(f"https://aonsrd.com/WeaponProperties.aspx?ItemName=All",specialpropertiesID)
     specialpropertiesDinner = re.findall('<span id=".*?"><h2 class="title"><a href="(?P<SourceURL>.*?)">(?P<Name>.*?)<\/a><\/h2><b>.*?<\/a><br\/>(?P<Description>.*?)<br\/><br\/><\/span>',str(specialpropertiesPrint))
     for row in specialpropertiesDinner:
-        jsonTemplate["Weapons"]["Special Properties"][f"{row[1]}"] = {
+        jsonTemplate["Weapons"]["Special_Properties"][f"{row[1]}"] = {
             "SourceURL" : f"{row[0]}",
             "Description" : f"{row[2]}",
         }

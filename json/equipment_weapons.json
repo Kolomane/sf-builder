@@ -21734,7 +21734,7 @@
                 "Special": "<a href=\"WeaponProperties.aspx?ItemName=Analog\">analog</a>, <a href=\"WeaponProperties.aspx?ItemName=Force\"> force</a>, <a href=\"WeaponProperties.aspx?ItemName=Quick Reload\"> quick reload</a>"
             }
         },
-        "Critical Hit Effects": {
+        "Critical_Hit_Effects": {
             "Arc": {
                 "SourceURL": "WeaponCriticals.aspx?ItemName=Arc",
                 "Description": "The attack’s energy leaps to a second creature. This secondary target must be within 10 feet of your original target and must be the creature closest to the original target (you choose if multiple creatures are equidistant). Roll the amount of damage listed in the weapon’s arc—the secondary target takes this damage (not multiplied by the critical hit), of whatever type the weapon deals."
@@ -21884,7 +21884,7 @@
                 "Description": "Roll on Table 7-11: Wounding Weapons. The target must succeed at a saving throw of the listed type (if any) or suffer the listed effect. If the creature lacks a specified location, use the general location."
             }
         },
-        "Special Properties": {
+        "Special_Properties": {
             "Aeon": {
                 "SourceURL": "WeaponProperties.aspx?ItemName=Aeon",
                 "Description": "A weapon that has the aeon special property includes a socket that can house an <i>aeon stone</i>. As a standard action, you can slot an <i>aeon stone </i>into the socket or remove it. You can slot an <i>aeon stone </i>into a weapon only if the weapon has an item level equal to or greater than the <i>aeon stone</i>’s item level. You don’t benefit from the stone’s normal abilities while the stone is slotted into a weapon. Instead, an aeon weapon with a slotted <i>aeon stone </i>gains the boost weapon special property, provided it doesn’t have the blast or unwieldy properties. The amount of the boost’s damage increase is dependent on the item level of the slotted aeon stone, as follows: level 1–5, 1d4; levels 6–10, 1d6; levels 11–15, 1d8; levels 16–20, 1d10.<br/><br/> A slotted <i>aeon stone </i>has a number of charges per day equal to the stone’s item level. Utilizing the boost special property the stone provides spends charges from the stone equal to the weapon’s usage value. If the stone lacks enough charges, the boost attempt has no effect. An <i>aeon stone </i>that has had any daily charges expended in this way turns a dull color and doesn’t confer its usual benefits if removed from the aeon weapon."
