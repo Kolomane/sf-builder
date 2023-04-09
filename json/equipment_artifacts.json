@@ -1,0 +1,88 @@
+{
+    "Artifacts": {
+        "Atrocite Sphere": {
+            "SourceURL": "Artifacts.aspx?ItemName=Atrocite Sphere",
+            "Source": "Starfinder Armory"
+        },
+        "Book of Unwritten Truths": {
+            "SourceURL": "Artifacts.aspx?ItemName=Book of Unwritten Truths",
+            "Source": "Starfinder Armory"
+        },
+        "Canu’s Cache": {
+            "SourceURL": "Artifacts.aspx?ItemName=Canu’s Cache",
+            "Source": "Galaxy Exploration Manual"
+        },
+        "Conqueror's Star of the Headless Vesk": {
+            "SourceURL": "Artifacts.aspx?ItemName=Conqueror's Star of the Headless Vesk",
+            "Source": "Starfinder #16: The Blind City"
+        },
+        "Evomorpher": {
+            "SourceURL": "Artifacts.aspx?ItemName=Evomorpher",
+            "Source": "Galaxy Exploration Manual"
+        },
+        "Glimpses of the Endless Horizon": {
+            "SourceURL": "Artifacts.aspx?ItemName=Glimpses of the Endless Horizon",
+            "Source": "Drift Crisis"
+        },
+        "Harmonic Reassembler": {
+            "SourceURL": "Artifacts.aspx?ItemName=Harmonic Reassembler",
+            "Source": "Starfinder #16: The Blind City"
+        },
+        "Honorbringer": {
+            "SourceURL": "Artifacts.aspx?ItemName=Honorbringer",
+            "Source": "Galactic Magic"
+        },
+        "Leng Luminary": {
+            "SourceURL": "Artifacts.aspx?ItemName=Leng Luminary",
+            "Source": "Drift Crisis"
+        },
+        "Metamorphosis Torc": {
+            "SourceURL": "Artifacts.aspx?ItemName=Metamorphosis Torc",
+            "Source": "Galactic Magic"
+        },
+        "Operator’s Shard": {
+            "SourceURL": "Artifacts.aspx?ItemName=Operator’s Shard",
+            "Source": "Drift Crisis"
+        },
+        "Possibility Timer": {
+            "SourceURL": "Artifacts.aspx?ItemName=Possibility Timer",
+            "Source": "Starfinder #9: The Rune Drive Gambit"
+        },
+        "Shimmershield": {
+            "SourceURL": "Artifacts.aspx?ItemName=Shimmershield",
+            "Source": "Drift Crisis"
+        },
+        "The Choir Stone": {
+            "SourceURL": "Artifacts.aspx?ItemName=The Choir Stone",
+            "Source": "Starfinder #41: Serpents in the Cradle"
+        },
+        "The Sublime Triptych": {
+            "SourceURL": "Artifacts.aspx?ItemName=The Sublime Triptych",
+            "Source": "Starfinder #41: Serpents in the Cradle"
+        },
+        "The Void Orrery": {
+            "SourceURL": "Artifacts.aspx?ItemName=The Void Orrery",
+            "Source": "Starfinder #41: Serpents in the Cradle"
+        },
+        "Titan’s Gate": {
+            "SourceURL": "Artifacts.aspx?ItemName=Titan’s Gate",
+            "Source": "Galaxy Exploration Manual"
+        },
+        "Trafodi Paradox": {
+            "SourceURL": "Artifacts.aspx?ItemName=Trafodi Paradox",
+            "Source": "Starfinder Armory"
+        },
+        "Tytarian’s Anvil": {
+            "SourceURL": "Artifacts.aspx?ItemName=Tytarian’s Anvil",
+            "Source": "Galactic Magic"
+        },
+        "Ungarato": {
+            "SourceURL": "Artifacts.aspx?ItemName=Ungarato",
+            "Source": "Starfinder #1: Incident at Absalom Station"
+        },
+        "Vessel of Hylax": {
+            "SourceURL": "Artifacts.aspx?ItemName=Vessel of Hylax",
+            "Source": "Starfinder #21: Huskworld"
+        }
+    }
+}

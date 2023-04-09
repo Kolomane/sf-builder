@@ -15,7 +15,7 @@ def main():
 
     thePrint = py_scraper.scraper(f"https://aonsrd.com/Feats.aspx?Category=Combat",defaultID)
     print(thePrint)
-    theDinner = re.findall('<td><font color="Black"><a href="(?P<SourceURL>.*?)"><img src=".*?" style="margin:3px 3px 0px 3px;" title="SFS Legal"\/> (?P<FeatName>.*?)<\/a><\/font><\/td><td><font color="Black">(?P<Prerequisites>.*?)<\/font><\/td><td><font color="Black">(?P<Description>.*?)<\/font>',str(thePrint))
+    theDinner = re.findall('<td>(?:<font color="Black">)?<a href="(?P<SourceURL>.*?)"><img src=".*?" style="margin:3px 3px 0px 3px;" title="SFS Legal"\/> (?P<FeatName>.*?)<\/a>(?:<\/font>)?<\/td><td>(?:<font color="Black">)?(?P<Prerequisites>.*?)(?:<\/font>)?<\/td><td>(?:<font color="Black">)?(?P<Description>.*?)(?:<\/font>)?',str(thePrint))
     print(theDinner)
     for row in theDinner:
         print(row)
