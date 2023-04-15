@@ -1,0 +1,1381 @@
+{
+    "Creature_Companions": {
+        "Marwaul": {
+            "Source": "Known for their amiability and preciousness, a marwaul makes for an excellent animal companion and lookout for low-level adventurers.",
+            "MarwaulLevels 1-5": "Tiny animal",
+            "Senses": [
+                " blindsight (vibration) 80 ft.",
+                " low-light vision"
+            ],
+            "Good Save": [
+                "  Ref; "
+            ],
+            "Poor Saves": [
+                " Fort",
+                " Will"
+            ],
+            "Resistances": " cold 5",
+            "Speed": [
+                "30 ft.",
+                " burrow 10 ft.",
+                " climb 15 ft."
+            ],
+            "Melee Attack": [
+                " bite (P) or claws (S)"
+            ],
+            "Space": [
+                " 0 ft.  "
+            ],
+            "Reach": [
+                " 0 ft. "
+            ],
+            "Ability Modifiers": [
+                " Dex",
+                " Wis"
+            ],
+            "Wail (Ex)": " ",
+            "Watchful (Ex)": " Marwauls are always alert. While your marwaul companion is sharing your space and not moving, you gain a +1 circumstance bonus to Perception and initiative checks.",
+            "Level (Min)": "1",
+            "Level (Max)": "5",
+            "Size": "Tiny"
+        },
+        "Proog": {
+            "Source": "Proogs are highly active shape- and color-shifting oozes that enjoy mimicking small objects; they’re most commonly bred as novelty pets. Xenobiologists disagree on how the oozes manage to so accurately duplicate details like color and pattern without sight. Proogs tend to imprint on a single larger creature, and while naturally curious, they rarely stray farther from their owner than the range of their blindsight.",
+            "ProogLevels 1-5": "Tiny ooze",
+            "Senses": [
+                " blindsight (life) 60 ft.",
+                " sightless"
+            ],
+            "Good Save": [
+                "  Fort; "
+            ],
+            "Poor Saves": [
+                " Ref",
+                " Will"
+            ],
+            "Defensive Abilities": " ooze immunities",
+            "Speed": [
+                "20 ft."
+            ],
+            "Melee Attack": [
+                " pseudopod (B)"
+            ],
+            "Space": [
+                " 2 1/2 ft.  "
+            ],
+            "Reach": [
+                " 0 ft. "
+            ],
+            "Ability Modifiers": [
+                " Con",
+                " Wis"
+            ],
+            "Convincing Accessory (Ex)": " ",
+            "Mimic (Ex)": " A proog can look like any solid object of 1 bulk or less that it comes in contact with. It can’t imitate such an item’s function, moving parts, or the like. A creature that closely examines a mimicking proog can determine its true nature with a successful Perception check (DC = 15 + 1-1/2 × the proog’s level).",
+            "Level (Min)": "1",
+            "Level (Max)": "5",
+            "Size": "Tiny"
+        },
+        "Ravenous Drake": {
+            "Source": "Ravenous drakes can make suitable creature companions for those prepared to sate their appetites.",
+            "Ravenous DrakeLevels 1-5": "Small dragon",
+            "Senses": [
+                " darkvision 60 ft.",
+                " low-light vision"
+            ],
+            "Good Save": [
+                "  Fort; "
+            ],
+            "Poor Saves": [
+                " Ref",
+                " Will"
+            ],
+            "Speed": [
+                "30 ft.",
+                " climb 20 ft."
+            ],
+            "Melee Attack": [
+                " bite (P)",
+                " suctioning vortex (special)"
+            ],
+            "Space": [
+                " 5 ft.  "
+            ],
+            "Reach": [
+                " 5 ft.(10 ft. with suctioning vortex) "
+            ],
+            "Ability Modifiers": [
+                " Str",
+                " Con"
+            ],
+            "Growth Spurt (Ex, 6th level)": " ",
+            "Suctioning Vortex (Ex)": " The movement from this ability—both for the drake and its target—does not provoke attacks of opportunity. The DC of Strength checks to remove an attached drake equals 10 + the drake’s level. Use the drake’s level in place of its CR to calculate the Athletics check DC to climb out of its stomach. ",
+            "Level (Min)": "1",
+            "Level (Max)": "5",
+            "Size": "Small"
+        },
+        "Ilskitt": {
+            "Source": "Natives of Vesk-3, ilskitts look like brightly colored owls with weasel-like torsos. They love to steal and hoard objects, and they are known to bring their owners gifts of items they “find.”",
+            "IlskittLevels 1-8": "Tiny animal",
+            "Senses": [
+                " darkvision 60 ft.",
+                " low-light vision"
+            ],
+            "Good Save": [
+                "  Ref; "
+            ],
+            "Poor Saves": [
+                " Fort",
+                " Will"
+            ],
+            "Speed": [
+                "20 ft.",
+                " climb 20 ft.",
+                " fly 20 ft. (Ex: average)"
+            ],
+            "Melee Attack": [
+                " talon (S)"
+            ],
+            "Space": [
+                " 2 1/2 ft.  "
+            ],
+            "Reach": [
+                " 0 ft. "
+            ],
+            "Ability Modifiers": [
+                " Dex",
+                " Wis"
+            ],
+            "Distracting (Ex)": " ",
+            "Filch (Ex)": " As a standard action, your ilskitt can attempt to steal an item that isn’t being wielded or worn from a creature within 60 feet of you using the pick pocket task of the Sleight of Hand skill. An ilskitt’s bonus to this check is 4 + the ilskitt’s level, or your Sleight of Hand bonus, whichever is higher. The target automatically succeeds at noticing the attempt.",
+            "Level (Min)": "1",
+            "Level (Max)": "8",
+            "Size": "Tiny"
+        },
+        "Empathnid": {
+            "Source": "Originally discovered by Pact Worlds explorers on a jungle planet in the Vast, empathnids are available in a staggering array of colors and have become popular pets. The 8-inch spiders are most notable for their almost supernatural empathy for other creatures, and their venom has a stabilizing effect on most creatures.",
+            "EmpathnidLevels 1-10": "Diminutive vermin",
+            "Senses": [
+                " blindsense (emotion) 60 ft.",
+                " darkvision 60 ft."
+            ],
+            "Good Save": [
+                "  Will; "
+            ],
+            "Poor Saves": [
+                " Fort",
+                " Ref"
+            ],
+            "Speed": [
+                "40 ft.",
+                " climb 40 ft."
+            ],
+            "Melee Attack": [
+                " bite (P)"
+            ],
+            "Space": [
+                " 1 ft.  "
+            ],
+            "Reach": [
+                " 0 ft. "
+            ],
+            "Ability Modifiers": [
+                " Dex",
+                " Wis"
+            ],
+            "Moral Support (Ex)": " ",
+            "Stabilizing Venom (Ex, 4th level)": " Once per day as a standard action, an empathnid can inject its venom into a dying creature in its space, automatically stabilizing that creature. If you are dying, your empathnid companion can use actions as though you were consciously directing it, but only to attempt to stabilize you.",
+            "Level (Min)": "1",
+            "Level (Max)": "10",
+            "Size": "Diminutive"
+        },
+        "Localized Water Elemental": {
+            "Source": "Water elementals are common on Kalo-Mahoi, and the longer they remain on the Material Plane, the more they tend to adapt, taking on a semipermanent shape. While this diminishes some of the elemental’s resistances, it also drives them to imprint on and work with other creatures, such as kalos.",
+            "Localized Water ElementalLevels 1-11": "Small or Medium outsider (elemental, water)",
+            "Senses": [
+                " darkvision 60 ft."
+            ],
+            "Good Save": [
+                "  Fort; "
+            ],
+            "Poor Saves": [
+                " Ref",
+                " Will"
+            ],
+            "Speed": [
+                "20 ft.",
+                " swim 40 ft."
+            ],
+            "Melee Attack": [
+                " slam (B)"
+            ],
+            "Space": [
+                " 5 ft.  "
+            ],
+            "Reach": [
+                " 5 ft. "
+            ],
+            "Ability Modifiers": [
+                " Str",
+                " Dex"
+            ],
+            "Demi-Elemental (Su)": " A localized water elemental lacks elemental immunities. Instead, it gains a +2 bonus to saving throws against bleed, critical hit, paralysis, poison, sleep effects, and stunning effects. A localized elemental can be flanked.",
+            "Jet (Ex)": " While in water, a localized water elemental can charge as a standard action without the normal charge penalties. When it deals damage at the end of a charge in this way, it deals additional damage equal to its level.",
+            "Water Manipulation (Su; 5th level)": " A localized water elemental can attempt grapple or reposition combat maneuvers with a +2 circumstance bonus at a range of 30 feet so long as both the elemental and its target are in contact with the same body of water.",
+            "Level (Min)": "1",
+            "Level (Max)": "11",
+            "Size": "Small or Medium"
+        },
+        "Glimmirin": {
+            "Source": "Glimmirins are small, portly herbivores covered in soft quills that glow in shades of yellow and orange. Friendly and brave, they're often kept as pets in the Dark, where they function as a mobile (and adorable) light source.",
+            "GlimmirinLevels 1-12": "Small animal",
+            "Senses": [
+                " low-light vision"
+            ],
+            "Good Save": [
+                "  Will; "
+            ],
+            "Poor Saves": [
+                " Fort",
+                " Ref"
+            ],
+            "Speed": [
+                "30 ft."
+            ],
+            "Melee Attack": [
+                " bite (P)"
+            ],
+            "Space": [
+                " 5 ft.  "
+            ],
+            "Reach": [
+                " 5 ft. "
+            ],
+            "Ability Modifiers": [
+                " Con",
+                " Wis"
+            ],
+            "Comforting Presence (Ex)": " ",
+            "Luminescent (Ex)": " A glimmirin sheds normal light out to a range of 20 feet, and dim light for another 20 feet. At 6th level, this glow brightens; the glimmirin sheds normal light out to a range of 30 feet and dim light for another 30 feet.",
+            "Level (Min)": "1",
+            "Level (Max)": "12",
+            "Size": "Small"
+        },
+        "Tetlotolan": {
+            "Source": "This squat hexapod’s body has radial symmetry and resembles a starfish with tall, fern-like crests that chime softly when rustled. They filter feed on sounds, migrating slowly to absorb a varied diet.",
+            "TetlotolanLevels 1-12": "Small aberration",
+            "Senses": [
+                " darkvision 60 ft."
+            ],
+            "Good Save": [
+                "  Will; "
+            ],
+            "Poor Saves": [
+                " Fort",
+                " Ref"
+            ],
+            "Resistances": " sonic 5",
+            "Speed": [
+                "25 ft."
+            ],
+            "Melee Attack": [
+                " frond (So)"
+            ],
+            "Space": [
+                " 5 ft.  "
+            ],
+            "Reach": [
+                " 5 ft. "
+            ],
+            "Ability Modifiers": [
+                " Con",
+                " Cha"
+            ],
+            "Discordant Burst (Ex, 7th level)": " ",
+            "Frond (Ex)": " A tetlotolan’s frond attack targets EAC and has the unwieldy weapon property.",
+            "Level (Min)": "1",
+            "Level (Max)": "12",
+            "Size": "Small"
+        },
+        "Silicanid": {
+            "Source": "Silicanids have surged in popularity as pets, especially on worlds outside of the Weydana system. Although they can adapt to most environments, they don't reproduce in captivity, greatly increasing their value. Small breeding populations have been released into the wild on a handful of worlds in Near Space. Silicanids can be found on the black market, where they demand an emperor’s ransom. Starfarers have happened upon silicanids on their adventures, adopting the creatures as companions.",
+            "SilicanidLevels 1-15": "Small animal (fire)",
+            "Senses": [
+                " blindsense (scent) 60 ft.",
+                " low-light vision"
+            ],
+            "Good Save": [
+                "  Ref; "
+            ],
+            "Poor Saves": [
+                " Fort",
+                " Will"
+            ],
+            "Immunities": " fire",
+            "Weaknesses": " vulnerable to cold",
+            "Speed": [
+                "40 ft.",
+                " burrow 20 ft."
+            ],
+            "Melee Attack": [
+                " bite (F & P) or claws (F & S)"
+            ],
+            "Space": [
+                " 5 ft.  "
+            ],
+            "Reach": [
+                " 5 ft. "
+            ],
+            "Ability Modifiers": [
+                " Dex",
+                " Wis"
+            ],
+            "Aura of Warmth (Ex)": " ",
+            "Takedown (Ex)": " When a silicanid attacks on a charge and hits a creature of Medium size or smaller, the target is knocked prone.",
+            "Tracking (Ex)": " A silicanid can use Perception to perform the follow tracks task of the Survival skill, using scent.",
+            "Level (Min)": "1",
+            "Level (Max)": "15",
+            "Size": "Small"
+        },
+        "Giant Pipefish": {
+            "Source": "On countless watery worlds across the galaxy, convergent evolution has resulted in a vast array of somewhat similar creatures known collectively as giant pipefish. While the size, color, and exact shape of these relatively tame carnivores vary based on their ecosystem, they all have one thing in common: symbiotic relationships with other creatures. A giant pipefish has a fragile, tubular form that ends in a thin, sharp feeding tube. It relies on filter feeders, scavengers, and other hangers-on to attach themselves to its cylindrical body and to provide physical protection against predators and other threats; in exchange, the riders get a free meal out of the pipefish’s constant movement (in the case of filter feeders) or scraps (in the case of scavengers). Convincing a giant pipefish that you’re a friend and not just another meal is no easy feat; the DC of Survival checks to bond with a giant pipefish companion is 3 higher than normal.",
+            "Giant PipefishLevels 1-20": "Medium or Large animal",
+            "Senses": [
+                " blindsense (vibration) 60 ft."
+            ],
+            "Good Save": [
+                "  Ref; "
+            ],
+            "Poor Saves": [
+                " Fort",
+                " Will"
+            ],
+            "Speed": [
+                "10 ft.",
+                " swim 40 ft."
+            ],
+            "Melee Attack": [
+                " feeding tube (P; critical needle maw)"
+            ],
+            "Space": [
+                " 5 ft. (Medium) or 10 ft. (Large) "
+            ],
+            "Reach": [
+                " 5 ft. "
+            ],
+            "Ability Modifiers": [
+                " Dex",
+                " Str"
+            ],
+            "Needle Maw (Ex, 5th level)": " ",
+            "Rapid Turning (Ex)": " Giant pipefish are incredibly agile swimmers, so it doesn’t cost them additional movement to change direction while swimming.",
+            "Level (Min)": "1",
+            "Level (Max)": "20",
+            "Size": "Medium or Large"
+        },
+        "Glitch Gremlin": {
+            "Source": "See Magic Hack Gremlin Companion.",
+            "Glitch GremlinLevels 1-20": "Tiny fey",
+            "Senses": [
+                " low-light vision"
+            ],
+            "Good Save": [
+                "  Will; "
+            ],
+            "Poor Saves": [
+                " Fort",
+                " Ref"
+            ],
+            "Speed": [
+                "20 ft.",
+                " climb 20 ft."
+            ],
+            "Melee Attack": [
+                " bite (P) or jolt (E)"
+            ],
+            "Space": [
+                " 2 1/2 ft.  "
+            ],
+            "Reach": [
+                " 0 ft. "
+            ],
+            "Ability Modifiers": [
+                " Dex",
+                " Int"
+            ],
+            "Jolt (Su)": " ",
+            "Short Circuit (Su, 7th level)": " ",
+            "Tech Support (Ex)": " While your glitch gremlin is adjacent to you or in your space, you gain a +2 morale bonus to Engineering checks to arm explosives and disable devices. You also gain this bonus to Computers checks to hack computers; disable modules and systems; and destroy modules and systems.",
+            "Level (Min)": "1",
+            "Level (Max)": "20",
+            "Size": "Tiny"
+        },
+        "Iridian Echo": {
+            "Source": "The mysterious spectra defend the Drift, and some can appear on multiple planes simultaneously. When an iridia spectra leaves the Material Plane, it sometimes leaves behind a crystalline, humanoid husk known as an iridian echo.",
+            "Iridian EchoLevels 1-20": "Medium outsider",
+            "Senses": [
+                " darkvision 60 ft."
+            ],
+            "Good Save": [
+                "  Ref; "
+            ],
+            "Poor Saves": [
+                " Fort",
+                " Will"
+            ],
+            "Speed": [
+                "30 ft.",
+                " 30 ft. fly (Ex: average)"
+            ],
+            "Melee Attack": [
+                " slam (B)"
+            ],
+            "Space": [
+                " 5 ft.  "
+            ],
+            "Reach": [
+                " 5 ft. "
+            ],
+            "Ability Modifiers": [
+                " Str",
+                " Cha"
+            ],
+            "Bitter Beam (Su)": " ",
+            "Technician (Ex)": " An iridian echo can attempt Computers and Engineering checks using its skill bonus. While your iridian echo companion is adjacent to you, you gain a +1 morale bonus to Computers and Engineering checks.",
+            "Level (Min)": "1",
+            "Level (Max)": "20",
+            "Size": "Medium"
+        },
+        "Klikharp": {
+            "Source": "Klikharps naturally make affable creature companions.",
+            "KlikharpLevels 1-20": "Medium vermin",
+            "Senses": [
+                " blindsense (vibration) 60 ft.",
+                " darkvision 60 ft.",
+                " low-light vision"
+            ],
+            "Good Save": [
+                "  Fort; "
+            ],
+            "Poor Saves": [
+                " Ref",
+                " Will"
+            ],
+            "Speed": [
+                "40 ft.",
+                " climb 20ft."
+            ],
+            "Melee Attack": [
+                " bite (P)"
+            ],
+            "Space": [
+                " 5 ft.  "
+            ],
+            "Reach": [
+                " 5 ft. "
+            ],
+            "Ability Modifiers": [
+                " Dex",
+                " Str"
+            ],
+            "Gentle Thrum (Su)": " ",
+            "Mutations (Ex)": " ",
+            "Bioluminescent:": " ",
+            "Burrowing:": " ",
+            "Discordant:": " ",
+            "Growth:": " ",
+            "Maestro:": " ",
+            "Sealed Carapace:": " ",
+            "Springy:": " ",
+            "Winged:": " The Klikharp has a flight speed of 30 feet (Ex., average). The klikharp must be 7th level or higher to select this mutation. ",
+            "Level (Min)": "1",
+            "Level (Max)": "20",
+            "Size": "Medium"
+        },
+        "Mahoi Manta": {
+            "Source": "Resembling a five-eyed manta ray, a Mahoi manta is the traditional kalo mount and beast of burden. Mahoi mantas forge strong bonds with their favorite riders and range in color from pale greys and blues to black, with a rare few being pale pink or purple.",
+            "Mahoi MantaLevels 1-20": "Large animal (aquatic)",
+            "Senses": [
+                " blindsight (scent) 60 ft",
+                " low-light vision"
+            ],
+            "Good Save": [
+                "  Ref; "
+            ],
+            "Poor Saves": [
+                " Fort",
+                " Will"
+            ],
+            "Speed": [
+                "5 ft.",
+                " swim 50 ft."
+            ],
+            "Melee Attack": [
+                " stinger (P)"
+            ],
+            "Space": [
+                " 10 ft.  "
+            ],
+            "Reach": [
+                " 5 ft. "
+            ],
+            "Ability Modifiers": [
+                " Str",
+                " Dex"
+            ],
+            "Pack Hunter (Ex)": " At the start of your turn, you can designate one creature as your prey. You and your mahoi manta are considered to be flanking your prey so long as both you and your manta are threatening that creature.",
+            "Manta Venom(Ex; 5th level)": " A mahoi manta’s sting stores a single dose of manta venom that it can choose to inject whenever it successfully hits a target with its sting attack (DC = 10 + half the mahoi manta’s level +\r\nits Strength modifier). When you rest for 10 minutes to recover Stamina Points, your mahoi manta regains its dose of venom.",
+            "Type": " poison (injury) ",
+            "Save": [
+                " Fortitude"
+            ],
+            "Track": " Dexterity (special); ",
+            "Frequency": " 1/round for 4 rounds",
+            "Effect": " progression track is Sluggish–Stiffened–Staggered–Immobile; immobile functions as an end state.",
+            "Cure": " 2 saves",
+            "Level (Min)": "1",
+            "Level (Max)": "20",
+            "Size": "Large"
+        },
+        "Primordrek": {
+            "Source": "Primordreks are living oozes originating from Alluvion's Source, a primordial river from the Plane of Water that runs through the city. They're favored companions of scientists and researchers who study abiogenesis and the processes of life. Primordreks are common along the Source's length and are believed to contain nutrients and proteins that aid in cell regeneration.",
+            "PrimordrekLevels 1-20": "Tiny ooze",
+            "Senses": [
+                " blindsight (vibration) 60 ft.",
+                " sightless"
+            ],
+            "Good Save": [
+                "  Fort; "
+            ],
+            "Poor Saves": [
+                " Ref",
+                " Will"
+            ],
+            "Defensive Abilities": " fast healing 1",
+            "Speed": [
+                "20 ft.",
+                " swim 20 ft."
+            ],
+            "Melee Attack": [
+                " pseudopod (B)"
+            ],
+            "Space": [
+                " 2 1/2 ft.  "
+            ],
+            "Reach": [
+                " 0 ft. "
+            ],
+            "Ability Modifiers": [
+                " Con",
+                " Dex"
+            ],
+            "Compression (Ex)": " ",
+            "Medical Apprentice (Ex)": " ",
+            "Regenerative Touch (Ex, 7th level)": " Once per day as a standard action, a primordrek can cover the wounds of an unconscious or willing target sharing its space with a pseudopod, restoring 1d8 Hit Points to the target. At 12th level, the amount restored increases to 3d8. At 18th level, the amount restored increases to 6d8.",
+            "Level (Min)": "1",
+            "Level (Max)": "20",
+            "Size": "Tiny"
+        },
+        "Shotalashu": {
+            "Source": "While shotalashus have served as the traditional mounts of Castrovel’s lashuntas for millennia, many other species forge deep connections with the creatures—especially those with telepathic abilities.",
+            "ShotalashuLevels 1-20": "Large magical beast",
+            "Senses": [
+                " darkvision 60 ft.",
+                " low-light vision"
+            ],
+            "Good Save": [
+                "  Ref; "
+            ],
+            "Poor Saves": [
+                " Fort",
+                " Will"
+            ],
+            "Speed": [
+                "60 ft."
+            ],
+            "Melee Attack": [
+                " claws (S)"
+            ],
+            "Space": [
+                " 10 ft.  "
+            ],
+            "Reach": [
+                " 5 ft. "
+            ],
+            "Ability Modifiers": [
+                " Dex",
+                " Con"
+            ],
+            "Jungle Strider (Ex)": " ",
+            "Telepathic Companion (Su)": " ",
+            "Telepathic Link (Su)": " If you are a lashunta, you can spend 1 hour and attempt a Survival check (DC = 15 + 1-1/2 × the shotalashu’s level) to form a telepathic bond with your shotalashu companion. On a success, your link functions as telepathic bond with a permanent duration, and the shotalashu is considered a combat-trained mount when carrying or fighting alongside you. You can’t be linked to more than one shotalashu at a time, but you can break your link with one shotalashu in favor of another at any time. If either you or your linked shotalashu dies while bonded, the surviving creature suffers telepathic backlash, becoming dazed for 1 round and taking 3d6 damage. If you are not a lashunta but have limited telepathy or telepathy and speak Lashunta, you can also attempt to forge this telepathic bond, but you take a –5 penalty to the Survival checks to do so.",
+            "Level (Min)": "1",
+            "Level (Max)": "20",
+            "Size": "Large"
+        },
+        "Yasakaja": {
+            "Source": "Native to the jungles of the isolated continent of Ukulam on Castrovel, yasakajas are furred quadrupeds with four eyes, a fox-like tail, and enormous, insectile mandibles. Yasakajas are known for being sturdy mounts with great endurance and superb mobility.",
+            "YasakajaLevels 1-20": "Large animal",
+            "Senses": [
+                " blindsense (vibration) 60 ft."
+            ],
+            "Good Save": [
+                "  Ref; "
+            ],
+            "Poor Saves": [
+                " Fort",
+                " Will"
+            ],
+            "Speed": [
+                "50 ft.",
+                " climb 30 ft."
+            ],
+            "Melee Attack": [
+                " mandibles (P; critical corrode)"
+            ],
+            "Space": [
+                " 10 ft.  "
+            ],
+            "Reach": [
+                " 5 ft. "
+            ],
+            "Ability Modifiers": [
+                " Dex",
+                " Str"
+            ],
+            "Agile Mount (Ex)": " ",
+            "Mandibles (Ex, 5th level)": " When a yasakaja scores a critical hit against a living creature with its mandibles attack, the naturally occurring acid in its saliva seeps into the wound, imposing the corrode (1d4) critical hit effect. A 10th- to 14th-level yasakaja’s corrode deals 2d4 damage, and a 15th-level or higher yasakaja’s corrode deals 4d4 damage. This is a poison effect.",
+            "Level (Min)": "1",
+            "Level (Max)": "20",
+            "Size": "Large"
+        },
+        "Supenga Pup": {
+            "Source": "Although fierce, supengas raised from a young age with consistent care can form strong bonds. Pups grown from cuttings mature more slowly but act less aggressively compared to their wild-born counterparts. Sometimes, a slain supenga can regrow through careful nurturing of a cutting, which results in a clone that retains much of the original creature’s memories.",
+            "Supenga PupLevels 2-8": "Small plant",
+            "Senses": [
+                " blindsense (vibration) 30 ft.",
+                " low-light vision"
+            ],
+            "Good Save": [
+                "  Fort; "
+            ],
+            "Poor Saves": [
+                " Ref",
+                " Will"
+            ],
+            "Speed": [
+                "40 ft.",
+                " climb 20 ft."
+            ],
+            "Melee Attack": [
+                " bite (P) or tail (B)"
+            ],
+            "Space": [
+                " 5 ft.  "
+            ],
+            "Reach": [
+                " 5 ft. "
+            ],
+            "Ability Modifiers": [
+                " Str",
+                " Con"
+            ],
+            "Epicuticular Enzyme (Ex, 5th Level)": " ",
+            "Spinning Charge (Ex)": " A supenga pup can curl into a ball and launch itself at enemies. When performing this special charge, the supenga pup ignores the charge penalties, must use its tail to perform the charge’s melee attack, and increases the attack’s damage by an amount equal to its level. After resolving a spinning charge, the supenga is staggered until the end of its next turn unless it succeeds at a Fortitude saving through (DC = 10 + 1/2 the supenga pup’s level). ",
+            "Level (Min)": "2",
+            "Level (Max)": "8",
+            "Size": "Small"
+        },
+        "Rift Remora": {
+            "Source": "Rift remoras are leech-like outsiders that glide through the planes with supernatural intuition. These astral parasites are naturally attracted to interdimensional rifts. They gain sustenance from these misalignments of various planes of existence by absorbing the metaphysical potential energy through their long, drooping antennae. Their pale, near-transparent skin and circular, gaping maw of razor-sharp teeth gives them the appearance of deep-sea aquatic life. Though they don’t need to use it to feed, their ability to smell and home in on creatures not native to the plane they’re on makes them prized trackers by bounty hunters who specialize in pursuing targets across the planes.",
+            "Rift RemoraLevels 2-16": "Small outsider (extraplanar)",
+            "Senses": [
+                " blindsense (life [extraplanar beings only]) 120 ft.",
+                " darkvision 60 ft."
+            ],
+            "Good Save": [
+                "  Ref; "
+            ],
+            "Poor Saves": [
+                " Fort",
+                " Will"
+            ],
+            "Speed": [
+                "10 ft.",
+                " fly 40 ft. (Su: perfect)"
+            ],
+            "Melee Attack": [
+                " bite (P plus grab)"
+            ],
+            "Space": [
+                " 5 ft.  "
+            ],
+            "Reach": [
+                " 5 ft. "
+            ],
+            "Ability Modifiers": [
+                " Dex",
+                " Cha"
+            ],
+            "Blindsense (Ex)": " ",
+            "Planar Leech (Su)": " ",
+            "Rift Teeth (Su, 8th level)": " Once per day when a rift remora grapples or pins a significant enemy with the extraplanar subtype, it tears at the creature’s very quintessence with its fangs. The grappled or pinned enemy takes an amount of piercing damage with the force descriptor equal to the rift remora’s level.",
+            "Level (Min)": "2",
+            "Level (Max)": "16",
+            "Size": "Small"
+        },
+        "Sun-scrapper Beetle": {
+            "Source": "Dawn beetles make agreeable companions so long as their keepers periodically remind them not to disassemble nearby vehicles and architecture. A sun-scrapper becomes anxious unless regularly provided junk and a place to store it, but properly bribed, it remains content to live with others for years. Core-divers, on the other hand, rarely remain on the surface long enough to serve as long-term companions.",
+            "Sun-scrapper BeetleLevels 2-16": "Large vermin",
+            "Senses": [
+                " darkvision 60ft"
+            ],
+            "Good Save": [
+                "  Fort; "
+            ],
+            "Poor Saves": [
+                " Ref",
+                " Will"
+            ],
+            "Speed": [
+                "20 ft.",
+                " burrow 10 ft."
+            ],
+            "Melee Attack": [
+                " bite (P)"
+            ],
+            "Space": [
+                " 10 ft.  "
+            ],
+            "Reach": [
+                " 5 ft. "
+            ],
+            "Ability Modifiers": [
+                " Con",
+                " Str"
+            ],
+            "Other Abilities": " solar adaptation, void adaptation",
+            "Junk Fortress (Ex)": " ",
+            "Scrap (Ex)": " ",
+            "Solar Slingshot (Ex)": " A dawn sun-scrapper can fly through space at standard navigation and astrogation speeds (Starfinder Core Rulebook 290) using Survival instead of Piloting to navigate. The beetle can initiate this travel only while within 10 miles of an ongoing solar flare or similar stellar phenomenon. The beetle can’t fly, but while traveling and curled up, it can reliably survive crash landings, taking only 3d6 falling damage no matter the height or speed. ",
+            "Level (Min)": "2",
+            "Level (Max)": "16",
+            "Size": "Large"
+        },
+        "Mewclock": {
+            "Source": "Mewclock companions are rare but are generally found in the possession of technomancers, witchwarpers, and mystics who worship Brigh.",
+            "MewclockLevels 3-12": "Tiny construct (magical, technological)\r",
+            "Senses": [
+                " darkvision 60 ft.",
+                " low-light vision"
+            ],
+            "Good Save": [
+                "  Ref; "
+            ],
+            "Poor Saves": [
+                " Fort",
+                " Will"
+            ],
+            "Defensive Abilities": " construct immunities",
+            "Weaknesses": " vulnerable to sonic",
+            "Speed": [
+                "30 ft.",
+                " climb 20 ft."
+            ],
+            "Melee Attack": [
+                " claws (S)"
+            ],
+            "Space": [
+                " 2 1/2 ft.  "
+            ],
+            "Reach": [
+                " 0 ft. "
+            ],
+            "Ability Modifiers": [
+                " Dex",
+                " Cha"
+            ],
+            "Cute Overload (Ex)": " While your mewclock companion is adjacent to you or sharing your space, you gain a +2 enhancement bonus to Diplomacy checks to change a creature’s attitude and to gather information.",
+            "Wisp Conjuring (Sp)": " Once per day as standard action, your mewclock companion can conjure a helpful wisp of energy as per wisp ally, using your mewclock companion’s level as its caster level. You can decide whether the wisp grants harrying fire or covering fire when the spell is cast. At 8th level, your mewclock companion can use this ability three times per day.",
+            "Level (Min)": "3",
+            "Level (Max)": "12",
+            "Size": "Tiny"
+        },
+        "Drift Wysp": {
+            "Source": "Drift wysps are tiny creatures composed of planar matter from the Drift. While each is unique in appearance, they most often adopt the form of tiny creatures or geometric shapes.",
+            "Drift WyspLevels 3-16": "Tiny outsider",
+            "Senses": [
+                " darkvision 60ft"
+            ],
+            "Good Save": [
+                "  Ref; "
+            ],
+            "Poor Saves": [
+                " Fort",
+                " Will"
+            ],
+            "Speed": [
+                "fly 30 ft. (Ex: average)"
+            ],
+            "Melee Attack": [
+                " slam (B)"
+            ],
+            "Ranged Attack": [
+                " trifold beam (F)"
+            ],
+            "Space": [
+                " 2 1/2 ft.  "
+            ],
+            "Reach": [
+                " 0 ft. "
+            ],
+            "Ability Modifiers": [
+                " Dex",
+                " Wis"
+            ],
+            "Flicker (Ex)": " ",
+            "Trifold Beam (Ex, 12th)": " Every 1d4 rounds, a Drift wysp can fire a beam of three intertwined spiraling lasers as a ranged attack against EAC with a range of 60 feet. A creature struck by this beam must succeed at a Ref ex saving throw (DC = 10 + 1-1/2 × the Drift wysp's level) or become dazzled for 1 round.",
+            "Level (Min)": "3",
+            "Level (Max)": "16",
+            "Size": "Tiny"
+        },
+        "Pachycephalosaurid": {
+            "Source": "Pachycephalosaurids are bipedal dinosaurs with thick, domed skulls that can withstand incredible impacts—and be quite dangerous to creatures on the other end of their headbutts. A low center of gravity and wicked talons make pachycephalosaurids popular beasts of burden as well as combat-trained mounts.",
+            "PachycephalosauridLevels 3-20": "Large animal",
+            "Senses": [
+                " blindsense (scent) 60 ft.",
+                " low-light vision"
+            ],
+            "Good Save": [
+                "  Fort; "
+            ],
+            "Poor Saves": [
+                " Ref",
+                " Will"
+            ],
+            "Speed": [
+                "40 ft."
+            ],
+            "Melee Attack": [
+                " talons (S) or headbutt (B)"
+            ],
+            "Space": [
+                " 10 ft.  "
+            ],
+            "Reach": [
+                " 10 ft. "
+            ],
+            "Ability Modifiers": [
+                " Str",
+                " Con"
+            ],
+            "Body Slam (Ex)": " ",
+            "Headbutt (Ex, 7th level)": " When you are mounted on your pachycephalosaurid companion and a foe provokes an attack of opportunity from it, your companion can lower its powerful head and execute a headbutt as a reaction. This headbutt is a melee attack that targets the foe’s KAC and deals bludgeoning damage. If the headbutt hits, add twice your companion’s Strength modifier to the damage dealt (instead of just its Strength modifier).",
+            "Level (Min)": "3",
+            "Level (Max)": "20",
+            "Size": "Large"
+        },
+        "Wolliped": {
+            "Source": "Wollipeds are common mounts in cold environs and have long served as war mounts.",
+            "WollipedLevels 3-20": "Large animal",
+            "Senses": [
+                " blindsense (scent) 60 ft.",
+                " low‑light vision"
+            ],
+            "Good Save": [
+                "  Fort; "
+            ],
+            "Poor Saves": [
+                " Ref",
+                " Will"
+            ],
+            "Speed": [
+                "50 ft.",
+                " snow stride"
+            ],
+            "Melee Attack": [
+                " gore (P; critical knockdown)"
+            ],
+            "Space": [
+                " 10 ft.  "
+            ],
+            "Reach": [
+                " 5 ft. "
+            ],
+            "Ability Modifiers": [
+                " Str",
+                " Dex"
+            ],
+            "Snow Stride (Ex)": " ",
+            "Spit (Ex, 9th level)": " ",
+            "Warming Presence (Ex)": " While mounted on or adjacent to your wolliped companion, you treat severe cold as cold and extreme cold as severe cold.",
+            "Level (Min)": "3",
+            "Level (Max)": "20",
+            "Size": "Large"
+        },
+        "Bhanda": {
+            "Source": "Bhandas are slender, pale, lemur-like creatures that mimic the hunting cry of a winged apex predator to flush out prey.",
+            "BhandaLevels 4-11": "Small magical beast",
+            "Senses": [
+                " darkvision 60 ft.",
+                " low-light vision"
+            ],
+            "Good Save": [
+                "  Ref; "
+            ],
+            "Poor Saves": [
+                " Fort",
+                " Will"
+            ],
+            "Speed": [
+                "30 ft.",
+                " climb 20 ft."
+            ],
+            "Melee Attack": [
+                " bite (P)"
+            ],
+            "Space": [
+                " 5 ft.  "
+            ],
+            "Reach": [
+                " 5 ft. "
+            ],
+            "Ability Modifiers": [
+                " Dex",
+                " Cha"
+            ],
+            "Horrific Shriek (Su)": " ",
+            "Unnerving Gaze (Su)": " As long as your bhanda is adjacent to you, you gain a +2 circumstance bonus to Intimidate checks against creatures within 30 ft. that can see your bhanda, and the DC of any spell you cast with the fear descriptor increases by 1.",
+            "Level (Min)": "4",
+            "Level (Max)": "11",
+            "Size": "Small"
+        },
+        "Chostolichi": {
+            "Source": "Reanimated from several smaller bodies and fused into a vaguely saurian shape, chostolichi servitors develop a pack mentality that desperately seeks a leader.",
+            "ChostolichiLevels 4-20": "Large undead",
+            "Senses": [
+                " darkvision 60 ft."
+            ],
+            "Good Save": [
+                "  Will; "
+            ],
+            "Poor Saves": [
+                " Fort",
+                " Ref"
+            ],
+            "Defensive Abilities": " undead immunities",
+            "Speed": [
+                "35 ft."
+            ],
+            "Melee Attack": [
+                " bite (P) or tail (B)"
+            ],
+            "Space": [
+                " 10 ft.  "
+            ],
+            "Reach": [
+                " 10 ft. "
+            ],
+            "Ability Modifiers": [
+                " Str",
+                " Cha"
+            ],
+            "Crumbling Embrace (Ex)": " ",
+            "Draining Bite (Su)": " Once per hour when it damages a living significant enemy with its bite attack, a chostolichi can absorb part of the target’s vital essence, restoring a number of Hit Points equal to one-tenth the chostolichi’s maximum HP.",
+            "Level (Min)": "4",
+            "Level (Max)": "20",
+            "Size": "Large"
+        },
+        "Tashtari": {
+            "Source": "Nicknamed “laser wolves,” tashtaris are covered in a twinkling phosphorescent coat that they can use to communicate and power their muzzle beams. Domesticated tashtaris are less dangerous than their wild counterparts, but they can still be potent threats on the battlefield.",
+            "TashtariLevels 4-20": "Medium magical beast",
+            "Senses": [
+                " darkvision 60 ft.",
+                " low-light vision"
+            ],
+            "Good Save": [
+                "  Ref; "
+            ],
+            "Poor Saves": [
+                " Fort",
+                " Will"
+            ],
+            "Resistances": " fire 5",
+            "Speed": [
+                "30 ft.",
+                " climb 30 ft."
+            ],
+            "Melee Attack": [
+                " bite (P)"
+            ],
+            "Ranged Attack": [
+                " muzzle beam (F; critical burn 1d4)"
+            ],
+            "Space": [
+                " 5 ft.  "
+            ],
+            "Reach": [
+                " 5 ft. "
+            ],
+            "Ability Modifiers": [
+                " Dex",
+                " Str"
+            ],
+            "Diverting Coat (Ex)": " ",
+            "Muzzle Beam (Ex, 7th level)": " Every 1d4 rounds, a tashtari can unleash a focused ray of light as a ranged attack that targets EAC. This ray has a range increment of 80 feet and the burn critical hit effect.",
+            "Level (Min)": "4",
+            "Level (Max)": "20",
+            "Size": "Medium"
+        },
+        "Vorac": {
+            "Source": "Voracs are eyeless, six-winged, crow-like creatures common to forested areas on several of Bretheda’s moons. They travel in large flocks in the wild, singing low and haunting songs punctuated by the crackling of raw magical energy.",
+            "VoracLevels 5-12": "Tiny magical beast",
+            "Senses": [
+                " blindsight (thought) 60 ft.; sightless"
+            ],
+            "Good Save": [
+                "  Will; "
+            ],
+            "Poor Saves": [
+                " Fort",
+                " Ref"
+            ],
+            "Speed": [
+                "10 ft.",
+                " fly 30 ft. (Ex: perfect)"
+            ],
+            "Melee Attack": [
+                " talon (S)"
+            ],
+            "Space": [
+                " 2 1/2 ft.  "
+            ],
+            "Reach": [
+                " 0 ft. "
+            ],
+            "Ability Modifiers": [
+                " Wis",
+                " Cha"
+            ],
+            "Magical Transference (Sp)": " ",
+            "Spellcaster’s Apprentice (Su)": " While your vorac companion is adjacent to or sharing your space, you gain a +2 enhancement bonus to Mysticism checks to disable a magic device and to identify and repair magic or hybrid items.",
+            "Level (Min)": "5",
+            "Level (Max)": "12",
+            "Size": "Tiny"
+        },
+        "Cloud Ray": {
+            "Source": "Cloud rays can be tamed with patience and food, making them favorite mounts for gas prospectors and naturalists on gas giants. Raised to smaller sizes than their wild counterparts, they serve as ideal companions for groups or industrial use in aerial environments. Their ability to survive by grazing on floating algae and lichen makes them more reliable than many vehicles in isolated frontiers. Careful control over what and how much the beast eats helps keep them in their docile grazing cycle and suppresses their combustible death throes as well. Most cloud rays bond to a single master, becoming notoriously difficult with new riders. Cloud rays can flourish on almost any gas giant, and domesticated rays can even survive in the skies above terrestrial worlds with proper supplements.",
+            "Cloud RayLevels 6-20": "Huge animal",
+            "Senses": [
+                " low-light vision"
+            ],
+            "Good Save": [
+                "  Ref; "
+            ],
+            "Poor Saves": [
+                " Fort",
+                " Will"
+            ],
+            "Resistances": " electricity 10",
+            "Weaknesses": " vulnerable to fire",
+            "Speed": [
+                "5 ft.",
+                " fly 70 ft. (Ex: perfect)"
+            ],
+            "Melee Attack": [
+                " tail lash (S)"
+            ],
+            "Space": [
+                " 15 ft.  "
+            ],
+            "Reach": [
+                " 15 ft. "
+            ],
+            "Ability Modifiers": [
+                " Str",
+                " Dex"
+            ],
+            "Natural Thruster (Ex)": " ",
+            "Tail Taser (Ex)": " A cloud ray companion’s tail lash attacks gain the stunned critical hit effect. ",
+            "Level (Min)": "6",
+            "Level (Max)": "20",
+            "Size": "Huge"
+        },
+        "Linnormling": {
+            "Source": "Despite their size, linnormlings claim to be descendants of the Eldest Ragadahn. They’re willful creatures yet offer their expertise with curses to anyone offering them proper tribute.",
+            "LinnormlingLevels 6-20": "Tiny fey (aquatic)",
+            "Senses": [
+                " darkvision 60 ft.; low-light vision"
+            ],
+            "Good Save": [
+                "  Will; "
+            ],
+            "Poor Saves": [
+                " Fort",
+                " Ref"
+            ],
+            "Speed": [
+                "fly 30 ft. (Su: perfect)",
+                " swim 30 ft."
+            ],
+            "Melee Attack": [
+                " bite (P)"
+            ],
+            "Ranged Attack": [
+                " zap (E)"
+            ],
+            "Space": [
+                " 2 1/2 ft.  "
+            ],
+            "Reach": [
+                " 0 ft. "
+            ],
+            "Ability Modifiers": [
+                " Dex",
+                " Cha"
+            ],
+            "Spiteful Curse (Su; 10th level)": " When the linnormling takes damage from a creature’s spell or attack, they cast bestow curse on that creature as a reaction with a range of 30 feet without having to touch the target (Will negates DC = 10 + half the linnormling’s level + the linnormling’s Charisma\r\nmodifier). The curse lasts until the end of that creature’s next turn. If the spell or attack reduced the linnormling to 0 Hit Points, the curse instead lasts a number of rounds equal to the linnormling’s Charisma modifier. Once they use this ability, they can’t do so again for 1d4 rounds.",
+            "Zap (Ex)": " A linnormling has a ranged attack that deals electricity damage and has a range of 60 feet.",
+            "Level (Min)": "6",
+            "Level (Max)": "20",
+            "Size": "Tiny"
+        },
+        "Draserka": {
+            "Source": "Often called “desert drakes,” draserkas are draconic creatures native to the side of Verces known as Fullbright, where the sun never sets, the earth is scorched, and the air is always superheated. These red drakes with blue wings are infamous for breathing balls of crackling electricity at foes, and they can fly at incredible speeds when they’ve built up their momentum.",
+            "DraserkaLevels 7-20": "Large dragon",
+            "Senses": [
+                " blindsense (vibration and scent) 60 ft.",
+                " darkvision 60 ft.",
+                " low-light vision"
+            ],
+            "Good Save": [
+                "  Fort; "
+            ],
+            "Poor Saves": [
+                " Ref",
+                " Will"
+            ],
+            "Speed": [
+                "30 ft.",
+                " burrow 20 ft.",
+                " fly 60 ft. (Ex: average)"
+            ],
+            "Melee Attack": [
+                " bite (P)"
+            ],
+            "Ranged Attack": [
+                " sandstorm breath (E)"
+            ],
+            "Space": [
+                " 10 ft.  "
+            ],
+            "Reach": [
+                " 10 ft. "
+            ],
+            "Ability Modifiers": [
+                " Str",
+                " Con"
+            ],
+            "Sandstorm Breath (Ex)": " ",
+            "Speed Surge (Ex)": " If you are mounted on your draserka companion and it takes two move actions to fly its speed, its fly speed increases to 70 feet for those actions.",
+            "Level (Min)": "7",
+            "Level (Max)": "20",
+            "Size": "Large"
+        },
+        "Swamp Strider": {
+            "Source": " Even with these hurdles, swamp striders are a beloved curiosity. They most often appear in the lashunta strongholds of Asana, yet dozens of planets have also imported small populations of swamp striders.",
+            "Swamp StriderLevels 7-20": "Large animal",
+            "Senses": [
+                " blindsense (scent) 60 ft."
+            ],
+            "Good Save": [
+                "  Ref; "
+            ],
+            "Poor Saves": [
+                " Fort",
+                " Will"
+            ],
+            "Speed": [
+                "60 ft.",
+                " swim 30 ft."
+            ],
+            "Melee Attack": [
+                " gore (P) or slam (B)"
+            ],
+            "Space": [
+                " 10 ft.  "
+            ],
+            "Reach": [
+                " 5 ft.(10 ft. with gore) "
+            ],
+            "Ability Modifiers": [
+                " Dex",
+                " Str"
+            ],
+            "Ferocious Charge (Ex)": " ",
+            "Marshborn (Ex)": " A swamp strider can move through bogs without penalty to its normal speed. ",
+            "Level (Min)": "7",
+            "Level (Max)": "20",
+            "Size": "Large"
+        },
+        "Eshar": {
+            "Source": "Eshars are hulking, serpentine beasts from the expansive, sandy deserts of the tidally locked planet Verces. They are used for battle, transportation, and even for sport, in an elaborate zone-capturing game that can last for days.",
+            "EsharLevels 10-20": "Huge animal",
+            "Senses": [
+                " blindsight (vibration) 60 ft.",
+                " low-light vision"
+            ],
+            "Good Save": [
+                "  Fort; "
+            ],
+            "Poor Saves": [
+                " Ref",
+                " Will"
+            ],
+            "Defensive Abilities": " ferocity; ",
+            "Resistances": " fire 5",
+            "Weaknesses": " vulnerable to cold",
+            "Speed": [
+                "30 ft.",
+                " burrow 60 ft."
+            ],
+            "Melee Attack": [
+                " tail (B)"
+            ],
+            "Space": [
+                " 15 ft.  "
+            ],
+            "Reach": [
+                " 10 ft. "
+            ],
+            "Ability Modifiers": [
+                " Con",
+                " Dex"
+            ],
+            "Lie in Wait (Ex)": " ",
+            "Screech (Ex)": " As a standard action, an eshar can unleash a terrifying screech, causing each creature within 30 feet to become shaken for 1d4 rounds unless it succeeds at a Will saving throw (DC = 10 + 1-1/2 × the eshar’s level). Regardless of whether a creature succeeds at this check, it is immune to that eshar’s screech for 24 hours. Eshars are immune to the screech ability of other eshars, and you are immune to the screech of your own eshar companion.",
+            "Level (Min)": "10",
+            "Level (Max)": "20",
+            "Size": "Huge"
+        },
+        "Trapped Zernivian": {
+            "Source": "Dycepskians have come to fear tiny plant-eating aberrations known as zernivians. Zernivians inhabit the bodies of harmless animals in order to get close to intelligent plant-based creatures, which they then harvest with a natural herbicide delivered through acidic spittle. Although unethical pet dealers sometimes offer zernivians for sale, zernivians actually move constantly from one host animal to another and seldom bond with another species. However, sometimes a zernivian’s ability to inhabit a host goes awry, and the creature is permanently trapped inside that host. When this happens, the physiologies of the zernivian and its host combine and mutate. Perhaps realizing it can no longer find prey without help, the zernivian becomes more amenable to other species. A caring and patient individual can sometimes forge a bond with such a creature.",
+            "Trapped ZernivianLevels 10-20": "Small aberration",
+            "Senses": [
+                " darkvision 60 ft.",
+                " herbsight 60 ft.",
+                " low-light vision"
+            ],
+            "Good Save": [
+                "  Will; "
+            ],
+            "Poor Saves": [
+                " Fort",
+                " Ref"
+            ],
+            "Immunities": " disease",
+            "Speed": [
+                "30 ft."
+            ],
+            "Melee Attack": [
+                " tongue (A & B)"
+            ],
+            "Ranged Attack": [
+                " acid spittle (A)"
+            ],
+            "Space": [
+                " 5 ft.  "
+            ],
+            "Reach": [
+                " 5 ft. "
+            ],
+            "Ability Modifiers": [
+                " Dex",
+                " Wis"
+            ],
+            "Acid Spittle (Ex)": " ",
+            "Herbicide (Ex)": " ",
+            "Herbsight (Ex)": " ",
+            "Host Body (Ex)": " A zernivian trapped in a host body appears to be a Small predator or herd animal; anyone who might penetrate this disguise must succeed on a Perception check with a DC equal to the bound zernivian’s skill bonus + 15.",
+            "Level (Min)": "10",
+            "Level (Max)": "20",
+            "Size": "Small"
+        },
+        "Izhash": {
+            "Source": "Originating in the jungles of Ukulam on Castrovel, izhashes are fearsome ambush predators with sensitive feeler tendrils.",
+            "IzhashLevels 11-20": "Large plant",
+            "Senses": [
+                " blindsight (vibration) 60 ft.",
+                " sightless"
+            ],
+            "Good Save": [
+                "  Fort; "
+            ],
+            "Poor Saves": [
+                " Ref",
+                " Will"
+            ],
+            "Speed": [
+                "50 ft."
+            ],
+            "Melee Attack": [
+                " bite (P)"
+            ],
+            "Ranged Attack": [
+                " adhesive spit (A)"
+            ],
+            "Space": [
+                " 10 ft.  "
+            ],
+            "Reach": [
+                " 10 ft. "
+            ],
+            "Ability Modifiers": [
+                " Con",
+                " Str"
+            ],
+            "Adhesive Spit (Ex, 12th level)": " ",
+            "Compression (Ex)": " Your izhash can move through an area as small as one-quarter of its space without squeezing or one-eighth its space when squeezing.",
+            "Level (Min)": "11",
+            "Level (Max)": "20",
+            "Size": "Large"
+        },
+        "Thakasa": {
+            "Source": "Thakasas are close evolutionary relatives of Castrovel’s shotalashus. Long before the Gap, they were the chosen mount of an aerial cavalry, but with the proliferation of flying vehicles, they have become much rarer.",
+            "ThakasaLevels 13-20": "Large magical beast",
+            "Senses": [
+                " darkvision 60 ft.",
+                " low-light vision"
+            ],
+            "Good Save": [
+                "  Ref; "
+            ],
+            "Poor Saves": [
+                " Fort",
+                " Will"
+            ],
+            "Speed": [
+                "30 ft.",
+                " fly 60 ft. (Ex: average)"
+            ],
+            "Melee Attack": [
+                " talons (P)"
+            ],
+            "Space": [
+                " 10 ft.  "
+            ],
+            "Reach": [
+                " 5 ft. "
+            ],
+            "Ability Modifiers": [
+                " Dex",
+                " Str"
+            ],
+            "Death Dive (Ex)": " ",
+            "Midair Rescue (Ex)": " If you fall off your thakasa companion while at least 30 feet above the ground, it automatically dives to catch you as a reaction, if able. If it catches you, you are mounted but gain the prone condition. You can use the stand up move action to lose the prone condition.",
+            "Level (Min)": "13",
+            "Level (Max)": "20",
+            "Size": "Large"
+        }
+    }
+}
