@@ -38,6 +38,8 @@ def main():
                     }
                 elif '<' in str(htmlItem):
                     tempKey = f"{htmlItem.text}"
+                    if tempKey == "Source":
+                        tempKey = "Description"
                 else:
                     tempValue = f"{htmlItem.text}"
                     if re.findall('(Senses|Save|Attack|Space|Reach|Modifier)',tempKey):
@@ -54,7 +56,7 @@ def main():
         # print(loopyTempJson)
     print("Ending Main")
     print(recursiveLink)
-    print(json.dumps(tempJson))
+    # print(json.dumps(tempJson))
     with open('json/companions.json', 'w', encoding='utf-8') as f:
         json.dump(tempJson, f, ensure_ascii=False, indent=4)
 

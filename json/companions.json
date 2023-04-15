@@ -1,7 +1,11 @@
 {
     "Creature_Companions": {
         "Marwaul": {
-            "Source": "Known for their amiability and preciousness, a marwaul makes for an excellent animal companion and lookout for low-level adventurers.",
+            "Description": "Known for their amiability and preciousness, a marwaul makes for an excellent animal companion and lookout for low-level adventurers.",
+            "Source": {
+                "URL": "https://paizo.com/products/btq027nt/discuss?Starfinder-Adventure-Path-42-Whispers-of-the-Eclipse",
+                "Reference": "Starfinder #42: Whispers of the Eclipse pg. 54"
+            },
             "MarwaulLevels 1-5": "Tiny animal",
             "Senses": [
                 " blindsight (vibration) 80 ft.",
@@ -40,7 +44,11 @@
             "Size": "Tiny"
         },
         "Proog": {
-            "Source": "Proogs are highly active shape- and color-shifting oozes that enjoy mimicking small objects; they’re most commonly bred as novelty pets. Xenobiologists disagree on how the oozes manage to so accurately duplicate details like color and pattern without sight. Proogs tend to imprint on a single larger creature, and while naturally curious, they rarely stray farther from their owner than the range of their blindsight.",
+            "Description": "Proogs are highly active shape- and color-shifting oozes that enjoy mimicking small objects; they’re most commonly bred as novelty pets. Xenobiologists disagree on how the oozes manage to so accurately duplicate details like color and pattern without sight. Proogs tend to imprint on a single larger creature, and while naturally curious, they rarely stray farther from their owner than the range of their blindsight.",
+            "Source": {
+                "URL": "https://paizo.com/products/btq01wt9?Starfinder-Alien-Archive-3",
+                "Reference": "Alien Archive 3 pg. 144"
+            },
             "ProogLevels 1-5": "Tiny ooze",
             "Senses": [
                 " blindsight (life) 60 ft.",
@@ -77,7 +85,11 @@
             "Size": "Tiny"
         },
         "Ravenous Drake": {
-            "Source": "Ravenous drakes can make suitable creature companions for those prepared to sate their appetites.",
+            "Description": "Ravenous drakes can make suitable creature companions for those prepared to sate their appetites.",
+            "Source": {
+                "URL": "https://paizo.com/products/btq026jv?Starfinder-Alien-Archive-4",
+                "Reference": "Alien Archive 4 pg. 99"
+            },
             "Ravenous DrakeLevels 1-5": "Small dragon",
             "Senses": [
                 " darkvision 60 ft.",
@@ -115,7 +127,11 @@
             "Size": "Small"
         },
         "Ilskitt": {
-            "Source": "Natives of Vesk-3, ilskitts look like brightly colored owls with weasel-like torsos. They love to steal and hoard objects, and they are known to bring their owners gifts of items they “find.”",
+            "Description": "Natives of Vesk-3, ilskitts look like brightly colored owls with weasel-like torsos. They love to steal and hoard objects, and they are known to bring their owners gifts of items they “find.”",
+            "Source": {
+                "URL": "https://paizo.com/products/btq024zu/discuss?Starfinder-Galaxy-Exploration-Manual",
+                "Reference": "Galaxy Exploration Manual pg. 67"
+            },
             "IlskittLevels 1-8": "Tiny animal",
             "Senses": [
                 " darkvision 60 ft.",
@@ -153,7 +169,11 @@
             "Size": "Tiny"
         },
         "Empathnid": {
-            "Source": "Originally discovered by Pact Worlds explorers on a jungle planet in the Vast, empathnids are available in a staggering array of colors and have become popular pets. The 8-inch spiders are most notable for their almost supernatural empathy for other creatures, and their venom has a stabilizing effect on most creatures.",
+            "Description": "Originally discovered by Pact Worlds explorers on a jungle planet in the Vast, empathnids are available in a staggering array of colors and have become popular pets. The 8-inch spiders are most notable for their almost supernatural empathy for other creatures, and their venom has a stabilizing effect on most creatures.",
+            "Source": {
+                "URL": "https://paizo.com/products/btq01wt9?Starfinder-Alien-Archive-3",
+                "Reference": "Alien Archive 3 pg. 143"
+            },
             "EmpathnidLevels 1-10": "Diminutive vermin",
             "Senses": [
                 " blindsense (emotion) 60 ft.",
@@ -190,7 +210,11 @@
             "Size": "Diminutive"
         },
         "Localized Water Elemental": {
-            "Source": "Water elementals are common on Kalo-Mahoi, and the longer they remain on the Material Plane, the more they tend to adapt, taking on a semipermanent shape. While this diminishes some of the elemental’s resistances, it also drives them to imprint on and work with other creatures, such as kalos.",
+            "Description": "Water elementals are common on Kalo-Mahoi, and the longer they remain on the Material Plane, the more they tend to adapt, taking on a semipermanent shape. While this diminishes some of the elemental’s resistances, it also drives them to imprint on and work with other creatures, such as kalos.",
+            "Source": {
+                "URL": "https://paizo.com/products/btq02d4w?Starfinder-Interstellar-Species",
+                "Reference": "Interstellar Species pg. 82"
+            },
             "Localized Water ElementalLevels 1-11": "Small or Medium outsider (elemental, water)",
             "Senses": [
                 " darkvision 60 ft."
@@ -227,7 +251,11 @@
             "Size": "Small or Medium"
         },
         "Glimmirin": {
-            "Source": "Glimmirins are small, portly herbivores covered in soft quills that glow in shades of yellow and orange. Friendly and brave, they're often kept as pets in the Dark, where they function as a mobile (and adorable) light source.",
+            "Description": "Glimmirins are small, portly herbivores covered in soft quills that glow in shades of yellow and orange. Friendly and brave, they're often kept as pets in the Dark, where they function as a mobile (and adorable) light source.",
+            "Source": {
+                "URL": "https://paizo.com/products/btq02eah?Starfinder-Adventure-Path-49-A-Light-in-the-Dark",
+                "Reference": "Starfinder #49: A Light in the Dark pg. 50"
+            },
             "GlimmirinLevels 1-12": "Small animal",
             "Senses": [
                 " low-light vision"
@@ -262,7 +290,11 @@
             "Size": "Small"
         },
         "Tetlotolan": {
-            "Source": "This squat hexapod’s body has radial symmetry and resembles a starfish with tall, fern-like crests that chime softly when rustled. They filter feed on sounds, migrating slowly to absorb a varied diet.",
+            "Description": "This squat hexapod’s body has radial symmetry and resembles a starfish with tall, fern-like crests that chime softly when rustled. They filter feed on sounds, migrating slowly to absorb a varied diet.",
+            "Source": {
+                "URL": "https://paizo.com/products/btq024zu/discuss?Starfinder-Galaxy-Exploration-Manual",
+                "Reference": "Galaxy Exploration Manual pg. 95"
+            },
             "TetlotolanLevels 1-12": "Small aberration",
             "Senses": [
                 " darkvision 60 ft."
@@ -298,7 +330,11 @@
             "Size": "Small"
         },
         "Silicanid": {
-            "Source": "Silicanids have surged in popularity as pets, especially on worlds outside of the Weydana system. Although they can adapt to most environments, they don't reproduce in captivity, greatly increasing their value. Small breeding populations have been released into the wild on a handful of worlds in Near Space. Silicanids can be found on the black market, where they demand an emperor’s ransom. Starfarers have happened upon silicanids on their adventures, adopting the creatures as companions.",
+            "Description": "Silicanids have surged in popularity as pets, especially on worlds outside of the Weydana system. Although they can adapt to most environments, they don't reproduce in captivity, greatly increasing their value. Small breeding populations have been released into the wild on a handful of worlds in Near Space. Silicanids can be found on the black market, where they demand an emperor’s ransom. Starfarers have happened upon silicanids on their adventures, adopting the creatures as companions.",
+            "Source": {
+                "URL": "https://paizo.com/products/btq026i0/discuss?Starfinder-Adventure-Path-40-Planetfall",
+                "Reference": "Starfinder #40: Planetfall pg. 61"
+            },
             "SilicanidLevels 1-15": "Small animal (fire)",
             "Senses": [
                 " blindsense (scent) 60 ft.",
@@ -338,7 +374,11 @@
             "Size": "Small"
         },
         "Giant Pipefish": {
-            "Source": "On countless watery worlds across the galaxy, convergent evolution has resulted in a vast array of somewhat similar creatures known collectively as giant pipefish. While the size, color, and exact shape of these relatively tame carnivores vary based on their ecosystem, they all have one thing in common: symbiotic relationships with other creatures. A giant pipefish has a fragile, tubular form that ends in a thin, sharp feeding tube. It relies on filter feeders, scavengers, and other hangers-on to attach themselves to its cylindrical body and to provide physical protection against predators and other threats; in exchange, the riders get a free meal out of the pipefish’s constant movement (in the case of filter feeders) or scraps (in the case of scavengers). Convincing a giant pipefish that you’re a friend and not just another meal is no easy feat; the DC of Survival checks to bond with a giant pipefish companion is 3 higher than normal.",
+            "Description": "On countless watery worlds across the galaxy, convergent evolution has resulted in a vast array of somewhat similar creatures known collectively as giant pipefish. While the size, color, and exact shape of these relatively tame carnivores vary based on their ecosystem, they all have one thing in common: symbiotic relationships with other creatures. A giant pipefish has a fragile, tubular form that ends in a thin, sharp feeding tube. It relies on filter feeders, scavengers, and other hangers-on to attach themselves to its cylindrical body and to provide physical protection against predators and other threats; in exchange, the riders get a free meal out of the pipefish’s constant movement (in the case of filter feeders) or scraps (in the case of scavengers). Convincing a giant pipefish that you’re a friend and not just another meal is no easy feat; the DC of Survival checks to bond with a giant pipefish companion is 3 higher than normal.",
+            "Source": {
+                "URL": "https://paizo.com/products/btq023hp?Starfinder-Adventure-Path-36-Professional-Courtesy",
+                "Reference": "Starfinder #36: Professional Courtesy pg. 49"
+            },
             "Giant PipefishLevels 1-20": "Medium or Large animal",
             "Senses": [
                 " blindsense (vibration) 60 ft."
@@ -374,7 +414,11 @@
             "Size": "Medium or Large"
         },
         "Glitch Gremlin": {
-            "Source": "See Magic Hack Gremlin Companion.",
+            "Description": "See Magic Hack Gremlin Companion.",
+            "Source": {
+                "URL": "https://paizo.com/products/btq026mr/discuss?Starfinder-Tech-Revolution",
+                "Reference": "Tech Revolution pg. 34"
+            },
             "Glitch GremlinLevels 1-20": "Tiny fey",
             "Senses": [
                 " low-light vision"
@@ -411,7 +455,11 @@
             "Size": "Tiny"
         },
         "Iridian Echo": {
-            "Source": "The mysterious spectra defend the Drift, and some can appear on multiple planes simultaneously. When an iridia spectra leaves the Material Plane, it sometimes leaves behind a crystalline, humanoid husk known as an iridian echo.",
+            "Description": "The mysterious spectra defend the Drift, and some can appear on multiple planes simultaneously. When an iridia spectra leaves the Material Plane, it sometimes leaves behind a crystalline, humanoid husk known as an iridian echo.",
+            "Source": {
+                "URL": "https://paizo.com/products/btq024zu/discuss?Starfinder-Galaxy-Exploration-Manual",
+                "Reference": "Galaxy Exploration Manual pg. 95"
+            },
             "Iridian EchoLevels 1-20": "Medium outsider",
             "Senses": [
                 " darkvision 60 ft."
@@ -447,7 +495,11 @@
             "Size": "Medium"
         },
         "Klikharp": {
-            "Source": "Klikharps naturally make affable creature companions.",
+            "Description": "Klikharps naturally make affable creature companions.",
+            "Source": {
+                "URL": "https://paizo.com/products/btq026jv?Starfinder-Alien-Archive-4",
+                "Reference": "Alien Archive 4 pg. 65"
+            },
             "KlikharpLevels 1-20": "Medium vermin",
             "Senses": [
                 " blindsense (vibration) 60 ft.",
@@ -493,7 +545,11 @@
             "Size": "Medium"
         },
         "Mahoi Manta": {
-            "Source": "Resembling a five-eyed manta ray, a Mahoi manta is the traditional kalo mount and beast of burden. Mahoi mantas forge strong bonds with their favorite riders and range in color from pale greys and blues to black, with a rare few being pale pink or purple.",
+            "Description": "Resembling a five-eyed manta ray, a Mahoi manta is the traditional kalo mount and beast of burden. Mahoi mantas forge strong bonds with their favorite riders and range in color from pale greys and blues to black, with a rare few being pale pink or purple.",
+            "Source": {
+                "URL": "https://paizo.com/products/btq02d4w?Starfinder-Interstellar-Species",
+                "Reference": "Interstellar Species pg. 82"
+            },
             "Mahoi MantaLevels 1-20": "Large animal (aquatic)",
             "Senses": [
                 " blindsight (scent) 60 ft",
@@ -538,7 +594,11 @@
             "Size": "Large"
         },
         "Primordrek": {
-            "Source": "Primordreks are living oozes originating from Alluvion's Source, a primordial river from the Plane of Water that runs through the city. They're favored companions of scientists and researchers who study abiogenesis and the processes of life. Primordreks are common along the Source's length and are believed to contain nutrients and proteins that aid in cell regeneration.",
+            "Description": "Primordreks are living oozes originating from Alluvion's Source, a primordial river from the Plane of Water that runs through the city. They're favored companions of scientists and researchers who study abiogenesis and the processes of life. Primordreks are common along the Source's length and are believed to contain nutrients and proteins that aid in cell regeneration.",
+            "Source": {
+                "URL": "https://paizo.com/products/btq02eah?Starfinder-Adventure-Path-49-A-Light-in-the-Dark",
+                "Reference": "Starfinder #49: A Light in the Dark pg. 50"
+            },
             "PrimordrekLevels 1-20": "Tiny ooze",
             "Senses": [
                 " blindsight (vibration) 60 ft.",
@@ -577,7 +637,11 @@
             "Size": "Tiny"
         },
         "Shotalashu": {
-            "Source": "While shotalashus have served as the traditional mounts of Castrovel’s lashuntas for millennia, many other species forge deep connections with the creatures—especially those with telepathic abilities.",
+            "Description": "While shotalashus have served as the traditional mounts of Castrovel’s lashuntas for millennia, many other species forge deep connections with the creatures—especially those with telepathic abilities.",
+            "Source": {
+                "URL": "https://paizo.com/products/btq01wt9?Starfinder-Alien-Archive-3",
+                "Reference": "Alien Archive 3 pg. 145"
+            },
             "ShotalashuLevels 1-20": "Large magical beast",
             "Senses": [
                 " darkvision 60 ft.",
@@ -614,7 +678,11 @@
             "Size": "Large"
         },
         "Yasakaja": {
-            "Source": "Native to the jungles of the isolated continent of Ukulam on Castrovel, yasakajas are furred quadrupeds with four eyes, a fox-like tail, and enormous, insectile mandibles. Yasakajas are known for being sturdy mounts with great endurance and superb mobility.",
+            "Description": "Native to the jungles of the isolated continent of Ukulam on Castrovel, yasakajas are furred quadrupeds with four eyes, a fox-like tail, and enormous, insectile mandibles. Yasakajas are known for being sturdy mounts with great endurance and superb mobility.",
+            "Source": {
+                "URL": "https://paizo.com/products/btq01wt9?Starfinder-Alien-Archive-3",
+                "Reference": "Alien Archive 3 pg. 147"
+            },
             "YasakajaLevels 1-20": "Large animal",
             "Senses": [
                 " blindsense (vibration) 60 ft."
@@ -650,7 +718,11 @@
             "Size": "Large"
         },
         "Supenga Pup": {
-            "Source": "Although fierce, supengas raised from a young age with consistent care can form strong bonds. Pups grown from cuttings mature more slowly but act less aggressively compared to their wild-born counterparts. Sometimes, a slain supenga can regrow through careful nurturing of a cutting, which results in a clone that retains much of the original creature’s memories.",
+            "Description": "Although fierce, supengas raised from a young age with consistent care can form strong bonds. Pups grown from cuttings mature more slowly but act less aggressively compared to their wild-born counterparts. Sometimes, a slain supenga can regrow through careful nurturing of a cutting, which results in a clone that retains much of the original creature’s memories.",
+            "Source": {
+                "URL": "https://paizo.com/products/btq026jv?Starfinder-Alien-Archive-4",
+                "Reference": "Alien Archive 4 pg. 121"
+            },
             "Supenga PupLevels 2-8": "Small plant",
             "Senses": [
                 " blindsense (vibration) 30 ft.",
@@ -687,7 +759,11 @@
             "Size": "Small"
         },
         "Rift Remora": {
-            "Source": "Rift remoras are leech-like outsiders that glide through the planes with supernatural intuition. These astral parasites are naturally attracted to interdimensional rifts. They gain sustenance from these misalignments of various planes of existence by absorbing the metaphysical potential energy through their long, drooping antennae. Their pale, near-transparent skin and circular, gaping maw of razor-sharp teeth gives them the appearance of deep-sea aquatic life. Though they don’t need to use it to feed, their ability to smell and home in on creatures not native to the plane they’re on makes them prized trackers by bounty hunters who specialize in pursuing targets across the planes.",
+            "Description": "Rift remoras are leech-like outsiders that glide through the planes with supernatural intuition. These astral parasites are naturally attracted to interdimensional rifts. They gain sustenance from these misalignments of various planes of existence by absorbing the metaphysical potential energy through their long, drooping antennae. Their pale, near-transparent skin and circular, gaping maw of razor-sharp teeth gives them the appearance of deep-sea aquatic life. Though they don’t need to use it to feed, their ability to smell and home in on creatures not native to the plane they’re on makes them prized trackers by bounty hunters who specialize in pursuing targets across the planes.",
+            "Source": {
+                "URL": "https://paizo.com/products/btq02dv1?Starfinder-Adventure-Path-46-The-Perfect-Storm",
+                "Reference": "Starfinder #46: The Perfect Storm pg. 45"
+            },
             "Rift RemoraLevels 2-16": "Small outsider (extraplanar)",
             "Senses": [
                 " blindsense (life [extraplanar beings only]) 120 ft.",
@@ -725,7 +801,11 @@
             "Size": "Small"
         },
         "Sun-scrapper Beetle": {
-            "Source": "Dawn beetles make agreeable companions so long as their keepers periodically remind them not to disassemble nearby vehicles and architecture. A sun-scrapper becomes anxious unless regularly provided junk and a place to store it, but properly bribed, it remains content to live with others for years. Core-divers, on the other hand, rarely remain on the surface long enough to serve as long-term companions.",
+            "Description": "Dawn beetles make agreeable companions so long as their keepers periodically remind them not to disassemble nearby vehicles and architecture. A sun-scrapper becomes anxious unless regularly provided junk and a place to store it, but properly bribed, it remains content to live with others for years. Core-divers, on the other hand, rarely remain on the surface long enough to serve as long-term companions.",
+            "Source": {
+                "URL": "https://paizo.com/products/btq026jv?Starfinder-Alien-Archive-4",
+                "Reference": "Alien Archive 4 pg. 27"
+            },
             "Sun-scrapper BeetleLevels 2-16": "Large vermin",
             "Senses": [
                 " darkvision 60ft"
@@ -763,7 +843,11 @@
             "Size": "Large"
         },
         "Mewclock": {
-            "Source": "Mewclock companions are rare but are generally found in the possession of technomancers, witchwarpers, and mystics who worship Brigh.",
+            "Description": "Mewclock companions are rare but are generally found in the possession of technomancers, witchwarpers, and mystics who worship Brigh.",
+            "Source": {
+                "URL": "https://paizo.com/products/btq02dvx?Starfinder-Adventure-Path-50-Clockwork-Demons",
+                "Reference": "Starfinder #50: Clockwork Demons pg. 59"
+            },
             "MewclockLevels 3-12": "Tiny construct (magical, technological)\r",
             "Senses": [
                 " darkvision 60 ft.",
@@ -802,7 +886,11 @@
             "Size": "Tiny"
         },
         "Drift Wysp": {
-            "Source": "Drift wysps are tiny creatures composed of planar matter from the Drift. While each is unique in appearance, they most often adopt the form of tiny creatures or geometric shapes.",
+            "Description": "Drift wysps are tiny creatures composed of planar matter from the Drift. While each is unique in appearance, they most often adopt the form of tiny creatures or geometric shapes.",
+            "Source": {
+                "URL": "https://paizo.com/products/btq02eah?Starfinder-Adventure-Path-49-A-Light-in-the-Dark",
+                "Reference": "Starfinder #49: A Light in the Dark pg. 50"
+            },
             "Drift WyspLevels 3-16": "Tiny outsider",
             "Senses": [
                 " darkvision 60ft"
@@ -840,7 +928,11 @@
             "Size": "Tiny"
         },
         "Pachycephalosaurid": {
-            "Source": "Pachycephalosaurids are bipedal dinosaurs with thick, domed skulls that can withstand incredible impacts—and be quite dangerous to creatures on the other end of their headbutts. A low center of gravity and wicked talons make pachycephalosaurids popular beasts of burden as well as combat-trained mounts.",
+            "Description": "Pachycephalosaurids are bipedal dinosaurs with thick, domed skulls that can withstand incredible impacts—and be quite dangerous to creatures on the other end of their headbutts. A low center of gravity and wicked talons make pachycephalosaurids popular beasts of burden as well as combat-trained mounts.",
+            "Source": {
+                "URL": "https://paizo.com/products/btq01wt9?Starfinder-Alien-Archive-3",
+                "Reference": "Alien Archive 3 pg. 144"
+            },
             "PachycephalosauridLevels 3-20": "Large animal",
             "Senses": [
                 " blindsense (scent) 60 ft.",
@@ -876,7 +968,11 @@
             "Size": "Large"
         },
         "Wolliped": {
-            "Source": "Wollipeds are common mounts in cold environs and have long served as war mounts.",
+            "Description": "Wollipeds are common mounts in cold environs and have long served as war mounts.",
+            "Source": {
+                "URL": "https://paizo.com/products/btq01wt9?Starfinder-Alien-Archive-3",
+                "Reference": "Alien Archive 3 pg. 146"
+            },
             "WollipedLevels 3-20": "Large animal",
             "Senses": [
                 " blindsense (scent) 60 ft.",
@@ -914,7 +1010,11 @@
             "Size": "Large"
         },
         "Bhanda": {
-            "Source": "Bhandas are slender, pale, lemur-like creatures that mimic the hunting cry of a winged apex predator to flush out prey.",
+            "Description": "Bhandas are slender, pale, lemur-like creatures that mimic the hunting cry of a winged apex predator to flush out prey.",
+            "Source": {
+                "URL": "https://paizo.com/products/btq024zu/discuss?Starfinder-Galaxy-Exploration-Manual",
+                "Reference": "Galaxy Exploration Manual pg. 67"
+            },
             "BhandaLevels 4-11": "Small magical beast",
             "Senses": [
                 " darkvision 60 ft.",
@@ -951,7 +1051,11 @@
             "Size": "Small"
         },
         "Chostolichi": {
-            "Source": "Reanimated from several smaller bodies and fused into a vaguely saurian shape, chostolichi servitors develop a pack mentality that desperately seeks a leader.",
+            "Description": "Reanimated from several smaller bodies and fused into a vaguely saurian shape, chostolichi servitors develop a pack mentality that desperately seeks a leader.",
+            "Source": {
+                "URL": "https://paizo.com/products/btq024zu/discuss?Starfinder-Galaxy-Exploration-Manual",
+                "Reference": "Galaxy Exploration Manual pg. 95"
+            },
             "ChostolichiLevels 4-20": "Large undead",
             "Senses": [
                 " darkvision 60 ft."
@@ -987,7 +1091,11 @@
             "Size": "Large"
         },
         "Tashtari": {
-            "Source": "Nicknamed “laser wolves,” tashtaris are covered in a twinkling phosphorescent coat that they can use to communicate and power their muzzle beams. Domesticated tashtaris are less dangerous than their wild counterparts, but they can still be potent threats on the battlefield.",
+            "Description": "Nicknamed “laser wolves,” tashtaris are covered in a twinkling phosphorescent coat that they can use to communicate and power their muzzle beams. Domesticated tashtaris are less dangerous than their wild counterparts, but they can still be potent threats on the battlefield.",
+            "Source": {
+                "URL": "https://paizo.com/products/btq01wt9?Starfinder-Alien-Archive-3",
+                "Reference": "Alien Archive 3 pg. 145"
+            },
             "TashtariLevels 4-20": "Medium magical beast",
             "Senses": [
                 " darkvision 60 ft.",
@@ -1028,7 +1136,11 @@
             "Size": "Medium"
         },
         "Vorac": {
-            "Source": "Voracs are eyeless, six-winged, crow-like creatures common to forested areas on several of Bretheda’s moons. They travel in large flocks in the wild, singing low and haunting songs punctuated by the crackling of raw magical energy.",
+            "Description": "Voracs are eyeless, six-winged, crow-like creatures common to forested areas on several of Bretheda’s moons. They travel in large flocks in the wild, singing low and haunting songs punctuated by the crackling of raw magical energy.",
+            "Source": {
+                "URL": "https://paizo.com/products/btq01wt9?Starfinder-Alien-Archive-3",
+                "Reference": "Alien Archive 3 pg. 146"
+            },
             "VoracLevels 5-12": "Tiny magical beast",
             "Senses": [
                 " blindsight (thought) 60 ft.; sightless"
@@ -1064,7 +1176,11 @@
             "Size": "Tiny"
         },
         "Cloud Ray": {
-            "Source": "Cloud rays can be tamed with patience and food, making them favorite mounts for gas prospectors and naturalists on gas giants. Raised to smaller sizes than their wild counterparts, they serve as ideal companions for groups or industrial use in aerial environments. Their ability to survive by grazing on floating algae and lichen makes them more reliable than many vehicles in isolated frontiers. Careful control over what and how much the beast eats helps keep them in their docile grazing cycle and suppresses their combustible death throes as well. Most cloud rays bond to a single master, becoming notoriously difficult with new riders. Cloud rays can flourish on almost any gas giant, and domesticated rays can even survive in the skies above terrestrial worlds with proper supplements.",
+            "Description": "Cloud rays can be tamed with patience and food, making them favorite mounts for gas prospectors and naturalists on gas giants. Raised to smaller sizes than their wild counterparts, they serve as ideal companions for groups or industrial use in aerial environments. Their ability to survive by grazing on floating algae and lichen makes them more reliable than many vehicles in isolated frontiers. Careful control over what and how much the beast eats helps keep them in their docile grazing cycle and suppresses their combustible death throes as well. Most cloud rays bond to a single master, becoming notoriously difficult with new riders. Cloud rays can flourish on almost any gas giant, and domesticated rays can even survive in the skies above terrestrial worlds with proper supplements.",
+            "Source": {
+                "URL": "https://paizo.com/products/btq026jv?Starfinder-Alien-Archive-4",
+                "Reference": "Alien Archive 4 pg. 21"
+            },
             "Cloud RayLevels 6-20": "Huge animal",
             "Senses": [
                 " low-light vision"
@@ -1102,7 +1218,11 @@
             "Size": "Huge"
         },
         "Linnormling": {
-            "Source": "Despite their size, linnormlings claim to be descendants of the Eldest Ragadahn. They’re willful creatures yet offer their expertise with curses to anyone offering them proper tribute.",
+            "Description": "Despite their size, linnormlings claim to be descendants of the Eldest Ragadahn. They’re willful creatures yet offer their expertise with curses to anyone offering them proper tribute.",
+            "Source": {
+                "URL": "https://paizo.com/products/btq02d4w?Starfinder-Interstellar-Species",
+                "Reference": "Interstellar Species pg. 82"
+            },
             "LinnormlingLevels 6-20": "Tiny fey (aquatic)",
             "Senses": [
                 " darkvision 60 ft.; low-light vision"
@@ -1141,7 +1261,11 @@
             "Size": "Tiny"
         },
         "Draserka": {
-            "Source": "Often called “desert drakes,” draserkas are draconic creatures native to the side of Verces known as Fullbright, where the sun never sets, the earth is scorched, and the air is always superheated. These red drakes with blue wings are infamous for breathing balls of crackling electricity at foes, and they can fly at incredible speeds when they’ve built up their momentum.",
+            "Description": "Often called “desert drakes,” draserkas are draconic creatures native to the side of Verces known as Fullbright, where the sun never sets, the earth is scorched, and the air is always superheated. These red drakes with blue wings are infamous for breathing balls of crackling electricity at foes, and they can fly at incredible speeds when they’ve built up their momentum.",
+            "Source": {
+                "URL": "https://paizo.com/products/btq01wt9?Starfinder-Alien-Archive-3",
+                "Reference": "Alien Archive 3 pg. 143"
+            },
             "DraserkaLevels 7-20": "Large dragon",
             "Senses": [
                 " blindsense (vibration and scent) 60 ft.",
@@ -1183,7 +1307,11 @@
             "Size": "Large"
         },
         "Swamp Strider": {
-            "Source": " Even with these hurdles, swamp striders are a beloved curiosity. They most often appear in the lashunta strongholds of Asana, yet dozens of planets have also imported small populations of swamp striders.",
+            "Description": " Even with these hurdles, swamp striders are a beloved curiosity. They most often appear in the lashunta strongholds of Asana, yet dozens of planets have also imported small populations of swamp striders.",
+            "Source": {
+                "URL": "https://paizo.com/products/btq026jv?Starfinder-Alien-Archive-4",
+                "Reference": "Alien Archive 4 pg. 123"
+            },
             "Swamp StriderLevels 7-20": "Large animal",
             "Senses": [
                 " blindsense (scent) 60 ft."
@@ -1219,7 +1347,11 @@
             "Size": "Large"
         },
         "Eshar": {
-            "Source": "Eshars are hulking, serpentine beasts from the expansive, sandy deserts of the tidally locked planet Verces. They are used for battle, transportation, and even for sport, in an elaborate zone-capturing game that can last for days.",
+            "Description": "Eshars are hulking, serpentine beasts from the expansive, sandy deserts of the tidally locked planet Verces. They are used for battle, transportation, and even for sport, in an elaborate zone-capturing game that can last for days.",
+            "Source": {
+                "URL": "https://paizo.com/products/btq01wt9?Starfinder-Alien-Archive-3",
+                "Reference": "Alien Archive 3 pg. 144"
+            },
             "EsharLevels 10-20": "Huge animal",
             "Senses": [
                 " blindsight (vibration) 60 ft.",
@@ -1259,7 +1391,11 @@
             "Size": "Huge"
         },
         "Trapped Zernivian": {
-            "Source": "Dycepskians have come to fear tiny plant-eating aberrations known as zernivians. Zernivians inhabit the bodies of harmless animals in order to get close to intelligent plant-based creatures, which they then harvest with a natural herbicide delivered through acidic spittle. Although unethical pet dealers sometimes offer zernivians for sale, zernivians actually move constantly from one host animal to another and seldom bond with another species. However, sometimes a zernivian’s ability to inhabit a host goes awry, and the creature is permanently trapped inside that host. When this happens, the physiologies of the zernivian and its host combine and mutate. Perhaps realizing it can no longer find prey without help, the zernivian becomes more amenable to other species. A caring and patient individual can sometimes forge a bond with such a creature.",
+            "Description": "Dycepskians have come to fear tiny plant-eating aberrations known as zernivians. Zernivians inhabit the bodies of harmless animals in order to get close to intelligent plant-based creatures, which they then harvest with a natural herbicide delivered through acidic spittle. Although unethical pet dealers sometimes offer zernivians for sale, zernivians actually move constantly from one host animal to another and seldom bond with another species. However, sometimes a zernivian’s ability to inhabit a host goes awry, and the creature is permanently trapped inside that host. When this happens, the physiologies of the zernivian and its host combine and mutate. Perhaps realizing it can no longer find prey without help, the zernivian becomes more amenable to other species. A caring and patient individual can sometimes forge a bond with such a creature.",
+            "Source": {
+                "URL": "https://paizo.com/products/btq021bu?Starfinder-Adventure-Path-28-The-Hollow-Cabal",
+                "Reference": "Starfinder #28: The Hollow Cabal pg. 53"
+            },
             "Trapped ZernivianLevels 10-20": "Small aberration",
             "Senses": [
                 " darkvision 60 ft.",
@@ -1302,7 +1438,11 @@
             "Size": "Small"
         },
         "Izhash": {
-            "Source": "Originating in the jungles of Ukulam on Castrovel, izhashes are fearsome ambush predators with sensitive feeler tendrils.",
+            "Description": "Originating in the jungles of Ukulam on Castrovel, izhashes are fearsome ambush predators with sensitive feeler tendrils.",
+            "Source": {
+                "URL": "https://paizo.com/products/btq024zu/discuss?Starfinder-Galaxy-Exploration-Manual",
+                "Reference": "Galaxy Exploration Manual pg. 67"
+            },
             "IzhashLevels 11-20": "Large plant",
             "Senses": [
                 " blindsight (vibration) 60 ft.",
@@ -1341,7 +1481,11 @@
             "Size": "Large"
         },
         "Thakasa": {
-            "Source": "Thakasas are close evolutionary relatives of Castrovel’s shotalashus. Long before the Gap, they were the chosen mount of an aerial cavalry, but with the proliferation of flying vehicles, they have become much rarer.",
+            "Description": "Thakasas are close evolutionary relatives of Castrovel’s shotalashus. Long before the Gap, they were the chosen mount of an aerial cavalry, but with the proliferation of flying vehicles, they have become much rarer.",
+            "Source": {
+                "URL": "https://paizo.com/products/btq01wt9?Starfinder-Alien-Archive-3",
+                "Reference": "Alien Archive 3 pg. 146"
+            },
             "ThakasaLevels 13-20": "Large magical beast",
             "Senses": [
                 " darkvision 60 ft.",
