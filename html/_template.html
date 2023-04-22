@@ -478,6 +478,28 @@
                                             class="bi bi-book"></i></button>
                                 </div>
 
+                                <!-- CHARACTER CLASS -->
+                                <div class="input-group mb-2">
+                                    <div class="form-floating">
+                                        <select class="form-select" id="class-select" aria-label="class-select">
+                                        </select>
+                                        <label for="floatingSelect">Class</label>
+                                    </div>
+                                    <button class="btn btn-outline-secondary" type="button"><i
+                                            class="bi bi-book"></i></button>
+                                </div>
+
+                                <!-- CHARACTER THEME -->
+                                <div class="input-group mb-2">
+                                    <div class="form-floating">
+                                        <select class="form-select" id="theme-select" aria-label="theme-select">
+                                        </select>
+                                        <label for="floatingSelect">Theme</label>
+                                    </div>
+                                    <button class="btn btn-outline-secondary" type="button"><i
+                                            class="bi bi-book"></i></button>
+                                </div>
+                                
                                 <div class="row gx-2">
                                     <div class="col">
                                         <!-- CHARACTER GENDER -->
@@ -907,6 +929,8 @@
             console.log(`document.ready`)
             updateDrowndown("deities", "Deity", "deity-select");
             updateDrowndown("races", "Race", "race-select");
+            updateDrowndown("class", "Class", "class-select");
+            updateDrowndown("theme", "Theme", "theme-select");
             updateDrowndown("alignment", "Alignment", "alignment-select");
             updateConditionsList();
             updateCorruptionsList();
