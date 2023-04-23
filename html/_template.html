@@ -134,45 +134,71 @@
                                     <div class="col-md">
                                         <ul class="list-group list-group-flush">
                                             <li class="list-group-item">
-                                                <h5 class="card-title">Armor Class</h5>
-                                                <table class="table table-sm table-hover table-striped">
-                                                    <thead class="text-center">
-                                                        <tr>
-                                                            <th>Type</th>
-                                                            <th>Total</th>
-                                                            <th>Base</th>
-                                                            <th>Armor</th>
-                                                            <th>Dex</th>
-                                                            <th>Misc</th>
-                                                        </tr>
-                                                    </thead>
-                                                    <tbody>
-                                                        <tr>
-                                                            <td><span class="badge text-bg-secondary">KAC</span> Kinetic Armor Class</td>
-                                                            <td class="text-center">13</td>
-                                                            <td class="text-center">10</td>
-                                                            <td class="text-center">1</td>
-                                                            <td class="text-center">2</td>
-                                                            <td class="text-center">0</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td><span class="badge text-bg-secondary">EAC</span> Energy Armor Class</td>
-                                                            <td class="text-center">13</td>
-                                                            <td class="text-center">10</td>
-                                                            <td class="text-center">1</td>
-                                                            <td class="text-center">2</td>
-                                                            <td class="text-center">0</td>
-                                                        </tr>
-                                                    </tbody>
-                                                </table>
-                                                <h5 class="card-title mb-0"><i class="bi bi-arrow-through-heart"></i> Kinetic Armor Class (KAC): <b
-                                                        id="ac-number">25</b></h5>
-                                                <h6 class="card-subtitle mb-1 text-muted">Critical hit at <code
-                                                        id="crit-number">35</code>+</h6>
-                                                <h5 class="card-title mb-1"><i class="bi bi-battery-half"></i> Energy Armor Class (EAC): <b
-                                                        id="ac-number">25</b></h5>
-                                                <h6 class="card-subtitle mb-2 text-muted">Critical hit at <code
-                                                        id="crit-number">35</code>+</h6>
+                                                <div class="hstack gap-3">
+                                                    <h5 class="card-title">Armor Class</h5>
+                                                    <button class="btn btn-sm btn-outline-secondary ms-auto"
+                                                        type="button" data-bs-toggle="collapse"
+                                                        data-bs-target="#ac-details-expand" aria-expanded="false"
+                                                        aria-controls="ac-details-expand"><i
+                                                            class="bi bi-arrow-bar-down"></i></button>
+                                                </div>
+                                                <ul class="list-group list-group-flush mb-2">
+                                                    <li class="list-group-item">
+                                                        <h5 class="card-title"><i
+                                                                class="bi bi-arrow-through-heart"></i>
+                                                            Kinetic Armor Class (KAC): <b id="ac-number">13</b></h5>
+                                                        <h6 class="card-subtitle text-muted">Critical hit at <code
+                                                                id="crit-number">23</code>+</h6>
+                                                    </li>
+                                                    <li class="list-group-item">
+                                                        <h5 class="card-title"><i
+                                                                class="bi bi-lightning-charge"></i> Energy
+                                                            Armor Class (EAC): <b id="ac-number">13</b></h5>
+                                                        <h6 class="card-subtitle text-muted">Critical hit at <code
+                                                                id="crit-number">23</code>+</h6>
+                                                    </li>
+                                                    <li class="list-group-item">
+                                                        <h6 class="card-title"><i class="bi bi-diagram-2"></i> AC
+                                                            vs Combat Maneuvers: <b id="ac-number">21</b></h5>
+                                                            <h6 class="card-subtitle text-muted">8 + <span
+                                                                    class="badge text-bg-secondary">KAC</span> (13)</h6>
+                                                    </li>
+                                                </ul>
+                                                <div class="collapse multi-collapse" id="ac-details-expand">
+                                                    <table class="table table-sm table-hover table-striped">
+                                                        <thead class="text-center">
+                                                            <tr>
+                                                                <th>Type</th>
+                                                                <th>Total</th>
+                                                                <th>Base</th>
+                                                                <th>Armor</th>
+                                                                <th>Dex</th>
+                                                                <th>Misc</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td><span class="badge text-bg-secondary">KAC</span>
+                                                                    Kinetic Armor Class</td>
+                                                                <td class="text-center"><b>13</b></td>
+                                                                <td class="text-center">10</td>
+                                                                <td class="text-center">1</td>
+                                                                <td class="text-center">2</td>
+                                                                <td class="text-center">0</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><span class="badge text-bg-secondary">EAC</span>
+                                                                    Energy Armor Class</td>
+                                                                <td class="text-center"><b>13</b></td>
+                                                                <td class="text-center">10</td>
+                                                                <td class="text-center">1</td>
+                                                                <td class="text-center">2</td>
+                                                                <td class="text-center">0</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+
                                                 <h6 class="card-subtitle mb-2 text-muted">Current Status: <code
                                                         id="current-status">Bleeding</code>, <code
                                                         id="current-status">Frightened</code>, <code
@@ -229,29 +255,32 @@
                                                 <tr>
                                                     <th>Type</th>
                                                     <th>Total</th>
-                                                    <th>Base Save</th>
-                                                    <th>Ability Mod</th>
-                                                    <th>Misc Mod</th>
+                                                    <th>Base</th>
+                                                    <th>Ability</th>
+                                                    <th>Misc</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
                                                 <tr>
-                                                    <td><b>Fortitude</b> <span class="badge text-bg-secondary">CON</span></td>
-                                                    <td class="text-center">2</td>
+                                                    <td><b>Fortitude</b> <span
+                                                            class="badge text-bg-secondary">CON</span></td>
+                                                    <td class="text-center"><b>2</b></td>
                                                     <td class="text-center">2</td>
                                                     <td class="text-center">0</td>
-                                                    <td class="text-center">0</td>
-                                                </tr>
-                                                <tr>
-                                                    <td><b>Reflex</b> <span class="badge text-bg-secondary">DEX</span></td>
-                                                    <td class="text-center">4</td>
-                                                    <td class="text-center">2</td>
-                                                    <td class="text-center">2</td>
                                                     <td class="text-center">0</td>
                                                 </tr>
                                                 <tr>
-                                                    <td><b>Will</b> <span class="badge text-bg-secondary">WIS</span></td>
-                                                    <td class="text-center">-1</td>
+                                                    <td><b>Reflex</b> <span class="badge text-bg-secondary">DEX</span>
+                                                    </td>
+                                                    <td class="text-center"><b>4</b></td>
+                                                    <td class="text-center">2</td>
+                                                    <td class="text-center">2</td>
+                                                    <td class="text-center">0</td>
+                                                </tr>
+                                                <tr>
+                                                    <td><b>Will</b> <span class="badge text-bg-secondary">WIS</span>
+                                                    </td>
+                                                    <td class="text-center text-danger"><b>-1</b></td>
                                                     <td class="text-center">0</td>
                                                     <td class="text-center">-1</td>
                                                     <td class="text-center">0</td>
