@@ -4,14 +4,14 @@
             "Mod": "Dexterity",
             "Ranks": "",
             "ClassBonus": "",
-            "AbilityMod": "",
+            "AbilityMod": "2",
             "MiscMod": "",
             "Penalty": ""
         },
         "Athletics": {
             "Mod": "Strength",
-            "Ranks": "",
-            "ClassBonus": "",
+            "Ranks": "1",
+            "ClassBonus": "3",
             "AbilityMod": "",
             "MiscMod": "",
             "Penalty": ""
@@ -20,55 +20,55 @@
             "Mod": "Charisma",
             "Ranks": "",
             "ClassBonus": "",
-            "AbilityMod": "",
+            "AbilityMod": "1",
             "MiscMod": "",
             "Penalty": ""
         },
         "Computers": {
             "Mod": "Intelligence",
-            "Ranks": "",
-            "ClassBonus": "",
-            "AbilityMod": "",
-            "MiscMod": "",
+            "Ranks": "1",
+            "ClassBonus": "3",
+            "AbilityMod": "4",
+            "MiscMod": "1",
             "Penalty": ""
         },
         "Culture": {
             "Mod": "Intelligence",
             "Ranks": "",
             "ClassBonus": "",
-            "AbilityMod": "",
+            "AbilityMod": "4",
             "MiscMod": "",
             "Penalty": ""
         },
         "Diplomacy": {
             "Mod": "Charisma",
-            "Ranks": "",
+            "Ranks": "1",
             "ClassBonus": "",
-            "AbilityMod": "",
-            "MiscMod": "",
+            "AbilityMod": "1",
+            "MiscMod": "2",
             "Penalty": ""
         },
         "Disguise": {
             "Mod": "Charisma",
             "Ranks": "",
             "ClassBonus": "",
-            "AbilityMod": "",
+            "AbilityMod": "1",
             "MiscMod": "",
             "Penalty": ""
         },
         "Engineering": {
             "Mod": "Intelligence",
-            "Ranks": "",
-            "ClassBonus": "",
-            "AbilityMod": "",
-            "MiscMod": "",
+            "Ranks": "1",
+            "ClassBonus": "3",
+            "AbilityMod": "4",
+            "MiscMod": "3",
             "Penalty": ""
         },
         "Intimidate": {
             "Mod": "Charisma",
             "Ranks": "",
             "ClassBonus": "",
-            "AbilityMod": "",
+            "AbilityMod": "1",
             "MiscMod": "",
             "Penalty": ""
         },
@@ -76,15 +76,15 @@
             "Mod": "Intelligence",
             "Ranks": "",
             "ClassBonus": "",
-            "AbilityMod": "",
+            "AbilityMod": "4",
             "MiscMod": "",
             "Penalty": ""
         },
         "Medicine": {
             "Mod": "Intelligence",
-            "Ranks": "",
-            "ClassBonus": "",
-            "AbilityMod": "",
+            "Ranks": "1",
+            "ClassBonus": "3",
+            "AbilityMod": "4",
             "MiscMod": "",
             "Penalty": ""
         },
@@ -92,39 +92,39 @@
             "Mod": "Wisdom",
             "Ranks": "",
             "ClassBonus": "",
-            "AbilityMod": "",
+            "AbilityMod": "-1",
             "MiscMod": "",
             "Penalty": ""
         },
         "Perception": {
             "Mod": "Wisdom",
-            "Ranks": "",
-            "ClassBonus": "",
-            "AbilityMod": "",
-            "MiscMod": "",
+            "Ranks": "1",
+            "ClassBonus": "3",
+            "AbilityMod": "-1",
+            "MiscMod": "2",
             "Penalty": ""
         },
         "Physical Science": {
             "Mod": "Intelligence",
-            "Ranks": "",
-            "ClassBonus": "",
-            "AbilityMod": "",
+            "Ranks": "1",
+            "ClassBonus": "3",
+            "AbilityMod": "4",
             "MiscMod": "",
             "Penalty": ""
         },
         "Piloting": {
             "Mod": "Dexterity",
-            "Ranks": "",
-            "ClassBonus": "",
-            "AbilityMod": "",
-            "MiscMod": "",
+            "Ranks": "1",
+            "ClassBonus": "3",
+            "AbilityMod": "2",
+            "MiscMod": "1",
             "Penalty": ""
         },
         "Sense Motive": {
             "Mod": "Wisdom",
             "Ranks": "",
             "ClassBonus": "",
-            "AbilityMod": "",
+            "AbilityMod": "-1",
             "MiscMod": "",
             "Penalty": ""
         },
@@ -132,7 +132,7 @@
             "Mod": "Dexterity",
             "Ranks": "",
             "ClassBonus": "",
-            "AbilityMod": "",
+            "AbilityMod": "2",
             "MiscMod": "",
             "Penalty": ""
         },
@@ -140,7 +140,7 @@
             "Mod": "Dexterity",
             "Ranks": "",
             "ClassBonus": "",
-            "AbilityMod": "",
+            "AbilityMod": "2",
             "MiscMod": "",
             "Penalty": ""
         },
@@ -148,7 +148,7 @@
             "Mod": "Wisdom",
             "Ranks": "",
             "ClassBonus": "",
-            "AbilityMod": "",
+            "AbilityMod": "-1",
             "MiscMod": "",
             "Penalty": ""
         }

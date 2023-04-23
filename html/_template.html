@@ -947,25 +947,6 @@
                 .done(function (data) {
                     $.each(data.Corruptions, function (name, item) {
                         $(`#afflictions-corruptions-list`).append(`
-<tr>
-    <td>${name}</td>
-    <td>+23</td>
-    <td>${data['Skills'][name]['Penalty']}</td>
-    <td>${data['Skills'][name]['Ranks']}</td>
-    <td>${data['Skills'][name]['ClassBonus']}</td>
-    <td>${data['Skills'][name]['AbilityMod']}</td>
-    <td>${data['Skills'][name]['MiscMod']}</td>
-</tr>`);
-                    });
-                });
-        }
-
-        // Update Skills Listings
-        function updateTable() {
-            $.getJSON(`https://raw.githubusercontent.com/Kolomane/sf-builder/main/json/skills.json`)
-                .done(function (data) {
-                    $.each(data.Skills, function (name, item) {
-                        $(`#skills-table tbody`).append(`
 <li class="list-group-item">
     <div class="hstack">
         <div class="form-check">
@@ -983,6 +964,25 @@
                     });
                 });
         }
+
+        // Update Skills Listings
+        function updateTable(jsonFileName) {
+            $.getJSON(`https://raw.githubusercontent.com/Kolomane/sf-builder/main/json/${jsonFileName}.json`)
+                .done(function (data) {
+                    $.each(data.Skills, function (name, item) {
+                        $(`#skills-table tbody`).append(`
+<tr>
+    <td>${name} (${data['Skills'][name]['Mod'].substring(0,3).toUpperCase()})</td>
+    <td>${int(data['Skills'][name]['Penalty']) + int(data['Skills'][name]['Ranks']) + int(data['Skills'][name]['ClassBonus']) + int(data['Skills'][name]['AbilityMod']) + int(data['Skills'][name]['MiscMod'])}</td>
+    <td>${data['Skills'][name]['Penalty']}</td>
+    <td>${data['Skills'][name]['Ranks']}</td>
+    <td>${data['Skills'][name]['ClassBonus']}</td>
+    <td>${data['Skills'][name]['AbilityMod']}</td>
+    <td>${data['Skills'][name]['MiscMod']}</td>
+</tr>`);
+                    });
+                });
+        }
         ///////////////////////////////
         // DOCUMENT READY /////////////
         ///////////////////////////////
@@ -991,11 +991,12 @@
             console.log(`document.ready`)
             updateDrowndown("deities", "Deity", "deity-select");
             updateDrowndown("races", "Race", "race-select");
-            updateDrowndown("class", "Classes", "class-select");
-            updateDrowndown("theme", "Themes", "theme-select");
+            updateDrowndown("classes", "Classes", "class-select");
+            updateDrowndown("themes", "Themes", "theme-select");
             updateDrowndown("alignment", "Alignment", "alignment-select");
             updateConditionsList();
             updateCorruptionsList();
+            updateTable("skills")
             console.log(`after document.ready`)
         });
 
