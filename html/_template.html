@@ -26,10 +26,6 @@
                 role="tab" aria-controls="mods-tab-pane" aria-selected="true">Mods</button>
         </li>
         <li class="nav-item" role="presentation">
-            <button class="nav-link" id="defense-tab" data-bs-toggle="tab" data-bs-target="#defense-tab-pane"
-                type="button" role="tab" aria-controls="defense-tab-pane" aria-selected="false">Defense</button>
-        </li>
-        <li class="nav-item" role="presentation">
             <button class="nav-link" id="offense-tab" data-bs-toggle="tab" data-bs-target="#offense-tab-pane"
                 type="button" role="tab" aria-controls="offense-tab-pane" aria-selected="false">Offense</button>
         </li>
@@ -564,10 +560,10 @@
                     <!-- START CARD -->
                     <div class="card">
                         <div class="card-header">
-                            Skills
+                            Skill List
                         </div>
                         <table id="skills-table" class="table table-striped table-hover">
-                            <thead>
+                            <thead class="text-center">
                                 <tr>
                                     <th>
                                         Skill
@@ -599,15 +595,84 @@
                     </div>
                 </div>
 
-                
+                                <!-- START COL -->
+                                <div class="col-md mt-2">
+                                    <!-- START CARD -->
+                                    <div class="card">
+                                        <div class="card-header">
+                                            Ability Scores
+                                        </div>
+                                        <table id="ability-scores-table" class="table table-striped table-hover">
+                                            <thead class="text-center">
+                                                <tr>
+                                                    <th>
+                                                        Type
+                                                    </th>
+                                                    <th>
+                                                        Score
+                                                    </th>
+                                                    <th>
+                                                        Mod
+                                                    </th>
+                                                    <th>
+                                                        Upgraded Score
+                                                    </th>
+                                                    <th>
+                                                        Upgraded Mod
+                                                    </th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td><span class="badge text-bg-secondary">CHA</span> Charisma</td>
+                                                    <td class="text-center">10</td>
+                                                    <td class="text-center">+0</td>
+                                                    <td class="text-center"></td>
+                                                    <td class="text-center"></td>
+                                                </tr>
+                                                <tr>
+                                                    <td><span class="badge text-bg-secondary">CON</span> Constitution</td>
+                                                    <td class="text-center">15</td>
+                                                    <td class="text-center">+2</td>
+                                                    <td class="text-center"></td>
+                                                    <td class="text-center"></td>
+                                                </tr>
+                                                <tr>
+                                                    <td><span class="badge text-bg-secondary">DEX</span> Dexterity</td>
+                                                    <td class="text-center">10</td>
+                                                    <td class="text-center">+0</td>
+                                                    <td class="text-center"></td>
+                                                    <td class="text-center"></td>
+                                                </tr>
+                                                <tr>
+                                                    <td><span class="badge text-bg-secondary">INT</span> Intelligence</td>
+                                                    <td class="text-center">18</td>
+                                                    <td class="text-center">+4</td>
+                                                    <td class="text-center"></td>
+                                                    <td class="text-center"></td>
+                                                </tr>
+                                                <tr>
+                                                    <td><span class="badge text-bg-secondary">STR</span> Strength</td>
+                                                    <td class="text-center">8</td>
+                                                    <td class="text-center">-1</td>
+                                                    <td class="text-center"></td>
+                                                    <td class="text-center"></td>
+                                                </tr>
+                                                <tr>
+                                                    <td><span class="badge text-bg-secondary">WIS</span> Wisdom</td>
+                                                    <td class="text-center">12</td>
+                                                    <td class="text-center">+1</td>
+                                                    <td class="text-center"></td>
+                                                    <td class="text-center"></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
             </div>
         </div>
         <div class="tab-pane fade" id="mods-tab-pane" role="tabpanel" aria-labelledby="mods-tab" tabindex="0">
             Mods - selection area for feats, skills, etcetera
-        </div>
-
-
-        <div class="tab-pane fade" id="defense-tab-pane" role="tabpanel" aria-labelledby="defense-tab" tabindex="0">...
         </div>
         <div class="tab-pane fade" id="offense-tab-pane" role="tabpanel" aria-labelledby="offense-tab" tabindex="0">...
         </div>
@@ -970,15 +1035,21 @@
             $.getJSON(`https://raw.githubusercontent.com/Kolomane/sf-builder/main/json/${jsonFileName}.json`)
                 .done(function (data) {
                     $.each(data.Skills, function (name, item) {
+                        let skillsPenalty = parseInt(data['Skills'][name]['Penalty']);
+                        let skillsRanks = parseInt(data['Skills'][name]['Ranks']);
+                        let skillsClassBonus = parseInt(data['Skills'][name]['ClassBonus']);
+                        let skillsAbilityMod = parseInt(data['Skills'][name]['AbilityMod']);
+                        let skillsMiscMod = parseInt(data['Skills'][name]['MiscMod']);
+                        let skillsTotal = (skillsRanks + skillsClassBonus + skillsAbilityMod + skillsMiscMod + skillsPenalty);
                         $(`#skills-table tbody`).append(`
 <tr>
-    <td>${name} (${data['Skills'][name]['Mod'].substring(0,3).toUpperCase()})</td>
-    <td>${parseInt(data['Skills'][name]['Penalty']) + parseInt(data['Skills'][name]['Ranks']) + parseInt(data['Skills'][name]['ClassBonus']) + parseInt(data['Skills'][name]['AbilityMod']) + parseInt(data['Skills'][name]['MiscMod'])}</td>
-    <td>${data['Skills'][name]['Penalty']}</td>
-    <td>${data['Skills'][name]['Ranks']}</td>
-    <td>${data['Skills'][name]['ClassBonus']}</td>
-    <td>${data['Skills'][name]['AbilityMod']}</td>
-    <td>${data['Skills'][name]['MiscMod']}</td>
+    <td>${name} <span class="badge text-bg-secondary">${data['Skills'][name]['Mod'].substring(0,3).toUpperCase()}</span></td>
+    <td class="text-center">${skillsTotal}</td>
+    <td class="text-center">${skillsPenalty}</td>
+    <td class="text-center">${skillsRanks}</td>
+    <td class="text-center">${skillsClassBonus}</td>
+    <td class="text-center">${skillsAbilityMod}</td>
+    <td class="text-center">${skillsMiscMod}</td>
 </tr>`);
                     });
                 });
