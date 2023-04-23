@@ -973,7 +973,7 @@
                         $(`#skills-table tbody`).append(`
 <tr>
     <td>${name} (${data['Skills'][name]['Mod'].substring(0,3).toUpperCase()})</td>
-    <td>${int(data['Skills'][name]['Penalty']) + int(data['Skills'][name]['Ranks']) + int(data['Skills'][name]['ClassBonus']) + int(data['Skills'][name]['AbilityMod']) + int(data['Skills'][name]['MiscMod'])}</td>
+    <td>${parseInt(data['Skills'][name]['Penalty']) + parseInt(data['Skills'][name]['Ranks']) + parseInt(data['Skills'][name]['ClassBonus']) + parseInt(data['Skills'][name]['AbilityMod']) + parseInt(data['Skills'][name]['MiscMod'])}</td>
     <td>${data['Skills'][name]['Penalty']}</td>
     <td>${data['Skills'][name]['Ranks']}</td>
     <td>${data['Skills'][name]['ClassBonus']}</td>
