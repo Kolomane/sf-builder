@@ -1,0 +1,124 @@
+{
+    "Skills": {
+        "Acrobatics": {
+            "Ranks": "",
+            "ClassBonus": "",
+            "AbilityMod": "",
+            "MiscMod": ""
+        },
+        "Athletics": {
+            "Ranks": "",
+            "ClassBonus": "",
+            "AbilityMod": "",
+            "MiscMod": ""
+        },
+        "Bluff": {
+            "Ranks": "",
+            "ClassBonus": "",
+            "AbilityMod": "",
+            "MiscMod": ""
+        },
+        "Computers": {
+            "Ranks": "",
+            "ClassBonus": "",
+            "AbilityMod": "",
+            "MiscMod": ""
+        },
+        "Culture": {
+            "Ranks": "",
+            "ClassBonus": "",
+            "AbilityMod": "",
+            "MiscMod": ""
+        },
+        "Diplomacy": {
+            "Ranks": "",
+            "ClassBonus": "",
+            "AbilityMod": "",
+            "MiscMod": ""
+        },
+        "Disguise": {
+            "Ranks": "",
+            "ClassBonus": "",
+            "AbilityMod": "",
+            "MiscMod": ""
+        },
+        "Engineering": {
+            "Ranks": "",
+            "ClassBonus": "",
+            "AbilityMod": "",
+            "MiscMod": ""
+        },
+        "Intimidate": {
+            "Ranks": "",
+            "ClassBonus": "",
+            "AbilityMod": "",
+            "MiscMod": ""
+        },
+        "Life Science": {
+            "Ranks": "",
+            "ClassBonus": "",
+            "AbilityMod": "",
+            "MiscMod": ""
+        },
+        "Medicine": {
+            "Ranks": "",
+            "ClassBonus": "",
+            "AbilityMod": "",
+            "MiscMod": ""
+        },
+        "Mysticism": {
+            "Ranks": "",
+            "ClassBonus": "",
+            "AbilityMod": "",
+            "MiscMod": ""
+        },
+        "Perception": {
+            "Ranks": "",
+            "ClassBonus": "",
+            "AbilityMod": "",
+            "MiscMod": ""
+        },
+        "Physical Science": {
+            "Ranks": "",
+            "ClassBonus": "",
+            "AbilityMod": "",
+            "MiscMod": ""
+        },
+        "Piloting": {
+            "Ranks": "",
+            "ClassBonus": "",
+            "AbilityMod": "",
+            "MiscMod": ""
+        },
+        "Profession": {
+            "Ranks": "",
+            "ClassBonus": "",
+            "AbilityMod": "",
+            "MiscMod": ""
+        },
+        "Sense Motive": {
+            "Ranks": "",
+            "ClassBonus": "",
+            "AbilityMod": "",
+            "MiscMod": ""
+        },
+        "Sleight of Hand": {
+            "Ranks": "",
+            "ClassBonus": "",
+            "AbilityMod": "",
+            "MiscMod": ""
+        },
+        "Stealth": {
+            "Ranks": "",
+            "ClassBonus": "",
+            "AbilityMod": "",
+            "MiscMod": ""
+        },
+        "Survival": {
+            "Ranks": "",
+            "ClassBonus": "",
+            "AbilityMod": "",
+            "MiscMod": ""
+        }
+    }
+}

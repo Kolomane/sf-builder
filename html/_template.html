@@ -18,12 +18,12 @@
                 type="button" role="tab" aria-controls="character-tab-pane" aria-selected="true">Character</button>
         </li>
         <li class="nav-item" role="presentation">
-            <button class="nav-link" id="mods-tab" data-bs-toggle="tab" data-bs-target="#mods-tab-pane" type="button"
-                role="tab" aria-controls="mods-tab-pane" aria-selected="true">Mods</button>
-        </li>
-        <li class="nav-item" role="presentation">
             <button class="nav-link" id="stats-tab" data-bs-toggle="tab" data-bs-target="#stats-tab-pane" type="button"
                 role="tab" aria-controls="stats-tab-pane" aria-selected="false">Stats</button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="mods-tab" data-bs-toggle="tab" data-bs-target="#mods-tab-pane" type="button"
+                role="tab" aria-controls="mods-tab-pane" aria-selected="true">Mods</button>
         </li>
         <li class="nav-item" role="presentation">
             <button class="nav-link" id="defense-tab" data-bs-toggle="tab" data-bs-target="#defense-tab-pane"
@@ -142,7 +142,10 @@
                                     <div class="col-md">
                                         <ul class="list-group list-group-flush">
                                             <li class="list-group-item">
-                                                <h5 class="card-title">Armor Class (AC): <b id="ac-number">25</b></h5>
+                                                <h5 class="card-title mb-0">Kinetic Armor Class (KAC): <b id="ac-number">25</b></h5>
+                                                <h6 class="card-subtitle mb-1 text-muted">Critical hit at <code
+                                                    id="crit-number">35</code>+</h6>
+                                                <h5 class="card-title mb-1">Energy Armor Class (EAC): <b id="ac-number">25</b></h5>
                                                 <h6 class="card-subtitle mb-2 text-muted">Critical hit at <code
                                                         id="crit-number">35</code>+</h6>
                                                 <h6 class="card-subtitle mb-2 text-muted">Current Status: <code
@@ -555,12 +558,29 @@
             <!-- Image, character name, race, background(?) class, deity<br />
             Lore -->
         </div>
+        <div class="tab-pane fade" id="stats-tab-pane" role="tabpanel" aria-labelledby="stats-tab" tabindex="0">
+            <!-- START ROW -->
+            <div class="row mx-1">
+                <!-- START COL -->
+                <div class="col-md mt-2">
+                    <!-- START CARD -->
+                    <div class="card">
+                        <div class="card-header">
+                            Skills
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="tab-pane fade" id="mods-tab-pane" role="tabpanel" aria-labelledby="mods-tab" tabindex="0">
             Mods - selection area for feats, skills, etcetera
         </div>
 
-        <div class="tab-pane fade" id="stats-tab-pane" role="tabpanel" aria-labelledby="stats-tab" tabindex="0">...
-        </div>
+        
         <div class="tab-pane fade" id="defense-tab-pane" role="tabpanel" aria-labelledby="defense-tab" tabindex="0">...
         </div>
         <div class="tab-pane fade" id="offense-tab-pane" role="tabpanel" aria-labelledby="offense-tab" tabindex="0">...
@@ -929,8 +949,8 @@
             console.log(`document.ready`)
             updateDrowndown("deities", "Deity", "deity-select");
             updateDrowndown("races", "Race", "race-select");
-            updateDrowndown("class", "Class", "class-select");
-            updateDrowndown("theme", "Theme", "theme-select");
+            updateDrowndown("class", "Classes", "class-select");
+            updateDrowndown("theme", "Themes", "theme-select");
             updateDrowndown("alignment", "Alignment", "alignment-select");
             updateConditionsList();
             updateCorruptionsList();
