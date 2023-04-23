@@ -1,124 +1,156 @@
 {
     "Skills": {
         "Acrobatics": {
+            "Mod": "Dexterity",
             "Ranks": "",
             "ClassBonus": "",
             "AbilityMod": "",
-            "MiscMod": ""
+            "MiscMod": "",
+            "Penalty": ""
         },
         "Athletics": {
+            "Mod": "Strength",
             "Ranks": "",
             "ClassBonus": "",
             "AbilityMod": "",
-            "MiscMod": ""
+            "MiscMod": "",
+            "Penalty": ""
         },
         "Bluff": {
+            "Mod": "Charisma",
             "Ranks": "",
             "ClassBonus": "",
             "AbilityMod": "",
-            "MiscMod": ""
+            "MiscMod": "",
+            "Penalty": ""
         },
         "Computers": {
+            "Mod": "Intelligence",
             "Ranks": "",
             "ClassBonus": "",
             "AbilityMod": "",
-            "MiscMod": ""
+            "MiscMod": "",
+            "Penalty": ""
         },
         "Culture": {
+            "Mod": "Intelligence",
             "Ranks": "",
             "ClassBonus": "",
             "AbilityMod": "",
-            "MiscMod": ""
+            "MiscMod": "",
+            "Penalty": ""
         },
         "Diplomacy": {
+            "Mod": "Charisma",
             "Ranks": "",
             "ClassBonus": "",
             "AbilityMod": "",
-            "MiscMod": ""
+            "MiscMod": "",
+            "Penalty": ""
         },
         "Disguise": {
+            "Mod": "Charisma",
             "Ranks": "",
             "ClassBonus": "",
             "AbilityMod": "",
-            "MiscMod": ""
+            "MiscMod": "",
+            "Penalty": ""
         },
         "Engineering": {
+            "Mod": "Intelligence",
             "Ranks": "",
             "ClassBonus": "",
             "AbilityMod": "",
-            "MiscMod": ""
+            "MiscMod": "",
+            "Penalty": ""
         },
         "Intimidate": {
+            "Mod": "Charisma",
             "Ranks": "",
             "ClassBonus": "",
             "AbilityMod": "",
-            "MiscMod": ""
+            "MiscMod": "",
+            "Penalty": ""
         },
         "Life Science": {
+            "Mod": "Intelligence",
             "Ranks": "",
             "ClassBonus": "",
             "AbilityMod": "",
-            "MiscMod": ""
+            "MiscMod": "",
+            "Penalty": ""
         },
         "Medicine": {
+            "Mod": "Intelligence",
             "Ranks": "",
             "ClassBonus": "",
             "AbilityMod": "",
-            "MiscMod": ""
+            "MiscMod": "",
+            "Penalty": ""
         },
         "Mysticism": {
+            "Mod": "Wisdom",
             "Ranks": "",
             "ClassBonus": "",
             "AbilityMod": "",
-            "MiscMod": ""
+            "MiscMod": "",
+            "Penalty": ""
         },
         "Perception": {
+            "Mod": "Wisdom",
             "Ranks": "",
             "ClassBonus": "",
             "AbilityMod": "",
-            "MiscMod": ""
+            "MiscMod": "",
+            "Penalty": ""
         },
         "Physical Science": {
+            "Mod": "Intelligence",
             "Ranks": "",
             "ClassBonus": "",
             "AbilityMod": "",
-            "MiscMod": ""
+            "MiscMod": "",
+            "Penalty": ""
         },
         "Piloting": {
+            "Mod": "Dexterity",
             "Ranks": "",
             "ClassBonus": "",
             "AbilityMod": "",
-            "MiscMod": ""
-        },
-        "Profession": {
-            "Ranks": "",
-            "ClassBonus": "",
-            "AbilityMod": "",
-            "MiscMod": ""
+            "MiscMod": "",
+            "Penalty": ""
         },
         "Sense Motive": {
+            "Mod": "Wisdom",
             "Ranks": "",
             "ClassBonus": "",
             "AbilityMod": "",
-            "MiscMod": ""
+            "MiscMod": "",
+            "Penalty": ""
         },
         "Sleight of Hand": {
+            "Mod": "Dexterity",
             "Ranks": "",
             "ClassBonus": "",
             "AbilityMod": "",
-            "MiscMod": ""
+            "MiscMod": "",
+            "Penalty": ""
         },
         "Stealth": {
+            "Mod": "Dexterity",
             "Ranks": "",
             "ClassBonus": "",
             "AbilityMod": "",
-            "MiscMod": ""
+            "MiscMod": "",
+            "Penalty": ""
         },
         "Survival": {
+            "Mod": "Wisdom",
             "Ranks": "",
             "ClassBonus": "",
             "AbilityMod": "",
-            "MiscMod": ""
+            "MiscMod": "",
+            "Penalty": ""
         }
     }
 }

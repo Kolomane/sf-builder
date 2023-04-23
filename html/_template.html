@@ -38,10 +38,6 @@
                 role="tab" aria-controls="kit-tab-pane" aria-selected="false">Kit</button>
         </li>
         <li class="nav-item" role="presentation">
-            <button class="nav-link" id="skills-tab" data-bs-toggle="tab" data-bs-target="#skills-tab-pane"
-                type="button" role="tab" aria-controls="skills-tab-pane" aria-selected="false">Skills</button>
-        </li>
-        <li class="nav-item" role="presentation">
             <button class="nav-link" id="spells-tab" data-bs-toggle="tab" data-bs-target="#spells-tab-pane"
                 type="button" role="tab" aria-controls="spells-tab-pane" aria-selected="false">Spells</button>
         </li>
@@ -142,10 +138,12 @@
                                     <div class="col-md">
                                         <ul class="list-group list-group-flush">
                                             <li class="list-group-item">
-                                                <h5 class="card-title mb-0">Kinetic Armor Class (KAC): <b id="ac-number">25</b></h5>
+                                                <h5 class="card-title mb-0">Kinetic Armor Class (KAC): <b
+                                                        id="ac-number">25</b></h5>
                                                 <h6 class="card-subtitle mb-1 text-muted">Critical hit at <code
-                                                    id="crit-number">35</code>+</h6>
-                                                <h5 class="card-title mb-1">Energy Armor Class (EAC): <b id="ac-number">25</b></h5>
+                                                        id="crit-number">35</code>+</h6>
+                                                <h5 class="card-title mb-1">Energy Armor Class (EAC): <b
+                                                        id="ac-number">25</b></h5>
                                                 <h6 class="card-subtitle mb-2 text-muted">Critical hit at <code
                                                         id="crit-number">35</code>+</h6>
                                                 <h6 class="card-subtitle mb-2 text-muted">Current Status: <code
@@ -502,7 +500,7 @@
                                     <button class="btn btn-outline-secondary" type="button"><i
                                             class="bi bi-book"></i></button>
                                 </div>
-                                
+
                                 <div class="row gx-2">
                                     <div class="col">
                                         <!-- CHARACTER GENDER -->
@@ -568,26 +566,52 @@
                         <div class="card-header">
                             Skills
                         </div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">
-                            </li>
-                        </ul>
+                        <table id="skills-table" class="table table-striped table-hover">
+                            <thead>
+                                <tr>
+                                    <th>
+                                        Skill
+                                    </th>
+                                    <th>
+                                        Total
+                                    </th>
+                                    <th>
+                                        Penalty
+                                    </th>
+                                    <th>
+                                        Ranks
+                                    </th>
+                                    <th>
+                                        Class Bonus
+                                    </th>
+                                    <th>
+                                        Ability Mod
+                                    </th>
+                                    <th>
+                                        Misc. Mod
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                            </tbody>
+                        </table>
                     </div>
                 </div>
+
+                
             </div>
         </div>
         <div class="tab-pane fade" id="mods-tab-pane" role="tabpanel" aria-labelledby="mods-tab" tabindex="0">
             Mods - selection area for feats, skills, etcetera
         </div>
 
-        
+
         <div class="tab-pane fade" id="defense-tab-pane" role="tabpanel" aria-labelledby="defense-tab" tabindex="0">...
         </div>
         <div class="tab-pane fade" id="offense-tab-pane" role="tabpanel" aria-labelledby="offense-tab" tabindex="0">...
         </div>
         <div class="tab-pane fade" id="kit-tab-pane" role="tabpanel" aria-labelledby="kit-tab" tabindex="0">...
-        </div>
-        <div class="tab-pane fade" id="skills-tab-pane" role="tabpanel" aria-labelledby="skills-tab" tabindex="0">...
         </div>
         <div class="tab-pane fade" id="spells-tab-pane" role="tabpanel" aria-labelledby="spells-tab" tabindex="0">...
         </div>
@@ -828,7 +852,7 @@
         ///////////////////////////////
         // POPULATE HTML //////////////
         ///////////////////////////////
-        
+
         // Update Dropdown Function, to be re-used throughout
         function updateDrowndown(jsonFileName, topLevel, dropdownSelect) {
             $.getJSON(`https://raw.githubusercontent.com/Kolomane/sf-builder/main/json/${jsonFileName}.json`)
@@ -923,6 +947,25 @@
                 .done(function (data) {
                     $.each(data.Corruptions, function (name, item) {
                         $(`#afflictions-corruptions-list`).append(`
+<tr>
+    <td>${name}</td>
+    <td>+23</td>
+    <td>${data['Skills'][name]['Penalty']}</td>
+    <td>${data['Skills'][name]['Ranks']}</td>
+    <td>${data['Skills'][name]['ClassBonus']}</td>
+    <td>${data['Skills'][name]['AbilityMod']}</td>
+    <td>${data['Skills'][name]['MiscMod']}</td>
+</tr>`);
+                    });
+                });
+        }
+
+        // Update Skills Listings
+        function updateTable() {
+            $.getJSON(`https://raw.githubusercontent.com/Kolomane/sf-builder/main/json/skills.json`)
+                .done(function (data) {
+                    $.each(data.Skills, function (name, item) {
+                        $(`#skills-table tbody`).append(`
 <li class="list-group-item">
     <div class="hstack">
         <div class="form-check">
@@ -940,7 +983,6 @@
                     });
                 });
         }
-
         ///////////////////////////////
         // DOCUMENT READY /////////////
         ///////////////////////////////
