@@ -134,11 +134,42 @@
                                     <div class="col-md">
                                         <ul class="list-group list-group-flush">
                                             <li class="list-group-item">
-                                                <h5 class="card-title mb-0">Kinetic Armor Class (KAC): <b
+                                                <h5 class="card-title">Armor Class</h5>
+                                                <table class="table table-sm table-hover table-striped">
+                                                    <thead class="text-center">
+                                                        <tr>
+                                                            <th>Type</th>
+                                                            <th>Total</th>
+                                                            <th>Base</th>
+                                                            <th>Armor</th>
+                                                            <th>Dex</th>
+                                                            <th>Misc</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td><span class="badge text-bg-secondary">KAC</span> Kinetic Armor Class</td>
+                                                            <td class="text-center">13</td>
+                                                            <td class="text-center">10</td>
+                                                            <td class="text-center">1</td>
+                                                            <td class="text-center">2</td>
+                                                            <td class="text-center">0</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><span class="badge text-bg-secondary">EAC</span> Energy Armor Class</td>
+                                                            <td class="text-center">13</td>
+                                                            <td class="text-center">10</td>
+                                                            <td class="text-center">1</td>
+                                                            <td class="text-center">2</td>
+                                                            <td class="text-center">0</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                                <h5 class="card-title mb-0"><i class="bi bi-arrow-through-heart"></i> Kinetic Armor Class (KAC): <b
                                                         id="ac-number">25</b></h5>
                                                 <h6 class="card-subtitle mb-1 text-muted">Critical hit at <code
                                                         id="crit-number">35</code>+</h6>
-                                                <h5 class="card-title mb-1">Energy Armor Class (EAC): <b
+                                                <h5 class="card-title mb-1"><i class="bi bi-battery-half"></i> Energy Armor Class (EAC): <b
                                                         id="ac-number">25</b></h5>
                                                 <h6 class="card-subtitle mb-2 text-muted">Critical hit at <code
                                                         id="crit-number">35</code>+</h6>
@@ -193,174 +224,37 @@
                                     <!-- COLUMN FOR SAVES -->
                                     <div class="col-md">
                                         <h5 class="card-title">Saving Throws</h5>
-                                        <table class="table table-sm table-hover">
+                                        <table class="table table-sm table-hover table-striped">
+                                            <thead class="text-center">
+                                                <tr>
+                                                    <th>Type</th>
+                                                    <th>Total</th>
+                                                    <th>Base Save</th>
+                                                    <th>Ability Mod</th>
+                                                    <th>Misc Mod</th>
+                                                </tr>
+                                            </thead>
                                             <tbody>
-                                                <!-- Fortitude Save -->
                                                 <tr>
-                                                    <td>
-                                                        <table class="table table-sm table-striped text-center">
-                                                            <thead>
-                                                                <tr>
-                                                                    <th>Fortitude Save</th>
-                                                                </tr>
-                                                            </thead>
-                                                            <tbody>
-                                                                <tr>
-                                                                    <td>+<code id="fortitude-save">15</code></td>
-                                                                </tr>
-                                                            </tbody>
-                                                        </table>
-                                                    </td>
-                                                    <td>
-                                                        <table class="table table-sm table-striped">
-                                                            <thead>
-                                                                <tr>
-                                                                    <th>T</th>
-                                                                    <th>E</th>
-                                                                    <th>M</th>
-                                                                    <th>L</th>
-                                                                </tr>
-                                                            </thead>
-                                                            <tbody>
-                                                                <tr>
-                                                                    <td><i class="bi bi-square"></i></td>
-                                                                    <td><i class="bi bi-x-square"></i></td>
-                                                                    <td><i class="bi bi-square"></i></td>
-                                                                    <td><i class="bi bi-square"></i></td>
-                                                                </tr>
-                                                            </tbody>
-                                                        </table>
-                                                    </td>
-                                                    <td>
-                                                        <table class="table table-sm table-striped">
-                                                            <thead>
-                                                                <tr>
-                                                                    <th>Con</th>
-                                                                    <th>Prof</th>
-                                                                    <th>Item</th>
-                                                                </tr>
-                                                            </thead>
-                                                            <tbody>
-                                                                <tr>
-                                                                    <td>+<code id="prof-mod">2</code></td>
-                                                                    <td>+<code id="prof-mod">13</code></td>
-                                                                    <td>+<code id="prof-mod">0</code></td>
-                                                                </tr>
-                                                            </tbody>
-                                                        </table>
-                                                    </td>
+                                                    <td><b>Fortitude</b> <span class="badge text-bg-secondary">CON</span></td>
+                                                    <td class="text-center">2</td>
+                                                    <td class="text-center">2</td>
+                                                    <td class="text-center">0</td>
+                                                    <td class="text-center">0</td>
                                                 </tr>
-
-                                                <!-- Reflex Save -->
                                                 <tr>
-                                                    <td>
-                                                        <table class="table table-sm table-striped text-center">
-                                                            <thead>
-                                                                <tr>
-                                                                    <th>Reflex Save</th>
-                                                                </tr>
-                                                            </thead>
-                                                            <tbody>
-                                                                <tr>
-                                                                    <td>+<code id="fortitude-save">17</code></td>
-                                                                </tr>
-                                                            </tbody>
-                                                        </table>
-                                                    </td>
-                                                    <td>
-                                                        <table class="table table-sm table-striped">
-                                                            <thead>
-                                                                <tr>
-                                                                    <th>T</th>
-                                                                    <th>E</th>
-                                                                    <th>M</th>
-                                                                    <th>L</th>
-                                                                </tr>
-                                                            </thead>
-                                                            <tbody>
-                                                                <tr>
-                                                                    <td><i class="bi bi-square"></i></td>
-                                                                    <td><i class="bi bi-square"></i></td>
-                                                                    <td><i class="bi bi-x-square"></i></td>
-                                                                    <td><i class="bi bi-square"></i></td>
-                                                                </tr>
-                                                            </tbody>
-                                                        </table>
-                                                    </td>
-                                                    <td>
-                                                        <table class="table table-sm table-striped">
-                                                            <thead>
-                                                                <tr>
-                                                                    <th>Con</th>
-                                                                    <th>Prof</th>
-                                                                    <th>Item</th>
-                                                                </tr>
-                                                            </thead>
-                                                            <tbody>
-                                                                <tr>
-                                                                    <td>+<code id="prof-mod">2</code></td>
-                                                                    <td>+<code id="prof-mod">15</code></td>
-                                                                    <td>+<code id="prof-mod">0</code></td>
-                                                                </tr>
-                                                            </tbody>
-                                                        </table>
-                                                    </td>
+                                                    <td><b>Reflex</b> <span class="badge text-bg-secondary">DEX</span></td>
+                                                    <td class="text-center">4</td>
+                                                    <td class="text-center">2</td>
+                                                    <td class="text-center">2</td>
+                                                    <td class="text-center">0</td>
                                                 </tr>
-
-                                                <!-- Will Save -->
                                                 <tr>
-                                                    <td>
-                                                        <table class="table table-sm table-striped text-center">
-                                                            <thead>
-                                                                <tr>
-                                                                    <th>Will Save</th>
-                                                                </tr>
-                                                            </thead>
-                                                            <tbody>
-                                                                <tr>
-                                                                    <td>+<code id="fortitude-save">15</code></td>
-                                                                </tr>
-                                                            </tbody>
-                                                        </table>
-                                                    </td>
-                                                    <td>
-                                                        <table class="table table-sm table-striped">
-                                                            <thead>
-                                                                <tr>
-                                                                    <th>T</th>
-                                                                    <th>E</th>
-                                                                    <th>M</th>
-                                                                    <th>L</th>
-                                                                </tr>
-                                                            </thead>
-                                                            <tbody>
-                                                                <tr>
-                                                                    <td><i class="bi bi-square"></i></td>
-                                                                    <td><i class="bi bi-x-square"></i></td>
-                                                                    <td><i class="bi bi-square"></i></td>
-                                                                    <td><i class="bi bi-square"></i></td>
-                                                                </tr>
-                                                            </tbody>
-                                                        </table>
-                                                    </td>
-                                                    <td>
-                                                        <table class="table table-sm table-striped">
-                                                            <thead>
-                                                                <tr>
-                                                                    <th>Con</th>
-                                                                    <th>Prof</th>
-                                                                    <th>Item</th>
-                                                                </tr>
-                                                            </thead>
-                                                            <tbody>
-                                                                <tr>
-                                                                    <td>+<code id="prof-mod">2</code></td>
-                                                                    <td>+<code id="prof-mod">13</code></td>
-                                                                    <td>+<code id="prof-mod">0</code></td>
-                                                                </tr>
-                                                            </tbody>
-                                                        </table>
-                                                    </td>
+                                                    <td><b>Will</b> <span class="badge text-bg-secondary">WIS</span></td>
+                                                    <td class="text-center">-1</td>
+                                                    <td class="text-center">0</td>
+                                                    <td class="text-center">-1</td>
+                                                    <td class="text-center">0</td>
                                                 </tr>
                                             </tbody>
                                         </table>
