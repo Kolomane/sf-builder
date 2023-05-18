@@ -129,75 +129,45 @@
                         <ul class="list-group list-group-flush">
                             <!-- FIRST SET - ARMOR CLASS AND SAVES -->
                             <li class="list-group-item">
-                                <div class="row">
+                                <div class="row column-gap-0 gap-0">
                                     <!-- COLUMN FOR ARMOR CLASS -->
                                     <div class="col-md">
                                         <ul class="list-group list-group-flush">
                                             <li class="list-group-item">
-                                                <div class="hstack gap-3">
-                                                    <h5 class="card-title">Armor Class</h5>
-                                                    <button class="btn btn-sm btn-outline-secondary ms-auto"
-                                                        type="button" data-bs-toggle="collapse"
-                                                        data-bs-target="#ac-details-expand" aria-expanded="false"
-                                                        aria-controls="ac-details-expand"><i
-                                                            class="bi bi-arrow-bar-down"></i></button>
-                                                </div>
+                                                <h5 class="card-title" data-bs-toggle="modal" data-bs-target="#acModal">
+                                                    Armor Class</h5>
                                                 <ul class="list-group list-group-flush mb-2">
                                                     <li class="list-group-item">
-                                                        <h5 class="card-title"><i
-                                                                class="bi bi-arrow-through-heart"></i>
-                                                            Kinetic Armor Class (KAC): <b id="ac-number">13</b></h5>
-                                                        <h6 class="card-subtitle text-muted">Critical hit at <code
-                                                                id="crit-number">23</code>+</h6>
+                                                        <div class="hstack">
+                                                            <h5 class="card-title"><i
+                                                                    class="bi bi-arrow-through-heart"></i>
+                                                                KAC: <b id="ac-number">13</b></h5>
+                                                            <div class="vr mx-auto"></div>
+                                                            <h6 class="card-subtitle text-muted">Critical hit at <code
+                                                                    id="crit-number">23</code>+</h6>
+                                                        </div>
                                                     </li>
                                                     <li class="list-group-item">
-                                                        <h5 class="card-title"><i
-                                                                class="bi bi-lightning-charge"></i> Energy
-                                                            Armor Class (EAC): <b id="ac-number">13</b></h5>
-                                                        <h6 class="card-subtitle text-muted">Critical hit at <code
-                                                                id="crit-number">23</code>+</h6>
+                                                        <div class="hstack">
+                                                            <h5 class="card-title"><i
+                                                                    class="bi bi-lightning-charge"></i>
+                                                                EAC: <b id="ac-number">13</b></h5>
+                                                            <div class="vr mx-auto"></div>
+                                                            <h6 class="card-subtitle text-muted">Critical hit at <code
+                                                                    id="crit-number">23</code>+</h6>
+                                                        </div>
                                                     </li>
                                                     <li class="list-group-item">
-                                                        <h6 class="card-title"><i class="bi bi-diagram-2"></i> AC
-                                                            vs Combat Maneuvers: <b id="ac-number">21</b></h5>
-                                                            <h6 class="card-subtitle text-muted">8 + <span
-                                                                    class="badge text-bg-secondary">KAC</span> (13)</h6>
+                                                        <div class="hstack">
+                                                            <h5 class="card-title"><i class="bi bi-shield-shaded"></i>
+                                                                AC
+                                                                v CM: <b id="ac-number">21</b></h5>
+                                                            <div class="vr mx-auto"></div>
+                                                            <h6 class="card-subtitle text-muted">Critical hit at <code
+                                                                    id="crit-number">31</code>+</h6>
+                                                        </div>
                                                     </li>
                                                 </ul>
-                                                <div class="collapse multi-collapse" id="ac-details-expand">
-                                                    <table class="table table-sm table-hover table-striped">
-                                                        <thead class="text-center">
-                                                            <tr>
-                                                                <th>Type</th>
-                                                                <th>Total</th>
-                                                                <th>Base</th>
-                                                                <th>Armor</th>
-                                                                <th>Dex</th>
-                                                                <th>Misc</th>
-                                                            </tr>
-                                                        </thead>
-                                                        <tbody>
-                                                            <tr>
-                                                                <td><span class="badge text-bg-secondary">KAC</span>
-                                                                    Kinetic Armor Class</td>
-                                                                <td class="text-center"><b>13</b></td>
-                                                                <td class="text-center">10</td>
-                                                                <td class="text-center">1</td>
-                                                                <td class="text-center">2</td>
-                                                                <td class="text-center">0</td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td><span class="badge text-bg-secondary">EAC</span>
-                                                                    Energy Armor Class</td>
-                                                                <td class="text-center"><b>13</b></td>
-                                                                <td class="text-center">10</td>
-                                                                <td class="text-center">1</td>
-                                                                <td class="text-center">2</td>
-                                                                <td class="text-center">0</td>
-                                                            </tr>
-                                                        </tbody>
-                                                    </table>
-                                                </div>
 
                                                 <h6 class="card-subtitle mb-2 text-muted">Current Status: <code
                                                         id="current-status">Bleeding</code>, <code
@@ -249,99 +219,87 @@
 
                                     <!-- COLUMN FOR SAVES -->
                                     <div class="col-md">
-                                        <h5 class="card-title">Saving Throws</h5>
-                                        <table class="table table-sm table-hover table-striped">
-                                            <thead class="text-center">
-                                                <tr>
-                                                    <th>Type</th>
-                                                    <th>Total</th>
-                                                    <th>Base</th>
-                                                    <th>Ability</th>
-                                                    <th>Misc</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <td><b>Fortitude</b> <span
-                                                            class="badge text-bg-secondary">CON</span></td>
-                                                    <td class="text-center"><b>2</b></td>
-                                                    <td class="text-center">2</td>
-                                                    <td class="text-center">0</td>
-                                                    <td class="text-center">0</td>
-                                                </tr>
-                                                <tr>
-                                                    <td><b>Reflex</b> <span class="badge text-bg-secondary">DEX</span>
-                                                    </td>
-                                                    <td class="text-center"><b>4</b></td>
-                                                    <td class="text-center">2</td>
-                                                    <td class="text-center">2</td>
-                                                    <td class="text-center">0</td>
-                                                </tr>
-                                                <tr>
-                                                    <td><b>Will</b> <span class="badge text-bg-secondary">WIS</span>
-                                                    </td>
-                                                    <td class="text-center text-danger"><b>-1</b></td>
-                                                    <td class="text-center">0</td>
-                                                    <td class="text-center">-1</td>
-                                                    <td class="text-center">0</td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
+                                        <ul class="list-group list-group-flush mb-2">
+                                            <li class="list-group-item">
+                                                <h5 class="card-title" data-bs-toggle="modal"
+                                                    data-bs-target="#savingThrowModal">Saving Throws</h5>
+                                                <ul class="list-group list-group-flush">
+                                                    <li class="list-group-item">
+                                                        <div class="hstack">
+                                                            <h6 class="card-title">Fortitude: <b id="ac-number">2</b>
+                                                            </h6>
+                                                            <div class="vr mx-auto"></div>
+                                                            <h6 class="card-title">Reflex: <b id="ac-number">4</b></h6>
+                                                            <div class="vr mx-auto"></div>
+                                                            <h6 class="card-title">Will: <b id="ac-number">-1</b></h6>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <h5 class="card-title mb-0">Stamina</h5>
+                                                <div id="Stamina" class="progress mt-0 mb-1" role="progressbar"
+                                                    aria-label="Stamina" aria-valuenow="100" aria-valuemin="0"
+                                                    aria-valuemax="100" style="height: 20px">
+                                                    <div class="progress-bar bg-primary" style="width: 50%"><b>3</b>
+                                                    </div>
+                                                    <div class="progress-bar bg-black" style="width: 50%"><b></b>
+                                                    </div>
+                                                </div>
+                                                <h5 class="card-title mb-0">Hit Points</h5>
+                                                <div id="ArmorClass" class="progress mt-0 mb-1" role="progressbar"
+                                                    aria-label="ArmorClass" aria-valuenow="100" aria-valuemin="0"
+                                                    aria-valuemax="100" style="height: 20px">
+                                                    <div class="progress-bar bg-success" style="width: 100%"><b>10</b>
+                                                    </div>
+                                                </div>
+                                                <h5 class="card-title mb-0">Resolve</h5>
+                                                <div id="Resolve" class="progress mt-0 mb-1" role="progressbar"
+                                                    aria-label="Resolve" aria-valuenow="100" aria-valuemin="0"
+                                                    aria-valuemax="100" style="height: 20px">
+                                                    <div class="progress-bar bg-warning" style="width: 100%"><b>5</b>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <div class="input-group mb-3">
+                                                    <button class="btn btn-outline-secondary dropdown-toggle"
+                                                        type="button" data-bs-toggle="dropdown" aria-expanded="false">HP
+                                                        Modifier</button>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a class="dropdown-item text-danger" href="#"><i
+                                                                    class="bi bi-shield-minus"></i> Damage</a></li>
+                                                        <li>
+                                                            <hr class="dropdown-divider">
+                                                        </li>
+                                                        <li><a class="dropdown-item text-success" href="#"><i
+                                                                    class="bi bi-shield-plus"></i> Heal</a></li>
+                                                        <li><a class="dropdown-item text-primary" href="#"><i
+                                                                    class="bi bi-shield-plus"></i> Restore</a></li>
+                                                        <li><a class="dropdown-item" href="#"><i
+                                                                    class="bi bi-shield-plus"></i> All</a>
+                                                        </li>
+                                                        <li>
+                                                            <hr class="dropdown-divider">
+                                                        </li>
+                                                        <li><a class="dropdown-item text-info" href="#"><i
+                                                                    class="bi bi-bandaid"></i>
+                                                                Temp HP</a></li>
+                                                        <li>
+                                                            <hr class="dropdown-divider">
+                                                        </li>
+                                                        <li><a class="dropdown-item text-warning" href="#"><i
+                                                                    class="bi bi-sunrise"></i>
+                                                                Full Rest</a></li>
+                                                    </ul>
+                                                    <input type="text" class="form-control"
+                                                        aria-label="Text input with dropdown button">
+                                                </div>
+                                            </li>
+                                        </ul>
                                     </div>
                                 </div>
                             </li>
-                            <li class="list-group-item">
-                                <div class="row mb-2 gap-0">
-                                    <div class="col">
-                                        <h6 class="text-center text-muted mb-0">Hit Points</h6>
-                                        <div id="ArmorClass" class="progress mt-0" role="progressbar"
-                                            aria-label="ArmorClass" aria-valuenow="100" aria-valuemin="0"
-                                            aria-valuemax="100" style="height: 30px">
-                                            <div class="progress-bar bg-success" style="width: 100%"><b>60</b>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col">
-                                        <h6 class="text-center text-muted mb-0">Stamina</h6>
-                                        <div id="Stamina" class="progress mt-0" role="progressbar" aria-label="Stamina"
-                                            aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"
-                                            style="height: 30px">
-                                            <div class="progress-bar bg-primary" style="width: 100%"><b>40</b></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="input-group mb-3">
-                                    <button class="btn btn-outline-secondary dropdown-toggle" type="button"
-                                        data-bs-toggle="dropdown" aria-expanded="false">HP Modifier</button>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item text-danger" href="#"><i
-                                                    class="bi bi-shield-minus"></i> Damage</a></li>
-                                        <li>
-                                            <hr class="dropdown-divider">
-                                        </li>
-                                        <li><a class="dropdown-item text-success" href="#"><i
-                                                    class="bi bi-shield-plus"></i> Heal</a></li>
-                                        <li><a class="dropdown-item text-primary" href="#"><i
-                                                    class="bi bi-shield-plus"></i> Restore</a></li>
-                                        <li><a class="dropdown-item" href="#"><i class="bi bi-shield-plus"></i> All</a>
-                                        </li>
-                                        <li>
-                                            <hr class="dropdown-divider">
-                                        </li>
-                                        <li><a class="dropdown-item text-info" href="#"><i class="bi bi-bandaid"></i>
-                                                Temp HP</a></li>
-                                        <li>
-                                            <hr class="dropdown-divider">
-                                        </li>
-                                        <li><a class="dropdown-item text-warning" href="#"><i class="bi bi-sunrise"></i>
-                                                Full Rest</a></li>
-
-                                    </ul>
-                                    <input type="text" class="form-control"
-                                        aria-label="Text input with dropdown button">
-                                </div>
-                            </li>
-
                             <li class="list-group-item">
                                 Something
                             </li>
@@ -485,7 +443,7 @@
                         <div class="card-header">
                             Skill List
                         </div>
-                        <table id="skills-table" class="table table-striped table-hover">
+                        <table id="skills-table" class="table table-sm table-striped table-hover">
                             <thead class="text-center">
                                 <tr>
                                     <th>
@@ -494,20 +452,25 @@
                                     <th>
                                         Total
                                     </th>
-                                    <th>
-                                        Penalty
-                                    </th>
+                                    <th></th>
                                     <th>
                                         Ranks
                                     </th>
+                                    <th></th>
                                     <th>
                                         Class Bonus
                                     </th>
+                                    <th></th>
                                     <th>
                                         Ability Mod
                                     </th>
+                                    <th></th>
                                     <th>
                                         Misc. Mod
+                                    </th>
+                                    <th></th>
+                                    <th>
+                                        Penalty
                                     </th>
                                 </tr>
                             </thead>
@@ -525,9 +488,12 @@
                         <div class="card-header">
                             Ability Scores
                         </div>
-                        <table id="ability-scores-table" class="table table-striped table-hover">
-                            <thead class="text-center">
+                        <table id="ability-scores-table" class="table table-sm table-striped table-hover text-center">
+                            <thead>
                                 <tr>
+                                    <th>
+                                        Acronym
+                                    </th>
                                     <th>
                                         Type
                                     </th>
@@ -547,46 +513,52 @@
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td><span class="badge text-bg-secondary">CHA</span> Charisma</td>
-                                    <td class="text-center">10</td>
-                                    <td class="text-center">+0</td>
-                                    <td class="text-center"></td>
-                                    <td class="text-center"></td>
+                                    <td><span class="badge text-bg-secondary">CHA</span></td>
+                                    <td>Charisma</td>
+                                    <td>10</td>
+                                    <td>+0</td>
+                                    <td></td>
+                                    <td></td>
                                 </tr>
                                 <tr>
-                                    <td><span class="badge text-bg-secondary">CON</span> Constitution</td>
-                                    <td class="text-center">15</td>
-                                    <td class="text-center">+2</td>
-                                    <td class="text-center"></td>
-                                    <td class="text-center"></td>
+                                    <td><span class="badge text-bg-secondary">CON</span></td>
+                                    <td>Constitution</td>
+                                    <td>15</td>
+                                    <td>+2</td>
+                                    <td></td>
+                                    <td></td>
                                 </tr>
                                 <tr>
-                                    <td><span class="badge text-bg-secondary">DEX</span> Dexterity</td>
-                                    <td class="text-center">10</td>
-                                    <td class="text-center">+0</td>
-                                    <td class="text-center"></td>
-                                    <td class="text-center"></td>
+                                    <td><span class="badge text-bg-secondary">DEX</span></td>
+                                    <td>Dexterity</td>
+                                    <td>10</td>
+                                    <td>+0</td>
+                                    <td></td>
+                                    <td></td>
                                 </tr>
                                 <tr>
-                                    <td><span class="badge text-bg-secondary">INT</span> Intelligence</td>
-                                    <td class="text-center">18</td>
-                                    <td class="text-center">+4</td>
-                                    <td class="text-center"></td>
-                                    <td class="text-center"></td>
+                                    <td><span class="badge text-bg-secondary">INT</span></td>
+                                    <td>Intelligence</td>
+                                    <td>18</td>
+                                    <td>+4</td>
+                                    <td></td>
+                                    <td></td>
                                 </tr>
                                 <tr>
-                                    <td><span class="badge text-bg-secondary">STR</span> Strength</td>
-                                    <td class="text-center">8</td>
-                                    <td class="text-center">-1</td>
-                                    <td class="text-center"></td>
-                                    <td class="text-center"></td>
+                                    <td><span class="badge text-bg-secondary">STR</span></td>
+                                    <td>Strength</td>
+                                    <td>8</td>
+                                    <td>-1</td>
+                                    <td></td>
+                                    <td></td>
                                 </tr>
                                 <tr>
-                                    <td><span class="badge text-bg-secondary">WIS</span> Wisdom</td>
-                                    <td class="text-center">12</td>
-                                    <td class="text-center">+1</td>
-                                    <td class="text-center"></td>
-                                    <td class="text-center"></td>
+                                    <td><span class="badge text-bg-secondary">WIS</span></td>
+                                    <td>Wisdom</td>
+                                    <td>12</td>
+                                    <td>+1</td>
+                                    <td></td>
+                                    <td></td>
                                 </tr>
                             </tbody>
                         </table>
@@ -777,6 +749,197 @@
         </div>
     </div>
 
+    <!-- AC MODAL -->
+    <div class="modal fade" id="acModal" tabindex="-1" aria-labelledby="acModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="acModalLabel">Armor Class Details</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <table class="table table-sm table-hover table-striped text-center">
+                        <thead>
+                            <tr>
+                                <th>Acronym</th>
+                                <th>Type</th>
+                                <th>Total</th>
+                                <th></th>
+                                <th>Base Value</th>
+                                <th></th>
+                                <th>Armor Bonus</th>
+                                <th></th>
+                                <th>Dex Mod</th>
+                                <th></th>
+                                <th>Misc Mod</th>
+                                <th></th>
+                                <th>Penalty</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><span class="badge text-bg-secondary">KAC</span>
+                                </td>
+                                <td>Kinetic Armor Class</td>
+                                <td><b>13</b></td>
+                                <td>
+                                    <div class="vr"></div>
+                                </td>
+                                <td>10</td>
+                                <td>+</td>
+                                <td>1</td>
+                                <td>+</td>
+                                <td>2</td>
+                                <td>+</td>
+                                <td>0</td>
+                                <td>-</td>
+                                <td class="text-danger">0</td>
+                            </tr>
+                            <tr>
+                                <td><span class="badge text-bg-secondary">EAC</span>
+                                </td>
+                                <td>Energy Armor Class</td>
+                                <td><b>13</b></td>
+                                <td>
+                                    <div class="vr"></div>
+                                </td>
+                                <td>10</td>
+                                <td>+</td>
+                                <td>1</td>
+                                <td>+</td>
+                                <td>2</td>
+                                <td>+</td>
+                                <td>0</td>
+                                <td>-</td>
+                                <td class="text-danger">0</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="table table-sm table-hover table-striped text-center">
+                        <thead>
+                            <tr>
+                                <th>Acronym</th>
+                                <th>Type</th>
+                                <th>Total</th>
+                                <th></th>
+                                <th>Base Value</th>
+                                <th></th>
+                                <th>Base AC</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><span class="badge text-bg-secondary">AC v CM</span></td>
+                                <td>AC vs Combat Maneuvers</td>
+                                <td><b>21</b></td>
+                                <td>
+                                    <div class="vr"></div>
+                                </td>
+                                <td>8</td>
+                                <td>+</td>
+                                <td><span class="badge text-bg-secondary">KAC</span> (13)</td>
+                            </tr>
+                        </tbody>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SAVING THROW MODAL -->
+    <!-- AC MODAL -->
+    <div class="modal fade" id="savingThrowModal" tabindex="-1" aria-labelledby="savingThrowModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="savingThrowModalLabel">Saving Throw Details</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <table class="table table-sm table-hover table-striped text-center">
+                        <thead>
+                            <tr>
+                                <th>Type</th>
+                                <th>Mod</th>
+                                <th>Total</th>
+                                <th></th>
+                                <th>Base Save</th>
+                                <th></th>
+                                <th>Ability Mod</th>
+                                <th></th>
+                                <th>Misc Mod</th>
+                                <th></th>
+                                <th>Misc</th>
+                                <th></th>
+                                <th>Penalty</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Fortitude</td>
+                                <td><span class="badge text-bg-secondary">CON</span></td>
+                                <td><b>2</b></td>
+                                <td>
+                                    <div class="vr"></div>
+                                </td>
+                                <td>2</td>
+                                <td>+</td>
+                                <td>0</td>
+                                <td>+</td>
+                                <td>0</td>
+                                <td>+</td>
+                                <td>0</td>
+                                <td>-</td>
+                                <td class="text-danger">0</td>
+                            </tr>
+                            <tr>
+                                <td>Reflex</td>
+                                <td><span class="badge text-bg-secondary">DEX</span></td>
+                                <td><b>4</b></td>
+                                <td>
+                                    <div class="vr"></div>
+                                </td>
+                                <td>2</td>
+                                <td>+</td>
+                                <td>2</td>
+                                <td>+</td>
+                                <td>0</td>
+                                <td>+</td>
+                                <td>0</td>
+                                <td>-</td>
+                                <td class="text-danger">0</td>
+                            </tr>
+                            <tr>
+                                <td>Will</td>
+                                <td><span class="badge text-bg-secondary">WIS</span></td>
+                                <td><b>-1</b></td>
+                                <td>
+                                    <div class="vr"></div>
+                                </td>
+                                <td>0</td>
+                                <td>+</td>
+                                <td>-1</td>
+                                <td>+</td>
+                                <td>0</td>
+                                <td>+</td>
+                                <td>0</td>
+                                <td>-</td>
+                                <td class="text-danger">0</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- END BODY CONTENT -->
 
@@ -968,11 +1131,16 @@
 <tr>
     <td>${name} <span class="badge text-bg-secondary">${data['Skills'][name]['Mod'].substring(0, 3).toUpperCase()}</span></td>
     <td class="text-center">${skillsTotal}</td>
-    <td class="text-center">${skillsPenalty}</td>
+    <td><div class="vr"></div></td>
     <td class="text-center">${skillsRanks}</td>
+    <td>+</td>
     <td class="text-center">${skillsClassBonus}</td>
+    <td>+</td>
     <td class="text-center">${skillsAbilityMod}</td>
+    <td>+</td>
     <td class="text-center">${skillsMiscMod}</td>
+    <td>-</td>
+    <td class="text-center">${skillsPenalty}</td>
 </tr>`);
                     });
                 });

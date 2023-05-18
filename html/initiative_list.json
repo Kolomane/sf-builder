@@ -1,0 +1,22 @@
+{
+    "Tipo": {
+        "Roll": 15,
+        "Hidden": false
+    },
+    "Five": {
+        "Roll": 25,
+        "Hidden": false
+    },
+    "Chromin": {
+        "Roll": 5,
+        "Hidden": false
+    },
+    "Artur Rex": {
+        "Roll": 7,
+        "Hidden": false
+    },
+    "NeoLance": {
+        "Roll": 26,
+        "Hidden": false
+    }
+}
