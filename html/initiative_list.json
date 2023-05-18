@@ -1,22 +1,17 @@
 {
+    "NeoLance": {
+        "Hidden": true
+    },
     "Tipo": {
-        "Roll": 15,
         "Hidden": false
     },
     "Five": {
-        "Roll": 25,
-        "Hidden": false
-    },
-    "Chromin": {
-        "Roll": 5,
         "Hidden": false
     },
     "Artur Rex": {
-        "Roll": 7,
-        "Hidden": false
+        "Hidden": true
     },
-    "NeoLance": {
-        "Roll": 26,
+    "Chromin": {
         "Hidden": false
     }
 }
