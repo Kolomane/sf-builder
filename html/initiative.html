@@ -66,41 +66,6 @@
         });
 
         ///////////////////////////////
-        // ACTIONS ////////////////////
-        ///////////////////////////////
-
-        // Action Toggles
-        var theLength = ($(`#initiativeList input:radio`).length) - 1
-        var initiativeCount = 0
-        var updateRoundCount = false
-        $('button[id="initiativeAdvance"]').on("click", function (event) {
-            if (updateRoundCount) {
-                $('#roundCount').text(Number($('#roundCount').text()) + 1)
-                updateRoundCount = false
-            }
-            $(`#initiativeList input:radio`).each(function (index, element) {
-                if ($(this).is(':checked')) {
-                    initiativeCount = index
-                    if (index == theLength) {
-                        initiativeCount = -1
-                    }
-                }
-                let thePC = $(this).siblings().text();
-                if (index < theLength) {
-                    if (index == (initiativeCount + 1)) {
-                        $(this).prop('checked', true);
-                    }
-                }
-                if (index == theLength) {
-                    if (index == (initiativeCount + 1)) {
-                        $(this).prop('checked', true);
-                        initiativeCount = -1
-                        updateRoundCount = true
-                    }
-                }
-            });
-        });
-        ///////////////////////////////
         // POPULATE HTML //////////////
         ///////////////////////////////
 
@@ -111,24 +76,34 @@
             // Starting with Conditions.json
             $.getJSON(`https://raw.githubusercontent.com/Kolomane/sf-builder/main/html/initiative_list.json`)
                 .done(function (data) {
+                    var dummyCounter = 0
                     $.each(data, function (name, item) {
+                        let hiddenClass = ""
+                        let firstItem = ""
+                        if (data['Hidden']) {
+                            hiddenClass = " visually-hidden"
+                        }
+                        else if (dummyCounter == 0) {
+                            firstItem = " checked"
+                            dummyCounter += 1
+                        }
                         $(`#initiativeList`).append(`
-                        <li class="list-group-item">
+                        <li class="list-group-item${hiddenClass}">
                             <input class="form-check-input me-1" type="radio" name="listGroupRadio" value=""
-                                id="${data}" checked>
-                            <label class="form-check-label" for="firstRadio">${data}</label>
+                                id="${name}"${firstItem}>
+                            <label class="form-check-label" for="firstRadio">${name}</label>
                         </li>`);
                     });
                 });
             }
-            // ${data['Conditions'][name]['Description']}
         ///////////////////////////////
         // DOCUMENT READY /////////////
         ///////////////////////////////
 
-        $(document).ready(function () {
+        $(document).ready(async function () {
             console.log(`document.ready`)
-
+            await updateInitiativeList()
+            import(`https://raw.githubusercontent.com/Kolomane/sf-builder/main/html/listeners.js`)
             console.log(`after document.ready`)
         });
     </script>
