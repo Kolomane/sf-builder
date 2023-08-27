@@ -1,0 +1,285 @@
+{
+    "Ukulam": {
+        "Absolam Gate 3": {
+            "Location": "Station 9",
+            "Destination": "Absolam Station"
+        },
+        "Ceiba Gate 2": {
+            "Location": "Station 9",
+            "Destination": "Korinthia Divide"
+        },
+        "<CONFIDENTIAL 22>": {
+            "Location": "<CONFIDENTIAL>",
+            "Destination": "<CONFIDENTIAL>"
+        }
+    },
+    "Asana": {
+        "Pact Gates Freeway System 1": {
+            "Location": "Qabarat",
+            "Destinations": [
+                "Striving, Aballon",
+                "Absalom Station",
+                "Arl, Akiton",
+                "Nightarch, Apostae",
+                "Citadel of the Black, Aucturn",
+                "Trillidiem, Bretheda",
+                "Orphys, Eox",
+                "Idari, Idari",
+                "Roselight, Liavara",
+                "Broken Rock, The Disapora",
+                "Burning Archipelago, The Sun",
+                "Zo, Triaxus",
+                "Skydock, Verces"
+            ]
+        },
+        "Absolam Gate 2": {
+            "Location": "Candares",
+            "Destination": "Absolam Station"
+        },
+        "Korinthia/Sovyrian Gate": {
+            "Location": "Qabarat",
+            "Destination": "Nerundel, Castrovel"
+        },
+        "Ukulam Gate": {
+            "Location": "Station 9",
+            "Destination": "Qabarat, Castrovel"
+        },
+        "<CONFIDENTIAL 1>": {
+            "Location": "<CONFIDENTIAL>",
+            "Destination": "<CONFIDENTIAL>"
+        },
+        "<CONFIDENTIAL 2>": {
+            "Location": "<CONFIDENTIAL>",
+            "Destination": "<CONFIDENTIAL>"
+        },
+        "<CONFIDENTIAL 3>": {
+            "Location": "<CONFIDENTIAL>",
+            "Destination": "<CONFIDENTIAL>"
+        },
+        "<CONFIDENTIAL 4>": {
+            "Location": "<CONFIDENTIAL>",
+            "Destination": "<CONFIDENTIAL>"
+        },
+        "<CONFIDENTIAL 5>": {
+            "Location": "<CONFIDENTIAL>",
+            "Destination": "<CONFIDENTIAL>"
+        },
+        "<CONFIDENTIAL 6>": {
+            "Location": "<CONFIDENTIAL>",
+            "Destination": "<CONFIDENTIAL>"
+        },
+        "<CONFIDENTIAL 7>": {
+            "Location": "<CONFIDENTIAL>",
+            "Destination": "<CONFIDENTIAL>"
+        },
+        "<CONFIDENTIAL 8>": {
+            "Location": "<CONFIDENTIAL>",
+            "Destination": "<CONFIDENTIAL>"
+        },
+        "<CONFIDENTIAL 9>": {
+            "Location": "<CONFIDENTIAL>",
+            "Destination": "<CONFIDENTIAL>"
+        }
+    },
+    "Sovyrian": {
+        "Absolam Gate 4": {
+            "Location": "Korinthia Divide",
+            "Destination": "Absolam Station"
+        },
+        "Asana Gate": {
+            "Location": "Nerundel",
+            "Destination": "Asana, Castrovel"
+        },
+        "Ukulam Gate 2": {
+            "Location": "Korinthia Divide",
+            "Destination": "Station 9, Castrovel"
+        },
+        "The Colonies Gate": {
+            "Location": "Korinthia Divide",
+            "Destination": "Queensrock, Castrovel"
+        },
+        "Telasia Gate": {
+            "Location": "Korinthia Divide",
+            "Destination": "Sovyrian, Castrovel"
+        },
+        "Aballon Gate 1": {
+            "Location": "Korinthia Divide",
+            "Destination": "Striving, Aballon"
+        },
+        "Absalom Gate 5": {
+            "Location": "Korinthia Divide",
+            "Destination": "Absalom Station"
+        },
+        "Akiton Gate 1": {
+            "Location": "Korinthia Divide",
+            "Destination": "Arl, Akiton"
+        },
+        "Apostae Gate 1": {
+            "Location": "Korinthia Divide",
+            "Destination": "Nightarch, Apostae"
+        },
+        "Aucturn Gate 1": {
+            "Location": "Korinthia Divide",
+            "Destination": "Citadel of the Black, Aucturn"
+        },
+        "Bretheda Gate 1": {
+            "Location": "Korinthia Divide",
+            "Destination": "Trillidiem, Bretheda"
+        },
+        "Eox Gate 1": {
+            "Location": "Korinthia Divide",
+            "Destination": "Orphys, Eox"
+        },
+        "Idari Gate 1": {
+            "Location": "Korinthia Divide",
+            "Destination": "Idari, Idari"
+        },
+        "Liavara Gate 1": {
+            "Location": "Korinthia Divide",
+            "Destination": "Roselight, Liavara"
+        },
+        "The Disapora Gate 1": {
+            "Location": "Korinthia Divide",
+            "Destination": "Broken Rock, The Disapora"
+        },
+        "The Sun Gate 1": {
+            "Location": "Korinthia Divide",
+            "Destination": "Burning Archipelago, The Sun"
+        },
+        "Triaxus Gate 1": {
+            "Location": "Korinthia Divide",
+            "Destination": "Zo, Triaxus"
+        },
+        "Verces Gate 1": {
+            "Location": "Korinthia Divide",
+            "Destination": "Skydock, Verces"
+        },
+        "MS_DB_1": {
+            "Location": "<CONFIDENTIAL>",
+            "Destination": "<CONFIDENTIAL>"
+        },
+        "MS_DB_2": {
+            "Location": "<CONFIDENTIAL>",
+            "Destination": "<CONFIDENTIAL>"
+        },
+        "MS_DB_3": {
+            "Location": "<CONFIDENTIAL>",
+            "Destination": "<CONFIDENTIAL>"
+        },
+        "MS_DB_5": {
+            "Location": "<CONFIDENTIAL>",
+            "Destination": "<CONFIDENTIAL>"
+        },
+        "MS_DB_6": {
+            "Location": "<CONFIDENTIAL>",
+            "Destination": "<CONFIDENTIAL>"
+        },
+        "Aballon Gate 2": {
+            "Location": "Korinthia Divide",
+            "Destination": "01, Aballon"
+        },
+        "Absalom Gate 6": {
+            "Location": "Nerundel",
+            "Destination": "Absalom Station"
+        },
+        "Akiton Gate 2": {
+            "Location": "Korinthia Divide",
+            "Destination": "Estuar, Akiton"
+        },
+        "Apostae Gate 2": {
+            "Location": "El",
+            "Destination": "House Zeizerer, Apostae"
+        },
+        "Apostae Gate 3": {
+            "Location": "El",
+            "Destination": "Cagliostro, Apostae"
+        },
+        "Aucturn Gate 2": {
+            "Location": "El",
+            "Destination": "House Navidson, Aucturn"
+        },
+        "Bretheda Gate 2": {
+            "Location": "Korinthia Divide",
+            "Destination": "Moon IV, Bretheda"
+        },
+        "Eox Gate 2": {
+            "Location": "Korinthia Divide",
+            "Destination": "Halls of the Living, Eox"
+        },
+        "Liavara Gate 2": {
+            "Location": "Korinthia Divide",
+            "Destination": "Liavara"
+        },
+        "The Disapora Gate 2": {
+            "Location": "Korinthia Divide",
+            "Destination": "Nisis, The Disapora"
+        },
+        "The Disapora Gate 3": {
+            "Location": "Korinthia Divide",
+            "Destination": "House of the Void, The Disapora"
+        },
+        "The Sun Gate 2": {
+            "Location": "El",
+            "Destination": "Radiant Cathedral, The Sun"
+        },
+        "The Sun Gate 3": {
+            "Location": "Korinthia Divide",
+            "Destination": "Fireside, The Sun"
+        },
+        "The Sun Gate 4": {
+            "Location": "Korinthia Divide",
+            "Destination": "Stellacuna, The Sun"
+        },
+        "Triaxus Gate 2": {
+            "Location": "Korinthia Divide",
+            "Destination": "Preita, Triaxus"
+        },
+        "Triaxus Gate 3": {
+            "Location": "Nerundel",
+            "Destination": "Aylok, Triaxus"
+        },
+        "Triaxus Gate 4": {
+            "Location": "Nerundel",
+            "Destination": "Ning, Triaxus"
+        },
+        "Verces Gate 2": {
+            "Location": "Korinthia Divide",
+            "Destination": "Ring of Nations, Verces"
+        },
+        "Verces Gate 3": {
+            "Location": "El",
+            "Destination": "Ring of Nations, Verces"
+        },
+        "Verces Gate 4": {
+            "Location": "Korinthia Divide",
+            "Destination": "Fullbright, Verces"
+        },
+        "<CONFIDENTIAL 1>": {
+            "Location": "<CONFIDENTIAL>",
+            "Destination": "<CONFIDENTIAL>"
+        },
+        "<CONFIDENTIAL 2>": {
+            "Location": "<CONFIDENTIAL>",
+            "Destination": "<CONFIDENTIAL>"
+        },
+        "<CONFIDENTIAL 3>": {
+            "Location": "<CONFIDENTIAL>",
+            "Destination": "<CONFIDENTIAL>"
+        }
+    },
+    "The_Colonies": {
+        "Absalom Gate 5": {
+            "Location": "<null>",
+            "Destination": "<null>"
+        },
+        "Ceiba Gate 1": {
+            "Location": "Queensrock, Castrovel",
+            "Destination": "Korinthia Divide, Castrovel"
+        },
+        "<null>": {
+            "Location": "UNKNOWN",
+            "Destination": "UNKNOWN",
+            "Notes": "All other portals within The Colonies are still undocumented and unexplored. Asana's directive is to leave The Colonies alone until such time they are willing to be documented. Korinthia's portal to Queensrock is the most significant discovery; only travel to Korinthia is permitted, travel to Queensrock by non-Formians is strictly prohibited. Conjecture suggests, since Absalom Station's portal was quickly found - by accident that is - if there are other potential portals within The Colonies (excluding Korinthia's), they do not lead anywhere good.\n[COLLEAGUE WAS WRITTEN UP FOR THIS. CONJECTURE NOT ALLOWED. TO BE PURGED UP NEXT DATABASE CLEAN]"
+        }
+    }
+}

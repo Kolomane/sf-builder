@@ -1,0 +1,458 @@
+<!doctype html>
+<html id="html-tag" lang="en" data-bs-theme="dark">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SFCB</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <!-- START NAV -->
+    <ul class="nav nav-tabs nav-fill" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="encounter-design-tab" data-bs-toggle="tab"
+                data-bs-target="#encounter-design-tab-pane" type="button" role="tab"
+                aria-controls="encounter-design-tab-pane" aria-selected="true">Encounter Design</button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="skill-checks-tab" data-bs-toggle="tab" data-bs-target="#skill-checks-tab-pane"
+                type="button" role="tab" aria-controls="skill-checks-tab-pane" aria-selected="false">Skill
+                Checks</button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="computer-designer-tab" data-bs-toggle="tab"
+                data-bs-target="#computer-designer-tab-pane" type="button" role="tab"
+                aria-controls="computer-designer-tab-pane" aria-selected="true">Computer Designer</button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="settings-tab" data-bs-toggle="tab" data-bs-target="#settings-tab-pane"
+                type="button" role="tab" aria-controls="settings-tab-pane" aria-selected="false">Settings</button>
+        </li>
+    </ul>
+    <!-- END NAV -->
+
+    <!-- BODY CONTENT -->
+    <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="encounter-design-tab-pane" role="tabpanel"
+            aria-labelledby="encounter-design-tab" tabindex="0">
+        </div>
+        <div class="tab-pane fade" id="skill-checks-tab-pane" role="tabpanel" aria-labelledby="skill-checks-tab"
+            tabindex="0">
+            <!-- START ROW -->
+            <div class="row mx-1">
+                <!-- START COL -->
+                <div class="col-md mt-2">
+                    <!-- START CARD -->
+                    <div class="card">
+                    </div>
+                </div>
+
+                <!-- START COL -->
+                <div class="col-md mt-2">
+                    <!-- START CARD -->
+                    <div class="card">
+                    </div>
+                </div>
+            </div>
+            <!-- END ROW -->
+        </div>
+        <div class="tab-pane fade" id="computer-designer-tab-pane" role="tabpanel"
+            aria-labelledby="computer-designer-tab" tabindex="0">
+
+            <div class="row mx-1"> <!-- START ROW -->
+                <!-- START COL -->
+                <div class="col-md mt-2">
+                    <!-- START CARD -->
+                    <div class="card">
+                        <div class="card-header">
+                            Computer Designer
+                        </div>
+                        <ul class="list-group list-group-flush">
+
+                            <li class="list-group-item" id="computer-item-properties"> <!-- LEVEL, TIER, AND BASE DC -->
+                                <h6 class="card-title">Item Properties</h6>
+                                <div class="hstack">
+                                    <!-- PRICE -->
+                                    <div class="input-group input-group-sm mt-1" id="computer-price">
+                                        <span class="input-group-text" id="computer-price-input">Price</span>
+                                        <input type="text" class="form-control" placeholder="50" aria-label="Level"
+                                            aria-describedby="computer-price-input">
+                                    </div>
+                                    <!-- LEVEL -->
+                                    <div class="input-group input-group-sm mt-1" id="computer-level">
+                                        <span class="input-group-text" id="computer-level-input">Level</span>
+                                        <input type="text" class="form-control" placeholder="1" aria-label="Level"
+                                            aria-describedby="computer-level-input">
+                                    </div>
+                                    <!-- TIER -->
+                                    <div class="input-group input-group-sm mt-1" id="computer-tier">
+                                        <span class="input-group-text" id="computer-tier-input">Tier</span>
+                                        <input type="text" class="form-control" placeholder="0" aria-label="Tier"
+                                            aria-describedby="computer-tier-input" readonly>
+                                    </div>
+                                    <!-- BASE DC -->
+                                    <div class="input-group input-group-sm mt-1" id="computer-base-dc">
+                                        <span class="input-group-text" id="computer-base-dc-input">Base DC</span>
+                                        <input type="text" class="form-control" placeholder="17" aria-label="Tier"
+                                            aria-describedby="computer-base-dc-input" readonly>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="list-group-item" id="computer-modules"> <!-- MODULES -->
+                                <h6 class="card-title">Modules</h6>
+                                <div class="hstack">
+                                    <!-- SPELL CHIP -->
+                                    <div class="form-check form-switch w-100" id="modules-spell-chip">
+                                        <input class="form-check-input" type="checkbox" role="switch"
+                                            id="modules-spell-chip-input">
+                                        <label class="form-check-label" for="modules-spell-chip-input">Spell
+                                            Chip</label>
+                                    </div>
+                                    <!-- SPELL GEM -->
+                                    <div class="input-group input-group-sm w-25 mx-auto" id="spell-gem">
+                                        <span class="input-group-text" id="spell-gem-input">Spell Gem</span>
+                                        <input type="text" class="form-control" placeholder="50" aria-label="Level"
+                                            aria-describedby="spell-gem-input">
+                                    </div>
+                                    <!-- SPELL GEM COST -->
+                                    <div class="input-group input-group-sm w-25" id="spell-gem-price">
+                                        <span class="input-group-text" id="spell-gem-price-input">Price</span>
+                                        <input type="text" class="form-control" placeholder="50" aria-label="Level"
+                                            aria-describedby="spell-gem-price-input">
+                                    </div>
+                                </div>
+
+                                <!-- CONTROL, COMPLEX -->
+                                <div class="form-check form-switch w-25" id="modules-control-complex">
+                                    <input class="form-check-input" type="checkbox" role="switch"
+                                        id="modules-control-complex-input">
+                                    <label class="form-check-label" for="modules-control-complex-input">Control,
+                                        Complex</label>
+                                </div>
+
+                                <!-- RAKMODAI COMPUTERS, SKILL -->
+                                <div class="form-check form-switch w-25" id="modules-rakmodoi-computers-skill">
+                                    <input class="form-check-input" type="checkbox" role="switch"
+                                        id="modules-rakmodoi-computers-skill-input">
+                                    <label class="form-check-label"
+                                        for="modules-rakmodoi-computers-skill-input">Rakmodoi Computers, Skill</label>
+                                </div>
+
+                                <!-- SECURE DATA, AVERAGE -->
+                                <div class="form-check form-switch w-25" id="modules-secure-data-average">
+                                    <input class="form-check-input" type="checkbox" role="switch"
+                                        id="modules-secure-data-average-input">
+                                    <label class="form-check-label" for="modules-secure-data-average-input">Secure Data,
+                                        Average</label>
+                                </div>
+
+                                <!-- SECURE DATA, LARGE -->
+                                <div class="form-check form-switch w-25" id="modules-secure-data-large">
+                                    <input class="form-check-input" type="checkbox" role="switch"
+                                        id="modules-secure-data-large-input">
+                                    <label class="form-check-label" for="modules-secure-data-large-input">Secure Data,
+                                        Large</label>
+                                </div>
+
+                                <!-- SECURE DATA, SPECIFIC -->
+                                <div class="form-check form-switch w-25" id="modules-secure-data-specific">
+                                    <input class="form-check-input" type="checkbox" role="switch"
+                                        id="modules-secure-data-specific-input">
+                                    <label class="form-check-label" for="modules-secure-data-specific-input">Secure
+                                        Data,
+                                        Specific</label>
+                                </div>
+                            </li>
+
+                            <li class="list-group-item"> <!-- UPGRADES -->
+                                <h6 class="card-title">Upgrades</h6>
+                                <div class="row">
+                                    <div class="col">
+                                        <!-- ARTIFICIAL PERSONALITY -->
+                                        <div class="form-check form-switch" id="upgrades-artificial-personality">
+                                            <input class="form-check-input" type="checkbox" role="switch"
+                                                id="upgrades-artificial-personality-input">
+                                            <label class="form-check-label"
+                                                for="upgrades-artificial-personality-input">Artificial
+                                                Personality</label>
+                                        </div>
+
+                                        <!-- HARDENED -->
+                                        <div class="form-check form-switch" id="upgrades-hardened">
+                                            <input class="form-check-input" type="checkbox" role="switch"
+                                                id="upgrades-hardened-input">
+                                            <label class="form-check-label"
+                                                for="upgrades-hardened-input">Hardened</label>
+                                        </div>
+
+                                        <!-- MINIATURIZATION -->
+                                        <div class="form-check form-switch" id="upgrades-miniaturization">
+                                            <input class="form-check-input" type="checkbox" role="switch"
+                                                id="upgrades-miniaturization-input">
+                                            <label class="form-check-label"
+                                                for="upgrades-miniaturization-input">Miniaturization</label>
+                                        </div>
+
+                                        <!-- SECURITY -->
+                                        <div class="form-check form-switch" id="upgrades-security">
+                                            <input class="form-check-input" type="checkbox" role="switch"
+                                                id="upgrades-security-input">
+                                            <label class="form-check-label"
+                                                for="upgrades-security-input">Security</label>
+                                        </div>
+
+                                        <!-- SELF-CHARGING -->
+                                        <div class="form-check form-switch" id="upgrades-self-charging">
+                                            <input class="form-check-input" type="checkbox" role="switch"
+                                                id="upgrades-self-charging-input">
+                                            <label class="form-check-label"
+                                                for="upgrades-self-charging-input">Self-Charging</label>
+                                        </div>
+
+                                        <!-- TELEPATHIC USER INTERFACE -->
+                                        <div class="form-check form-switch" id="upgrades-telepathic-user-interface">
+                                            <input class="form-check-input" type="checkbox" role="switch"
+                                                id="upgrades-telepathic-user-interface-input">
+                                            <label class="form-check-label"
+                                                for="upgrades-telepathic-user-interface-input">Telepathic User
+                                                Interface</label>
+                                        </div>
+
+                                        <!-- RAKMODOI COMPUTERS, ARMS -->
+                                        <div class="form-check form-switch" id="upgrades-rakmodoi-computers-arms">
+                                            <input class="form-check-input" type="checkbox" role="switch"
+                                                id="upgrades-rakmodoi-computers-arms-input">
+                                            <label class="form-check-label"
+                                                for="upgrades-rakmodoi-computers-arms-input">Rakmodoi Computers,
+                                                Arms</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="col">
+                                        <!-- RAKMODOI COMPUTERS, MOBILITY UNIT, CLAWS -->
+                                        <div class="form-check form-switch"
+                                            id="upgrades-rakmodoi-computers-mobility-unit-claws">
+                                            <input class="form-check-input" type="checkbox" role="switch"
+                                                id="upgrades-rakmodoi-computers-mobility-unit-claws-input">
+                                            <label class="form-check-label"
+                                                for="upgrades-rakmodoi-computers-mobility-unit-claws-input">Rakmodoi
+                                                Computers, Mobility Unit, Claws</label>
+                                        </div>
+
+                                        <!-- RAKMODOI COMPUTERS, MOBILITY UNIT, LEGS -->
+                                        <div class="form-check form-switch"
+                                            id="upgrades-rakmodoi-computers-mobility-unit-legs">
+                                            <input class="form-check-input" type="checkbox" role="switch"
+                                                id="upgrades-rakmodoi-computers-mobility-unit-legs-input">
+                                            <label class="form-check-label"
+                                                for="upgrades-rakmodoi-computers-mobility-unit-legs-input">Rakmodoi
+                                                Computers, Mobility Unit, Legs</label>
+                                        </div>
+
+                                        <!-- RAKMODOI COMPUTERS, MOBILITY UNIT, TAIL -->
+                                        <div class="form-check form-switch"
+                                            id="upgrades-rakmodoi-computers-mobility-unit-tail">
+                                            <input class="form-check-input" type="checkbox" role="switch"
+                                                id="upgrades-rakmodoi-computers-mobility-unit-tail-input">
+                                            <label class="form-check-label"
+                                                for="upgrades-rakmodoi-computers-mobility-unit-tail-input">Rakmodoi
+                                                Computers, Mobility Unit, Tail</label>
+                                        </div>
+
+                                        <!-- RAKMODOI COMPUTERS, MYSTIC COMM -->
+                                        <div class="form-check form-switch"
+                                            id="upgrades-rakmodoi-computers-mystic-comm">
+                                            <input class="form-check-input" type="checkbox" role="switch"
+                                                id="upgrades-rakmodoi-computers-mystic-comm-input">
+                                            <label class="form-check-label"
+                                                for="upgrades-rakmodoi-computers-mystic-comm-input">Rakmodoi Computers,
+                                                Mystic Comm</label>
+                                        </div>
+
+                                        <!-- RANGE, I -->
+                                        <div class="form-check form-switch" id="upgrades-range-i">
+                                            <input class="form-check-input" type="checkbox" role="switch"
+                                                id="upgrades-range-i-input">
+                                            <label class="form-check-label" for="upgrades-range-i-input">Range, I (100
+                                                feet)</label>
+                                        </div>
+
+                                        <!-- RANGE, II -->
+                                        <div class="form-check form-switch" id="upgrades-range-ii">
+                                            <input class="form-check-input" type="checkbox" role="switch"
+                                                id="upgrades-range-ii-input">
+                                            <label class="form-check-label" for="upgrades-range-ii-input">Range, II (1
+                                                Mile)</label>
+                                        </div>
+
+                                        <!-- RANGE, III -->
+                                        <div class="form-check form-switch" id="upgrades-range-iii">
+                                            <input class="form-check-input" type="checkbox" role="switch"
+                                                id="upgrades-range-iii-input">
+                                            <label class="form-check-label" for="upgrades-range-iii-input">Range, III
+                                                (planetwide)</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="list-group-item" id="computer-countermeasures"> <!-- COUNTER MEASURES -->
+                                <h6 class="card-title">Countermeasures</h6>
+
+                                <!-- ALARM -->
+                                <div class="form-check form-switch" id="countermeasures-alarm">
+                                    <input class="form-check-input" type="checkbox" role="switch"
+                                        id="countermeasures-alarm-input">
+                                    <label class="form-check-label" for="countermeasures-alarm-input"><i
+                                            class="bi bi-bell"></i> Alarm</label>
+                                </div>
+
+                                <!-- FAKE SHELL -->
+                                <div class="form-check form-switch" id="countermeasures-fake-shell">
+                                    <input class="form-check-input" type="checkbox" role="switch"
+                                        id="countermeasures-fake-shell-input">
+                                    <label class="form-check-label" for="countermeasures-fake-shell-input"><i
+                                            class="bi bi-terminal-x"></i> Fake Shell</label>
+                                </div>
+
+                                <!-- FEEDBACK -->
+                                <div class="form-check form-switch" id="countermeasures-feedback">
+                                    <input class="form-check-input" type="checkbox" role="switch"
+                                        id="countermeasures-feedback-input">
+                                    <label class="form-check-label" for="countermeasures-feedback-input"><i
+                                            class="bi bi-radioactive"></i> Feedback</label>
+                                </div>
+
+                                <!-- LOCKOUT -->
+                                <div class="form-check form-switch" id="countermeasures-lockout">
+                                    <input class="form-check-input" type="checkbox" role="switch"
+                                        id="countermeasures-lockout-input">
+                                    <label class="form-check-label" for="countermeasures-lockout-input"><i
+                                            class="bi bi-person-lock"></i> Lockout</label>
+                                </div>
+
+                                <!-- SHOCK GRID -->
+                                <div class="form-check form-switch" id="countermeasures-shock-grid">
+                                    <input class="form-check-input" type="checkbox" role="switch"
+                                        id="countermeasures-shock-grid-input">
+                                    <label class="form-check-label" for="countermeasures-shock-grid-input"><i
+                                            class="bi bi-lightning-charge-fill"></i> Shock Grid</label>
+                                </div>
+
+                                <!-- WIPE -->
+                                <div class="form-check form-switch" id="countermeasures-wipe">
+                                    <input class="form-check-input" type="checkbox" role="switch"
+                                        id="countermeasures-wipe-input">
+                                    <label class="form-check-label" for="countermeasures-wipe-input"><i
+                                            class="bi bi-eraser-fill"></i> Wipe</label>
+                                </div>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- START COL -->
+                <div class="col-md mt-2">
+                    <!-- START CARD -->
+                    <div class="card">
+                        <div class="card-header">
+                            Saved Computers
+                        </div>
+                    </div>
+                </div>
+
+            </div> <!-- END ROW -->
+        </div>
+        <div class="tab-pane fade" id="settings-tab-pane" role="tabpanel" aria-labelledby="settings-tab" tabindex="0">
+            <div class="row">
+                <div class="col mx-2 mt-2">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Settings</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Dark / Light mode toggle</h6>
+                            <p class="card-text">Toggle the setting for dark mode or light mode. Default is dark mode.
+                            </p>
+                            <button id="view-mode-toggle" type="button" class="btn btn-light">light Mode Toggle</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- END BODY CONTENT -->
+
+    <!-- SCRIPTS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script>
+        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+    </script>
+    <script type="module">
+        ///////////////////////////////
+        // SETTINGS PAGE //////////////
+        ///////////////////////////////
+
+        // Settings -> Toggle View Mode
+        $('#view-mode-toggle').on("click", function () {
+            let viewMode = "dark"
+            let oppositeViewMode = "light"
+            let currentView = $('#view-mode-toggle').text();
+            if (currentView == "dark Mode Toggle") {
+                viewMode = "dark";
+                oppositeViewMode = "light";
+            } else {
+                viewMode = "light";
+                oppositeViewMode = "dark";
+            }
+            $('#view-mode-toggle').attr('class', `btn btn-${oppositeViewMode}`);
+            $('#view-mode-toggle').text(`${oppositeViewMode} Mode Toggle`)
+            $('#html-tag').attr('data-bs-theme', `${viewMode}`);
+        });
+
+        ///////////////////////////////
+        // POPULATE HTML //////////////
+        ///////////////////////////////
+
+
+        ///////////////////////////////
+        // DOCUMENT READY /////////////
+        ///////////////////////////////
+
+        $(document).ready(function () {
+            console.log(`document.ready`)
+            console.log(`after document.ready`)
+        });
+
+        ///////////////////////////////
+        // LISTENERS //////////////////
+        ///////////////////////////////
+
+        // Flip Icon - Import a jQuery event Listener AFTER loading Conditions
+        $('[id$="Modal"]').on('click', '[id$="-expand"]', function (event) {
+            // console.log(`clicked the thing | name = ${event.target.parentElement.id}`)
+            flipIcon(`${event.target.id}`)
+        })
+
+        function flipIcon(name) {
+            console.log(`flipicon | name = ${name}`)
+            let theButton = $(`#${name}`);
+            if (theButton.html() == '<i class="bi bi-arrow-bar-up"></i>') {
+                theButton.html('<i class="bi bi-arrow-bar-down"></i>')
+            } else {
+                theButton.html('<i class="bi bi-arrow-bar-up"></i>')
+            }
+        }
+    </script>
+</body>
+
+</html>

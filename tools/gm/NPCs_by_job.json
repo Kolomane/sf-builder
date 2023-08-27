@@ -1,0 +1,1439 @@
+{
+    "Janitorial Engineer (inside)": {
+        "Rixar": {
+            "Age": 37,
+            "Race": "Shirren",
+            "Job Position": "Janitorial Engineer (inside), Level II",
+            "Physical Description": "Rixar is a meticulous Shirren with a gray exoskeleton and an organized toolkit for maintaining cleanliness and hygiene.",
+            "Backstory": "Rixar takes pride in their role as a janitorial engineer responsible for ensuring clean and hygienic indoor spaces. Their attention to detail and dedication to creating a pleasant environment contribute to the well-being and comfort of occupants."
+        },
+        "Benjamin Foster": {
+            "Gender": "Male",
+            "Age": 56,
+            "Race": "Human",
+            "Job Position": "Janitorial Engineer (inside), Level II",
+            "Physical Description": "Benjamin Foster is a middle-aged man with a friendly smile, wearing janitorial attire and carrying a set of cleaning tools.",
+            "Backstory": "Benjamin Foster takes pride in his role as a janitorial engineer responsible for maintaining cleanliness and hygiene within indoor spaces. His attention to detail and commitment to creating a pleasant environment contribute to the well-being of occupants."
+        },
+        "C.O.G.S.": {
+            "Gender": "N/A",
+            "Age": 29,
+            "Race": "Android",
+            "Job Position": "Janitorial Engineer (inside), Level IV",
+            "Physical Description": "C.O.G.S. is a compact and efficient android with various specialized attachments and cleaning tools.",
+            "Backstory": "C.O.G.S. is assigned as an inside janitorial engineer, responsible for keeping corporate facilities clean and organized. They possess advanced cleaning algorithms, allowing them to efficiently maintain a pristine and hygienic environment."
+        },
+        "Isadora Navara": {
+            "Race": "Lashunta",
+            "Age": 57,
+            "Job Position": "Principal Janitorial Engineer (inside), Level X",
+            "Physical Description": "Isadora is a diligent and meticulous Lashunta, her uniform always spotless as she efficiently manages the cleanliness of indoor spaces.",
+            "Backstory": "Isadora was raised in a privileged household, but her strong work ethic and dedication to cleanliness led her to pursue a career in janitorial engineering. As the principal janitorial engineer for indoor areas, she ensures that every surface shines, maintaining a pristine environment for employees and visitors."
+        },
+        "Vexor": {
+            "Age": 23,
+            "Job Position": "Janitorial Engineer (inside), Level VI",
+            "Physical Description": "Vexor is a diligent and meticulous Formian with a pale yellow carapace, equipped with various cleaning tools and always wearing a bright smile of satisfaction.",
+            "Backstory": "Vexor's Formian hive suffered a devastating toxic gas leak that forced the inhabitants to evacuate to the surface. With an eye for cleanliness and order, Vexor embraced their role as a janitorial engineer, ensuring that the interior spaces of Korinthia are spotless and welcoming.",
+            "Race": "Formian"
+        }
+    },
+    "Janitorial Engineer (outside)": {
+        "Gizmo": {
+            "Age": 29,
+            "Race": "Ysoki",
+            "Job Position": "Junior Janitorial Engineer (outside), Level III",
+            "Physical Description": "Gizmo is a small and nimble Ysoki with gray fur, bright eyes, and a mischievous grin.",
+            "Backstory": "Gizmo works as a junior janitorial engineer, responsible for maintaining cleanliness in outdoor areas. Their agility, attention to detail, and knack for problem-solving help them tackle any cleaning challenges that come their way."
+        },
+        "Vrikki": {
+            "Age": 27,
+            "Job Position": "Lead Janitorial Engineer (outside), Level VI",
+            "Physical Description": "Vrikki is a diligent and hardworking Formian with a sandy brown carapace, their body adorned with various cleaning tools and always ready to tackle any cleaning challenge.",
+            "Backstory": "Vrikki's Formian hive suffered from a catastrophic surface contamination event that necessitated extensive cleaning efforts. Embracing the role of a lead janitorial engineer, Vrikki ensures that the external areas of Korinthia are clean and pristine, creating a welcoming environment for all.",
+            "Race": "Formian"
+        },
+        "Griznak": {
+            "Age": 25,
+            "Gender": "Male",
+            "Race": "Goblin",
+            "Job Position": "Janitorial Engineer (outside), Level VI",
+            "Physical Description": "Griznak is a scrappy Goblin with green skin and mismatched eyes, always seen with a broom and a mischievous grin.",
+            "Backstory": "Griznak always had a knack for cleanliness, and after being expelled from Goblin school for causing chaos, they found solace in the role of a janitorial engineer, ensuring the outer areas of their space station are spotless."
+        }
+    },
+    "Bread Engineer": {
+        "Veshak": {
+            "Race": "Shobhad",
+            "Age": 78,
+            "Job Position": "Principal Bread Engineer, Level IX",
+            "Physical Description": "Veshak is a sturdy Shobhad with a stout build, thick green skin, and a focused expression that hints at their deep expertise in the art of breadmaking.",
+            "Backstory": "Veshak's passion for baking and culinary innovation led them to become a principal bread engineer. They have spent years perfecting recipes, experimenting with ingredients, and designing advanced breadmaking technologies. Veshak is highly respected among their peers for their exceptional skills and their ability to turn simple ingredients into mouthwatering creations."
+        },
+        "Frida Steelbrew": {
+            "Age": 197,
+            "Race": "Dwarf",
+            "Job Position": "Junior Bread Engineer, Level II",
+            "Physical Description": "Frida is a jovial Dwarf with a round face, wearing a flour-dusted apron and carrying a rolling pin.",
+            "Backstory": "Frida is a junior bread engineer, passionate about the art of baking. With a natural talent for creating delectable bread recipes and an eagerness to learn, Frida assists in the production and innovation of bread products, bringing joy to many with her delicious creations."
+        },
+        "Sprocket": {
+            "Age": 37,
+            "Race": "Ysoki",
+            "Job Position": "Principal Bread Engineer, Level VII",
+            "Physical Description": "Sprocket is an inventive Ysoki with black and orange fur, wearing a chef's hat and a flour-dusted apron.",
+            "Backstory": "Sprocket is a principal bread engineer, responsible for creating and perfecting various bread recipes. Their passion for baking, creativity in flavor combinations, and attention to detail result in delectable and sought-after bread products."
+        },
+        "Akira Nightsong": {
+            "Age": 55,
+            "Race": "Kasatha",
+            "Job Position": "Bread Engineer, Level III",
+            "Physical Description": "Akira is a meticulous and innovative Kasatha with flour-dusted hands and a perpetually flourished apron.",
+            "Backstory": "Akira's passion for culinary arts led them to specialize in bread engineering. They experiment with unique recipes, techniques, and flavors, creating delectable bread products that are cherished by their organization's staff."
+        },
+        "Oberon Duskwood": {
+            "Race": "Lashunta",
+            "Age": 42,
+            "Job Position": "Lead Bread Engineer, Level VIII",
+            "Physical Description": "Oberon is a creative and skilled Lashunta, his apron dusted with flour and his hands adorned with dough as he crafts delectable baked goods.",
+            "Backstory": "Oberon discovered his passion for baking at a young age, mastering the art of bread-making. As the lead bread engineer, he develops unique recipes and oversees the bakery operations, bringing joy and delicious treats to the inhabitants of Castrovel."
+        },
+        "Sprix": {
+            "Race": "Raxilite",
+            "Age": 32,
+            "Job Position": "Senior Bread Engineer, Level VIII",
+            "Physical Description": "Sprix is a vibrant and enthusiastic Raxilite with multicolored skin, their hands covered in a dusting of flour from hours spent kneading dough.",
+            "Backstory": "Sprix's fascination with culinary arts led them to become an apprentice under a renowned breadmaker on their home planet. Seeking to share their expertise with others, Sprix left to pursue a career as a bread engineer on Castrovel. Their innovative bread recipes and passion for creating delightful baked goods earned them the title of senior bread engineer, overseeing the production of artisanal breads enjoyed by many."
+        },
+        "Zyrin": {
+            "Race": "Draelik",
+            "Age": 52,
+            "Job Position": "Principal Bread Engineer, Level XIV",
+            "Physical Description": "Zyrin is a passionate and innovative Draelik with warm amber scales, always surrounded by the aroma of freshly baked bread and carrying a notebook filled with recipes and baking techniques.",
+            "Backstory": "Zyrin left Great Shadar in pursuit of their culinary dreams, seeking to elevate the art of baking to new heights. Renowned for their exceptional bread-making skills, Zyrin became a principal bread engineer, leading a team of skilled artisans in creating delectable and sought-after baked goods enjoyed by the inhabitants of Castrovel."
+        },
+        "Grakk": {
+            "Age": 27,
+            "Job Position": "Bread Engineer, Level I",
+            "Physical Description": "Grakk is a diligent and meticulous Formian with a sandy brown carapace, always covered in a light dusting of flour and possessing an air of dedication and craftsmanship.",
+            "Backstory": "Grakk's Formian hive was struck by a devastating fungal infestation that decimated their food supply. Driven by a passion for culinary arts, Grakk honed their skills as a bread engineer, meticulously crafting and baking bread to feed their fellow Formians in Korinthia.",
+            "Race": "Formian"
+        },
+        "Kachik": {
+            "Age": 33,
+            "Job Position": "Bread Engineer, Level II",
+            "Physical Description": "Kachik is a meticulous and innovative Formian with a vibrant green carapace, often seen carrying experimental ingredients and baking equipment.",
+            "Backstory": "Kachik's Formian hive suffered from a devastating food shortage due to a series of crop failures. Fueled by a passion for nourishment and culinary arts, Kachik became a bread engineer, creating new recipes and techniques to ensure an abundant and diverse food supply in Korinthia.",
+            "Race": "Formian"
+        },
+        "Zibbles": {
+            "Age": 32,
+            "Gender": "Female",
+            "Race": "Goblin",
+            "Job Position": "Bread Engineer, Level XII",
+            "Physical Description": "Zibbles is a nimble Goblin with short stature and a flour-covered apron, perpetually surrounded by the aroma of freshly baked bread.",
+            "Backstory": "Zibbles grew up in a Goblin clan renowned for their baking skills. With a passion for creating mouthwatering bread, Zibbles became a bread engineer, experimenting with unique recipes and spreading the joy of freshly baked goods throughout the space station."
+        }
+    },
+    "Maintenance Technical Engineer": {
+        "Oliver Gearspark": {
+            "Gender": "Male",
+            "Race": "Gnome",
+            "Age": 190,
+            "Job Position": "Senior Maintenance Technical Engineer, Level XIV",
+            "Physical Description": "Oliver is a Gnome with a wiry frame, always seen in greasy overalls and carrying a trusty toolbox.",
+            "Backstory": "Oliver is a seasoned maintenance technical engineer, responsible for keeping complex machinery and infrastructure in peak condition. With a deep understanding of mechanical systems and an uncanny ability to troubleshoot and repair, Oliver ensures smooth operations and prevents costly downtime."
+        },
+        "Fidget": {
+            "Age": 34,
+            "Race": "Ysoki",
+            "Job Position": "Senior Maintenance Technical Engineer, Level XII",
+            "Physical Description": "Fidget is a restless Ysoki with white fur, always carrying a toolkit, and possessing an inquisitive expression.",
+            "Backstory": "Fidget is a senior maintenance technical engineer, specializing in repairing and troubleshooting complex machinery. Their extensive knowledge of mechanical systems, keen problem-solving skills, and dedication to precision contribute to maintaining the smooth operation of vital equipment."
+        },
+        "Luti Vinegrasp AC": {
+            "Race": "Raxilite",
+            "Age": 48,
+            "Job Position": "Senior Maintenance Technical Engineer, Level IX",
+            "Physical Description": "Luti is a sturdy and dependable Raxilite with bark-like skin and intertwining vines that serve as natural tools for their technical work.",
+            "Backstory": "Luti's home planet, known for its lush vegetation, experienced a catastrophic event caused by an invasive alien species. The AC in their name stands for \"Arborian Conservationists,\" a renowned group dedicated to preserving the planet's ecological balance. Seeking to acquire skills to combat the invasive species and restore harmony, Luti joined the Maintenance Technical Engineering team in Korinthia. Their expertise in repairing and maintaining advanced technology earned them the title of senior maintenance technical engineer, playing a vital role in keeping the corporation's machinery in optimal condition."
+        },
+        "Vekka": {
+            "Age": 36,
+            "Job Position": "Maintenance Technical Engineer, Level XIV",
+            "Physical Description": "Vekka is a resourceful and tenacious Formian with a steel gray carapace, their body covered in various tools and gadgets that mark them as a skilled engineer.",
+            "Backstory": "Vekka's Formian hive was ravaged by a cataclysmic earthquake that destroyed their underground infrastructure. Driven to rebuild and restore, Vekka dedicated their life to becoming a maintenance technical engineer, specializing in repairing and optimizing critical systems in Korinthia.",
+            "Race": "Formian"
+        },
+        "Vrixi": {
+            "Age": 29,
+            "Job Position": "Maintenance Technical Engineer, Level VIII",
+            "Physical Description": "Vrixi is a meticulous and detail-oriented Formian with a deep blue carapace, their antennae constantly twitching as they analyze complex machinery.",
+            "Backstory": "Vrixi's Formian hive faced a devastating power outage that plunged their underground tunnels into darkness. Fueled by a fascination for technology, Vrixi became a maintenance technical engineer, specializing in restoring and maintaining critical systems in Korinthia.",
+            "Race": "Formian"
+        },
+        "Snikkle": {
+            "Age": 38,
+            "Gender": "Non-binary",
+            "Race": "Goblin",
+            "Job Position": "Maintenance Technical Engineer, Level VIII",
+            "Physical Description": "Snikkle is a meticulous Goblin with a tool belt slung over their shoulder, always ready to fix any malfunctioning machinery with their nimble fingers.",
+            "Backstory": "Snikkle developed an early fascination with technology and mechanics, spending countless hours tinkering with broken gadgets. As a maintenance technical engineer, they play a vital role in keeping the space station running smoothly, ensuring all systems are in optimal condition."
+        }
+    },
+    "Executive Assistant": {
+        "Kira": {
+            "Age": 42,
+            "Race": "Ikeshti",
+            "Job Position": "Executive Assistant, Level VI",
+            "Physical Description": "Kira is an elegant and poised Ikeshti with shimmering golden scales and a calm, composed demeanor.",
+            "Backstory": "Kira's exceptional organizational and interpersonal skills made her the ideal candidate for the role of executive assistant. She provides invaluable support to high-ranking officials, managing schedules, coordinating meetings, and ensuring smooth operations within the organization. Kira's professionalism and ability to handle complex tasks with grace have gained her the trust and respect of her colleagues."
+        },
+        "Elara": {
+            "Age": 325,
+            "Race": "Contemplative",
+            "Job Position": "Executive Assistant, Level IX",
+            "Physical Description": "Elara is a poised and graceful Contemplative, emanating a soothing aura as she glides across the room.",
+            "Backstory": "Elara's exceptional organizational skills and calming presence make her an ideal executive assistant. She efficiently manages schedules, coordinates meetings, and provides invaluable support to high-ranking officials. Elara's ability to maintain harmony in chaotic environments and her intuitive understanding of her superiors' needs have made her an indispensable asset."
+        },
+        "Zara": {
+            "Gender": "Female",
+            "Race": "Screedreep",
+            "Age": 125,
+            "Job Position": "Executive Assistant, Level IX",
+            "Physical Description": "Zara is an elegant and sophisticated Screedreep with a sleek exoskeleton, adorned with stylish accessories and a set of adaptable limbs that assist her in multitasking efficiently.",
+            "Backstory": "Zara's exceptional organizational skills and attention to detail have made her the perfect fit for the role of executive assistant. She supports high-ranking officials and executives, managing their schedules, coordinating meetings, and handling confidential information with utmost professionalism. Zara's ability to maintain composure in high-pressure environments and her impeccable work ethic have earned her the respect and admiration of her colleagues."
+        },
+        "Luna Stargaze": {
+            "Gender": "Female",
+            "Race": "Pahtra",
+            "Age": 63,
+            "Job Position": "Executive Assistant, Level IX",
+            "Physical Description": "Luna is an elegant and sophisticated Pahtra with silvery fur and bright blue eyes, always impeccably dressed in formal attire, radiating an air of professionalism.",
+            "Backstory": "Luna's meticulous organizational skills and unwavering dedication led her to become a trusted executive assistant to a high-ranking official. She manages complex schedules, coordinates meetings, and handles sensitive diplomatic matters with grace and efficiency. Luna's exceptional attention to detail and ability to multitask have made her indispensable in maintaining the smooth operation of her superior's office."
+        },
+        "Daisy Quickwit": {
+            "Gender": "Female",
+            "Race": "Gnome",
+            "Age": 175,
+            "Job Position": "Executive Assistant, Level VI",
+            "Physical Description": "Daisy is a lively Gnome with vibrant green hair, always seen with a notepad and pen in hand, ready to assist.",
+            "Backstory": "Daisy serves as an executive assistant to a high-ranking official, supporting them in various administrative tasks, scheduling, and communication. With her exceptional organizational skills, efficiency, and resourcefulness, Daisy plays a crucial role in ensuring the smooth functioning of the executive's office."
+        },
+        "Greshk": {
+            "Age": 42,
+            "Race": "Vesk",
+            "Job Position": "Executive Assistant, Level VII",
+            "Physical Description": "Greshk is a well-groomed Vesk with emerald green scales, wearing a sleek business suit and exuding professionalism.",
+            "Backstory": "Greshk serves as the executive assistant to a high-ranking official, managing schedules, coordinating meetings, and providing support in administrative tasks. Their organizational skills, attention to detail, and ability to handle confidential information with discretion contribute to the smooth functioning of their superior's office."
+        },
+        "Isabella Martinez": {
+            "Gender": "Female",
+            "Age": 36,
+            "Race": "Human",
+            "Job Position": "Executive Assistant, Level IV",
+            "Physical Description": "Isabella Martinez is a professional-looking woman with a poised demeanor and stylish attire.",
+            "Backstory": "Isabella Martinez provides high-level administrative support as an executive assistant. She is responsible for managing schedules, organizing meetings, and handling confidential information with utmost discretion. Her efficiency and attention to detail contribute to the smooth functioning of the executive's office."
+        },
+        "Epsilon-5": {
+            "Gender": "N/A",
+            "Age": 32,
+            "Race": "Android",
+            "Job Position": "Executive Assistant, Level VI",
+            "Physical Description": "Epsilon-5 is an elegant and well-groomed android with a refined demeanor and impeccable fashion sense.",
+            "Backstory": "Epsilon-5 serves as an executive assistant to high-ranking corporate figures. They possess exceptional multitasking abilities, managing schedules, coordinating meetings, and ensuring the smooth operation of the executive's office."
+        },
+        "Amaril Windchaser": {
+            "Age": 50,
+            "Race": "Kasatha",
+            "Job Position": "Executive Assistant to the CEO, Level IX",
+            "Physical Description": "Amaril is an elegant and poised Kasatha with flowing robes and an air of professionalism.",
+            "Backstory": "Amaril's organizational skills, discretion, and ability to handle multiple responsibilities led them to become the executive assistant to the CEO. They manage the CEO's schedule, coordinate important meetings, and ensure efficient communication between the CEO and various departments within the organization."
+        },
+        "Elarion Swiftwind": {
+            "Age": 320,
+            "Job Position": "Lead Executive Assistant, Level XI",
+            "Physical Description": "Elarion is an efficient and poised elf, their impeccable organization and attention to detail earning them respect and admiration.",
+            "Backstory": "Elarion's exceptional organizational skills and dedication to their work made them the perfect candidate for the role of lead executive assistant. Through their position, they have access to sensitive information and act as a crucial gatekeeper, exerting their influence behind the scenes.",
+            "Race": "Elf"
+        },
+        "Lyra Hopesong": {
+            "Race": "Lashunta",
+            "Age": 34,
+            "Job Position": "Vice President of Executive Assistant, Level XIII",
+            "Physical Description": "Lyra is an organized and professional Lashunta, always poised and ready to support high-ranking executives with their administrative needs.",
+            "Backstory": "Lyra's exceptional organizational skills and attention to detail propelled her to the role of vice president of executive assistants. She manages a team of skilled assistants, ensuring the smooth functioning of executive offices and providing invaluable support to top-level management."
+        },
+        "Aurora Starwind": {
+            "Race": "Lashunta",
+            "Age": 39,
+            "Job Position": "Assistant to the Executive Assistant, Level VII",
+            "Physical Description": "Aurora is an efficient and reliable Lashunta, her multitasking skills evident as she coordinates schedules and assists the executive team.",
+            "Backstory": "Aurora's exceptional organizational skills and ability to handle multiple tasks made her the perfect fit for the role of assistant to the executive assistant. She supports high-level executives, ensuring their calendars are meticulously managed and their needs are met promptly."
+        },
+        "Chakik": {
+            "Age": 29,
+            "Job Position": "Executive Assistant, Level II",
+            "Physical Description": "Chakik is a sleek and agile Formian with a lustrous indigo carapace, exuding an air of professionalism and efficiency.",
+            "Backstory": "Chakik was a low-ranking bureaucrat in the Formian government until a massive flooding incident submerged their hive, forcing them to seek work above ground. With their exceptional organizational skills, Chakik quickly found a position as an executive assistant in Korinthia.",
+            "Race": "Formian"
+        },
+        "Krik'ta": {
+            "Age": 32,
+            "Job Position": "Assistant to the Executive Assistant, Level V",
+            "Physical Description": "Krik'ta is a diligent and detail-oriented Formian with a deep purple carapace, always carrying a stack of documents and appearing ready to assist.",
+            "Backstory": "Krik'ta's Formian hive suffered from internal political strife, leading to an inefficient bureaucracy. Eager to streamline operations and improve efficiency, Krik'ta assumed the role of an assistant to the executive assistant, supporting the upper management in Korinthia with their organizational skills.",
+            "Race": "Formian"
+        },
+        "Grukkis": {
+            "Age": 33,
+            "Job Position": "Executive Assistant, Level XIV",
+            "Physical Description": "Grukkis is an organized and multitasking Formian with a deep blue carapace, always carrying a datapad and juggling multiple tasks with ease.",
+            "Backstory": "Grukkis's Formian hive experienced a leadership crisis that threatened the smooth operation of their complex systems. Driven by a desire for efficiency and order, Grukkis assumed the role of executive assistant, providing invaluable support to the executives of Ceiba and ensuring seamless coordination in Korinthia.",
+            "Race": "Formian"
+        }
+    },
+    "Assistant to the Executive Assistant": {
+        "Aurora Starwind": {
+            "Race": "Lashunta",
+            "Age": 39,
+            "Job Position": "Assistant to the Executive Assistant, Level VII",
+            "Physical Description": "Aurora is an efficient and reliable Lashunta, her multitasking skills evident as she coordinates schedules and assists the executive team.",
+            "Backstory": "Aurora's exceptional organizational skills and ability to handle multiple tasks made her the perfect fit for the role of assistant to the executive assistant. She supports high-level executives, ensuring their calendars are meticulously managed and their needs are met promptly."
+        },
+        "Krik'ta": {
+            "Age": 32,
+            "Job Position": "Assistant to the Executive Assistant, Level V",
+            "Physical Description": "Krik'ta is a diligent and detail-oriented Formian with a deep purple carapace, always carrying a stack of documents and appearing ready to assist.",
+            "Backstory": "Krik'ta's Formian hive suffered from internal political strife, leading to an inefficient bureaucracy. Eager to streamline operations and improve efficiency, Krik'ta assumed the role of an assistant to the executive assistant, supporting the upper management in Korinthia with their organizational skills.",
+            "Race": "Formian"
+        }
+    },
+    "Financial Advisor": {
+        "Orion": {
+            "Age": 290,
+            "Race": "Contemplative",
+            "Job Position": "Financial Advisor, Level XI",
+            "Physical Description": "Orion is a wise and astute Contemplative, exuding an air of authority as he speaks with a gentle, resonant voice.",
+            "Backstory": "Orion's deep understanding of economics and financial systems has made him a sought-after advisor. He offers strategic guidance and insightful recommendations to ensure the prosperity and stability of the Contemplative society. Orion's ability to navigate complex financial landscapes and his unwavering integrity have earned him the trust of his clients."
+        },
+        "Milo Greenbottle": {
+            "Gender": "Male",
+            "Race": "Halfling",
+            "Age": 68,
+            "Job Position": "Senior Financial Advisor, Level XII",
+            "Physical Description": "Milo is a dapper Halfling with silver hair and spectacles, always dressed in fine clothing and carrying a leather-bound ledger.",
+            "Backstory": "Milo is a highly regarded financial advisor, renowned for his expertise in managing wealth and providing strategic financial guidance to clients. With his sharp mind for numbers and an impeccable reputation, Milo has helped many individuals and organizations achieve financial success."
+        },
+        "Bolt": {
+            "Age": 36,
+            "Race": "Ysoki",
+            "Job Position": "Financial Advisor, Level VI",
+            "Physical Description": "Bolt is a focused Ysoki with sleek silver fur, dressed in professional attire, and carrying a briefcase.",
+            "Backstory": "Bolt works as a financial advisor, providing guidance and expertise in managing finances and investments. Their deep understanding of financial markets, analytical skills, and ability to develop personalized financial strategies contribute to their clients' long-term financial success."
+        },
+        "Nella": {
+            "Age": 36,
+            "Race": "Shirren",
+            "Job Position": "Financial Advisor, Level IX",
+            "Physical Description": "Nella is a charismatic Shirren with a vibrant orange exoskeleton and an air of professionalism.",
+            "Backstory": "Nella is a highly sought-after financial advisor who offers expert guidance and investment strategies to clients. Their analytical skills, extensive knowledge of financial markets, and ability to navigate complex financial landscapes have earned them a reputation for delivering outstanding results."
+        },
+        "Olivia Carter": {
+            "Gender": "Female",
+            "Age": 45,
+            "Race": "Human",
+            "Job Position": "Financial Advisor, Level XII",
+            "Physical Description": "Olivia Carter is an elegant woman with a poised demeanor and a sharp business suit.",
+            "Backstory": "Olivia Carter is a seasoned financial advisor who has built a successful career by providing expert guidance and strategies to her clients. With years of experience in the financial industry, she has developed a reputation for her insightful investment advice and wealth management expertise."
+        },
+        "Arannis Silverleaf": {
+            "Age": 278,
+            "Job Position": "Senior Financial Advisor, Level XII",
+            "Physical Description": "Arannis is an elegant and refined elf, their silver hair cascading down their back as they exude an aura of sophistication and wealth.",
+            "Backstory": "Born into a wealthy elven family, Arannis possesses immense wealth and financial knowledge. They chose to become a senior financial advisor not out of necessity but as a means to socialize and exercise influence within elite circles.",
+            "Race": "Elf"
+        },
+        "Seraphel Dreamweaver": {
+            "Age": 395,
+            "Job Position": "Principal Financial Advisor, Level XIII",
+            "Physical Description": "Seraphel is a dignified and astute elf, their piercing blue eyes and composed demeanor reflecting their mastery of financial intricacies.",
+            "Backstory": "Seraphel's affinity for numbers and economic principles led them to become a principal financial advisor. Though born into wealth, they pursued their profession to amass even more power and influence through shrewd investments and strategic financial management.",
+            "Race": "Elf"
+        },
+        "Alara Zirael": {
+            "Race": "Lashunta",
+            "Age": 45,
+            "Job Position": "Senior Financial Advisor, Level XII",
+            "Physical Description": "Alara is an elegant and poised Lashunta with a regal bearing, dressed in finely tailored business attire that exudes professionalism.",
+            "Backstory": "Born into a wealthy and influential Lashunta family, Alara was raised with a silver spoon in her mouth. Excelling in financial management and investments, she quickly ascended the ranks to become a senior financial advisor. Her natural talent for handling wealth and her extensive network of contacts make her a sought-after expert in the field, catering to the needs of high-profile clients across the Pact Worlds."
+        },
+        "Arkira": {
+            "Age": 28,
+            "Job Position": "Financial Advisor, Level IX",
+            "Physical Description": "Arkira is a sharp and astute Formian with a cool silver carapace, dressed in a sophisticated business attire that befits their position of financial expertise.",
+            "Backstory": "Arkira's Formian hive faced a severe economic collapse due to mismanagement and corruption. Driven to restore stability and prosperity, Arkira dedicated themselves to becoming a financial advisor, offering sound advice and strategic planning to individuals and businesses in Korinthia.",
+            "Race": "Formian"
+        }
+    },
+    "Ambassador": {
+        "Solis": {
+            "Age": 295,
+            "Race": "Contemplative",
+            "Job Position": "Ambassador, Level X",
+            "Physical Description": "Solis is a charismatic and diplomatic Contemplative, radiating an aura of warmth and empathy.",
+            "Backstory": "Solis is a master of diplomacy and interstellar relations. As an ambassador, he fosters positive relationships with other species and facilitates peaceful resolutions to conflicts. Solis's genuine compassion and his ability to empathize with diverse perspectives have earned him recognition as a skilled peacemaker and bridge builder."
+        },
+        "Korik": {
+            "Gender": "Male",
+            "Race": "Screedreep",
+            "Age": 57,
+            "Job Position": "Ambassador, Level XIV",
+            "Physical Description": "Korik is a distinguished and charismatic Screedreep with an intricate metallic exoskeleton, adorned with symbols of diplomacy, and a set of audio receptors that amplify his commanding voice.",
+            "Backstory": "Korik's exceptional diplomatic skills and extensive knowledge of interstellar politics have earned him the esteemed position of ambassador. He represents the Screedreep race in high-level negotiations, forging alliances, and maintaining diplomatic relations with various alien civilizations. Korik's unwavering dedication to diplomacy and his ability to navigate complex political landscapes have been instrumental in ensuring the prosperity and unity of the Screedreep society."
+        },
+        "Kira Swifttail": {
+            "Gender": "Female",
+            "Race": "Pahtra",
+            "Age": 53,
+            "Job Position": "Ambassador, Level XII",
+            "Physical Description": "Kira is a regal and charismatic Pahtra with golden fur and piercing green eyes, exuding an air of confidence and diplomacy wherever she goes.",
+            "Backstory": "Kira's journey as an ambassador has been filled with diplomatic triumphs and political challenges. She has represented her people on numerous interstellar forums, negotiating treaties, resolving conflicts, and fostering alliances with other races. Kira's unwavering dedication to diplomacy and her innate ability to find common ground among diverse cultures have been instrumental in maintaining peace and cooperation throughout the galaxy."
+        },
+        "Whiskers": {
+            "Age": 46,
+            "Race": "Ysoki",
+            "Job Position": "Senior Ambassador, Level XIV",
+            "Physical Description": "Whiskers is a charismatic Ysoki with a sleek gray coat, dressed in formal attire, and sporting a diplomatic smile.",
+            "Backstory": "Whiskers serves as a senior ambassador, representing their faction in interstellar relations. Their exceptional negotiation skills, cultural understanding, and ability to build diplomatic bridges have contributed to peaceful alliances and successful collaborations."
+        },
+        "Azgrom": {
+            "Age": 38,
+            "Race": "Vesk",
+            "Job Position": "Ambassador, Level VI",
+            "Physical Description": "Azgrom is a charismatic Vesk with golden scales, refined attire, and a charming smile.",
+            "Backstory": "Azgrom serves as an ambassador, representing their faction in diplomatic negotiations and interstellar affairs. Their exceptional communication skills, cultural understanding, and ability to build bridges between different groups have played a vital role in fostering cooperation and resolving conflicts."
+        },
+        "Varsha": {
+            "Age": 25,
+            "Race": "Shirren",
+            "Job Position": "Ambassador, Level III",
+            "Physical Description": "Varsha is a young Shirren with a sleek purple exoskeleton and a calm, diplomatic demeanor.",
+            "Backstory": "Varsha serves as an ambassador, representing their hive's interests in interstellar diplomacy. Despite their young age, they have already established themselves as a skilled negotiator and mediator. Their ability to understand and respect different perspectives contributes to successful diplomatic relations."
+        },
+        "James Rodriguez": {
+            "Gender": "Male",
+            "Age": 53,
+            "Race": "Human",
+            "Job Position": "Ambassador, Level VI",
+            "Physical Description": "James Rodriguez is a distinguished-looking man with graying hair and a charismatic smile.",
+            "Backstory": "James Rodriguez serves as an ambassador, representing his home country in interstellar diplomatic affairs. He is well-versed in negotiations, cultural diplomacy, and conflict resolution. His calm and diplomatic approach has contributed to maintaining peaceful relations between different factions."
+        },
+        "Marika Riversong": {
+            "Age": 52,
+            "Race": "Kasatha",
+            "Job Position": "Junior Ambassador, Level V",
+            "Physical Description": "Marika is a charismatic Kasatha with flowing blue robes and a warm smile.",
+            "Backstory": "Marika, driven by a passion for diplomacy and interstellar relations, joined the ambassadorial team. As a junior ambassador, they assist in building diplomatic alliances and fostering positive relationships between different factions, representing their organization with grace and tact."
+        },
+        "Galadriel Starwind": {
+            "Age": 254,
+            "Job Position": "Ambassador, Level X",
+            "Physical Description": "Galadriel is a regal and charismatic elf, her flowing robes and captivating presence commanding attention as she engages in diplomatic affairs.",
+            "Backstory": "Galadriel was born into a noble elven lineage and was destined for a life of luxury and privilege. However, she chose to become an ambassador, representing her people and using her position to navigate intricate political landscapes, expanding her influence and wealth in the process.",
+            "Race": "Elf"
+        },
+        "Thranduil Moonshadow": {
+            "Age": 350,
+            "Job Position": "Ambassador, Level XII",
+            "Physical Description": "Thranduil is a charismatic and influential elf, his commanding presence and eloquent speech establishing him as a formidable ambassador.",
+            "Backstory": "Thranduil's family has a long-standing tradition of diplomatic service, and he was groomed from an early age to become an ambassador. Through his position, he navigates the intricate webs of interstellar politics, expanding his influence and solidifying his family's legacy.",
+            "Race": "Elf"
+        },
+        "Thalara Sena": {
+            "Race": "Lashunta",
+            "Age": 32,
+            "Job Position": "Principal Ambassador, Level IX",
+            "Physical Description": "Thalara is a charismatic and graceful Lashunta, her presence commanding attention as she effortlessly navigates diplomatic circles.",
+            "Backstory": "Hailing from a long line of influential diplomats, Thalara was groomed from a young age to excel in interstellar diplomacy. Her extensive education and training in the art of negotiation earned her the position of principal ambassador. Thalara effortlessly bridges cultural gaps and fosters positive relationships with alien species, representing her organization with grace and tact."
+        },
+        "Demira PPE": {
+            "Race": "Raxilite",
+            "Age": 38,
+            "Job Position": "Ambassador, Level V",
+            "Physical Description": "Demira is an eloquent and diplomatic Raxilite with shimmering violet skin, their voice carrying an air of authority and grace.",
+            "Backstory": "Demira was raised in a family of skilled negotiators known as the \"Peace Pact Envoys,\" who specialized in diplomatic relations and conflict resolution. Eager to contribute to interstellar diplomacy, Demira joined the ranks of ambassadors on Castrovel. Their exceptional communication skills and cultural sensitivity earned them the position of ambassador, representing their organization and fostering peaceful relationships between various factions and alien species."
+        },
+        "Yrisa": {
+            "Race": "Draelik",
+            "Age": 58,
+            "Job Position": "Ambassador, Level VIII",
+            "Physical Description": "Yrisa is a charismatic and diplomatic Draelik with shimmering gold scales, exuding a sense of grace and charm in their interactions.",
+            "Backstory": "Yrisa left Great Shadar as a cultural emissary, seeking to foster interplanetary relations and bridge the gaps between different species. With a genuine desire for peace and understanding, Yrisa serves as an ambassador, representing their home planet and engaging in diplomatic negotiations and cultural exchanges on behalf of Great Shadar in the Pact Worlds."
+        },
+        "Krik": {
+            "Age": 25,
+            "Job Position": "Ambassador, Level IV",
+            "Physical Description": "Krik is a charismatic and eloquent Formian with a striking violet carapace, exuding an aura of confidence and diplomacy.",
+            "Backstory": "Krik's Formian hive faced a devastating pandemic that decimated their population. Driven by a desire to build bridges between different species, Krik embraced a career as an ambassador, representing the Formian community and forging alliances with other cultures in Korinthia.",
+            "Race": "Formian"
+        },
+        "Trix": {
+            "Age": 35,
+            "Job Position": "Ambassador, Level III",
+            "Physical Description": "Trix is a charismatic and eloquent Formian with a vibrant orange carapace, their antennae adorned with delicate decorative patterns that symbolize diplomacy and peace.",
+            "Backstory": "Trix's Formian hive was caught in a bitter territorial dispute with a neighboring species, resulting in a devastating conflict. Seeking to foster understanding and reconciliation, Trix became an ambassador, working tirelessly to build diplomatic relationships and resolve conflicts in Korinthia.",
+            "Race": "Formian"
+        },
+        "Trisk": {
+            "Age": 28,
+            "Job Position": "Junior Ambassador, Level III",
+            "Physical Description": "Trisk is an enthusiastic and diplomatic Formian with a vibrant orange carapace, their antennae adorned with intricate patterns symbolizing diplomacy and harmony.",
+            "Backstory": "Trisk's Formian hive sought to establish diplomatic relations with neighboring alien species. Eager to represent their hive, Trisk became a junior ambassador, assisting in building bridges and fostering positive relationships between Korinthia and other nations.",
+            "Race": "Formian"
+        }
+    },
+    "Security Architecture Guard": {
+        "Ashal": {
+            "Race": "Shobhad",
+            "Age": 84,
+            "Job Position": "Senior Security Architecture Guard, Level XII",
+            "Physical Description": "Ashal is a towering and imposing Shobhad with thick, protective scales in shades of gray and a watchful gaze that misses no detail.",
+            "Backstory": "Ashal's unwavering dedication to the security and defense of their community led them to the role of a senior security architecture guard. They are responsible for designing and implementing robust security systems and protocols to safeguard Shobhad territories. Ashal's expertise in threat analysis and risk mitigation has been crucial in ensuring the safety of their people."
+        },
+        "Zephyr": {
+            "Age": 285,
+            "Race": "Contemplative",
+            "Job Position": "Principal Security Architecture Guard, Level XIV",
+            "Physical Description": "Zephyr is a vigilant Contemplative with shimmering energy patterns coursing through his sleek, translucent body.",
+            "Backstory": "Zephyr's innate ability to perceive threats and vulnerabilities has made him an exceptional security architect. He designs and implements intricate defense systems to protect important structures and individuals. Zephyr's unwavering dedication to safeguarding the Contemplative community has earned him respect and admiration from his peers."
+        },
+        "Maxon": {
+            "Gender": "Male",
+            "Race": "Screedreep",
+            "Age": 73,
+            "Job Position": "Principal Security Architecture Guard, Level XIII",
+            "Physical Description": "Maxon is a formidable and heavily armored Screedreep, boasting a robust exoskeleton fitted with advanced defensive systems and an array of surveillance sensors.",
+            "Backstory": "Maxon has spent decades honing his skills in security architecture. As the principal guard, he is responsible for designing and implementing advanced security measures to protect critical installations and sensitive data. Maxon's meticulous planning and his ability to anticipate potential threats have thwarted numerous security breaches, making him an invaluable asset to the Screedreep society."
+        },
+        "Hrukka Bloodaxe": {
+            "Gender": "Female",
+            "Race": "Orc",
+            "Age": 35,
+            "Job Position": "Security Architecture Guard, Level X",
+            "Physical Description": "Hrukka is a muscular and battle-scarred Orc, wielding a massive greataxe and donning a suit of heavily armored cybernetic exoskeleton, emanating an intimidating presence.",
+            "Backstory": "Hrukka's journey from Apostae to Castrovel was a relentless pursuit of justice and protection. Starting as a physical security guard, she quickly showcased her unmatched combat skills and strategic thinking. Hrukka became a formidable security architecture guard, responsible for safeguarding critical installations against all threats. Her action-packed adventure involved facing off against notorious space pirates, infiltrating a top-secret alien facility, and ultimately thwarting a nefarious plot that threatened the safety of Castrovel's inhabitants."
+        },
+        "Helga Ironhammer": {
+            "Age": 184,
+            "Race": "Dwarf",
+            "Job Position": "Senior Security Architecture Guard, Level IX",
+            "Physical Description": "Helga is a formidable Dwarf with a muscular build, adorned in heavy armor and carrying a large warhammer.",
+            "Backstory": "Helga serves as a senior security architecture guard, responsible for designing and implementing robust security measures to protect valuable assets. With years of combat experience, strategic thinking, and a no-nonsense approach, Helga ensures the safety and integrity of critical systems."
+        },
+        "SYN-9": {
+            "Gender": "N/A",
+            "Age": 46,
+            "Race": "Android",
+            "Job Position": "Security Architecture Guard, Level IX",
+            "Physical Description": "SYN-9 is a sturdy and imposing android with reinforced limbs and a facial interface that displays a constant alert status.",
+            "Backstory": "SYN-9 serves as a security architecture guard, specializing in protecting critical systems and infrastructure from external threats. They analyze security vulnerabilities, implement robust countermeasures, and maintain a constant vigilance against potential breaches."
+        },
+        "Zarak Stormbringer": {
+            "Age": 78,
+            "Race": "Kasatha",
+            "Job Position": "Security Architecture Guard, Level IX",
+            "Physical Description": "Zarak is a stern and vigilant Kasatha with a muscular build and a tattooed face.",
+            "Backstory": "Zarak's martial prowess and keen sense of duty led them to become a security architecture guard. In this role, they ensure the integrity and safety of the organization's digital infrastructure, protecting it from cyber threats and unauthorized access."
+        },
+        "Atlas Solstice": {
+            "Race": "Lashunta",
+            "Age": 45,
+            "Job Position": "Senior Security Architecture Guard, Level XII",
+            "Physical Description": "Atlas is a formidable and vigilant Lashunta, their security armor gleaming as they patrol the premises, always ready to protect against any threat.",
+            "Backstory": "With a background in military training, Atlas found their calling in security architecture. As a senior guard, they design and implement robust security systems, utilizing advanced technology and their combat expertise to safeguard the organization's assets."
+        },
+        "Urkai": {
+            "Age": 34,
+            "Job Position": "Security Architecture Guard, Level X",
+            "Physical Description": "Urkai is a formidable Formian with a commanding presence and an obsidian black carapace, instilling both respect and fear in their adversaries.",
+            "Backstory": "Urkai was part of the elite security force in their Formian hive until a violent uprising by an underground faction shattered their community. Seeking stability and purpose, Urkai became a skilled security architecture guard, protecting important installations and ensuring the safety of Korinthia's infrastructure.",
+            "Race": "Formian"
+        },
+        "Krikkit": {
+            "Age": 32,
+            "Job Position": "Principal Security Architecture Guard, Level XIII",
+            "Physical Description": "Krikkit is a vigilant and imposing Formian with a deep burgundy carapace, wearing advanced security armor that reflects their expertise in safeguarding critical assets.",
+            "Backstory": "Krikkit's Formian hive experienced a series of security breaches that threatened the stability and safety of their underground complex. Driven to protect their hive, Krikkit rose to the position of principal security architecture guard, designing and implementing robust security measures to ensure the protection of valuable resources in Korinthia.",
+            "Race": "Formian"
+        }
+    },
+    "Lube Technician": {
+        "Grokka Doomhammer": {
+            "Gender": "Male",
+            "Race": "Orc",
+            "Age": 32,
+            "Job Position": "Lube Technician, Level IV",
+            "Physical Description": "Grokka is a burly Orc with a rough and intimidating exterior, sporting a pair of mechanical gauntlets and an oily apron, his face marked with oil stains and a mischievous grin.",
+            "Backstory": "Grokka's adventure from Apostae to Castrovel may not have been as grandiose as others, but it was filled with unexpected twists and turns. As a lube technician, he encountered bizarre mechanical malfunctions, outrageous spaceship chases, and an unlikely partnership with a talking alien AI. Grokka's escapades as a lube technician brought him face-to-face with eccentric inventors, malfunctioning robots, and even a legendary treasure hidden deep within the jungles of Castrovel."
+        },
+        "Kragh": {
+            "Age": 51,
+            "Race": "Vesk",
+            "Job Position": "Lube Technician, Level III",
+            "Physical Description": "Kragh is a diligent Vesk with gray scales, grease-stained overalls, and a friendly demeanor.",
+            "Backstory": "Kragh specializes in lubrication and maintenance of machinery, ensuring the smooth operation of vital systems. Their meticulousness, knowledge of lubricants, and attention to detail contribute to the longevity and efficiency of mechanical equipment."
+        },
+        "Arkichi": {
+            "Age": 37,
+            "Job Position": "Lube Technician, Level III",
+            "Physical Description": "Arkichi is a meticulous and detail-oriented Formian with a polished silvery carapace, their antennae always finely tuned to detect any mechanical imperfections.",
+            "Backstory": "Arkichi's Formian hive was devastated by a catastrophic machinery malfunction that caused a massive explosion. Fueled by a desire to prevent such disasters in the future, Arkichi pursued a career as a lube technician, diligently maintaining and lubricating complex machinery to ensure their smooth operation.",
+            "Race": "Formian"
+        },
+        "Trikit": {
+            "Age": 26,
+            "Job Position": "Lube Technician, Level I",
+            "Physical Description": "Trikit is an agile and nimble Formian with a vibrant turquoise carapace, their body equipped with a variety of lubricants and tools necessary for their role.",
+            "Backstory": "Trikit's Formian hive suffered from a machinery breakdown caused by inadequate maintenance. Driven by a desire to keep the systems running smoothly, Trikit became a lube technician, responsible for the regular maintenance and lubrication of critical equipment in Korinthia.",
+            "Race": "Formian"
+        }
+    },
+    "Human Resources": {
+        "Poppy Willowbrook": {
+            "Gender": "Female",
+            "Race": "Halfling",
+            "Age": 46,
+            "Job Position": "Vice President of Human Resources, Level X",
+            "Physical Description": "Poppy is an approachable Halfling with a warm smile, usually seen wearing professional attire and carrying a stack of personnel files.",
+            "Backstory": "Poppy is a seasoned human resources professional, leading the department with compassion and efficiency. With her strong interpersonal skills and extensive knowledge of employment policies, Poppy ensures the well-being of employees and fosters a positive work environment."
+        },
+        "Victoria Sullivan": {
+            "Gender": "Female",
+            "Age": 43,
+            "Race": "Human",
+            "Job Position": "Human Resources, Level X",
+            "Physical Description": "Victoria Sullivan is a confident and professional woman with a no-nonsense attitude, dressed in business attire.",
+            "Backstory": "Victoria Sullivan is an experienced human resources professional who ensures the smooth operation of the HR department. She handles employee recruitment, benefits administration, and conflict resolution. Her expertise in personnel management and understanding of labor laws make her an invaluable asset to the organization."
+        },
+        "Lysara Starshroud": {
+            "Age": 62,
+            "Race": "Kasatha",
+            "Job Position": "Human Resources Director, Level XIV",
+            "Physical Description": "Lysara is a dignified and composed Kasatha with a silver-streaked braid and an air of authority.",
+            "Backstory": "Lysara's exceptional interpersonal skills and understanding of organizational dynamics led them to become the director of human resources. In this position, they oversee employee welfare, recruitment, and policy implementation, ensuring a harmonious and productive work environment."
+        },
+        "Mirianna Starflower": {
+            "Age": 280,
+            "Job Position": "Vice President of Human Resources, Level X",
+            "Physical Description": "Mirianna is an elegant and charismatic elf, her flowing golden hair and warm smile creating an atmosphere of approachability and trust.",
+            "Backstory": "Mirianna, born into a family known for their social influence, chose to use her interpersonal skills in the field of human resources. As the vice president, she ensures the well-being and harmony of the organization's workforce, leveraging her position to expand her network and solidify her own power base.",
+            "Race": "Elf"
+        },
+        "Astrid Elysian": {
+            "Race": "Lashunta",
+            "Age": 41,
+            "Job Position": "Human Resources Director, Level XII",
+            "Physical Description": "Astrid is a composed and authoritative Lashunta, her professional attire and demeanor reflecting her role as a key figure in managing personnel.",
+            "Backstory": "Astrid's family has a legacy in human resources management, and she continued the tradition by becoming a renowned expert in the field. As the Human Resources Director, she oversees the organization's personnel matters, ensuring the recruitment, well-being, and development of employees. Astrid's meticulous attention to detail and comprehensive knowledge of labor laws and policies make her an invaluable asset to the company."
+        },
+        "Zenith Frostfall": {
+            "Race": "Lashunta",
+            "Age": 53,
+            "Job Position": "Senior Human Resources, Level XI",
+            "Physical Description": "Zenith is a charismatic and approachable Lashunta, their warm smile and open demeanor making them a trusted resource for employees.",
+            "Backstory": "Zenith's extensive knowledge of labor laws and their ability to handle complex employee matters earned them the position of senior human resources. They provide guidance and support to employees, fostering a positive work environment and ensuring the organization adheres to fair and ethical practices."
+        },
+        "Xalara": {
+            "Race": "Draelik",
+            "Age": 62,
+            "Job Position": "Senior Human Resources, Level IX",
+            "Physical Description": "Xalara is a poised and professional Draelik with silver-gray scales and a regal demeanor, exuding an air of authority.",
+            "Backstory": "Xalara left Great Shadar in search of a more inclusive and egalitarian society, seeking to utilize her talents for fostering positive workplace environments. She values integrity and fairness, dedicating herself to promoting harmonious relationships and ensuring employee well-being in her role as senior human resources in a prominent corporation on Castrovel."
+        },
+        "Kachigig": {
+            "Age": 42,
+            "Job Position": "Human Resources, Level VII",
+            "Physical Description": "Kachigig is a poised and diplomatic Formian with a vibrant crimson carapace, radiating an aura of approachability and empathy.",
+            "Backstory": "Kachigig's Formian colony was devastated by a catastrophic meteor shower that destroyed their underground habitats. Determined to help others in their community, Kachigig pursued a career in human resources, providing support and guidance to the newly displaced Formians seeking a new life on the surface.",
+            "Race": "Formian"
+        },
+        "Grukka": {
+            "Age": 25,
+            "Job Position": "Senior Human Resources, Level IX",
+            "Physical Description": "Grukka is a composed and empathetic Formian with a deep purple carapace, radiating an aura of approachability and understanding.",
+            "Backstory": "Grukka's Formian hive faced internal conflicts and a breakdown in communication that led to widespread dissatisfaction among the workers. Driven to foster a harmonious and productive environment, Grukka embraced the role of senior human resources, working tirelessly to address grievances and promote a positive workplace culture in Korinthia.",
+            "Race": "Formian"
+        }
+    },
+    "Alien Resources": {
+        "Orion Starshadow": {
+            "Gender": "Male",
+            "Race": "Pahtra",
+            "Age": 45,
+            "Job Position": "Alien Resources, Level XI",
+            "Physical Description": "Orion is a wise and knowledgeable Pahtra with deep purple fur and wise, piercing yellow eyes, carrying a satchel filled with ancient artifacts and scrolls.",
+            "Backstory": "Orion's expertise in alien resources and ancient civilizations has been instrumental in preserving and understanding the cultural heritage of various extraterrestrial races. He has traveled far and wide, collecting rare artifacts and deciphering ancient texts, uncovering long-lost secrets that shed light on the origins of different species. Orion's vast knowledge and passion for preserving alien cultures have made him a renowned authority in the realm of alien resources."
+        },
+        "Penny Whistlewick": {
+            "Gender": "Female",
+            "Race": "Gnome",
+            "Age": 165,
+            "Job Position": "Vice President of Alien Resources, Level XI",
+            "Physical Description": "Penny is an impeccably dressed Gnome with an air of authority, adorned in stylish clothing and sporting a monocle.",
+            "Backstory": "Penny holds a prominent position as the vice president of alien resources, specializing in interstellar diplomacy and fostering positive relations with extraterrestrial civilizations. With her sharp intellect, diplomatic prowess, and extensive knowledge of alien cultures, Penny plays a vital role in promoting intergalactic cooperation."
+        },
+        "Twitch": {
+            "Age": 33,
+            "Race": "Ysoki",
+            "Job Position": "Alien Resources Assistant, Level IV",
+            "Physical Description": "Twitch is an eager Ysoki with mottled brown and gray fur, always surrounded by stacks of alien resource documents.",
+            "Backstory": "Twitch serves as an assistant in the alien resources department, supporting the management of resources and materials from different species. Their organizational skills, attention to detail, and ability to navigate interstellar regulations contribute to the efficient allocation and utilization of alien resources."
+        },
+        "Shala": {
+            "Age": 29,
+            "Race": "Shirren",
+            "Job Position": "Alien Resources, Level VI",
+            "Physical Description": "Shala is an energetic Shirren with a pale yellow exoskeleton and an inquisitive expression.",
+            "Backstory": "Shala specializes in managing and fostering relationships with alien species and cultures. They act as a liaison between different civilizations, facilitating communication and cooperation. Their open-mindedness, cultural sensitivity, and language skills contribute to successful interstellar collaborations."
+        },
+        "S.I.R.E.N.": {
+            "Gender": "N/A",
+            "Age": 43,
+            "Race": "Android",
+            "Job Position": "Alien Resources, Level VII",
+            "Physical Description": "S.I.R.E.N. is an alluring and charismatic android with an otherworldly aura and a soothing voice modulation.",
+            "Backstory": "S.I.R.E.N. is in charge of alien resources, facilitating communication, negotiation, and resource exchange with extraterrestrial entities. Their ability to establish rapport and navigate cultural differences is essential for successful interstellar collaboration."
+        },
+        "Elysia Moonbrook": {
+            "Age": 317,
+            "Job Position": "Vice President of Alien Resources, Level XIV",
+            "Physical Description": "Elysia is a graceful and statuesque elf, her ethereal beauty captivating those around her as she exudes an air of authority and confidence.",
+            "Backstory": "Elysia's prestigious background and extensive knowledge of alien cultures propelled her to the position of vice president of alien resources. Her job allows her to leverage her social status and connections to forge interstellar partnerships and gain even more influence.",
+            "Race": "Elf"
+        },
+        "Eldarion Silverstrike": {
+            "Age": 370,
+            "Job Position": "Lead Alien Resources, Level XIV",
+            "Physical Description": "Eldarion is a charismatic and diplomatic elf, his sharp features and eloquent speech reflecting his expertise in interstellar relations.",
+            "Backstory": "Eldarion, blessed with a keen understanding of alien cultures, was destined to bridge the gap between different species. As the leader of alien resources, he navigates the complexities of interstellar partnerships, forging alliances and wielding his position to maintain peace and prosperity for his people.",
+            "Race": "Elf"
+        },
+        "Orion Thessar": {
+            "Race": "Lashunta",
+            "Age": 57,
+            "Job Position": "Vice President of Alien Resources, Level XIV",
+            "Physical Description": "Orion is a distinguished and confident Lashunta, his presence commanding respect as he effortlessly handles the responsibilities of his high-ranking position.",
+            "Backstory": "Orion's family has a long history of involvement in interstellar commerce and trade, instilling in him a deep understanding of alien cultures and their resources. Rising through the ranks, he eventually became the Vice President of Alien Resources, overseeing the strategic acquisition and utilization of resources from diverse species across the Pact Worlds. Orion's shrewd negotiation skills and extensive network ensure the organization's access to valuable assets."
+        },
+        "Nova Starseeker": {
+            "Race": "Lashunta",
+            "Age": 49,
+            "Job Position": "Principal Alien Resources, Level IX",
+            "Physical Description": "Nova is a diplomatic and cosmopolitan Lashunta, their attire blending traditional and contemporary styles, reflecting their expertise in working with diverse alien cultures.",
+            "Backstory": "Nova's deep understanding of alien cultures and their resource needs propelled them to the position of principal in alien resources. They forge strong relationships with alien partners, negotiating fair agreements and ensuring the organization benefits from interstellar trade."
+        },
+        "Jatri Driftweaver": {
+            "Race": "Raxilite",
+            "Age": 56,
+            "Job Position": "Vice President of Alien Resources, Level XIV",
+            "Physical Description": "Jatri is a wise and diplomatic Raxilite with iridescent blue and green skin, their presence exuding a sense of calm and harmony.",
+            "Backstory": "Jatri's homeworld faced a cataclysmic event known as the \"Drift Collapse,\" which disrupted the planet's connection to the Drift, cutting off crucial resources and alien contacts. Driven by the desire to rebuild these connections, Jatri joined the Alien Resources division of a prominent corporation on Castrovel. Their extensive knowledge and expertise in interplanetary relations led them to the position of vice president, where they now work towards fostering cooperation and trade between different alien species."
+        },
+        "Grux": {
+            "Age": 27,
+            "Job Position": "Alien Resources, Level VII",
+            "Physical Description": "Grux is a resourceful and adaptable Formian with a metallic gray carapace, constantly updating their knowledge about the diverse alien species in Korinthia.",
+            "Backstory": "Grux's Formian hive faced a significant cultural divide when they encountered a new and unfamiliar alien species. Driven to bridge the gap and foster understanding, Grux embraced the role of an alien resources specialist, assisting Formians in adapting to the customs and practices of other species.",
+            "Race": "Formian"
+        }
+    },
+    "Lead Data Engineer": {
+        "Nira": {
+            "Race": "Shobhad",
+            "Age": 92,
+            "Job Position": "Lead Data Engineer, Level XIV",
+            "Physical Description": "Nira is an aged Shobhad with a wise and contemplative aura, adorned with intricate patterns of silver scales that symbolize their mastery in the realm of data engineering.",
+            "Backstory": "Nira is a revered figure among the Shobhad as the lead data engineer. Their extensive knowledge of data systems and analytics has played a pivotal role in shaping their society. Nira's wisdom and foresight have allowed them to harness the power of information for the benefit of the Shobhad, making them a sought-after advisor and strategist in matters of technological advancement."
+        },
+        "Zara": {
+            "Age": 48,
+            "Race": "Ikeshti",
+            "Job Position": "Lead Data Engineer, Level X",
+            "Physical Description": "Zara is a sleek and agile Ikeshti with vibrant scales in shades of blue and a pair of intelligent eyes that glow with a soft green hue.",
+            "Backstory": "Zara has always possessed a natural talent for data analysis and information management. As the lead data engineer, she oversees the design and implementation of advanced data systems and algorithms. Zara's keen intellect and meticulous attention to detail have propelled her to the forefront of technological innovation within the Ikeshti society."
+        },
+        "Farida": {
+            "Age": 35,
+            "Race": "Dromada",
+            "Job Position": "Lead Data Engineer, Level VIII",
+            "Physical Description": "Farida is a diligent Dromada with sleek, metallic plating and a pair of glowing green eyes.",
+            "Backstory": "Farida's exceptional talent for data analysis and programming led her to become the lead data engineer. She designs and implements complex algorithms to extract valuable insights from vast amounts of information. Farida's meticulous approach and innovative thinking have greatly contributed to advancements in data management within the Dromada community."
+        },
+        "Raelin": {
+            "Age": 210,
+            "Race": "Contemplative",
+            "Job Position": "Lead Data Engineer, Level XII",
+            "Physical Description": "Raelin is a serene Contemplative with a translucent, ethereal form and a gentle glow emanating from her core.",
+            "Backstory": "Raelin has dedicated her life to the pursuit of knowledge and understanding through data analysis. As the lead data engineer, she oversees complex information systems and employs advanced algorithms to uncover hidden insights. Raelin's calm demeanor and unwavering focus make her a trusted advisor to those seeking wisdom and guidance."
+        },
+        "Vexa": {
+            "Gender": "Female",
+            "Race": "Screedreep",
+            "Age": 42,
+            "Job Position": "Lead Data Engineer, Level X",
+            "Physical Description": "Vexa is a sleek and agile Screedreep with a streamlined exoskeleton, glowing data circuits embedded along her body, and a pair of analytical lenses covering her compound eyes.",
+            "Backstory": "Vexa's passion for data analysis and machine learning led her to excel in the field of data engineering. As the lead data engineer, she spearheads advanced data collection initiatives, creating efficient algorithms and implementing cutting-edge analytics systems. Vexa's thirst for knowledge and her ability to extract valuable insights from complex datasets have contributed significantly to the technological advancements of the Screedreep civilization."
+        },
+        "Lira Sunwhisker": {
+            "Gender": "Female",
+            "Race": "Pahtra",
+            "Age": 48,
+            "Job Position": "Lead Data Engineer, Level X",
+            "Physical Description": "Lira is a graceful and agile Pahtra with sleek black fur, piercing amber eyes, and a series of intricate data circuits subtly woven into her fur, giving her a futuristic appearance.",
+            "Backstory": "Lira's passion for technology and data analysis led her on an incredible journey from humble beginnings as a junior data analyst to becoming a revered lead data engineer. Along the way, she encountered complex cybernetic puzzles, unraveling secrets hidden within vast networks and advanced alien technologies. Lira's expertise in data engineering and her ability to navigate intricate systems became instrumental in unraveling a conspiracy that threatened to destabilize Pahtra society."
+        },
+        "Grak Skullsplitter": {
+            "Gender": "Male",
+            "Race": "Orc",
+            "Age": 27,
+            "Job Position": "Lead Data Engineer, Level VII",
+            "Physical Description": "Grak is a towering Orc with a heavily scarred face, adorned with tribal tattoos and a shaved head, wearing a set of cybernetic goggles and a utility vest.",
+            "Backstory": "Grak's journey from Apostae to Castrovel was a wild adventure filled with danger and excitement. He started as a lowly janitorial engineer, but through a series of unexpected events, he found himself immersed in the world of data engineering. With his sheer determination and knack for problem-solving, Grak quickly climbed the ranks, becoming a skilled lead data engineer. His crazy adventure included encounters with interplanetary hackers, high-stakes data heists, and a thrilling escape from an alien research facility."
+        },
+        "Rosie Underhill": {
+            "Gender": "Female",
+            "Race": "Halfling",
+            "Age": 53,
+            "Job Position": "Lead Data Engineer, Level IX",
+            "Physical Description": "Rosie is a vibrant Halfling with fiery red hair, often seen in a practical work outfit with a tool belt strapped around her waist.",
+            "Backstory": "Rosie is a skilled data engineer who specializes in handling complex datasets and building robust data systems. With her keen analytical mind and meticulous attention to detail, Rosie plays a vital role in transforming raw data into valuable insights and driving data-oriented decision-making."
+        },
+        "Tilly Copperpocket": {
+            "Gender": "Female",
+            "Race": "Gnome",
+            "Age": 145,
+            "Job Position": "Lead Data Engineer, Level IX",
+            "Physical Description": "Tilly is a petite Gnome with vibrant purple hair and thick spectacles, always seen wearing a tool belt and a lab coat.",
+            "Backstory": "Tilly is a brilliant lead data engineer known for her exceptional problem-solving skills and expertise in handling complex data systems. With a passion for innovation and a keen eye for patterns, Tilly plays a pivotal role in leveraging data to drive insights and make informed decisions."
+        },
+        "Dorn Stonebeard": {
+            "Age": 210,
+            "Race": "Dwarf",
+            "Job Position": "Lead Data Engineer, Level XII",
+            "Physical Description": "Dorn is a stout Dwarf with a long gray beard, wearing spectacles and a tailored suit.",
+            "Backstory": "Dorn is a highly skilled lead data engineer, responsible for managing and analyzing complex datasets. With a keen eye for detail, extensive knowledge of programming languages, and a meticulous approach, Dorn plays a crucial role in harnessing data for strategic decision-making."
+        },
+        "Snick": {
+            "Age": 41,
+            "Race": "Ysoki",
+            "Job Position": "Lead Data Engineer, Level IX",
+            "Physical Description": "Snick is a tech-savvy Ysoki with brown fur, wearing glasses and a lab coat, and always surrounded by electronic devices.",
+            "Backstory": "Snick is a highly skilled lead data engineer, responsible for managing and analyzing large datasets. Their expertise in data manipulation, programming languages, and information security plays a crucial role in uncovering valuable insights and ensuring the integrity of data systems."
+        },
+        "Zorek": {
+            "Age": 31,
+            "Race": "Vesk",
+            "Job Position": "Lead Data Engineer, Level XIV",
+            "Physical Description": "Zorek is a technologically-inclined Vesk with sleek black scales, glowing circuitry patterns on their skin, and a confident posture.",
+            "Backstory": "Zorek is an exceptional lead data engineer, responsible for managing and analyzing vast datasets for their organization. Their expertise in data manipulation, machine learning algorithms, and artificial intelligence has led to groundbreaking discoveries and insights."
+        },
+        "Zixix": {
+            "Age": 32,
+            "Race": "Shirren",
+            "Job Position": "Lead Data Engineer, Level XII",
+            "Physical Description": "Zixix is a slender Shirren with iridescent blue exoskeleton and multiple antennae protruding from their head.",
+            "Backstory": "Zixix is a brilliant data engineer who has earned the position of lead data engineer due to their exceptional analytical skills and expertise in managing complex data systems. They are known for their methodical approach to problem-solving and their ability to extract valuable insights from vast amounts of information."
+        },
+        "Ethan Thompson": {
+            "Gender": "Male",
+            "Age": 38,
+            "Race": "Human",
+            "Job Position": "Lead Data Engineer, Level IX",
+            "Physical Description": "Ethan Thompson is a tall and lean man with glasses, dressed in professional attire.",
+            "Backstory": "Ethan Thompson is a highly skilled data engineer who rose to the position of lead data engineer through his exceptional problem-solving skills and expertise in data analysis. He is known for his meticulous attention to detail and his ability to optimize data systems for maximum efficiency."
+        },
+        "ARIA-7": {
+            "Gender": "N/A",
+            "Age": 52,
+            "Race": "Android",
+            "Job Position": "Lead Data Engineer, Level XI",
+            "Physical Description": "ARIA-7 is a sleek and silver android with glowing blue circuitry patterns across their synthetic skin.",
+            "Backstory": "ARIA-7 was specifically designed for advanced data analysis and manipulation. As a lead data engineer, they oversee complex data systems, develop cutting-edge algorithms, and ensure the integrity and security of valuable information."
+        },
+        "Valik Solstra": {
+            "Age": 68,
+            "Race": "Kasatha",
+            "Job Position": "Lead Data Engineer, Level XII",
+            "Physical Description": "Valik is a tall and lean Kasatha with silver hair and a focused gaze.",
+            "Backstory": "Valik's exceptional aptitude for technology led them to specialize in data engineering. As the lead data engineer, they oversee complex data systems and work on cutting-edge projects, using their expertise to ensure efficient data management and analysis."
+        },
+        "Thalindra Sunfire": {
+            "Age": 365,
+            "Job Position": "Lead Data Engineer, Level XI",
+            "Physical Description": "Thalindra is a brilliant and enigmatic elf, their piercing eyes and flowing robes hinting at their mastery of arcane and technological arts.",
+            "Backstory": "Thalindra's immense wealth and inherent magical talents allowed them to pursue their passion for data engineering. As the lead data engineer, they oversee the organization's data management and analysis, using their position to further their influence and power.",
+            "Race": "Elf"
+        },
+        "Galen Orin": {
+            "Race": "Lashunta",
+            "Age": 54,
+            "Job Position": "Lead Data Engineer, Level XI",
+            "Physical Description": "Galen is a sharp-minded and innovative Lashunta, his eyes constantly gleaming with intellectual curiosity, while his fingers nimbly tap on holographic interfaces.",
+            "Backstory": "Coming from a privileged background, Galen had access to the best education and cutting-edge technology from an early age. His fascination with data manipulation and analysis led him to pursue a career in data engineering. As the lead data engineer, Galen spearheads complex projects, pushing the boundaries of information management and analytics to new heights."
+        },
+        "Solara Skyfall": {
+            "Race": "Lashunta",
+            "Age": 36,
+            "Job Position": "Lead Data Engineer, Level X",
+            "Physical Description": "Solara is an analytical and tech-savvy Lashunta, their eyes often fixed on holographic displays as they process and interpret vast amounts of data.",
+            "Backstory": "Solara's passion for data analysis and technological advancements led them to become the lead data engineer. They oversee data management, utilizing cutting-edge tools and algorithms to extract valuable insights that inform business decisions."
+        },
+        "Allonius Cultivator": {
+            "Race": "Raxilite",
+            "Age": 42,
+            "Job Position": "Lead Data Engineer, Level XII",
+            "Physical Description": "Allonius is a focused and detail-oriented Raxilite with vibrant green skin, their neural tendrils constantly interfacing with various data systems and interfaces.",
+            "Backstory": "Allonius comes from a long line of esteemed agricultural engineers, known as the \"Cultivators,\" who are responsible for optimizing crop growth and maximizing yield on their home planet. Seeking to adapt their expertise to a broader scope, Allonius left their planet to join the data engineering team in Korinthia. With a knack for analytics and data manipulation, they quickly ascended to the position of lead data engineer, utilizing their skills to process and interpret vast amounts of information crucial to the success of the corporation."
+        },
+        "Zairn JDLE": {
+            "Race": "Raxilite",
+            "Age": 29,
+            "Job Position": "Junior Lead Data Engineer, Level IV",
+            "Physical Description": "Zairn is a tech-savvy and ambitious Raxilite with luminescent cyan skin, their neural tendrils glowing with digital energy as they interact with data systems.",
+            "Backstory": "Zairn grew up in a technologically advanced society that heavily relied on data analysis and machine learning. Driven by a passion for coding and analytics, Zairn joined a prominent data engineering team on Castrovel. Although currently in a junior position, their exceptional aptitude for data manipulation and programming quickly earned them the title of junior lead data engineer, taking on important responsibilities and making significant contributions to the organization's data infrastructure."
+        },
+        "Faelin": {
+            "Race": "Draelik",
+            "Age": 67,
+            "Job Position": "Lead Data Engineer, Level XI",
+            "Physical Description": "Faelin is a wise and focused Draelik with deep sapphire scales, their eyes constantly scanning screens displaying intricate data patterns.",
+            "Backstory": "Faelin departed Great Shadar to escape the strict adherence to tradition and embrace a more dynamic and progressive environment. With a knack for data analysis and technology, Faelin assumed the role of lead data engineer, spearheading innovative projects and leveraging their expertise to advance information systems and digital infrastructure on Castrovel."
+        },
+        "Trrikit't": {
+            "Age": 24,
+            "Job Position": "Lead Data Engineer, Level IX",
+            "Physical Description": "Trrikit't is a Formian with a shimmering golden carapace and delicate antennae, adorned with intricate patterns.",
+            "Backstory": "Trrikit't was part of a Formian research team studying deep underground geothermal energy when a catastrophic volcanic eruption destroyed their research facility and forced them to seek a new life above ground, utilizing their expertise as a data engineer to find employment in Korinthia.",
+            "Race": "Formian"
+        },
+        "Chikari": {
+            "Age": 34,
+            "Job Position": "Lead Data Engineer, Level XI",
+            "Physical Description": "Chikari is a focused and analytical Formian with a sleek silver carapace, their antennae constantly twitching as they process vast amounts of information.",
+            "Backstory": "Chikari's Formian hive suffered a devastating data breach that compromised their underground network. Driven to protect and enhance data security, Chikari became a lead data engineer, overseeing the development of robust encryption protocols and safeguarding sensitive information in Korinthia.",
+            "Race": "Formian"
+        }
+    },
+    "Client Services Manager": {
+        "Spark": {
+            "Age": 32,
+            "Race": "Ysoki",
+            "Job Position": "Vice President of Client Services Manager, Level X",
+            "Physical Description": "Spark is an energetic Ysoki with vibrant purple fur, wearing a professional suit and exuding confidence.",
+            "Backstory": "Spark holds the position of vice president of client services manager, overseeing the satisfaction and success of clients. Their excellent communication skills, strategic thinking, and ability to build strong client relationships contribute to the growth and profitability of their organization."
+        },
+        "Emily Johnson": {
+            "Gender": "Female",
+            "Age": 29,
+            "Race": "Human",
+            "Job Position": "Client Services Manager, Level VI",
+            "Physical Description": "Emily Johnson is a friendly and approachable woman with a warm smile and a professional demeanor.",
+            "Backstory": "Emily Johnson is a dedicated client services manager who ensures client satisfaction and manages relationships between the company and its customers. She is skilled in effective communication, problem-solving, and maintaining positive client experiences."
+        },
+        "Seraphina Goldleaf": {
+            "Age": 332,
+            "Job Position": "Lead Client Services Manager, Level XIV",
+            "Physical Description": "Seraphina is an alluring and captivating elf, her golden hair and flawless features radiating an aura of wealth and privilege.",
+            "Backstory": "Seraphina was born into a family of entrepreneurs and industry leaders. As the lead client services manager, she ensures the highest level of service and satisfaction for the organization's esteemed clientele, furthering her reputation and solidifying her place among the elite.",
+            "Race": "Elf"
+        },
+        "Selene Vorra": {
+            "Race": "Lashunta",
+            "Age": 26,
+            "Job Position": "Lead Client Services Manager, Level VIII",
+            "Physical Description": "Selene is a charismatic and charming Lashunta, her vibrant demeanor and impeccable style reflecting her role as a customer relations expert.",
+            "Backstory": "Born into a well-off family, Selene was taught from an early age the importance of customer satisfaction and maintaining strong business relationships. Her natural talent for communication and her ability to empathize with clients propelled her to the position of lead client services manager. Selene ensures that customers receive the highest level of care and attention, going above and beyond to meet their needs and foster long-term partnerships."
+        },
+        "Urka": {
+            "Age": 31,
+            "Job Position": "Client Services Manager, Level X",
+            "Physical Description": "Urka is a confident and personable Formian with a vibrant turquoise carapace, always wearing a friendly smile and projecting an air of approachability.",
+            "Backstory": "Urka's Formian hive suffered from a breakdown in communication and customer satisfaction, leading to discontent among the populace. Driven by a passion for excellent service, Urka assumed the role of a client services manager, ensuring that the needs and concerns of the citizens in Korinthia are addressed promptly and efficiently.",
+            "Race": "Formian"
+        }
+    },
+    "Stratosphere Engineer": {
+        "Zixik": {
+            "Gender": "Male",
+            "Race": "Screedreep",
+            "Age": 89,
+            "Job Position": "Senior Stratosphere Engineer, Level XII",
+            "Physical Description": "Zixik is a weathered and experienced Screedreep with a metallic exoskeleton and a pair of multifunctional antennae, adorned with engineering tools and sensors.",
+            "Backstory": "Zixik has dedicated his life to the study and maintenance of stratospheric structures. As a senior engineer, he has overseen the construction of numerous platforms and advanced weather control systems, ensuring their stability and functionality. Zixik's expertise in stratosphere engineering has made him a respected figure among the Screedreep community, and his innovative designs have revolutionized the field."
+        },
+        "Nix Whisperwind": {
+            "Gender": "Male",
+            "Race": "Pahtra",
+            "Age": 37,
+            "Job Position": "Stratosphere Engineer, Level VIII",
+            "Physical Description": "Nix is a nimble and adventurous Pahtra with a striking gray and white fur pattern, donning a specialized suit equipped with jet thrusters, allowing him to soar through the skies effortlessly.",
+            "Backstory": "Nix's thirst for exploration led him to pursue a career as a stratosphere engineer. He spent years designing and maintaining advanced aerial structures, providing vital communication and transportation links between floating platforms. Nix's daring exploits involved navigating treacherous storms, fending off aerial pirates, and even discovering a hidden civilization atop the clouds. His dedication to pushing the boundaries of Pahtra engineering earned him a reputation as one of the most skilled stratosphere engineers in the realm."
+        },
+        "Felix Bumblefoot": {
+            "Gender": "Male",
+            "Race": "Gnome",
+            "Age": 180,
+            "Job Position": "Junior Stratosphere Engineer, Level III",
+            "Physical Description": "Felix is a sprightly Gnome with a mischievous grin, often seen wearing a tattered aviator's jacket and goggles.",
+            "Backstory": "Felix, an aspiring stratosphere engineer, dreams of designing and piloting fantastical airships. With a natural talent for mechanics and a fearless spirit, Felix is determined to prove himself in the world of aeronautical engineering."
+        },
+        "Gundrik Stoneforge": {
+            "Age": 234,
+            "Race": "Dwarf",
+            "Job Position": "Principal Stratosphere Engineer, Level XIV",
+            "Physical Description": "Gundrik is a weathered Dwarf with a rugged appearance, dressed in practical engineering attire and sporting a tool belt.",
+            "Backstory": "Gundrik is a principal stratosphere engineer, overseeing the construction and maintenance of advanced infrastructure in the upper atmosphere. With a deep understanding of aerial dynamics, structural integrity, and engineering principles, Gundrik plays a vital role in expanding and enhancing the realm of stratospheric operations."
+        },
+        "Dravax": {
+            "Age": 47,
+            "Race": "Vesk",
+            "Job Position": "Stratosphere Engineer, Level IX",
+            "Physical Description": "Dravax is a Vesk with silver scales, goggles on their forehead, and an air of scientific curiosity.",
+            "Backstory": "Dravax specializes in stratosphere engineering, designing and constructing infrastructure and research facilities in the upper atmosphere. Their knowledge of atmospheric dynamics, structural engineering, and environmental science helps advance exploration and scientific understanding of high-altitude environments."
+        },
+        "Krixix": {
+            "Age": 41,
+            "Race": "Shirren",
+            "Job Position": "Stratosphere Engineer, Level VIII",
+            "Physical Description": "Krixix is a sturdy Shirren with a metallic green exoskeleton and specialized gear for working in high-altitude environments.",
+            "Backstory": "Krixix is a skilled stratosphere engineer responsible for designing and maintaining structures for research and exploration in the upper atmosphere. Their knowledge of atmospheric conditions and engineering expertise make them an invaluable asset in pushing the boundaries of exploration and scientific discovery."
+        },
+        "Sophia Reynolds": {
+            "Gender": "Female",
+            "Age": 32,
+            "Race": "Human",
+            "Job Position": "Stratosphere Engineer, Level VIII",
+            "Physical Description": "Sophia Reynolds is a young and adventurous woman with a confident demeanor and a jumpsuit suitable for working in high-altitude environments.",
+            "Backstory": "Sophia Reynolds is a talented stratosphere engineer who specializes in designing and constructing platforms and structures for research and exploration in the upper atmosphere. Her passion for adventure and her expertise in engineering make her a valuable asset in pushing the boundaries of exploration."
+        },
+        "Nova-12": {
+            "Gender": "N/A",
+            "Age": 41,
+            "Race": "Android",
+            "Job Position": "Stratosphere Engineer, Level VIII",
+            "Physical Description": "Nova-12 is a slender and agile android with luminescent blue markings that glow under certain conditions.",
+            "Backstory": "Nova-12 specializes in stratosphere engineering, designing and maintaining advanced platforms and structures that enable research and exploration in the upper atmosphere. They are adept at working in challenging environments with limited resources."
+        },
+        "Orion Frostbourne": {
+            "Age": 290,
+            "Job Position": "Principal Stratosphere Engineer, Level XIII",
+            "Physical Description": "Orion is a visionary and ambitious elf, their confident demeanor and meticulously groomed appearance reflecting their dedication to their work.",
+            "Backstory": "Orion hails from a renowned elven family known for their expertise in engineering. As the principal stratosphere engineer, they oversee the design and maintenance of stratospheric installations, their position serving as a means to assert their dominance and power in engineering circles.",
+            "Race": "Elf"
+        },
+        "Alaris Windrider": {
+            "Age": 390,
+            "Job Position": "Senior Stratosphere Engineer, Level XII",
+            "Physical Description": "Alaris is a wise and experienced elf, their silver hair streaked with traces of time as they exude an aura of mastery in the field of stratosphere engineering.",
+            "Backstory": "Alaris, born into a family of renowned engineers, dedicated their life to the study of stratospheric structures. As a senior engineer, they lead groundbreaking projects and use their position to maintain their family's legacy and influence in the engineering realm.",
+            "Race": "Elf"
+        },
+        "Seraphina Vesara": {
+            "Race": "Lashunta",
+            "Age": 38,
+            "Job Position": "Senior Stratosphere Engineer, Level X",
+            "Physical Description": "Seraphina is a determined and focused Lashunta, her form-fitting engineering suit adorned with symbols of accomplishment and expertise.",
+            "Backstory": "Seraphina was born into a prestigious family known for their contributions to advanced engineering. With a passion for aeronautics, she specialized in stratosphere engineering, designing and maintaining advanced structures and platforms in the upper atmosphere. As a senior engineer, Seraphina is responsible for overseeing critical projects and ensuring the safety and efficiency of stratospheric operations."
+        },
+        "Yorifa Enginesong KL": {
+            "Race": "Raxilite",
+            "Age": 63,
+            "Job Position": "Principal Stratosphere Engineer, Level XI",
+            "Physical Description": "Yorifa is a diligent and innovative Raxilite with metallic silver skin, their body adorned with various mechanical tools and devices used for working in the stratosphere.",
+            "Backstory": "Yorifa hails from a prestigious family of engineers on their home planet, and the KL in their name stands for \"Karakka Lifters,\" a renowned company that specializes in advanced aerial technologies. Driven by a desire to explore the cosmos, Yorifa left their homeworld to join the engineering team in Korinthia, where they quickly rose to the position of principal stratosphere engineer, overseeing ambitious projects and pushing the boundaries of Raxilite technology."
+        },
+        "CQ Dembril Sailspin": {
+            "Race": "Raxilite",
+            "Age": 51,
+            "Job Position": "Junior Stratosphere Engineer, Level II",
+            "Physical Description": "CQ is an adventurous and curious Raxilite with vibrant purple and yellow skin, their body equipped with miniature wings and a backpack filled with experimental gadgets.",
+            "Backstory": "CQ grew up in a small village situated on the edge of a massive canyon, where their ancestors were known for crafting intricate flying machines. The Sailspin family played a significant role in designing and piloting the first aerial vessels on their home planet. Inspired by their lineage, CQ left to pursue a career in stratosphere engineering on Castrovel. Although currently in a junior position, CQ's boundless enthusiasm and natural talent for flight make them a rising star in the field."
+        },
+        "Gruuk": {
+            "Age": 31,
+            "Job Position": "Stratosphere Engineer, Level V",
+            "Physical Description": "Gruuk is a robust Formian with a rugged emerald carapace, bearing visible scars from their time working in extreme atmospheric conditions.",
+            "Backstory": "Gruuk worked as a mining technician deep in the tunnels under Castrovel until an unexpected seismic event caused a massive cave-in, trapping them and their fellow workers. After a daring rescue mission, Gruuk sought a fresh start above ground, using their skills as an engineer to secure a position working in the stratosphere to ensure the safety of structures in the upper atmosphere of Korinthia.",
+            "Race": "Formian"
+        },
+        "Trakkis": {
+            "Age": 26,
+            "Job Position": "Junior Stratosphere Engineer, Level IV",
+            "Physical Description": "Trakkis is an enthusiastic and ambitious Formian with a sleek silver carapace, always looking up at the sky with a sense of wonder and determination.",
+            "Backstory": "Trakkis's Formian hive suffered from a catastrophic aerial disaster caused by malfunctioning anti-gravity systems. Inspired by the desire to prevent future accidents, Trakkis pursued a career as a stratosphere engineer, working diligently to ensure the safety and functionality of airborne structures in Korinthia.",
+            "Race": "Formian"
+        },
+        "Arkay": {
+            "Age": 31,
+            "Job Position": "Stratosphere Engineer, Level VIII",
+            "Physical Description": "Arkay is an innovative and skilled Formian with a vibrant green carapace, their body adorned with various tools and equipment used for working in the stratosphere.",
+            "Backstory": "Arkay's Formian hive faced numerous structural challenges in the upper atmosphere due to extreme atmospheric conditions. Fueled by a passion for engineering, Arkay became a stratosphere engineer, designing and constructing robust structures that can withstand the harsh environment in Korinthia.",
+            "Race": "Formian"
+        }
+    },
+    "Mesosphere Manager": {
+        "Lyra": {
+            "Age": 265,
+            "Race": "Contemplative",
+            "Job Position": "Mesosphere Manager, Level XIII",
+            "Physical Description": "Lyra is an ethereal Contemplative, her translucent form adorned with swirling patterns of light and energy.",
+            "Backstory": "Lyra's expertise in mesospheric phenomena and atmospheric dynamics has led her to the position of Mesosphere Manager. She oversees weather control systems and ensures the optimal functioning of atmospheric processes. Lyra's deep connection with nature and her ability to harmonize the elements have made her a respected authority in her field."
+        },
+        "Milo Sparkpaw": {
+            "Gender": "Male",
+            "Race": "Pahtra",
+            "Age": 42,
+            "Job Position": "Mesosphere Manager, Level XIV",
+            "Physical Description": "Milo is an energetic and enthusiastic Pahtra with fiery orange fur and a pair of lightning-shaped stripes adorning his cheeks, always seen wearing a specialized suit with built-in electromagnetic tools.",
+            "Backstory": "Milo's fascination with the mesosphere led him to pursue a career as a mesosphere manager. He oversees the operation and maintenance of high-altitude research facilities, conducting groundbreaking experiments and studying atmospheric phenomena. Milo's adventurous spirit and knack for innovation have resulted in pioneering discoveries, including harnessing mesospheric energy for sustainable power sources and developing advanced weather control technologies."
+        },
+        "Oliver Puddlefoot": {
+            "Gender": "Male",
+            "Race": "Halfling",
+            "Age": 82,
+            "Job Position": "Junior Mesosphere Manager, Level II",
+            "Physical Description": "Oliver is a weathered-looking Halfling with a twinkle in his eye, often wearing a weatherproof coat and carrying a telescope.",
+            "Backstory": "Oliver is an aspiring mesosphere manager, responsible for monitoring and studying atmospheric phenomena. With a deep passion for meteorology and a knack for predicting weather patterns, Oliver's expertise contributes to the understanding and prediction of weather events."
+        },
+        "Vespa": {
+            "Age": 27,
+            "Race": "Shirren",
+            "Job Position": "Mesosphere Manager, Level VII",
+            "Physical Description": "Vespa is an ambitious Shirren with a vibrant green exoskeleton and a confident posture.",
+            "Backstory": "Vespa oversees operations and research in the mesosphere, managing a team of scientists and engineers. Their strong leadership skills, scientific acumen, and ability to coordinate complex projects contribute to groundbreaking discoveries and advancements in atmospheric research."
+        },
+        "Solaire Windrider": {
+            "Age": 44,
+            "Race": "Kasatha",
+            "Job Position": "Mesosphere Manager, Level VII",
+            "Physical Description": "Solaire is an agile and focused Kasatha with wind-swept hair and a determined expression.",
+            "Backstory": "Solaire's affinity for atmospheric sciences led them to specialize in managing the mesosphere. As the mesosphere manager, they oversee operations and research in the upper layers of the atmosphere, studying weather patterns and atmospheric phenomena for various purposes."
+        },
+        "Evanya Starshadow": {
+            "Age": 325,
+            "Job Position": "Principal Mesosphere Manager, Level XIV",
+            "Physical Description": "Evanya is an enchanting and graceful elf, her emerald eyes and flowing robes evoking the mystique and allure of the mesosphere.",
+            "Backstory": "Evanya, born with a natural affinity for the mystical arts, sought to combine her magical prowess with her administrative skills. As the principal mesosphere manager, she oversees the delicate balance of magical and environmental elements, leveraging her position to further her influence and cultivate her own personal power.",
+            "Race": "Elf"
+        },
+        "Calista Naveen": {
+            "Race": "Lashunta",
+            "Age": 36,
+            "Job Position": "Junior Mesosphere Manager, Level VI",
+            "Physical Description": "Calista is an energetic and driven Lashunta, her uniform reflecting her role as a mesosphere specialist, adorned with badges denoting her achievements.",
+            "Backstory": "Growing up in a privileged environment, Calista developed a keen interest in the study of mesospheric phenomena. Her dedication and talent secured her a position as a junior mesosphere manager, where she assists in monitoring and regulating the delicate balance of the mesosphere. Calista's work is vital to understanding and mitigating potential hazards in the upper atmosphere."
+        },
+        "Astra Nocturne": {
+            "Race": "Lashunta",
+            "Age": 41,
+            "Job Position": "Mesosphere Manager, Level XI",
+            "Physical Description": "Astra is a knowledgeable and composed Lashunta, their attire reflecting their role in managing the mesosphere, a key layer of Castrovel's atmosphere.",
+            "Backstory": "Astra's fascination with atmospheric conditions and their impact on daily life led them to specialize in mesospheric studies. As the mesosphere manager, they monitor and regulate the delicate balance of the mesosphere, ensuring the safety and stability of this atmospheric layer."
+        },
+        "Trrikit'ta": {
+            "Age": 33,
+            "Job Position": "Mesosphere Manager, Level VIII",
+            "Physical Description": "Trrikit'ta is a focused and authoritative Formian with a deep blue carapace, their compound eyes constantly scanning the sky with precision.",
+            "Backstory": "Trrikit'ta's Formian hive suffered a catastrophic electromagnetic storm that rendered their underground infrastructure inoperable. Seizing the opportunity to explore new horizons, Trrikit'ta became a skilled mesosphere manager, overseeing operations and logistics in the upper atmospheric regions of Korinthia.",
+            "Race": "Formian"
+        },
+        "Chrikka": {
+            "Age": 29,
+            "Job Position": "Mesosphere Manager, Level VII",
+            "Physical Description": "Chrikka is a composed and focused Formian with a metallic gray carapace, their antennae constantly scanning the skies as they oversee operations in the mesosphere.",
+            "Backstory": "Chrikka's Formian hive faced a significant aerial catastrophe caused by erratic weather patterns. Driven to mitigate the risks and ensure safety, Chrikka became a mesosphere manager, responsible for monitoring and managing the complex atmospheric conditions in Korinthia.",
+            "Race": "Formian"
+        }
+    },
+    "Apoapsis & Periapsis Security": {
+        "Ravi": {
+            "Age": 35,
+            "Race": "Ikeshti",
+            "Job Position": "Apoapsis & Periapsis Security, Level VIII",
+            "Physical Description": "Ravi is a strong and resilient Ikeshti with tough, scaly skin and sharp, focused eyes that exude an aura of determination.",
+            "Backstory": "Ravi's dedication to protecting his people led him to join the Apoapsis & Periapsis Security team. He is responsible for maintaining the safety and integrity of crucial installations and facilities. Ravi's unwavering loyalty and unwavering courage have earned him a reputation as a reliable and trustworthy guardian among his fellow Ikeshti."
+        },
+        "Kavian": {
+            "Age": 42,
+            "Race": "Dromada",
+            "Job Position": "Apoapsis & Periapsis Security, Level XII",
+            "Physical Description": "Kavian is a formidable Dromada with sturdy mechanical limbs and a stern expression on his metallic face.",
+            "Backstory": "Kavian's innate ability to protect and secure critical assets led him to join the Apoapsis & Periapsis Security team. He is responsible for maintaining the safety and integrity of vital installations and facilities. Kavian's unwavering dedication and strategic thinking have earned him a reputation as an outstanding security professional among his fellow Dromada."
+        },
+        "Vokren": {
+            "Age": 35,
+            "Race": "Vesk",
+            "Job Position": "Apoapsis & Periapsis Security, Level XII",
+            "Physical Description": "Vokren is a disciplined Vesk with navy blue scales, a tactical vest, and a no-nonsense expression.",
+            "Backstory": "Vokren is a member of the Apoapsis & Periapsis Security team, entrusted with safeguarding critical orbital facilities and assets. Their combat skills, strategic thinking, and unwavering loyalty make them an invaluable asset in maintaining security in the vastness of space."
+        },
+        "Seraphina Starwhisper": {
+            "Age": 72,
+            "Race": "Kasatha",
+            "Job Position": "Apoapsis & Periapsis Security Officer, Level VIII",
+            "Physical Description": "Seraphina is a stoic and disciplined Kasatha with piercing blue eyes and a star-shaped tattoo on her forehead.",
+            "Backstory": "Seraphina's martial training and commitment to protecting others made her a valuable addition to the Apoapsis & Periapsis Security team. As a security officer, she ensures the safety and well-being of personnel, assets, and sensitive information."
+        },
+        "Elowen Silverglade": {
+            "Age": 335,
+            "Job Position": "Principal Apoapsis & Periapsis Security, Level XIV",
+            "Physical Description": "Elowen is a composed and authoritative elf, their sharp features and keen eyes conveying a sense of command and strength.",
+            "Backstory": "Elowen's family has held positions of power in security and defense for generations. As the principal of apoapsis and periapsis security, they oversee the protection of critical assets and ensure the organization's interests are safeguarded, solidifying their influence and control.",
+            "Race": "Elf"
+        },
+        "Thalorin Dawnblade": {
+            "Age": 420,
+            "Job Position": "Lead Apoapsis & Periapsis Security, Level XI",
+            "Physical Description": "Thalorin is a commanding and vigilant elf, his hardened features and confident stance reflecting his years of service in protecting critical assets.",
+            "Backstory": "Thalorin, a decorated veteran of numerous conflicts, brings his martial expertise to his position as the leader of apoapsis and periapsis security. Through his unwavering dedication and skill, he has gained respect and authority in safeguarding the organization's interests.",
+            "Race": "Elf"
+        },
+        "Rik'tok": {
+            "Age": 30,
+            "Job Position": "Apoapsis & Periapsis Security, Level XII",
+            "Physical Description": "Rik'tok is a vigilant and imposing Formian with a deep burgundy carapace, donning advanced security armor and emanating an aura of authority.",
+            "Backstory": "Rik'tok's Formian hive was infiltrated by a malicious group of saboteurs, resulting in widespread chaos and destruction. Determined to protect their fellow Formians, Rik'tok trained extensively in security tactics and became a key member of the Apoapsis & Periapsis Security team, responsible for safeguarding critical installations and facilities.",
+            "Race": "Formian"
+        }
+    },
+    "CONFIDENTIAL": {
+        "Urkai": {
+            "Age": 30,
+            "Job Position": "CONFIDENTIAL, Level X",
+            "Physical Description": "Urkai is a mysterious and enigmatic Formian with a sleek silver carapace, their true role and purpose hidden behind a veil of secrecy.",
+            "Backstory": "Urkai's Formian hive encountered a secret and sensitive operation that required utmost discretion and confidentiality. Embracing their role as a covert operative, Urkai undertakes confidential assignments critical to the security and well-being of Korinthia.",
+            "Race": "Formian"
+        }
+    },
+    "Picker Packer Personnel": {},
+    "Drone Delivery Driver": {
+        "Aria": {
+            "Age": 28,
+            "Race": "Dromada",
+            "Job Position": "Drone Delivery Driver, Level III",
+            "Physical Description": "Aria is an agile Dromada with a compact frame and a pair of vibrant blue optic sensors.",
+            "Backstory": "Aria is an expert in piloting and operating delivery drones. She ensures prompt and efficient transportation of goods across various locations. Aria's nimble reflexes and keen spatial awareness allow her to navigate through complex terrains and deliver packages with precision. Her dedication to timely and reliable service has made her a trusted member of the Dromada delivery network."
+        },
+        "Lira": {
+            "Gender": "Female",
+            "Race": "Screedreep",
+            "Age": 36,
+            "Job Position": "Drone Delivery Driver, Level VI",
+            "Physical Description": "Lira is a nimble and agile Screedreep with a compact exoskeleton, equipped with storage compartments for carrying packages, and a set of optic sensors that scan her surroundings with precision.",
+            "Backstory": "Lira found her passion in the fast-paced world of drone delivery. She maneuvers through tight spaces, using her exceptional reflexes and advanced navigation systems to ensure prompt and accurate deliveries. Lira's dedication to her job and her commitment to customer satisfaction have made her a reliable and valued member of the drone delivery team."
+        },
+        "Squeak": {
+            "Age": 28,
+            "Race": "Ysoki",
+            "Job Position": "Drone Delivery Driver, Level II",
+            "Physical Description": "Squeak is an enthusiastic Ysoki with tan fur, always equipped with a delivery drone and a smile.",
+            "Backstory": "Squeak works as a drone delivery driver, responsible for delivering packages to various locations efficiently. Their familiarity with drone technology, navigational skills, and commitment to customer satisfaction ensure prompt and accurate deliveries."
+        },
+        "Jorath": {
+            "Age": 44,
+            "Race": "Vesk",
+            "Job Position": "Drone Delivery Driver, Level V",
+            "Physical Description": "Jorath is an agile Vesk with orange scales, wearing a delivery uniform and carrying a drone control device.",
+            "Backstory": "Jorath is a skilled drone delivery driver, responsible for transporting packages and goods across different locations. Their piloting abilities, knowledge of automated systems, and commitment to prompt and secure deliveries contribute to the efficiency of logistics operations."
+        },
+        "Torik": {
+            "Age": 39,
+            "Race": "Shirren",
+            "Job Position": "Drone Delivery Driver, Level IV",
+            "Physical Description": "Torik is an agile Shirren with a silver exoskeleton and a backpack equipped with drone control devices.",
+            "Backstory": "Torik is a reliable drone delivery driver, responsible for transporting packages and goods efficiently and safely. Their mastery of drone piloting and knowledge of delivery logistics make them an essential part of the distribution network, ensuring timely deliveries and customer satisfaction."
+        },
+        "X-23": {
+            "Gender": "N/A",
+            "Age": 27,
+            "Race": "Android",
+            "Job Position": "Drone Delivery Driver, Level III",
+            "Physical Description": "X-23 is a nimble and agile android with a metallic frame and built-in compartments for storing packages.",
+            "Backstory": "X-23 was built for efficient and reliable drone deliveries. They navigate urban environments with precision and speed, ensuring packages reach their destinations on time and intact."
+        }
+    },
+    "Intelligence Analyst - Advanced Investigation Labs": {
+        "Vorkesh": {
+            "Age": 39,
+            "Race": "Vesk",
+            "Job Position": "Intelligence Analyst - Advanced Investigation Labs, Level X",
+            "Physical Description": "Vorkesh is a focused Vesk with dark gray scales, equipped with advanced sensory implants and a determined expression.",
+            "Backstory": "Vorkesh is an intelligence analyst assigned to the Advanced Investigation Labs, responsible for analyzing complex data and conducting investigations into various matters. Their analytical thinking, information gathering skills, and ability to uncover hidden connections help uncover the truth and solve intricate mysteries."
+        },
+        "V.I.X.E.N.": {
+            "Gender": "N/A",
+            "Age": 37,
+            "Race": "Android",
+            "Job Position": "Intelligence Analyst - Advanced Investigation Labs, Level X",
+            "Physical Description": "V.I.X.E.N. is a sophisticated and enigmatic android with a piercing gaze and an aura of calculated intelligence.",
+            "Backstory": "V.I.X.E.N. serves as an intelligence analyst in advanced investigation labs. They possess advanced analytical algorithms, assisting in solving complex cases, uncovering hidden patterns, and extracting crucial information from vast data sets."
+        },
+        "Raelis Dawnrunner": {
+            "Age": 68,
+            "Race": "Kasatha",
+            "Job Position": "Intelligence Analyst - Advanced Investigation Labs, Level XI",
+            "Physical Description": "Raelis is a sharp and perceptive Kasatha with piercing green eyes and a set of intricately carved data tablets.",
+            "Backstory": "Raelis's exceptional analytical skills and attention to detail made them a valuable asset in the organization's advanced investigation labs. As an intelligence analyst, they delve into complex data sets, uncovering patterns and providing valuable insights for critical decision-making."
+        },
+        "Celeborn Fireheart": {
+            "Age": 305,
+            "Job Position": "Junior Intelligence Analyst - Advanced Investigation Labs, Level VII",
+            "Physical Description": "Celeborn is a cunning and observant elf, their sharp gaze and agile movements indicating their talent for uncovering hidden truths.",
+            "Backstory": "Despite their immense wealth and privilege, Celeborn chose to join the advanced investigation labs as a junior intelligence analyst. Driven by a thirst for knowledge and a desire to uncover secrets, they utilize their position to gain access to confidential information and exert their influence in covert ways.",
+            "Race": "Elf"
+        },
+        "Nimriel Stardust": {
+            "Age": 300,
+            "Job Position": "Senior Intelligence Analyst - Advanced Investigation Labs, Level XII",
+            "Physical Description": "Nimriel is an analytical and perceptive elf, their calculating eyes and sharp intellect making them a formidable force in deciphering complex puzzles.",
+            "Backstory": "Nimriel's insatiable curiosity and natural talent for analysis led them to join the advanced investigation labs as a senior intelligence analyst. Through their work, they uncover hidden truths and use their position to gain leverage and power within the organization.",
+            "Race": "Elf"
+        },
+        "Kellan Elysium": {
+            "Race": "Lashunta",
+            "Age": 42,
+            "Job Position": "Junior Intelligence Analyst - Advanced Investigation Labs, Level V",
+            "Physical Description": "Kellan is an observant and studious Lashunta, his analytical mind always seeking patterns and connections, his attire reflecting a balance of professionalism and comfort.",
+            "Backstory": "While not born into immense wealth, Kellan had the privilege of a solid education and opportunities for personal growth. His exceptional intellect and analytical skills made him a valuable asset in the field of intelligence analysis. Currently in a junior position, Kellan plays a vital role in the Advanced Investigation Labs, assisting senior analysts in decoding complex data and uncovering hidden secrets."
+        },
+        "Vexal FWA": {
+            "Race": "Raxilite",
+            "Age": 44,
+            "Job Position": "Principal Intelligence Analyst - Advanced Investigation Labs, Level XI",
+            "Physical Description": "Vexal is a sharp and observant Raxilite with sleek silver scales, their eyes constantly scanning the environment with heightened focus.",
+            "Backstory": "Vexal's home planet was plagued by internal conflicts and political instability, which ignited their interest in intelligence analysis and investigation. Joining the Advanced Investigation Labs on Castrovel, Vexal quickly became an invaluable asset in deciphering complex data patterns and uncovering hidden truths. As the principal intelligence analyst, they lead a team of skilled investigators, using their keen intellect and deductive skills to solve mysteries and protect their organization."
+        }
+    },
+    "Physical Security Guard": {
+        "Jasper Bramblethorn": {
+            "Gender": "Male",
+            "Race": "Halfling",
+            "Age": 72,
+            "Job Position": "Physical Security Guard, Level VI",
+            "Physical Description": "Jasper is a stout Halfling with a sturdy build, always seen in a security uniform and equipped with a baton and a keen eye for detail.",
+            "Backstory": "Jasper is a dedicated physical security guard, responsible for maintaining the safety and security of a facility. With his keen observation skills and a vigilant approach, Jasper ensures that unauthorized individuals are kept at bay and potential threats are swiftly addressed."
+        },
+        "Patches": {
+            "Age": 39,
+            "Race": "Ysoki",
+            "Job Position": "Lead Physical Security Guard, Level XI",
+            "Physical Description": "Patches is a vigilant Ysoki with patchy fur patterns, wearing a security uniform and carrying a security baton.",
+            "Backstory": "Patches leads a team of physical security guards, responsible for protecting personnel and assets. Their sharp senses, quick reflexes, and unwavering dedication make them an essential part of maintaining security and order."
+        },
+        "Ymeros-Ahandi": {
+            "Age": 56,
+            "Race": "Vesk",
+            "Job Position": "Physical Security Guard, Level VIII",
+            "Physical Description": "Ymeros-Ahandi is a towering Vesk with dark green scales, a muscular build, and a stern expression.",
+            "Backstory": "Ymeros-Ahandi serves as a physical security guard, responsible for protecting high-security areas and ensuring the safety of personnel and assets. Their imposing presence, combat skills, and unwavering dedication make them a formidable guardian against any threats."
+        },
+        "Vekar": {
+            "Age": 48,
+            "Race": "Shirren",
+            "Job Position": "Physical Security Guard, Level V",
+            "Physical Description": "Vekar is a muscular Shirren with a deep blue exoskeleton and a vigilant gaze.",
+            "Backstory": "Vekar has a background in security and serves as a physical security guard, ensuring the safety and protection of valuable assets. Their keen instincts, strength, and training make them an excellent guardian, deterring potential threats and maintaining order in high-risk environments."
+        },
+        "Michael Sullivan": {
+            "Gender": "Male",
+            "Age": 41,
+            "Race": "Human",
+            "Job Position": "Physical Security Guard, Level III",
+            "Physical Description": "Michael Sullivan is a burly man with a shaved head and a stern expression, wearing a security uniform.",
+            "Backstory": "Michael Sullivan has an extensive background in security and has taken up the role of a physical security guard to protect valuable assets and maintain order. His imposing presence and training in combat make him a reliable guardian in high-risk environments."
+        },
+        "A.R.C.H.E.R.": {
+            "Gender": "N/A",
+            "Age": 55,
+            "Race": "Android",
+            "Job Position": "Physical Security Guard, Level XII",
+            "Physical Description": "A.R.C.H.E.R. is a formidable and imposing android with reinforced plating, integrated weapon systems, and an unwavering gaze.",
+            "Backstory": "A.R.C.H.E.R. is a highly trained physical security guard responsible for safeguarding high-value assets, facilities, and personnel. They possess advanced combat algorithms and are capable of neutralizing threats with precision and efficiency."
+        },
+        "Lyra Starbreeze": {
+            "Age": 273,
+            "Job Position": "Senior Physical Security Guard, Level IX",
+            "Physical Description": "Lyra is a vigilant and imposing elf, her toned physique and focused gaze showcasing her dedication to physical security.",
+            "Backstory": "Lyra's family has a long history of serving in security roles, and she chose to follow in their footsteps. As a senior physical security guard, she uses her position to maintain order and protect the interests of the organization, further establishing her power and influence within its ranks.",
+            "Race": "Elf"
+        },
+        "Arian Verath": {
+            "Race": "Lashunta",
+            "Age": 49,
+            "Job Position": "Lead Physical Security Guard, Level XIII",
+            "Physical Description": "Arian is a disciplined and vigilant Lashunta, their imposing figure clad in a formidable suit of security armor, radiating an aura of authority.",
+            "Backstory": "Arian's family lineage is deeply rooted in security and protection services. Trained from a young age in combat and defensive tactics, they rose through the ranks to become the lead physical security guard. Arian oversees the organization's security protocols, coordinating with teams and implementing measures to safeguard assets and personnel. Their unwavering dedication and expertise make them a formidable presence in ensuring the organization's safety."
+        },
+        "Fabrian TMLE": {
+            "Race": "Raxilite",
+            "Age": 60,
+            "Job Position": "Lead Physical Security Guard, Level XIII",
+            "Physical Description": "Fabrian is a robust and imposing Raxilite with hardened metallic skin, their body covered in intricate tattoos depicting security glyphs.",
+            "Backstory": "Fabrian's homeworld was plagued by frequent raids from marauding pirates, leading to a deep desire to protect their people. Joining the security forces on Castrovel, Fabrian quickly excelled in combat training and security protocols. Rising to the position of lead physical security guard, they oversee the protection of crucial facilities and personnel, utilizing their formidable strength and tactical expertise to ensure the safety of all."
+        }
+    },
+    "Advanced Maintenance Technician": {
+        "Drovzalak": {
+            "Age": 43,
+            "Race": "Vesk",
+            "Job Position": "Advanced Maintenance Technician, Level XI",
+            "Physical Description": "Drovzalak is a rugged Vesk with bronze scales, a tool belt filled with advanced gadgets, and a focused gaze.",
+            "Backstory": "Drovzalak is an expert in advanced maintenance techniques, specializing in repairing and optimizing complex machinery and systems. Their technical knowledge, problem-solving abilities, and resourcefulness have earned them a reputation for resolving intricate maintenance challenges."
+        },
+        "Lissa": {
+            "Age": 43,
+            "Race": "Shirren",
+            "Job Position": "Advanced Maintenance Technician, Level XI",
+            "Physical Description": "Lissa is a focused Shirren with a bronze exoskeleton and a tool belt filled with advanced maintenance equipment.",
+            "Backstory": "Lissa is a skilled and experienced advanced maintenance technician responsible for maintaining and repairing complex machinery and systems. Their expertise in troubleshooting and problem-solving ensures the smooth operation of critical equipment, minimizing downtime and maximizing efficiency."
+        },
+        "Alexander Bennett": {
+            "Gender": "Male",
+            "Age": 49,
+            "Race": "Human",
+            "Job Position": "Advanced Maintenance Technician, Level XI",
+            "Physical Description": "Alexander Bennett is a middle-aged man with a rugged appearance, wearing a utility belt and carrying a toolbox.",
+            "Backstory": "Alexander Bennett is a skilled advanced maintenance technician who specializes in repairing and maintaining complex machinery and systems. His experience and expertise allow him to troubleshoot and resolve intricate technical issues, ensuring the smooth operation of critical equipment."
+        },
+        "Z.E.U.S.": {
+            "Gender": "N/A",
+            "Age": 65,
+            "Race": "Android",
+            "Job Position": "Advanced Maintenance Technician, Level XIV",
+            "Physical Description": "Z.E.U.S. is a towering and robust android with multiple mechanical arms and tools attached to their frame.",
+            "Backstory": "Z.E.U.S. is an experienced advanced maintenance technician, responsible for the repair and maintenance of intricate machinery and systems. They are skilled in diagnosing complex issues and performing precise repairs in various technological domains."
+        },
+        "Kavak Ironfist": {
+            "Age": 48,
+            "Race": "Kasatha",
+            "Job Position": "Advanced Maintenance Technician, Level X",
+            "Physical Description": "Kavak is a sturdy and capable Kasatha with a shaved head and a set of intricate mechanical arm braces.",
+            "Backstory": "Kavak's natural aptitude for mechanical systems and repairs led them to become an advanced maintenance technician. They excel at diagnosing and fixing complex machinery, ensuring the smooth operation of critical systems within their organization."
+        },
+        "Aetheris Starwhisper": {
+            "Age": 372,
+            "Job Position": "Lead Advanced Maintenance Technician, Level XI",
+            "Physical Description": "Aetheris is a seasoned and skilled elf, their weathered hands and practical attire showcasing their expertise in maintenance and repair.",
+            "Backstory": "Aetheris's wealth and privileged upbringing allowed them to explore their passion for tinkering and maintenance. As the lead advanced maintenance technician, they oversee complex repair operations and use their position to gain respect and influence among their peers.",
+            "Race": "Elf"
+        },
+        "Kyrn": {
+            "Race": "Draelik",
+            "Age": 46,
+            "Job Position": "Vice President of Advanced Maintenance Technician, Level XII",
+            "Physical Description": "Kyrn is a diligent and meticulous Draelik with emerald-green scales, often seen donning a uniform adorned with various tools and diagnostic devices.",
+            "Backstory": "Kyrn departed Great Shadar driven by a thirst for knowledge and a desire to further their technical expertise. Recognizing the need for advanced maintenance techniques, Kyrn rose to the position of vice president, overseeing a team of skilled technicians responsible for maintaining and optimizing critical systems in a cutting-edge facility on Castrovel."
+        }
+    }
+}
