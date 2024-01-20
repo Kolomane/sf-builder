@@ -2,13 +2,13 @@
     "Character_Info": {
         "Name": "",
         "Class": {},
-        "Level": ""
+        "Level": {}
     },
     "Physical_Attributes": {
-        "Armor_Class": "",
-        "Hit_Points": "",
-        "Size": "",
-        "Speed": "",
+        "Armor_Class": {},
+        "Hit_Points": {},
+        "Size": {},
+        "Speed": {},
         "Ancestry": {},
         "Gender": "",
         "Age": ""
@@ -16,50 +16,48 @@
     "Metaphysical_Attributes": {
         "Background": {},
         "Alignment": "",
-        "Deity": "",
+        "Deity": {},
         "Specials": {},
         "Feats": {},
-        "Languages": []
+        "Languages": {}
     },
     "Ability_Scores": {
-        "Strength": "",
-        "Dexterity": "",
-        "Constitution": "",
-        "Intelligence": "",
-        "Wisdom": "",
-        "Charisma": "",
+        "Strength": {},
+        "Dexterity": {},
+        "Constitution": {},
+        "Intelligence": {},
+        "Wisdom": {},
+        "Charisma": {},
         "Modifiers": {
             "Key_Ability": ""
-        },
-        "Casting": {
-            "Arcane": "",
-            "Divine": "",
-            "Occult": "",
-            "Primal": ""
         }
-
+    },
+    "Casting": {
+        "Arcane": {},
+        "Divine": {},
+        "Occult": {},
+        "Primal": {}
     },
     "Skills": {},
     "Saves": {
-        "Fortitude_Save": "",
-        "Reflex_Save": "",
-        "Will_Save": ""
+        "Fortitude_Save": {},
+        "Reflex_Save": {},
+        "Will_Save": {}
     },
     "Spells": {},
-    "Gear": {
-        "Currency": {
-            "Copper": "",
-            "Silver": "",
-            "Gold": "",
-            "Platinum": ""
-        },
-        "Defense": {
-            "Armor": {},
-            "Shield": {},
-            "Misc": {}
-        },
-        "Offense": {}
+    "Gear": {},
+    "Currency": {
+        "Copper": "",
+        "Silver": "",
+        "Gold": "",
+        "Platinum": ""
     },
+    "Defense": {
+        "Armor": {},
+        "Shield": {},
+        "Misc": {}
+    },
+    "Offense": {},
     "Familiars": {},
     "Pets": {}
 }
